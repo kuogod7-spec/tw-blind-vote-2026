@@ -1,0 +1,1333 @@
+/*
+ * 2026 臺北市議員第 1 選區市議員（北投區、士林區）：候選人政見與經歷（去識別化整理）
+ *
+ * 整理日期：2026-10-14。候選人名單依臺北市選舉委員會公布之「115 年直轄市議員選舉候選人登記」名單
+ * （經三立新聞網 2026-09-04 轉載全文，並以 ETtoday 2026-09-04 名單、中央社 2026-09-04 人數交叉核對），20 人，應選 12 席。
+ * 未能直接取得中選會／臺北市選委會原始公告檔，名單以上述報導為準。
+ * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
+ * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
+ * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站（含共同提案）。
+ * 待補：本次整理時網路搜尋額度用盡，除一位候選人外，2026 年新聞與社群中的政見幾乎都未能收錄；
+ * 陳彥廷、紀建漢、林揚庭、李文、劉致妤、林聖峰的基本資料也未查得。政見為空不代表候選人沒有主張，額度恢復後應補查。
+ * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ */
+window.ELECTION_DATA.races.push({
+  "id": "taipei-council-01",
+  "region": "臺北市",
+  "office": "第 1 選區市議員",
+  "area": "北投區、士林區",
+  "seats": 12,
+  "note": "議員政見整理自候選人公開資料、議會官網、選舉公報與新聞報導（截至 2026-10-14）。2026 年選舉公報尚未發布，多數候選人沒有完整政見文件，各人資料多寡差異很大，這裡照實呈現。現任議員的過去政見取自 2022 年選舉公報與議會官網；提案數取自報導者觀測站，含共同提案。多數候選人的 2026 年政見尚待補充。",
+  "candidates": [
+    {
+      "id": "tpc1-1",
+      "identity": {
+        "name": "謝閔弘",
+        "party": "時代力量",
+        "number": null
+      },
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "重新檢討社子島開發方式，改為保留聚落、增加公設",
+          "detail": "反對全區剷平；盤點弱勢承租戶、無完整產權住戶與高齡家庭，建立法律協助與居住支持",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        },
+        {
+          "topic": "housing",
+          "title": "社子島解除禁限建與區段徵收脫鉤",
+          "detail": "主張解除禁限建、改善基礎建設不以區段徵收為條件；要求市府在環評訴訟確定前停止區段徵收程序",
+          "source": "https://newtalk.tw/news/view/2026-07-18/1047933"
+        },
+        {
+          "topic": "transport",
+          "title": "重整大型醫院周邊交通動線",
+          "detail": "重整石牌地區醫院周邊的接駁、計程車候車、臨停區與公車站位，補上社區彈性接駁或小黃公車",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        },
+        {
+          "topic": "safety",
+          "title": "人流大的路口增設行人庇護島與高齡友善號誌",
+          "detail": "並調整行穿線",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        },
+        {
+          "topic": "transport",
+          "title": "要求市府在北士科重大廠商進駐前公開交通承載評估",
+          "detail": "公開尖峰車流、捷運紅線與主要路口承載評估，並提出接駁、YouBike 及停車管理的期程；企業應提出通勤計畫",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        },
+        {
+          "topic": "welfare",
+          "title": "北士科公共回饋空間優先用於社宅、托嬰、日照",
+          "detail": "以及平價生活機能",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        },
+        {
+          "topic": "housing",
+          "title": "高齡老屋與危險建物由市府列冊管理並主動提出都更方案",
+          "detail": "市府提出補助、容積誘因、租屋安置與中繼住宅方案；住戶整合達一定門檻後成立專案窗口，協調產權、估價與審查期程",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        }
+      ],
+      "record": [
+        {
+          "topic": "education",
+          "text": "從事家教與補習班教學工作，長期陪伴特殊需求學生（本人說法）。",
+          "source": "https://taiwangogo.tw/hsieh-min-hung/"
+        },
+        {
+          "topic": "governance",
+          "text": "參與勞工、移工等公共議題（本人說法）。",
+          "source": "https://ahong.oen.tw/"
+        }
+      ],
+      "past": [
+        {
+          "role": "參選基層民選公職（里長）",
+          "period": "2022",
+          "elected": false,
+          "result": "以 73 票之差未當選",
+          "note": "當時政見未查得。",
+          "promises": [],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "tpc1-2",
+      "identity": {
+        "name": "李文",
+        "party": "無黨籍",
+        "number": null
+      },
+      "platforms": [],
+      "record": [],
+      "past": []
+    },
+    {
+      "id": "tpc1-3",
+      "identity": {
+        "name": "陳彥廷",
+        "party": "無黨籍",
+        "number": null
+      },
+      "platforms": [],
+      "record": [],
+      "past": []
+    },
+    {
+      "id": "tpc1-4",
+      "identity": {
+        "name": "鍾佩玲",
+        "party": "民主進步黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "本屆提案（含共同提案）263 件，以民政（70）、教育（64）、工務（43）類最多。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請將 65 至 84 歲長者重陽敬老禮金由每人 1,500 元調高至 3,000 元。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請提高敬老卡每月點數並擴大使用範圍，並開放敬老卡點數支付部分醫療院所健保門診基本負擔。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請檢討復康巴士愛心卡制度，取消車資門檻與扣點上限。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請提高生育獎勵金，並要求勞動局提出雇主推行育兒友善措施的誘因。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "爭取士林臨時托育中心、福順狗公園，以及社子島 65 歲以上弱勢戶終身安置（本人說法，2022 年選舉公報）。",
+          "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第01選舉區.pdf"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2018–2026",
+          "elected": true,
+          "result": "2022 年得票 18,264 票，當選",
+          "note": "2022 年政見共 11 則，以下列出 6 則。",
+          "promises": [
+            {
+              "topic": "welfare",
+              "title": "爭取一區一臨時托育據點",
+              "status": "unknown",
+              "note": "本人說法：已爭取士林臨托中心；北投區據點未查得",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2550"
+            },
+            {
+              "topic": "welfare",
+              "title": "擴大敬老卡使用項目至西醫、中醫保健",
+              "status": "unknown",
+              "note": "任內參與提案開放敬老卡支付部分醫療院所健保門診基本負擔，採納結果未查得",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+            },
+            {
+              "topic": "education",
+              "title": "持續監督校園電子圍籬優化",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2550"
+            },
+            {
+              "topic": "housing",
+              "title": "爭取社子島安置條件優化、放寬",
+              "status": "unknown",
+              "note": "社子島開發 2026 年仍有爭議，安置條件調整情形未查得",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2550"
+            },
+            {
+              "topic": "economy",
+              "title": "爭取北投士林科技園區設置新創中心",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2550"
+            },
+            {
+              "topic": "education",
+              "title": "監督市府擴充國小雙語教育與外語師資",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2550"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數（含共同提案）",
+              "value": "263 件",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-5",
+      "identity": {
+        "name": "紀建漢",
+        "party": "無黨籍",
+        "number": null
+      },
+      "platforms": [],
+      "record": [],
+      "past": []
+    },
+    {
+      "id": "tpc1-6",
+      "identity": {
+        "name": "陳賢蔚",
+        "party": "民主進步黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "本屆提案（含共同提案）349 件，以教育（84）、民政（77）、工務（61）類最多。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "參與提案將教保機構攝錄影像保存期限延長至 90 日，並提高幼兒園教室監視器裝設比例。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "參與提案擴大清寒學生早餐補助至國、高中職，並調升弱勢學生午餐補助。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案要求檢討大型室內體育館使照核發及營運驗收疏失，並導入第三方勘驗處理漏水問題。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "參與提案建請規劃符合國際標準的滑板場地、增設第二運動中心，並擴大身心障礙選手運動獎勵對象。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "就任初期爭取校園周邊行人號誌汰換為新式系統、派出所優先由女警受理女性報案（本人說法，2022 年選舉公報）。",
+          "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第01選舉區.pdf"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 16,153 票，當選",
+          "note": "2022 年遞補就任，同年當選。2022 年政見為七大類多項方向性主張，以下列出 6 則。",
+          "promises": [
+            {
+              "topic": "education",
+              "title": "校園納入共融式遊具設置處所",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2555"
+            },
+            {
+              "topic": "education",
+              "title": "優化學童營養餐點",
+              "status": "unknown",
+              "note": "任內參與提案檢討營養午餐契約罰則與廠商管理、調升弱勢學生午餐補助，採納結果未查得",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+            },
+            {
+              "topic": "welfare",
+              "title": "增設幼兒園班級數、建置彈性課後照顧系統",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2555"
+            },
+            {
+              "topic": "welfare",
+              "title": "增設長者共餐共學據點",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2555"
+            },
+            {
+              "topic": "environment",
+              "title": "整治北投溪、復育北投石",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2555"
+            },
+            {
+              "topic": "housing",
+              "title": "監督促成社子島、關渡平原開發",
+              "status": "in_progress",
+              "note": "社子島開發 2026 年仍在區段徵收審查與爭議中",
+              "source": "https://newtalk.tw/news/view/2026-07-18/1047933"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數（含共同提案）",
+              "value": "349 件",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-hsien-wei-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-7",
+      "identity": {
+        "name": "林世宗",
+        "party": "民主進步黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "本屆提案（含共同提案）125 件，以財建（30）、民政（27）、警衛（21）類最多。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-shih-tsung-taipei"
+        },
+        {
+          "topic": "economy",
+          "text": "參與提案建請非洲豬瘟防疫期間免收公有市場豬肉攤商攤位使用費，並將未列管攤商與店面業者納入補助。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-shih-tsung-taipei"
+        },
+        {
+          "topic": "economy",
+          "text": "參與提案建請捷運北環線施工期間協助社子市場攤商於周邊繼續營業，並研擬市場青創與二代接班輔導專案。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-shih-tsung-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "參與提案要求檢討電動車充換電站設置規範並增加消防設施。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-shih-tsung-taipei"
+        },
+        {
+          "topic": "housing",
+          "text": "與中央民意代表赴中央主管機關陳情，希望加快社子島開發。",
+          "source": "https://newtalk.tw/news/view/2026-07-18/1047933"
+        },
+        {
+          "topic": "transport",
+          "text": "任內完成北投、明德、奇岩捷運站第二出口，並爭取福星公園、振華公園闢建地下停車場（本人說法，2022 年選舉公報）。",
+          "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第01選舉區.pdf"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2010–2026",
+          "elected": true,
+          "result": "2022 年得票 13,971 票，當選",
+          "note": "2022 年政見共 8 大項，以下列出 6 則。",
+          "promises": [
+            {
+              "topic": "transport",
+              "title": "推動北投市場改建",
+              "status": "unknown",
+              "note": "未查得完工紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2558"
+            },
+            {
+              "topic": "environment",
+              "title": "推動磺港溪再造計畫",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2558"
+            },
+            {
+              "topic": "environment",
+              "title": "催生洲美親子共融公園及狗運動公園",
+              "status": "unknown",
+              "note": "任內參與提案要求增設社區型狗活動區，興建情形未查得",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-shih-tsung-taipei"
+            },
+            {
+              "topic": "welfare",
+              "title": "改建浩然敬老院並增建長照大樓",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2558"
+            },
+            {
+              "topic": "housing",
+              "title": "監督北投區機一基地及士林區福順段基地公共住宅如期完工",
+              "status": "unknown",
+              "note": "未查得完工紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2558"
+            },
+            {
+              "topic": "safety",
+              "title": "要求全市逐步汰換監視系統",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2558"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數（含共同提案）",
+              "value": "125 件",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-shih-tsung-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-8",
+      "identity": {
+        "name": "黃瀞瑩",
+        "party": "台灣民眾黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "本屆提案（含共同提案）194 件，以教育（48）、工務（43）、民政（33）類最多。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "參與提案建請因應北士科開發與人口成長，研議籌設中正高中附設國中部。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "參與提案要求各校安裝瓦斯偵測設備，並提供校園新興毒品快篩試劑。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "參與提案建請提升教保員勞動福利與待遇，並將教保機構影像保存期限延長至 90 日。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案要求體育局公開大型室內體育館的資產清冊、保養維護紀錄與消防安全驗證報告。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 29,270 票，當選",
+          "note": "此前曾任直轄市政府副發言人。2022 年政見約 15 則，以下列出 6 則。",
+          "promises": [
+            {
+              "topic": "economy",
+              "title": "活化捷運淡水線高架下方閒置空間供青創進駐",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2547"
+            },
+            {
+              "topic": "housing",
+              "title": "推動包租代管，健全租屋市場",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2547"
+            },
+            {
+              "topic": "welfare",
+              "title": "爭取士林北投定點臨時托育服務",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2547"
+            },
+            {
+              "topic": "welfare",
+              "title": "爭取全額補助兒童接種輪狀病毒疫苗",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2547"
+            },
+            {
+              "topic": "housing",
+              "title": "增加新婚家庭社宅中籤率",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2547"
+            },
+            {
+              "topic": "welfare",
+              "title": "加速與台鐵合作，拓展敬老卡使用範圍",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2547"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數（含共同提案）",
+              "value": "194 件",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-9",
+      "identity": {
+        "name": "林揚庭",
+        "party": "中國國民黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [],
+      "past": []
+    },
+    {
+      "id": "tpc1-10",
+      "identity": {
+        "name": "陳慈慧",
+        "party": "民主進步黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "本屆提案（含共同提案）156 件，以民政（36）、教育（33）、工務（26）類最多。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-tzu-hui-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請補助 65 歲以上長者假牙費用，以及長者、中低收入戶與視障者購置助聽設備。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-tzu-hui-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請敬老卡每月 480 點未用完可累計至下月，並放寬敬老卡搭台鐵範圍至北北桃任一車站。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-tzu-hui-taipei"
+        },
+        {
+          "topic": "housing",
+          "text": "參與提案建請加速推動社子島開發，並與中央主管機關溝通解決輕軌問題。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-tzu-hui-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案建請居家托育人員健康檢查納入專業醫師心理狀態評估，並試辦早療兒藝術治療課程補助。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-tzu-hui-taipei"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2014–2026",
+          "elected": true,
+          "result": "2022 年得票 15,611 票，當選",
+          "note": "2022 年政見共 17 則，以下列出 6 則。",
+          "promises": [
+            {
+              "topic": "housing",
+              "title": "爭取社子島優惠拆遷補償、放寬配售資格",
+              "status": "unknown",
+              "note": "社子島開發 2026 年仍有爭議，補償與配售條件調整情形未查得",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2557"
+            },
+            {
+              "topic": "environment",
+              "title": "汰換老舊公園設施並設置共融式遊具",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2557"
+            },
+            {
+              "topic": "economy",
+              "title": "推動關渡平原開發或多元化使用",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2557"
+            },
+            {
+              "topic": "welfare",
+              "title": "爭取士林北投樂齡學堂、長青學苑",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2557"
+            },
+            {
+              "topic": "welfare",
+              "title": "整合學校閒置教室設立社區公托、公幼",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2557"
+            },
+            {
+              "topic": "housing",
+              "title": "爭取士林北投優先增設社會住宅與青年住宅",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2557"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數（含共同提案）",
+              "value": "156 件",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-tzu-hui-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-11",
+      "identity": {
+        "name": "陳重文",
+        "party": "無黨籍",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "welfare",
+          "text": "參與提案擴大守望相助巡守隊員非因公傷亡慰問金的適用範圍，比照義警等人員的福利濟助規定。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-chung-wen-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案要求市府檢討各機關午休值班執行情形不一的問題。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-chung-wen-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案要求市府各機關的兩公約人權教育訓練由人事與公訓單位統一辦理。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-chung-wen-taipei"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 13,606 票，當選",
+          "note": "2022 年參選時已為現任地方民意代表。2022 年政見 14 項，以下列出 6 項。",
+          "promises": [
+            {
+              "topic": "transport",
+              "title": "爭取洲美快速道路福國段",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "safety",
+              "title": "校園電子圍籬導入 AI 人臉辨識並消除校安監視死角",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "推動高齡運動中心並廣設高齡者在地運動教室",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "推動各區第二運動中心",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "規劃 0–6 歲早療補助新申請辦法並爭取 6–12 歲發展遲緩兒童早療補助",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "公車站牌全面設置 WiFi",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數",
+              "value": "65 件（民政 21、警衛 14、教育 11）",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-chung-wen-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-12",
+      "identity": {
+        "name": "陳怡潔",
+        "party": "無黨籍",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "safety",
+          "text": "擔任中央民意代表期間提案提高肇事逃逸刑責，致人於死者處 3 年以上 10 年以下有期徒刑。",
+          "source": "https://zh.wikipedia.org/zh-tw/陳怡潔"
+        },
+        {
+          "topic": "economy",
+          "text": "擔任中央民意代表期間提案颱風假出勤的勞工應給付加倍工資。",
+          "source": "https://zh.wikipedia.org/zh-tw/陳怡潔"
+        },
+        {
+          "topic": "economy",
+          "text": "擔任中央民意代表期間提案對不當使用替代役的機構處新臺幣 5 萬至 50 萬元罰鍰。",
+          "source": "https://zh.wikipedia.org/zh-tw/陳怡潔"
+        }
+      ],
+      "past": [
+        {
+          "role": "中央民意代表（政黨比例代表）",
+          "period": "2013–2020",
+          "elected": true,
+          "result": "",
+          "note": "2013 年遞補就任，2016 年連任。以政黨比例代表產生，沒有個人選舉公報政見可追蹤。",
+          "promises": [],
+          "rates": []
+        },
+        {
+          "role": "參選中央民意代表（政黨比例代表）",
+          "period": "2020",
+          "elected": false,
+          "result": "所屬政黨未達政黨票門檻，未當選",
+          "note": "",
+          "promises": [],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "tpc1-13",
+      "identity": {
+        "name": "林杏兒",
+        "party": "中國國民黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "welfare",
+          "text": "參與提案將生育獎勵金提高為兩倍的新規定回溯至 2023 年 1 月 1 日生效。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案補助 65 歲以上長者、中低收入戶及視障者購置助聽設備，並補助中低收入及身障者配鏡費用。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案增加產後到府坐月子服務的公費補助，並研議產婦心理諮商補助。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+        },
+        {
+          "topic": "housing",
+          "text": "多次參與提案要求市府加速社子島開發，並與中央協調區段徵收剔除原則。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案依人口成長將北投區關渡里、奇岩里調整劃分為四里。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+        },
+        {
+          "topic": "economy",
+          "text": "參與提案由青年事務主管機關設立單一平台，提供青年創業者場地租借補助與宣傳支持。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 16,369 票，當選",
+          "note": "2022 年首度當選。",
+          "promises": [
+            {
+              "topic": "economy",
+              "title": "青年發展處升格為一級局處",
+              "status": "done",
+              "note": "市府已設青年事務一級機關（觀測站 2024 年起的提案即以該局為對象）；個人角色無法查證",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+            },
+            {
+              "topic": "welfare",
+              "title": "推動 0 至 6 歲免費公托",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "補助 65 歲以上長者假牙",
+              "status": "unknown",
+              "note": "任內參與提案推動長者假牙費用全面補助，實施情形未查得",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+            },
+            {
+              "topic": "housing",
+              "title": "積極參與及推動社子島開發案",
+              "status": "in_progress",
+              "note": "任內多次提案要求加速開發，2024 年仍有輕軌與區段徵收待協調",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+            },
+            {
+              "topic": "housing",
+              "title": "老舊公寓公辦都更",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "打造寵物友善公園並推動寵物類健保制度",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數",
+              "value": "330 件（民政 86、工務 73、教育 56）",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-14",
+      "identity": {
+        "name": "張斯綱",
+        "party": "中國國民黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "welfare",
+          "text": "參與提案調高 65 至 84 歲長者重陽敬老禮金至每人 3,000 元。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chang-ssu-kang-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案修正社區照顧關懷據點補助制度，建立可自給營運的長者共餐模式。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chang-ssu-kang-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案依物價指數調升弱勢老人安置補助。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chang-ssu-kang-taipei"
+        },
+        {
+          "topic": "transport",
+          "text": "參與提案檢討復康巴士愛心卡制度，取消車資門檻與扣點上限。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chang-ssu-kang-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案在 2025 年底前檢討鄰避設施回饋金分配方案並送議會審核。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chang-ssu-kang-taipei"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 15,683 票，當選",
+          "note": "2022 年參選時已為現任地方民意代表。",
+          "promises": [
+            {
+              "topic": "transport",
+              "title": "社區小巴接駁捷運",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "監督捷運環狀線北環段如期完工",
+              "status": "unknown",
+              "note": "未查得工程進度資料",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "懷孕婦女產檢與新生兒 6 個月內接種疫苗交通補助",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "housing",
+              "title": "二胎家庭優先入住社會住宅",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "爭取設置水樂園",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "housing",
+              "title": "降低公辦都更門檻並放寬容積獎勵",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "加速設置智慧垃圾回收站",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數",
+              "value": "385 件（民政 100、工務 74、教育 74）",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chang-ssu-kang-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-15",
+      "identity": {
+        "name": "賴苡任",
+        "party": "中國國民黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾擔任轄區一項中央民意代表罷免案的召集人。",
+          "source": "https://www.nownews.com/news/6784351"
+        }
+      ],
+      "past": []
+    },
+    {
+      "id": "tpc1-16",
+      "identity": {
+        "name": "汪志冰",
+        "party": "中國國民黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "environment",
+          "text": "2026 年 8 月指出全市 88 處抽水站中有 18 處、88 台機組超過 27 年耐用年限，要求市府盤點並提出汰換期程與預算，同時檢討抽排水設計標準。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=209945F9774B3BCD"
+        },
+        {
+          "topic": "transport",
+          "text": "2026 年 9 月指出路面人孔蓋約七成未做抗滑處理，要求市府全面清查、建立圖資與定期檢測制度並提出改善期程。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=7C02F7055CDA951A"
+        },
+        {
+          "topic": "housing",
+          "text": "2025 年 12 月指出老舊公寓增設電梯推動 11 年僅約 2% 取得雜項執照，要求主管機關訂定年度輔導目標，並研議取消法定車位代金。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=C36F487A80E28A51"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案將敬老卡點數改為以年計算、可跨月累計，並擴大適用場館與交通工具。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/wang-chih-ping-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案因應停課造成的居家臨時托育費用提供補助。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/wang-chih-ping-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "恢復重陽敬老金、爭取預算改建國小危樓、推動營養午餐加碼補助（本人說法）。",
+          "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "1998–2026",
+          "elected": true,
+          "result": "2022 年得票 18,450 票，當選",
+          "note": "已連任 6 屆。以下為 2022 年政見中的 6 項。",
+          "promises": [
+            {
+              "topic": "housing",
+              "title": "加速關渡平原開發",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "housing",
+              "title": "督促市府放寬都更法令限制並提高誘因",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "持續擴大士林、北投 YouBike 覆蓋率",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "housing",
+              "title": "增建公宅、放寬申請條件、降低租金",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "education",
+              "title": "繼續增加公立幼兒園班級數",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "economy",
+              "title": "調高青年就學及創業貸款額度並降低利率",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數",
+              "value": "128 件（民政 35、工務 27、教育 26）",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/wang-chih-ping-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-17",
+      "identity": {
+        "name": "劉致妤",
+        "party": "無黨籍",
+        "number": null
+      },
+      "platforms": [],
+      "record": [],
+      "past": []
+    },
+    {
+      "id": "tpc1-18",
+      "identity": {
+        "name": "林延鳳",
+        "party": "民主進步黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "welfare",
+          "text": "參與提案保障收養家庭試養期子女優先登記公托、公幼及非營利幼兒園，免設籍限制。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案統一補助與輔導私立托育，改善托育人員薪資落差。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案盤點市府為民服務機關與公營場館，提供多元生理用品與相關友善服務。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與提案開放敬老卡點數支付部分醫療院所健保門診部分負擔。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+        },
+        {
+          "topic": "economy",
+          "text": "參與提案建立媒合平台活化公有建物，以合理租金或租金補助提供青年創業團體使用。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 23,427 票，當選",
+          "note": "2022 年首度當選。2022 年政見約 23 項，以下列出 7 項。",
+          "promises": [
+            {
+              "topic": "economy",
+              "title": "推動成立青年事務專責局處",
+              "status": "done",
+              "note": "市府已設青年事務一級機關（觀測站 2024 年提案即以該局為對象）；個人角色無法查證",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+            },
+            {
+              "topic": "welfare",
+              "title": "增加公托據點並社區化",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "推動 30 歲以上凍卵補助",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "補助 65 歲以上長者免費裝假牙",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "加速興建捷運環狀線北環段",
+              "status": "unknown",
+              "note": "未查得工程進度資料",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "運用大數據與 AI 動態號誌系統",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "housing",
+              "title": "整建住宅列為優先公辦都市更新區域",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數",
+              "value": "243 件（民政 65、教育 47、工務 44）",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-yen-feng-taipei"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tpc1-19",
+      "identity": {
+        "name": "林聖峰",
+        "party": "天宙和平統一家庭黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [],
+      "past": []
+    },
+    {
+      "id": "tpc1-20",
+      "identity": {
+        "name": "侯漢廷",
+        "party": "新黨",
+        "number": null
+      },
+      "platforms": [],
+      "record": [
+        {
+          "topic": "education",
+          "text": "參與提案因應北士科開發與人口成長，研議在轄區高中附設國中部。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+        },
+        {
+          "topic": "transport",
+          "text": "參與提案在天母運動園區及士東國小下方興建地下停車場。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "參與提案將教保機構監視影像保存期限延長至 90 日，並提高幼兒園教室監視器裝設比例。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "參與提案擴大清寒學生早餐補助至國中、高中職，並改善餐點發送方式。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "參與提案提供校園新興毒品快篩試劑，並要求各校安裝瓦斯偵測設備。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+        },
+        {
+          "topic": "environment",
+          "text": "參與提案要求大型室內體育館的漏水問題導入第三方勘驗，並成立營運績效評估委員會。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+        },
+        {
+          "topic": "housing",
+          "text": "推動對建商課徵囤房稅、社宅租金合理化、增設停車空間與纜線地下化（本人說法）。",
+          "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+        }
+      ],
+      "past": [
+        {
+          "role": "地方民意代表",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年得票 17,253 票，當選",
+          "note": "2022 年參選時已為現任地方民意代表。2022 年政見依局處分 8 類，以下列出 6 項。",
+          "promises": [
+            {
+              "topic": "welfare",
+              "title": "提高生育獎勵金",
+              "status": "done",
+              "note": "市府 2023 年將生育獎勵金提高為兩倍（觀測站同期提案可見）；個人角色無法查證",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/lin-hsing-erh-taipei"
+            },
+            {
+              "topic": "housing",
+              "title": "針對單一自住房屋與公益出租人訂定差異化房屋稅率",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "education",
+              "title": "擴增公共化幼兒園並增加私幼補助",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "盡速完成北投浩然敬老院與士林陽明教養院中繼安置",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "加強士林北投防洪排水、箱涵疏浚與污水下水道",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "於公園及學校興建地下停車場",
+              "status": "in_progress",
+              "note": "任內持續提案於天母運動園區、士東國小興建地下停車場，執行情形未查得",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+            }
+          ],
+          "rates": [
+            {
+              "label": "本屆提案數",
+              "value": "263 件（教育 60、警衛 50、工務 49）",
+              "by": "報導者觀測站",
+              "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/hou-han-ting-taipei"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+});
