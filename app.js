@@ -57,8 +57,8 @@
     weights: Object.fromEntries(DATA.topics.map((t) => [t.id, 1])),
     ratings: {},   // itemId -> 1 | 0 | -1
     order: {},     // raceId -> 洗牌後的 candidate id 陣列
+    itemOrder: {}, // raceId -> 洗牌後的項目 id 陣列（閱讀時不標示提出者）
     revealed: {},  // raceId -> true
-    view: "topic",
     kind: "all",
     topics: [],    // 篩選中的議題，空陣列 = 全部
     q: "",
@@ -117,6 +117,19 @@
       label: `候選人 ${LETTERS[i]}`,
       letter: LETTERS[i],
     }));
+  }
+
+  // 選區內所有項目以固定的隨機順序排列，不標示提出者，避免用某則經歷認出代號後連帶認出其他政見
+  function blindItems(race) {
+    const items = race.candidates.flatMap(shownOf);
+    const byId = Object.fromEntries(items.map((it) => [it.id, it]));
+    let order = state.itemOrder[race.id];
+    if (!order || order.length !== items.length || !order.every((id) => id in byId)) {
+      order = shuffle(items.map((it) => it.id));
+      state.itemOrder = { ...state.itemOrder, [race.id]: order };
+      save();
+    }
+    return order.map((id) => byId[id]);
   }
 
   const itemsOf = (c) => [...c.platforms, ...c.record];  // 可評分、列入計分的項目
@@ -195,10 +208,10 @@
         <ol>
           <li>選擇你要投票的選區與職位。</li>
           <li>設定你在意哪些議題。</li>
-          <li>閱讀匿名候選人的政見與過去做的事，逐條表達認同與否。</li>
+          <li>閱讀政見與過去做的事，逐條表達認同與否。所有內容順序打亂、不標示是誰提出的。</li>
           <li>開票：看哪位候選人最符合你的想法，最後才揭曉是誰。</li>
         </ol>
-        <p class="muted">候選人以隨機字母代號呈現、順序隨機，與登記號次無關。</p>
+        <p class="muted">開票時候選人以隨機字母代號呈現，與登記號次無關。</p>
       </div>${BALLOT_ART}</section>
       ${Object.entries(groups).map(([region, races]) => `
         <section class="card">
@@ -240,13 +253,9 @@
 
     const toolbar = `
       <div class="toolbar">
-        <div class="seg" role="radiogroup" aria-label="檢視方式">
-          <button role="radio" aria-checked="${state.view === "topic"}" data-action="view" data-value="topic">依議題比較</button>
-          <button role="radio" aria-checked="${state.view === "candidate"}" data-action="view" data-value="candidate">依候選人</button>
-        </div>
         <div class="seg" role="radiogroup" aria-label="內容類型">
           <button role="radio" aria-checked="${state.kind === "all"}" data-action="kind" data-value="all">全部</button>
-          <button role="radio" aria-checked="${state.kind === "platform"}" data-action="kind" data-value="platform">政見</button>
+          <button role="radio" aria-checked="${state.kind === "platform"}" data-action="kind" data-value="platform">2026 政見</button>
           <button role="radio" aria-checked="${state.kind === "record"}" data-action="kind" data-value="record">做過的事</button>
           <button role="radio" aria-checked="${state.kind === "past"}" data-action="kind" data-value="past">過去政見兌現</button>
         </div>
@@ -262,63 +271,55 @@
         <span class="bar"><span style="width:${allItems.length ? (ratedCount / allItems.length) * 100 : 0}%"></span></span>
       </p>`;
 
-    const body = state.view === "topic" ? browseByTopic(cands) : browseByCandidate(cands);
     return `
       <h2>${esc(race.region)} ${esc(race.office)}</h2>
       ${raceNote(race)}
+      <p class="notice">為了做到全盲，這裡的每一則內容都不標示是哪位候選人提出的，順序也完全打亂。評分後到「開票」才會看到各候選人的配對結果。</p>
       ${gapNote(cands)}
       ${feasNote(race)}
       ${toolbar}
-      ${state.kind === "all" || state.kind === "past" ? pastPanel(cands) : ""}
-      ${body}
+      ${browseBlind(race)}
       <div class="actions"><button class="primary" data-action="go" data-step="result">開票 →</button></div>
     `;
   }
 
-  function browseByTopic(cands) {
+  // 這次政見、做過的事、過去政見分段呈現，避免混淆；各段內再依議題分組
+  const SECTIONS = [
+    { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。" },
+    { kind: "record", title: "做過的事", note: "候選人過去可查證的具體作為。" },
+    { kind: "past", title: "過去政見兌現", note: "候選人上一次參選時提出的政見與後來的狀況，僅供參考，不列入配對分數。" },
+  ];
+
+  function browseBlind(race) {
+    const items = blindItems(race).filter(matches);
     const topics = DATA.topics.filter((t) => !state.topics.length || state.topics.includes(t.id));
-    const html = topics.map((t) => {
-      const cols = cands.map((c) => ({ c, items: shownOf(c).filter((it) => it.topic === t.id && matches(it)) }));
-      if (!cols.some((col) => col.items.length)) return "";
-      // 候選人多時只並排有提出的人，其餘列成一行，避免版面被空欄塞滿
-      const many = cands.length > 4;
-      const shown = many ? cols.filter((col) => col.items.length) : cols;
-      const absent = many ? cols.filter((col) => !col.items.length) : [];
+    const html = SECTIONS.map((sec) => {
+      const inSec = items.filter((it) => it.kind === sec.kind);
+      if (!inSec.length) return "";
       return `
-        <section class="topic-block">
-          <h3>${esc(t.label)}</h3>
-          ${absent.length ? `<p class="absent">此議題未提出：${absent.map(({ c }) => esc(c.label)).join("、")}</p>` : ""}
-          <div class="compare ${many ? "many" : ""}" style="--n:${cands.length}">
-            ${shown.map(({ c, items }) => `
-              <div class="col">
-                <h4 class="cand-tag">${tag(c)}</h4>
-                ${items.length ? items.map((it) => itemCard(it)).join("") : `<p class="empty">此議題未提出</p>`}
-              </div>`).join("")}
-          </div>
+        <section class="kind-section kind-${sec.kind}">
+          <h2 class="kind-title">${esc(sec.title)} <span class="muted">${inSec.length} 則</span></h2>
+          <p class="muted">${esc(sec.note)}</p>
+          ${topics.map((t) => {
+            const list = inSec.filter((it) => it.topic === t.id);
+            return list.length ? `
+              <section class="topic-block">
+                <h3>${esc(t.label)}</h3>
+                <div class="stream">${list.map((it) => itemCard(it)).join("")}</div>
+              </section>` : "";
+          }).join("")}
         </section>`;
     }).join("");
     return html || `<p class="empty">沒有符合條件的內容。</p>`;
   }
 
-  function browseByCandidate(cands) {
-    return cands.map((c) => {
-      const items = shownOf(c).filter(matches);
-      return `
-        <section class="card">
-          <h3 class="cand-tag">${tag(c)}</h3>
-          ${items.length ? items.map((it) => itemCard(it, true)).join("") : `<p class="empty">沒有符合條件的內容。</p>`}
-        </section>`;
-    }).join("");
-  }
-
-  function itemCard(it, showTopic = false) {
+  function itemCard(it) {
     const r = state.ratings[it.id];
     return `
       <article class="item ${it.kind}">
         <div class="item-meta">
-          <span class="kind">${{ platform: "政見", record: "做過的事", past: "過去政見" }[it.kind]}</span>
+          <span class="kind">${{ platform: "2026 政見", record: "做過的事", past: "過去政見" }[it.kind]}</span>
           ${it.kind === "past" ? `<span>${esc(it.role.role)} ${esc(it.role.period)}</span>` : ""}
-          ${showTopic ? `<span class="topic">${esc(topicById[it.topic]?.label)}</span>` : ""}
         </div>
         <p class="item-title">${esc(it.title)}</p>
         ${it.detail ? `<p class="item-detail">${esc(it.detail)}</p>` : ""}
@@ -400,7 +401,7 @@
   function gapNote(cands) {
     const none = cands.filter((c) => !c.platforms.length);
     if (!none.length) return "";
-    return `<p class="race-note">${none.map((c) => esc(c.label)).join("、")}：查無 2026 年公開政見${
+    return `<p class="race-note">${cands.length} 位候選人中，有 ${none.length} 位查無 2026 年公開政見${
       none.some((c) => !itemsOf(c).length && !c.past.length) ? "（部分候選人也查無任何經歷資料）" : ""
     }。這代表我們找不到公開資料，不代表候選人沒有主張；2026 年選舉公報發布後會再更新。</p>`;
   }
@@ -426,34 +427,6 @@
       </details>`;
   }
 
-  // 過去職位與兌現紀錄：並排比較
-  function pastPanel(cands) {
-    if (!cands.some((c) => c.past.length)) return "";
-    const revealed = state.revealed[state.raceId];
-    return `
-      <section class="topic-block past-panel">
-        <h3>過去職位與政見兌現</h3>
-        <p class="muted">過去政見僅供參考兌現紀錄，不列入配對分數。達成率若由候選人自己公布，會特別標示。</p>
-        <div class="compare ${cands.length > 4 ? "many" : ""}" style="--n:${cands.length}">
-          ${cands.map((c) => `
-            <div class="col">
-              <h4 class="cand-tag">${tag(c)}</h4>
-              ${c.past.length ? c.past.map((role) => `
-                <div class="past-role">
-                  <p class="item-title">${esc(role.role)}<span class="muted">・${esc(role.period)}</span></p>
-                  <p class="item-detail">${role.elected ? "民選職位" : role.result ? esc(role.result) : "非民選職位"}</p>
-                  ${statusCounts(role.promises)}
-                  ${(role.rates || []).map((rt) => `
-                    <p class="rate-line"><span>${esc(rt.label)}</span><strong>${esc(rt.value)}</strong>
-                      <span class="muted">${esc(rt.by)}</span>
-                      ${rt.source && revealed ? `<a href="${esc(rt.source)}" target="_blank" rel="noopener noreferrer">來源</a>` : ""}</p>`).join("")}
-                  ${role.note ? `<p class="item-detail">${esc(role.note)}</p>` : ""}
-                </div>`).join("") : `<p class="empty">無過去職位紀錄</p>`}
-            </div>`).join("")}
-        </div>
-      </section>`;
-  }
-
   function statusCounts(promises) {
     if (!promises.length) return "";
     const n = {};
@@ -465,7 +438,8 @@
   function pastSummary(c) {
     if (!c.past.length) return "";
     return `<div class="past-summary"><span class="muted">過去紀錄</span>
-      ${c.past.map((role) => `<span>${esc(role.role)}（${esc(role.period)}）</span>${statusCounts(role.promises)}`).join("")}</div>`;
+      ${c.past.map((role) => `<span>${esc(role.role)}（${esc(role.period)}）</span>${statusCounts(role.promises)}${
+        (role.rates || []).map((rt) => `<span class="muted">${esc(rt.label)} ${esc(rt.value)}（${esc(rt.by)}）</span>`).join("")}`).join("")}</div>`;
   }
 
   function raceNote(race) {
@@ -504,8 +478,6 @@
         return go(el.dataset.step);
       case "weight":
         return set({ weights: { ...state.weights, [el.dataset.topic]: Number(value) } });
-      case "view":
-        return set({ view: value });
       case "kind":
         return set({ kind: value });
       case "topic": {
@@ -529,7 +501,9 @@
         const ratings = Object.fromEntries(Object.entries(state.ratings).filter(([k]) => !ids.has(k)));
         const order = { ...state.order };
         delete order[race.id];
-        return set({ ratings, order, revealed: { ...state.revealed, [race.id]: false } });
+        const itemOrder = { ...state.itemOrder };
+        delete itemOrder[race.id];
+        return set({ ratings, order, itemOrder, revealed: { ...state.revealed, [race.id]: false } });
       }
     }
   });

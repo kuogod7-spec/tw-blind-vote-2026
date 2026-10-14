@@ -151,6 +151,12 @@ button:focus-visible, input:focus-visible, summary:focus-visible {
 @media (max-width: 760px) { .compare { grid-template-columns: 1fr; } }
 .compare.many { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .absent { font-size: .88rem; color: var(--muted); margin: -4px 0 10px; }
+.kind-section { margin-top: 28px; padding-top: 16px; border-top: 3px double var(--ink); }
+.kind-title { margin-bottom: 4px; }
+.kind-title .muted { font-size: .9rem; font-weight: 400; }
+/* 全盲閱讀：不分候選人，所有項目打散成卡片 */
+.stream { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.stream .item { background: var(--paper); border: 1.5px solid var(--ink); border-radius: 4px; padding: 12px; }
 .col { background: var(--paper); border: 1.5px solid var(--ink); border-radius: 4px; padding: 0 12px 12px; }
 
 /* 候選人代號：仿選票上的號次方格 */
