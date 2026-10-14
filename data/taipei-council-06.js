@@ -7,7 +7,7 @@
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
- * 整理期間網路搜尋額度用盡，部分候選人的 2026 年政見與過去政見兌現狀況未能進一步查找，多數標為 unknown。
+ * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -382,7 +382,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任直轄市政府顧問。",
+          "source": "https://www.ettoday.net/news/20260606/3178705.htm"
+        }
+      ],
       "past": []
     },
     {
@@ -945,7 +951,38 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "推動防災流程標準化與消防設備汰換",
+          "detail": "同時補足基層消防人力",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=170"
+        },
+        {
+          "topic": "safety",
+          "title": "建立社區互助安全網",
+          "detail": "整合 AI 監控與志工系統，照顧獨居長者與婦幼安全",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=170"
+        },
+        {
+          "topic": "education",
+          "title": "建立公正的第三方校園霸凌與性騷擾申訴機制",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=170"
+        },
+        {
+          "topic": "welfare",
+          "title": "推廣樂齡運動處方箋",
+          "detail": "媒合專業教練進入長照據點，以肌力訓練預防失能與失智",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=170"
+        },
+        {
+          "topic": "welfare",
+          "title": "改善護病比與夜班津貼",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=170"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

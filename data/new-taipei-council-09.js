@@ -476,7 +476,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任大學學生自治組織幹部；其後任地方民意代表助理。",
+          "source": "https://newtalk.tw/news/view/2022-01-16/697264"
+        }
+      ],
       "past": []
     },
     {

@@ -16,8 +16,7 @@
  *   研判為誤植，不收錄。10/16 審定名單公告後請再確認。
  * - 「吳建智」在 PeoPo 與島民觀察室登記名單中寫作「吳建智咖啡哥」，自由時報寫作「吳建智」。
  *   這裡暫用「吳建智」，審定名單公告後請以中選會寫法為準。
- * - 2026 年政見：整理期間網路搜尋額度用完，未能找到任何候選人 2026 年的具體政見報導，platforms 全部留空；
- *   之後補查時請優先處理。
+ * - 2026 年政見：2026-10-14 補查後，仍未找到任何候選人 2026 年的具體政見報導（各黨提名報導僅有概括性描述），platforms 全部留空。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-12",
@@ -131,7 +130,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任直轄市政府原住民族事務機關主任秘書。",
+          "source": "https://news.ipcf.org.tw/197427"
+        }
+      ],
       "past": [
         {
           "role": "參選地方民意代表",
@@ -520,7 +525,24 @@ window.ELECTION_DATA.races.push({
       },
       "platforms": [],
       "record": [],
-      "past": []
+      "past": [
+        {
+          "role": "參選中央民意代表（平地原住民）",
+          "period": "2024",
+          "elected": false,
+          "result": "得票 2.09%，未當選",
+          "note": "當次登記姓名與本次登記寫法相同（姓名附暱稱），研判為同一人。當時政見未查得。",
+          "promises": [],
+          "rates": [
+            {
+              "label": "得票率",
+              "value": "2.09%",
+              "by": "中選會（轉引自維基百科）",
+              "source": "https://zh.wikipedia.org/wiki/平地原住民選舉區"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ntc12-7",

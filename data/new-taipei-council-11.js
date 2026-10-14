@@ -150,7 +150,62 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "監督捷運汐東線進度，推動場站周邊交通導向開發",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取興建立體停車場，改善公車通勤接駁",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "transport",
+          "title": "串聯山海自行車路網",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "welfare",
+          "title": "汐止增設社區長照巷弄站（C 級據點），擴大日照與樂齡活動",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "welfare",
+          "title": "增加復康巴士量能",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "welfare",
+          "title": "推動居家藥事照護",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "economy",
+          "title": "整合北海岸觀光路網",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "economy",
+          "title": "輔導青年創業，推動傳統市場轉型",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        },
+        {
+          "topic": "environment",
+          "title": "改善河濱公園設施，規劃全齡運動廊道",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=161"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

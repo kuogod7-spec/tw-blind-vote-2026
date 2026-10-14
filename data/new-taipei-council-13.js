@@ -6,6 +6,7 @@
  * 名單出入：自由時報（news.ltn.com.tw/news/politics/breakingnews/5563564）本區只列 5 人，並把何應明列在第 12 選區（平地原住民）；
  *   中選會彙總表與島民觀察室（formosaobservatory.com/election/65000）都把何應明列在第 13 選區，本區共 6 人，以中選會為準。何應明 2022 年也在本區參選。
  * 應選席次：自由時報與島民觀察室皆寫應選 2 席（2022 年為 1 席）；查無中選會選舉區名額公告原文，待審定公告確認。
+ *   原視新聞亦報導本屆新北山地、平地原住民議員各增 1 席（https://news.ipcf.org.tw/205138 、https://news.ipcf.org.tw/211139 ）。
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
@@ -90,7 +91,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任山地原住民區區民代表約三年（推薦人說法）。",
+          "source": "https://www.mirrormedia.mg/external/setn_1863747"
+        }
+      ]
     },
     {
       "id": "ntc13-3",
@@ -224,7 +231,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任直轄市政府原住民族事務機關首長。",
+          "source": "https://news.ipcf.org.tw/197427"
+        }
+      ]
     }
   ]
 });

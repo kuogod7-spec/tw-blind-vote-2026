@@ -140,7 +140,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "推動東北角觀光發展建設計畫",
+          "detail": "以 2035 年為目標發展山海觀光經濟圈；具體項目未公布",
+          "source": "https://udn.com/news/story/124652/9578674"
+        }
+      ],
       "record": [],
       "past": []
     }

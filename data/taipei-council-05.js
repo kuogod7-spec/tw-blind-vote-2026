@@ -7,7 +7,7 @@
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
- * 整理期間網路搜尋額度用盡，部分候選人的 2026 年政見與過去政見兌現狀況未能進一步查找，多數標為 unknown。
+ * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -707,6 +707,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "軍職中將退役，曾任戰鬥機飛行員；退役後任大學教職（本人說法）。",
           "source": "https://ctinews.com/news/items/vNWO5zoDxw"
+        },
+        {
+          "topic": "governance",
+          "text": "曾任高階軍職及軍事院校首長，具政治學博士學位（站台者說法）。",
+          "source": "https://udn.com/news/story/124652/9807277"
         }
       ],
       "past": []

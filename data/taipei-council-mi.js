@@ -25,7 +25,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任中央行政機關青年諮詢委員（提名方說法）。",
+          "source": "https://newtalk.tw/news/view/2026-07-29/1050129"
+        }
+      ]
     },
     {
       "id": "tpcmi-2",
@@ -35,7 +41,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "長期擔任地方民意代表特別助理，參與地方服務與陳情案件處理。",
+          "source": "https://www.ettoday.net/news/20260613/3182772.htm"
+        }
+      ]
     },
     {
       "id": "tpcmi-3",
@@ -45,7 +57,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "擔任中央民意代表助理多年。",
+          "source": "https://news.ipcf.org.tw/206942"
+        }
+      ]
     }
   ]
 });

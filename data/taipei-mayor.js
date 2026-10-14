@@ -580,13 +580,18 @@ window.ELECTION_DATA.races.push({
       "record": [
         {
           "topic": "safety",
-          "text": "曾服役海軍至上校退役，任內從事武器系統獲得與軍事採購業務；退役後曾任證券公司總經理。",
+          "text": "曾服役海軍，任內從事武器系統獲得與軍事採購業務；退役後曾任證券公司總經理。",
           "source": "https://zh.wikipedia.org/zh-tw/%E9%83%AD%E7%92%BD_(%E6%94%BF%E6%B2%BB%E4%BA%BA%E7%89%A9)"
         },
         {
           "topic": "welfare",
           "text": "2023 年領銜提出公民投票案，主張 65 歲以上民眾在合法場所 1,000 元以內的小額娛樂牌戲輸贏不以賭博罪處罰；同年 10 月遭駁回。",
           "source": "https://zh.wikipedia.org/zh-tw/%E5%8F%B0%E7%81%A3%E9%BA%BB%E5%B0%87%E6%9C%80%E5%A4%A7%E9%BB%A8"
+        },
+        {
+          "topic": "safety",
+          "text": "曾受聘為國防顧問，協助推動國防自製計畫。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5425063"
         }
       ],
       "past": [
