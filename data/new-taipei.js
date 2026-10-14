@@ -62,7 +62,7 @@ window.ELECTION_DATA = {
         },
         {
           id: "ntp-2",
-          identity: { name: "李四川", party: "中國國民黨（台灣民眾黨支持）", number: null },
+          identity: { name: "李四川", party: "中國國民黨", number: null },
           platforms: [
             { topic: "transport", title: "成立北北基桃首長級跨域交通治理平台", detail: "共同規劃捷運、公車、國道與快速道路，目標雙北 30 分鐘核心生活圈；未公布預算與期程", source: "https://www.cna.com.tw/news/aloc/202609220127.aspx" },
             { topic: "transport", title: "增加路外停車並打通人行道斷點", detail: "利用公共建築、學校、公園、捷運聯開與都更增設路外停車，逐步減少路邊停車；成立人本友善城市委員會", source: "https://www.cna.com.tw/news/aloc/202609220127.aspx" },
