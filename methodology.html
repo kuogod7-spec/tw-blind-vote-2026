@@ -35,6 +35,7 @@
         <li><a href="#limits">資料限制</a></li>
         <li><a href="#stats">資料統計</a></li>
         <li><a href="#corrections">更正與聯絡</a></li>
+        <li><a href="#research">設計依據</a></li>
         <li><a href="#changelog">更新紀錄</a></li>
       </ol>
     </nav>
@@ -242,14 +243,62 @@
       <p class="todo">製作者、經費來源與聯絡方式：請在此填寫（例如：由個人志願製作，未接受任何政黨、候選人或其關係團體的委託與資助；聯絡信箱／GitHub Issues 連結）。</p>
     </section>
 
+    <section id="research" class="card">
+      <h2>12. 設計依據</h2>
+      <p>本站的幾個主要設計，是參考政治心理學與決策研究的發現而來。這些研究說明「為什麼要這樣設計」，但<strong>不代表本站已被證明有效</strong>；我們沒有對本站做過使用者實驗。</p>
+
+      <h3>隱藏姓名、黨籍：政黨線索會蓋過政策內容</h3>
+      <ul>
+        <li>Cohen（2003）的實驗中，受試者在不知道政黨立場時，會依政策內容與自己的理念判斷；一旦得知「這是我方政黨的政策」，政策內容幾乎不再影響判斷，連對政策事實的認知都會改變。受試者還否認自己受到影響。<a href="https://swap.stanford.edu/was/20140911222256mp_/https://ed.stanford.edu/sites/default/files/party_over_policy_0.pdf" target="_blank" rel="noopener noreferrer">原文</a></li>
+        <li>國內研究：高恒信（1995，政治大學心理學系碩士論文）以社會認同理論檢驗兩大黨支持者，發現政黨意識形態越強的人，越容易在不自覺中讓己方立場左右對政策的判斷。<a href="https://ah.lib.nccu.edu.tw/item?item_id=99398" target="_blank" rel="noopener noreferrer">論文頁</a></li>
+        <li>國內研究：黃德福、黃靖麟（2008，《選舉研究》15 卷 1 期）分析 2005 年臺北縣、高雄縣縣長選舉，發現政黨與候選人因素才是決定選舉的關鍵，回溯投票與議題投票的影響不大。<a href="https://jestw.nccu.edu.tw/uploads/paper/tw/回溯投票或議題投票：2005年台北縣與高雄縣縣長選舉之比較分析.pdf" target="_blank" rel="noopener noreferrer">原文</a></li>
+        <li>因此本站不靠使用者「提醒自己不要有成見」，而是直接從介面上拿掉這些資訊。</li>
+      </ul>
+
+      <h3>不放照片：外表會影響評價</h3>
+      <ul>
+        <li>Todorov 等人（2005，Science）發現，只看候選人臉孔、快速判斷「誰比較能幹」，就能預測約七成的美國參議員選舉結果。<a href="https://collaborate.princeton.edu/en/publications/psychology-inferences-of-competence-from-faces-predict-election-o/" target="_blank" rel="noopener noreferrer">摘要</a></li>
+        <li>國內研究：張儀同（2022，臺灣師範大學大眾傳播研究所碩士論文）以實驗操弄政治廣告中候選人的外表吸引力，發現外表吸引力高的候選人得到較正面的評價、形象與投票意願。<a href="https://etds.lib.ntnu.edu.tw/thesis/detail/37a5f4613b7802f83e7bbe9713a03b14" target="_blank" rel="noopener noreferrer">論文頁</a></li>
+      </ul>
+
+      <h3>盲審：遮住身分會改變結果</h3>
+      <ul>
+        <li>Goldin 與 Rouse（2000）研究美國交響樂團改用屏風遮住應徵者後，女性通過初選的機率提高約 50%。這是「遮住身分會改變評價」最常被引用的證據之一。<a href="https://nber.org/papers/w5903" target="_blank" rel="noopener noreferrer">NBER 工作論文</a></li>
+      </ul>
+
+      <h3>閱讀時全盲、打散順序：避免一則認出、全部帶偏</h3>
+      <ul>
+        <li>Taber 與 Lodge（2006）的動機性推理研究發現，人會把符合自己立場的論點評為較強，並反駁不符合的論點。<a href="https://fbaum.unc.edu/teaching/articles/AJPS-2006-Taber.pdf" target="_blank" rel="noopener noreferrer">原文</a></li>
+        <li>若同一位候選人的內容放在一起，讀者只要從一則有辨識度的經歷認出是誰，其他政見就會被帶著立場解讀。所以本站把所有內容打散，不標示提出者。</li>
+        <li>同一議題的內容仍放在一起，讓讀者能互相比較。Hsee（1996）的可評估性研究指出，選項放在一起比較或分開看，評價可能不同。<a href="https://www.cmu.edu/dietrich/sds/docs/loewenstein/PrefRevJoint.pdf" target="_blank" rel="noopener noreferrer">回顧論文</a></li>
+      </ul>
+
+      <h3>過去政見不計分、開票後才顯示</h3>
+      <ul>
+        <li>依過去表現決定投票（回溯投票）是政治學承認的投票方式。但 Healy 與 Malhotra 等研究，以及 Achen 與 Bartels 的《Democracy for Realists》指出，選民常把候選人無法控制的事算在他頭上，而且只看最近的表現。<a href="https://web.stanford.edu/~neilm/voting.html" target="_blank" rel="noopener noreferrer">Malhotra 研究列表</a></li>
+        <li>「已達成」也不代表是候選人的功勞，本站的兌現判定也可能有誤。若讓讀者逐則評分，結果幾乎必然是「已達成就給高分」，等於由本站的判定決定分數。所以過去政見只在開票後提供參考。</li>
+      </ul>
+
+      <h3>本站設計仍有的風險</h3>
+      <ul>
+        <li><strong>收錄哪些內容，會影響誰勝出。</strong>Walgrave 等人（2009）研究投票建議工具，模擬了 50 萬組不同的題目組合，發現不同組合會讓推薦結果偏向不同政黨。<a href="https://medialibrary.uantwerpen.be/oldcontent/container2608/files/Walgrave%20et%20al%202009%20-%20voting%20aid%20applications.pdf" target="_blank" rel="noopener noreferrer">原文</a>本站的「題目」就是查得到的公開政見，各候選人的資料量差距很大，所以開票頁會標出每人可評的則數，則數太少時提醒「資料不足」。</li>
+        <li><strong>寫得具體的政見比較容易被評價。</strong>有數字、期程的政見比一句話的政見容易判斷，讀者可能因此偏好寫得詳細的候選人。本站不替任何人補細節，這個影響無法完全消除。</li>
+        <li><strong>黨籍本身也是有用的資訊。</strong>Lupia（1994）發現，資訊不多的選民只要知道相關團體的立場，投票結果就和熟悉政策細節的選民相近。議員的黨團紀律也常比個人政見更能預測他上任後怎麼投票。本站開票後會揭曉黨籍；盲選是幫你檢查自己的判斷，不是要你忽略政黨。<a href="https://www.cambridge.org/core/journals/american-political-science-review/article/shortcuts-versus-encyclopedias-information-and-voting-behavior-in-california-insurance-reform-elections/75776D189E80711664254A02BC0573F4" target="_blank" rel="noopener noreferrer">原文</a></li>
+        <li><strong>與國內既有的投票建議工具不同。</strong>國內先前的 iVoter（中山大學劉正山等人）請候選人與政黨填寫議題問卷，再與選民的回答配對。本站則是由整理者蒐集公開資料，候選人沒有機會自行補充，因此更容易受資料多寡影響。<a href="https://www2.nsysu.edu.tw/politics/articles/LiuHong2013_iVoter會員素描.pdf" target="_blank" rel="noopener noreferrer">iVoter 相關研究</a></li>
+      </ul>
+      <p class="muted">以上文獻摘要依各論文的摘要或公開頁面整理；若有誤讀，歡迎<a href="#corrections">回報</a>。</p>
+    </section>
+
     <section id="changelog" class="card">
-      <h2>12. 更新紀錄</h2>
+      <h2>13. 更新紀錄</h2>
       <p class="muted">每次新增選區、更新資料、更正錯誤或調整規則，都記錄在這裡。日期為資料整理日。</p>
       <h3>2026-10-14</h3>
       <ul>
         <li>新增臺北市長，以及臺北市、新北市所有市議員選區（含平地、山地原住民選區），共 23 個選區。各選區候選人全數收錄；部分選區的 2026 年政見仍在補查中。</li>
         <li>閱讀頁改為全盲：不再依候選人分欄，所有內容不標示提出者、順序打亂；「2026 政見」「做過的事」分段呈現。</li>
         <li>候選人黨籍欄只寫中選會登記的政黨，不註記其他政黨的支持關係。</li>
+        <li>開票頁標示每位候選人可評的則數；可評則數過少時提醒「資料不足，分數僅供參考」，查無資料者顯示「無資料可評」。</li>
+        <li>新增第 12 節「設計依據」，整理本站設計所參考的國內外研究與仍有的風險。</li>
         <li>過去政見與達成狀況移到開票後才顯示，列在各候選人認同度下方作為參考，只列件數，不列入配對分數。</li>
       </ul>
       <h3>2026-10-13 · 第一版</h3>

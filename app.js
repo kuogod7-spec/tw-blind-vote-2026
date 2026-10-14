@@ -24,6 +24,9 @@
   // 長期建設不以一任四年為標準，改用長期規劃指標
   const FEAS_ASPECTS_LONG = [["authority", "權責"], ["maturity", "規劃成熟度"], ["financing", "財務規劃"], ["schedule", "期程合理性"]];
   const FEASIBILITY = window.FEASIBILITY || {};
+  // 可評則數低於此值時提醒資料不足；題目多寡會影響配對結果（見方法說明「設計依據」）
+  const THIN_DATA = 5;
+  const FEW_RATED = 3;
   const WEIGHTS = [
     { value: 0, label: "不在意" },
     { value: 1, label: "普通" },
@@ -348,7 +351,7 @@
     const revealed = !!state.revealed[race.id];
     const rows = cands
       .map((c) => ({ c, s: score(c) }))
-      .sort((a, b) => (b.s.pct ?? -1) - (a.s.pct ?? -1));
+      .sort((a, b) => (b.s.pct ?? -1) - (a.s.pct ?? -1) || b.s.total - a.s.total);
     const anyRated = rows.some((r) => r.s.rated);
 
     return `
@@ -356,7 +359,7 @@
       ${raceNote(race)}
       ${anyRated ? "" : `<p class="notice">你還沒有評分任何政見。<button class="link" data-action="go" data-step="browse">回去閱讀政見</button></p>`}
       ${race.seats > 1 ? `<p class="notice">這個選區應選 ${race.seats} 席，但每位選民只能投 1 票。排名第一的是最符合你想法的候選人。</p>` : ""}
-      <p class="muted">「認同度」是你對該候選人 2026 政見與做過的事的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。下方「過去政見與達成狀況」是開票後才提供的參考，不算分、不影響排名：認同度高的人過去做到多少，由你自己權衡。評分越多則結果越可靠。</p>
+      <p class="muted">「認同度」是你對該候選人 2026 政見與做過的事的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。下方「過去政見與達成狀況」是開票後才提供的參考，不算分、不影響排名：認同度高的人過去做到多少，由你自己權衡。評分越多則結果越可靠。各候選人可評的則數不同，這是因為公開資料多寡不同；則數少的人分數容易被少數幾則左右，請一併參考。</p>
       <div class="results">
         ${rows.map(({ c, s }, i) => `
           <section class="card result ${i === 0 && s.pct != null ? "top" : ""}">
@@ -364,10 +367,12 @@
               <span class="rank">${s.pct == null ? "–" : `#${i + 1}`}</span>
               <h3 class="cand-tag">${tag(c)}</h3>
               ${i === 0 && s.pct != null ? `<span class="best-stamp">最合你意</span>` : ""}
-              <span class="pct">${s.pct == null ? "尚未評分" : `認同度 ${s.pct}`}</span>
+              <span class="pct">${!s.total ? "無資料可評" : s.pct == null ? "尚未評分" : `認同度 ${s.pct}`}</span>
             </div>
             <div class="bar big"><span style="width:${s.pct ?? 0}%"></span></div>
-            <p class="muted">已評 ${s.rated} / ${s.total} 則</p>
+            <p class="muted">可評 ${s.total} 則・已評 ${s.rated} 則
+              ${s.total && s.total < THIN_DATA ? `<span class="warn">資料不足，分數僅供參考</span>` : ""}
+              ${s.pct != null && s.rated < FEW_RATED ? `<span class="warn">評分太少，分數不穩定</span>` : ""}</p>
             ${Object.keys(s.byTopic).length ? `
               <ul class="breakdown">
                 ${Object.entries(s.byTopic).map(([t, v]) => `
