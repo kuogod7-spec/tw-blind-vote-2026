@@ -11,6 +11,8 @@
  * 報導者觀測站列出的提案多為多位議員共同提出，因此寫「參與提案」。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 已知缺漏：第二輪補查（2026-10-14）後，何恕懷、黃啟彬仍查無可收錄資料；多數現任議員的 2026 年政見未見於新聞報導。
+ * 第三輪補查（2026-10-14）：陳宥丞補上政黨候選人介紹頁政見，陳又新、何恕懷補上報導中的政見；黃啟彬仍查無資料，
+ *   其他現任者 2026 年政見仍未查得。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-02",
@@ -696,7 +698,152 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "增設夜間與假日臨時托育",
+          "detail": "活化老舊校舍閒置空間設置公共托育",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "welfare",
+          "title": "托育監視器影像雲端備援，提升教保員薪資",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "environment",
+          "title": "遊戲場加裝遮陽降溫設施，公園嚴格落實禁菸",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "housing",
+          "title": "社宅輪候制改為一次選填",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "housing",
+          "title": "聯合開發宅不出售，優先作為都更中繼住宅",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "housing",
+          "title": "都更設專人輔導，擴大老屋電梯與管線修繕補助",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "housing",
+          "title": "加碼育兒家庭租金補貼",
+          "detail": "並補助社區外牆修繕與充電樁安全檢查",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "economy",
+          "title": "補助傳統市場轉型符合法規",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "education",
+          "title": "校園增設風雨球場",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "welfare",
+          "title": "擴充公辦早療據點與療育課程，提高早療人員待遇",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "welfare",
+          "title": "增設負壓吸菸室，心理衛教推廣至校園與里鄰",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "safety",
+          "title": "簡化詐騙通報流程，市有場館售票實施實名制",
+          "detail": "遏止黃牛",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "safety",
+          "title": "補助採購毒品快篩試劑，高風險區加強防毒",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "environment",
+          "title": "整合動物救援夜間醫療，定期清除公園外來種",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "welfare",
+          "title": "敬老卡點數擴大用於看診、運動與休閒",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "welfare",
+          "title": "普設長輩肌力訓練據點",
+          "detail": "預防肌少症與跌倒",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "welfare",
+          "title": "健康存摺 APP 導入 AI",
+          "detail": "整理醫囑並遠距提醒家屬",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "transport",
+          "title": "專案改善內湖成功園環路型",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取捷運信義線東延至南港公園與中研院",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "transport",
+          "title": "更新內湖、南港聯外橋梁與人行環境，改善河濱自行車道",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "transport",
+          "title": "導入歐規清晰路牌，簡化交通標誌",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "education",
+          "title": "完善校園投訴分流機制",
+          "detail": "保障師生權益",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "education",
+          "title": "調降師生比，提高鐘點費與首都加給",
+          "detail": "並建立家長緊急聯繫管道",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        },
+        {
+          "topic": "education",
+          "title": "校園巡迴推廣媒體識讀、防霸凌與性平教育",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=172"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -784,7 +931,14 @@ window.ELECTION_DATA.races.push({
         "party": "新黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "運用 AI 與科技改善市區交通壅塞",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5560782"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -895,7 +1049,38 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "評估在內湖既有橋梁增建雙層橋",
+          "detail": "增加道路容量；本人表示經費高、技術難度大、工期長，列為長期方案討論",
+          "source": "https://cnews.com.tw/262170527a02/"
+        },
+        {
+          "topic": "housing",
+          "title": "評估以稅務或租屋補助鼓勵內湖企業員工就近居住",
+          "detail": "減少跨區通勤車流",
+          "source": "https://cnews.com.tw/262170527a02/"
+        },
+        {
+          "topic": "education",
+          "title": "增加技職實作、企業體驗、產學合作與生涯探索課程資源",
+          "detail": "",
+          "source": "https://cnews.com.tw/262170527a02/"
+        },
+        {
+          "topic": "education",
+          "title": "國小、國中階段導入生涯探索、心理測驗與實作課程",
+          "detail": "",
+          "source": "https://cnews.com.tw/262170527a02/"
+        },
+        {
+          "topic": "education",
+          "title": "重視家政、美術、工藝課程，避免被主科借課",
+          "detail": "",
+          "source": "https://cnews.com.tw/262170527a02/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

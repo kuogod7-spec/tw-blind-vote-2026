@@ -8,6 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
  * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
+ * 第三輪補查（2026-10-14）：陳力新補上競選網站政見；譚傳紹仍查無可收錄資料。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -288,8 +289,57 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "以 AI 與數位工具盤點老城區閒置空間與人流",
+          "detail": "讓市民服務更即時、申辦更便民",
+          "source": "https://www.lishin.taipei/"
+        },
+        {
+          "topic": "economy",
+          "title": "建立青年就業與微型創業支持網",
+          "detail": "盤點共創空間、媒合資源與輔導",
+          "source": "https://www.lishin.taipei/"
+        },
+        {
+          "topic": "economy",
+          "title": "推動跨城市交流與國際資源連結",
+          "detail": "提升老城區長期競爭力",
+          "source": "https://www.lishin.taipei/"
+        },
+        {
+          "topic": "governance",
+          "title": "公開行程與問政資料供市民查詢",
+          "detail": "並承諾不收受政治獻金",
+          "source": "https://www.lishin.taipei/"
+        },
+        {
+          "topic": "safety",
+          "title": "盤點老舊街區人行道、路燈與無障礙環境",
+          "detail": "",
+          "source": "https://www.lishin.taipei/"
+        },
+        {
+          "topic": "welfare",
+          "title": "推動社區長照與托育服務",
+          "detail": "",
+          "source": "https://www.lishin.taipei/"
+        },
+        {
+          "topic": "economy",
+          "title": "串連在地店家與觀光動線",
+          "detail": "推動結合文化與科技的導覽體驗",
+          "source": "https://www.lishin.taipei/"
+        }
+      ],
+      "record": [
+        {
+          "topic": "economy",
+          "text": "海外創業並擔任國際企業負責人（本人說法）。",
+          "source": "https://www.lishin.taipei/about"
+        }
+      ],
       "past": []
     },
     {

@@ -10,6 +10,8 @@
  * 已知缺漏：第二輪補查（2026-10-14）後，除一位候選人外仍未查得 2026 年具體政見（新聞多為選情報導，候選人社群貼文無法直接讀取）。
  *   紀建漢補上 2022 年里長選舉公報政見；劉致妤補上自述經歷；陳彥廷、林揚庭、李文、林聖峰仍查無可收錄資料。
  *   紀建漢 2022 年里長連任結果未查得。政見為空不代表候選人沒有主張。
+ * 第三輪補查（2026-10-14）：黃瀞瑩補上政黨候選人介紹頁的政見，侯漢廷、劉致妤補上報導中的政見；其餘現任者 2026 年政見仍未查得，
+ *   陳彥廷、林揚庭、李文、林聖峰仍查無可收錄資料。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -494,7 +496,32 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "爭取輪狀病毒疫苗與腸病毒 71 型疫苗納入嬰幼兒公費疫苗",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
+        },
+        {
+          "topic": "transport",
+          "title": "擴充並改善孕婦接送專車服務",
+          "detail": "與叫車平台合作擴大服務量能，提升服務品質並強化申訴反映機制",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
+        },
+        {
+          "topic": "transport",
+          "title": "改善中央南路二段及中山站施工路段的人行空間",
+          "detail": "",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
+        },
+        {
+          "topic": "safety",
+          "title": "推動全齡交通教育",
+          "detail": "開設高齡者汽機車駕訓課程，降低高齡駕駛交通安全風險",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -520,6 +547,21 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "參與提案要求體育局公開大型室內體育館的資產清冊、保養維護紀錄與消防安全驗證報告。",
           "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/huang-ching-yin-taipei"
+        },
+        {
+          "topic": "housing",
+          "text": "促成市府持續興辦社會住宅，任內盤點新增 7,000 戶社宅潛力基地（本人說法）。",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
+        },
+        {
+          "topic": "welfare",
+          "text": "爭取孕婦唐氏症篩檢自 2025 年起增加非侵入性胎兒染色體檢測（NIPT）選項（本人說法）。",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
+        },
+        {
+          "topic": "governance",
+          "text": "曾任直轄市政府幕僚職務。",
+          "source": "https://www.tpp.org.tw/election2026/candidatedetail.php?cid=173"
         }
       ],
       "past": [
@@ -1157,7 +1199,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "關注長者照顧、兒童托育與弱勢家庭",
+          "detail": "以社工專業與基層服務經驗問政；未提出具體做法",
+          "source": "https://www.nownews.com/news/6872415"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1294,7 +1343,20 @@ window.ELECTION_DATA.races.push({
         "party": "新黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "以資源配置效率檢視市府補助與公共服務",
+          "detail": "檢視長照、社會住宅、兒童醫療補助、企業補助、公有場館與傳統市場營運的制度誘因，優先尋找不增加公帑的作法",
+          "source": "https://ctinews.com/news/items/14a12vdRxk"
+        },
+        {
+          "topic": "economy",
+          "title": "檢討市府對大型企業的節能設備與 ESG 輔導補助",
+          "detail": "認為大型企業本會自行汰換設備，補助未必增加節能效果",
+          "source": "https://ctinews.com/news/items/14a12vdRxk"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -1330,6 +1392,11 @@ window.ELECTION_DATA.races.push({
           "topic": "housing",
           "text": "推動對建商課徵囤房稅、社宅租金合理化、增設停車空間與纜線地下化（本人說法）。",
           "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/01臺北市/臺北市第01選舉區.pdf"
+        },
+        {
+          "topic": "economy",
+          "text": "調閱資料指出市府 ESG 輔導及節能設備補助對象包含跨國保險公司與金控等大型企業，最高補助 300 萬元。",
+          "source": "https://ctinews.com/news/items/14a12vdRxk"
         }
       ],
       "past": [

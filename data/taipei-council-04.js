@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 已知缺漏：第二輪補查（2026-10-14）後，朱政騏、熊羿、李易儒、林子揚、黃麗香仍查無 2026 年公開政見；
  *   李易儒補上 2022 年里長選舉公報政見，林子揚補上自述經歷。賴俊翰的政見取自 2026-01 媒體專訪（黨內初選前）。
+ * 第三輪補查（2026-10-14）：林子揚補上 1 則概括性政見，林珍羽補上 1 則問政紀錄；朱政騏、熊羿、黃麗香仍查無可收錄資料
+ *   （2018 年同選區有同名參選人黃麗香，未能確認為同一人，不收）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-04",
@@ -342,7 +344,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "建立全齡支持體系",
+          "detail": "照顧長輩、增加年輕世代機會，減輕青壯年照顧與經濟壓力；未提出具體做法",
+          "source": "https://cnews.com.tw/262170831a02/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -670,6 +679,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "領銜提案建請市府向中央爭取提高議員公費助理員額及補助上限。",
           "source": "https://lawmaker.twreporter.org/council/bill/taipei-33873"
+        },
+        {
+          "topic": "welfare",
+          "text": "質詢要求設置戶外吸菸室；市府其後除西門町外，也在中山區設置負壓吸菸室。",
+          "source": "https://udn.com/news/story/124652/9494120"
         }
       ],
       "past": [

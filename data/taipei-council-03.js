@@ -11,6 +11,7 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 已知缺漏：第二輪補查（2026-10-14）後，郭凡、左曉明、林柏勛、許原榮仍查無公開政見；李明璇僅查得 1 則；
  *   2022 年同選區有同名參選人林柏勛，但未找到來源確認為同一人，依規則不收其 2022 年參選紀錄。
+ * 第三輪補查（2026-10-14）：郭凡、許原榮補上報導中的經歷，仍無具體政見；左曉明、林柏勛仍查無可收錄資料。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-03",
@@ -247,7 +248,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任中央民意代表辦公室助理，負責外交事務。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5355250"
+        }
+      ]
     },
     {
       "id": "tpc3-5",
@@ -678,7 +685,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "擔任民意代表幕僚約 23 年，經歷地方議會與立法院，參與捷運延伸路線等交通建設事務（本人說法）。",
+          "source": "https://udn.com/news/story/124652/9367767"
+        }
+      ]
     }
   ]
 });

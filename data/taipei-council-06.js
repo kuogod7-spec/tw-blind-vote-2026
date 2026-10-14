@@ -8,6 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
  * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
+ * 第三輪補查（2026-10-14）：鍾沛君補上競選網站內容，游智彬補上 1 則；李道翔、李奇峯、張維學仍查無可收錄政見。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -381,7 +382,14 @@ window.ELECTION_DATA.races.push({
         "party": "新黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "推動鞭刑公投",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5560782"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -830,7 +838,38 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "檢討警察進入校園的規定",
+          "detail": "讓學生傷人等緊急情況時警方能及時介入；網站列於問政成果，未說明是否已完成",
+          "source": "https://voteforpei.oen.tw/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取市府提供教師法律諮詢與律師費用協助",
+          "detail": "網站列於問政成果，未說明是否已完成",
+          "source": "https://voteforpei.oen.tw/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取經費讓學校聘任法律顧問",
+          "detail": "網站列於問政成果，未說明是否已完成",
+          "source": "https://voteforpei.oen.tw/"
+        },
+        {
+          "topic": "welfare",
+          "title": "提高 65 歲以上市民預立醫療照護諮商補助",
+          "detail": "並開放敬老卡點數折抵",
+          "source": "https://voteforpei.oen.tw/"
+        },
+        {
+          "topic": "housing",
+          "title": "都更案件中長者及身障者比例較高者提高補助額度",
+          "detail": "",
+          "source": "https://voteforpei.oen.tw/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -856,6 +895,21 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "提案敬老卡增加溫泉泡湯文康福利。",
           "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-chun-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "揭露單一學生累積 109 次校安通報案件，爭取建立預警機制：一個月內發生兩次以上偏差行為即主動介入（本人說法）。",
+          "source": "https://voteforpei.oen.tw/"
+        },
+        {
+          "topic": "welfare",
+          "text": "每年三節探訪退舍老兵與獨居長輩，累計服務近 5,000 人次（本人說法）。",
+          "source": "https://voteforpei.oen.tw/"
+        },
+        {
+          "topic": "welfare",
+          "text": "爭取敬老卡點數可支付市立醫院掛號費（本人說法）。",
+          "source": "https://voteforpei.oen.tw/"
         }
       ],
       "past": [
