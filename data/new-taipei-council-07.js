@@ -9,6 +9,7 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站；2022 年得票率取自自由時報開票頁。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
+ * 2026-10-14 第三輪補查：政見欄空白的 2 位候選人中，1 位補經歷 4 則；2 位仍查無具體的 2026 年政見（候選人網站與競總成立報導只有服務理念，沒有政見條目），維持空白。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-07",
@@ -149,6 +150,26 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "現任里長，已擔任兩屆。",
           "source": "https://udn.com/news/story/124652/9501436"
+        },
+        {
+          "topic": "governance",
+          "text": "擔任里長期間曾獲績優里長表揚。",
+          "source": "https://udn.com/vote2026/story/124652/9501436"
+        },
+        {
+          "topic": "welfare",
+          "text": "擔任里長期間於 2019 年成立社區關懷據點，每週兩天辦理長者共餐；2023 年與醫院合作成立健康守護站，提供免費講座、失智檢測與量血壓（本人說法）。",
+          "source": "https://www.zencosmos.com.tw/2023/08/village/42824/"
+        },
+        {
+          "topic": "environment",
+          "text": "擔任里長期間設置資源回收站，居民送交回收物換取點數兌換生活用品，變賣所得作為國高中生獎學金（本人說法）。",
+          "source": "https://www.zencosmos.com.tw/2023/08/village/42824/"
+        },
+        {
+          "topic": "transport",
+          "text": "擔任里長期間向市府交通單位建議增設公車站與 YouBike 站點（本人說法；是否採納未查證）。",
+          "source": "https://www.zencosmos.com.tw/2023/08/village/42824/"
         }
       ],
       "past": [

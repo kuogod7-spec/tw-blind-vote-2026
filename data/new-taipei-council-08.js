@@ -9,6 +9,7 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（與 2022 年選舉公報內容相同）；提案數取自報導者觀測站；2022 年得票率取自自由時報開票頁。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
+ * 2026-10-14 第三輪補查：以 2026 年 5–7 月新聞報導（多為大型場館選址相關發言）補充 ntc8-2、ntc8-4、ntc8-7、ntc8-9、ntc8-11 的政見，並為 ntc8-2 補 2 則經歷（本人說法）；ntc8-1、ntc8-6、ntc8-8、ntc8-10、ntc8-12 仍查無具體 2026 年政見，維持空白。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-08",
@@ -95,12 +96,53 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "大型場館若設於樹林，先完成交通、道路與停車配套",
+          "detail": "周邊道路拓寬，浮洲橋評估改建或新增聯絡道路",
+          "source": "https://udn.com/news/story/7323/9517473"
+        },
+        {
+          "topic": "transport",
+          "title": "評估在俊英街設置簡易火車站分散活動人流",
+          "detail": "理由是捷運中運量系統僅四節車廂，難以負荷大型活動散場人潮",
+          "source": "https://udn.com/news/story/7323/9517473"
+        },
+        {
+          "topic": "governance",
+          "title": "看守所遷移後的土地及早規畫",
+          "detail": "可考慮作為大型體育館等公共建設",
+          "source": "https://udn.com/news/story/7323/9517473"
+        },
+        {
+          "topic": "economy",
+          "title": "推動大柑園產業園區，吸引 AI 與高科技產業",
+          "detail": "並帶動台 65 線延伸、三鶯二橋系統交流道等交通建設，也提到規劃世貿中心及都市計畫",
+          "source": "https://udn.com/news/story/7323/9608373"
+        },
+        {
+          "topic": "governance",
+          "title": "嚴格審查市政預算，爭取中央與地方建設資源",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/NewTaipei/breakingnews/5517289"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
           "text": "本屆提案 328 件，以衛生類（64 件）最多，其次為社會、教育、交通。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/liao-yi-kun-new-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "擔任民意代表期間累計處理逾 8000 件服務案件、提出逾 2000 件提案（本人說法）。",
+          "source": "https://udn.com/news/story/7323/9608373"
+        },
+        {
+          "topic": "transport",
+          "text": "列舉參與爭取的地方建設包括萬大中和樹林線捷運、大柑園產業園區推動、長壽公園地下停車場及育林國中資優班設立（本人說法）。",
+          "source": "https://udn.com/news/story/7323/9608373"
         },
         {
           "topic": "welfare",
@@ -218,7 +260,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "大型場館開發期間同步完成道路拓寬、電纜下地與交通疏導動線",
+          "detail": "在估計 8 至 10 年的開發與招商期程內完成",
+          "source": "https://udn.com/news/story/7323/9643114"
+        },
+        {
+          "topic": "environment",
+          "title": "場館周邊規畫大面積公園綠地與人行、休憩空間",
+          "detail": "並考量展演經濟與商圈發展，提升在地生活機能",
+          "source": "https://udn.com/news/story/7323/9643114"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -421,7 +476,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "大型場館開發若涉及土地取得或搬遷，市府應儘早辦地方說明會",
+          "detail": "建立住宅安置、工廠搬遷及補償配套",
+          "source": "https://udn.com/news/story/7323/9643114"
+        },
+        {
+          "topic": "economy",
+          "title": "加速推動大柑園、防洪三期及機五周邊都市計畫",
+          "detail": "結合捷運樹林線、台鐵及周邊交通建設帶動整體發展",
+          "source": "https://udn.com/news/story/7323/9643114"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -594,7 +662,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "大型場館周邊同步推動都市計畫及交通建設",
+          "detail": "帶動周邊觀光、餐飲、旅宿及商業發展；提到未來若高鐵在當地增設車站可進一步帶動人流",
+          "source": "https://udn.com/news/story/7323/9642985"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -752,7 +827,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "大型場館定案後，市府同步推動交通、都市計畫及城鄉規畫",
+          "detail": "帶動都市更新及周邊產業發展",
+          "source": "https://udn.com/news/story/7323/9642985"
+        }
+      ],
       "record": [
         {
           "topic": "transport",

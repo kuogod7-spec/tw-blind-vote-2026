@@ -8,6 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自 2022 年選舉公報或議會官網議員介紹頁；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 2026-10-14 第三輪補查：李倩萍、王威元、李余典補上報導中的 2026 年政見（王威元、李倩萍另補本人說法經歷）；李翁月娥、邱婷蔚補上問政紀錄，仍無 2026 年政見；黃桂蘭、董俊良、陳東雲、蔡政呈、許宏平、蕭告仍查無可收錄資料，維持空白。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  */
 window.ELECTION_DATA.races.push({
@@ -27,6 +28,16 @@ window.ELECTION_DATA.races.push({
       },
       "platforms": [],
       "record": [
+        {
+          "topic": "welfare",
+          "text": "2025 年 6 月質詢要求市府以專案推動蘆洲大型醫院用地開發；市府表示仍由城鄉局評估並與地主協商，未提出期程。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5086693"
+        },
+        {
+          "topic": "transport",
+          "text": "同次質詢要求以專案推動蘆洲往社子島的跨河橋梁；市府表示可行性評估採購預計 2025 年 7 月 10 日開標。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5086693"
+        },
         {
           "topic": "governance",
           "text": "本屆提案 60 件，以民政類（10 件）最多，其次為水利、教育（各 7 件）。",
@@ -436,8 +447,48 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "以交通建設加強與臺北市的連結",
+          "detail": "",
+          "source": "https://taiwanmagpie.com/2026/10/01/%E6%84%9F%E5%BF%B5%E9%84%89%E8%A6%AA%E7%9B%B8%E6%8C%BA%E3%80%80%E7%8E%8B%E5%A8%81%E5%85%83%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B%E9%9B%86%E7%B5%90%E8%BF%911800%E4%BA%BA%EF%BC%9A%E7%84%A1%E6%87%BC/"
+        },
+        {
+          "topic": "welfare",
+          "title": "以醫療與教育資源照顧家庭",
+          "detail": "",
+          "source": "https://taiwanmagpie.com/2026/10/01/%E6%84%9F%E5%BF%B5%E9%84%89%E8%A6%AA%E7%9B%B8%E6%8C%BA%E3%80%80%E7%8E%8B%E5%A8%81%E5%85%83%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B%E9%9B%86%E7%B5%90%E8%BF%911800%E4%BA%BA%EF%BC%9A%E7%84%A1%E6%87%BC/"
+        },
+        {
+          "topic": "housing",
+          "title": "以都市更新改善居住安全",
+          "detail": "",
+          "source": "https://taiwanmagpie.com/2026/10/01/%E6%84%9F%E5%BF%B5%E9%84%89%E8%A6%AA%E7%9B%B8%E6%8C%BA%E3%80%80%E7%8E%8B%E5%A8%81%E5%85%83%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B%E9%9B%86%E7%B5%90%E8%BF%911800%E4%BA%BA%EF%BC%9A%E7%84%A1%E6%87%BC/"
+        },
+        {
+          "topic": "education",
+          "title": "持續爭取在地教育資源，縮小與其他地區的差距",
+          "detail": "",
+          "source": "https://www.scooptw.com/cnews/531158/%E7%8E%8B%E5%A8%81%E5%85%83%E6%8B%9A%E9%80%A3%E4%BB%BB%E7%B9%B3%E4%BA%AE%E7%9C%BC%E6%88%90%E7%B8%BE%E5%96%AE%E3%80%80%E4%B8%89%E8%98%86%E5%AD%A9%E7%AB%A5%E5%9C%A8%E5%9C%B0%E5%B0%B1%E5%AD%B8%E6%AF%94/"
+        }
+      ],
       "record": [
+        {
+          "topic": "education",
+          "text": "完成 14 所學校的通學廊道（本人說法）。",
+          "source": "https://cnews.com.tw/248261002a02/"
+        },
+        {
+          "topic": "education",
+          "text": "表示三重、蘆洲孩童留在當地就學的比例已達 9 成（本人說法）。",
+          "source": "https://www.scooptw.com/cnews/531158/%E7%8E%8B%E5%A8%81%E5%85%83%E6%8B%9A%E9%80%A3%E4%BB%BB%E7%B9%B3%E4%BA%AE%E7%9C%BC%E6%88%90%E7%B8%BE%E5%96%AE%E3%80%80%E4%B8%89%E8%98%86%E5%AD%A9%E7%AB%A5%E5%9C%A8%E5%9C%B0%E5%B0%B1%E5%AD%B8%E6%AF%94/"
+        },
+        {
+          "topic": "welfare",
+          "text": "參與爭取三重銀髮照護園區開發案與市府長照專責機關設立（本人說法）。",
+          "source": "https://taiwanmagpie.com/2026/10/01/%E6%84%9F%E5%BF%B5%E9%84%89%E8%A6%AA%E7%9B%B8%E6%8C%BA%E3%80%80%E7%8E%8B%E5%A8%81%E5%85%83%E7%AB%B6%E7%B8%BD%E6%88%90%E7%AB%8B%E9%9B%86%E7%B5%90%E8%BF%911800%E4%BA%BA%EF%BC%9A%E7%84%A1%E6%87%BC/"
+        },
         {
           "topic": "education",
           "text": "本屆提案 158 件，以教育類（29 件）最多，其次為民政（16 件）、交通（14 件）。",
@@ -566,7 +617,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "持續監督三重地區重大建設",
+          "detail": "包括市府第二辦公區、第二總圖書館、市立醫院第三醫療大樓",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5509631"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -720,8 +778,55 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "社會住宅租金應貼近年輕人與弱勢家庭的負擔能力",
+          "detail": "批評現行以周邊市價打折計租，租金常達每月 2 至 3 萬元，月薪 3 萬餘元的年輕人與弱勢家庭難以負擔",
+          "source": "https://www.ctwant.com/article/499776/"
+        },
+        {
+          "topic": "welfare",
+          "title": "優先增加失智、失能者照顧資源",
+          "detail": "",
+          "source": "https://www.ctwant.com/article/499776/"
+        },
+        {
+          "topic": "welfare",
+          "title": "反對三重銀髮照護園區開發案以 BOT 方式辦理",
+          "detail": "理由是民間經營須考量獲利，可能偏重健康或亞健康長者，而非最需要照顧的人",
+          "source": "https://www.ctwant.com/article/499776/"
+        },
+        {
+          "topic": "education",
+          "title": "建立支持第一線教師的完整機制",
+          "detail": "呼籲中央與地方合作，處理親師衝突、行政負擔過重、融合教育配套不足（如特教助理員時數用完後由導師獨力承擔）等問題",
+          "source": "https://www.ctwant.com/article/499776/"
+        },
+        {
+          "topic": "education",
+          "title": "持續監督第二總圖書館興建完成",
+          "detail": "",
+          "source": "https://www.ctwant.com/article/499774/"
+        },
+        {
+          "topic": "education",
+          "title": "推動雙語環境與 AI 教育",
+          "detail": "",
+          "source": "https://www.ctwant.com/article/499774/"
+        }
+      ],
       "record": [
+        {
+          "topic": "education",
+          "text": "爭取三重第二總圖書館改建，經費由 30 億元增至 40 億元（本人說法）。",
+          "source": "https://www.ctwant.com/article/499774/"
+        },
+        {
+          "topic": "environment",
+          "text": "爭取興建或改造十多座特色公園（本人說法）。",
+          "source": "https://www.ctwant.com/article/499774/"
+        },
         {
           "topic": "welfare",
           "text": "本屆提案 162 件，以衛生類（36 件）最多，其次為教育（29 件）、社會（24 件）。",
@@ -1067,6 +1172,11 @@ window.ELECTION_DATA.races.push({
       },
       "platforms": [],
       "record": [
+        {
+          "topic": "welfare",
+          "text": "2024 年 8 月要求市府取消「家長以入托幼兒申請育嬰留職停薪即不符公共托育報名資格」的規定，比照中央公告與其他直轄市。",
+          "source": "https://cnews.com.tw/247240822a01/"
+        },
         {
           "topic": "welfare",
           "text": "本屆提案 112 件，以衛生類（31 件）最多，其次為社會（25 件）、敬老卡福利（13 件）。",

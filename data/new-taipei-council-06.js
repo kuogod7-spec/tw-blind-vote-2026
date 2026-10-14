@@ -5,6 +5,7 @@
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 2026-10-14 第三輪補查：再以新聞報導搜尋政見欄空白的 5 位候選人，僅為其中 1 位補經歷 2 則；5 位仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。另有同名里長，但無來源確認與無黨籍參選人為同一人，未收。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-06",
@@ -332,6 +333,16 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "質詢建議 YouBike 前 30 分鐘全免費並詢問電輔車引進時程；交通局表示年底前引進第一波 2,000 輛電輔車。",
           "source": "https://news.ltn.com.tw/news/life/breakingnews/4673983"
+        },
+        {
+          "topic": "welfare",
+          "text": "2024 年質詢建議將使用 40 多年的藝文特區建物拆除重建為第二國民運動中心；體育局現勘後認為基地面積不太足夠，運動中心後來另行選址。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/4687150"
+        },
+        {
+          "topic": "welfare",
+          "text": "第二國民運動中心選址確定後，建議其設施除泳池、羽球館外應與第一運動中心區隔，補足缺乏的運動項目。",
+          "source": "https://udn.com/news/story/7323/9068748"
         }
       ],
       "past": [

@@ -11,6 +11,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 2026-10-14 第三輪補查：以新聞報導補充 ntc11-4（施工路段號誌政見 1 則、幕僚經歷 1 則）、ntc11-6（政見 3 則）、ntc11-7（施工交維政見 1 則）的 2026 年資料；
+ *   ntc11-8 仍查無 2026 年政見與可確認為同一人的經歷，政見欄維持空白。ntc11-7 的報導多為表態與輔選發言，僅收具體主張。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-11",
@@ -246,12 +248,24 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "捷運施工圍籬縮減路幅路段優化號誌系統",
+          "detail": "大同路、新台五路路口依即時車流彈性調整號誌秒數",
+          "source": "https://udn.com/news/story/7323/9579844"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
           "text": "擔任政治幕僚十餘年，經歷中央與地方、行政與立法部門（推薦人說法，未獨立查證）。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5595032"
+        },
+        {
+          "topic": "governance",
+          "text": "曾任中央部會首長辦公室幕僚、中央民意代表國會辦公室主任、政治團體所屬基金會執行長。",
+          "source": "https://tw.news.yahoo.com/%E6%8E%A5%E6%A3%92%E5%85%AD%E9%80%A3%E9%9C%B8%E8%AD%B0%E5%93%A1-%E8%94%A1%E7%BE%8E%E8%8F%AF%E6%88%90%E7%AB%8B%E8%81%AF%E5%90%88%E7%AB%B6%E7%B8%BD-%E8%98%87%E5%B7%A7%E6%85%A7-%E4%BD%99%E5%A4%A9%E5%88%B0%E5%A0%B4-062526746.html"
         }
       ],
       "past": []
@@ -287,7 +301,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "持續督促已動工的捷運汐東線至通車",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5589692"
+        },
+        {
+          "topic": "transport",
+          "title": "道路銜接工程依進度推動",
+          "detail": "康寧街銜接同興路工程",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5589692"
+        },
+        {
+          "topic": "environment",
+          "title": "排水防洪、學校建設與公園優化依進度推動",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5589692"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -389,7 +422,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "捷運施工期間即時公開施工資訊，滾動檢討交通維持計畫",
+          "detail": "要求降低施工衝擊並確保用路人安全空間",
+          "source": "https://udn.com/news/story/7323/9579414"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

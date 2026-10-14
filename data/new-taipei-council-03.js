@@ -6,6 +6,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 2026-10-14 第三輪補查：以新聞報導補充 2 位現任者的 2026 年政見各 1 則（其中 1 位另補經歷 1 則）；2 位無黨籍參選人仍查無具體政見或可查證經歷，維持空白，待選舉公報發布後補齊。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-03",
@@ -291,7 +292,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "監督第二國民運動中心與現代化市場用地開發",
+          "detail": "南新莊文教用地興建第二國民運動中心並共構停車場，北新莊文教用地規劃現代化零售市場與社會福利設施；表示將持續監督進度如期如質完成。未提出期程與預算",
+          "source": "https://www.scooptw.com/cnews/484827/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -312,6 +320,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "提案建請市府督促高中職以下學校加強性別平等教育。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/chiang-ken-huang-new-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "多年在議會爭取南新莊第二國民運動中心；市府於 2026 年 6 月完成兩處文教用地都市計畫變更程序，納入運動中心規劃（爭取經過為本人說法）。",
+          "source": "https://www.scooptw.com/cnews/484827/"
         }
       ],
       "past": [
@@ -383,7 +396,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "快速道路新增出口匝道納入汽機車分流",
+          "detail": "主張新設南下第二出口匝道在設計時納入汽機車分流措施，減少下橋車輛與直行機車交織；並持續監督工程進度、向中央及工程單位反映民眾意見",
+          "source": "https://udn.com/news/story/7266/9608118"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
