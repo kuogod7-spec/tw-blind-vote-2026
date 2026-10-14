@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>方法與資料說明 · 盲選政見比較</title>
+  <meta name="description" content="盲選政見比較的候選人收錄、政見整理、去識別化、可行性評估、計分方式、資料來源標準與已知限制。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="stamp logo-stamp" aria-label="回到首頁"></a>
+      <div class="header-text">
+        <p class="eyebrow">2026 地方選舉</p>
+        <p class="brand"><a href="index.html" class="brand-link">盲選政見比較</a></p>
+        <p class="tagline">方法與資料說明</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap doc">
+    <nav class="toc card" aria-label="目錄">
+      <h1>方法與資料說明</h1>
+      <p class="muted">這一頁公開本站所有的收錄規則、評估標準與已知限制，讓任何人都能檢驗我們是否公平。最後更新：<span data-stat="updated"></span>。</p>
+      <ol>
+        <li><a href="#principles">基本原則</a></li>
+        <li><a href="#candidates">候選人收錄標準</a></li>
+        <li><a href="#platforms">政見與經歷的收錄標準</a></li>
+        <li><a href="#deid">去識別化規則</a></li>
+        <li><a href="#past">過去職位與政見兌現</a></li>
+        <li><a href="#feasibility">可行性評估</a></li>
+        <li><a href="#scoring">配對計分方式</a></li>
+        <li><a href="#ai">AI 協助的範圍</a></li>
+        <li><a href="#limits">資料限制</a></li>
+        <li><a href="#stats">資料統計</a></li>
+        <li><a href="#corrections">更正與聯絡</a></li>
+      </ol>
+    </nav>
+
+    <section id="principles" class="card">
+      <h2>1. 基本原則</h2>
+      <ul>
+        <li><strong>同一套規則適用所有候選人。</strong>本頁每一條規則對每位候選人一體適用，沒有例外條款。</li>
+        <li><strong>只呈現，不補充。</strong>候選人沒說的細節（經費、期程、做法），我們不替任何人補上；說得少就顯示得少。</li>
+        <li><strong>每一則都有出處。</strong>政見、經歷、兌現狀態、可行性評估都附資料來源網址。</li>
+        <li><strong>不推薦任何人。</strong>本站不告訴你該投給誰。配對分數完全由<em>你自己</em>的評分算出。</li>
+        <li><strong>你的資料不離開你的裝置。</strong>評分只存在你的瀏覽器（localStorage），本站沒有伺服器端資料庫，也沒有安裝任何追蹤或分析工具。</li>
+      </ul>
+    </section>
+
+    <section id="candidates" class="card">
+      <h2>2. 候選人收錄標準</h2>
+      <ul>
+        <li>收錄<strong>所有</strong>依法完成登記的候選人，以中央選舉委員會公告的名單為準。</li>
+        <li><strong>不依民調、政黨規模、知名度或當選機會篩選</strong>。無黨籍及小黨候選人與主要政黨候選人用同樣的版面、同樣的規則呈現。</li>
+        <li>候選人在網站上以隨機字母（A、B、C…）代稱，<strong>代號與排列順序每位使用者都是隨機產生</strong>，與登記號次、姓名筆畫、政黨無關。</li>
+        <li>號次在中選會抽籤後補上，只在使用者主動「開票揭曉」後顯示。</li>
+        <li><strong>查不到資料的候選人也照樣收錄。</strong>網站會明確標示「查無公開政見」，並說明這代表我們找不到公開資料，不代表候選人沒有主張。</li>
+        <li>議員選區應選多席，但每位選民只能投一票；網站會在結果頁提醒。</li>
+      </ul>
+    </section>
+
+    <section id="platforms" class="card">
+      <h2>3. 政見與經歷的收錄標準</h2>
+      <h3>來源優先順序</h3>
+      <ol>
+        <li>中選會選舉公報</li>
+        <li>候選人官方網站、官方社群帳號公布的政見</li>
+        <li>主要新聞媒體對政見發表的報導（例如中央社、公視、聯合報、自由時報、中國時報等）</li>
+      </ol>
+      <p>同一則政見有多個來源時，優先引用順位高者。我們刻意<strong>同時引用不同立場的媒體</strong>，避免只依賴特定媒體。</p>
+
+      <h3>收錄條件</h3>
+      <ul>
+        <li>必須是候選人<strong>本人或競選團隊正式提出</strong>的主張；評論者、支持者或對手的轉述不收錄。</li>
+        <li>必須是<strong>具體作為</strong>（要做什麼），單純的口號、願景、對他人的批評不收錄。</li>
+        <li>尚在研議、非正式的說法若收錄，會在內容中註明「研議」或「尚非正式政見」。</li>
+        <li>資料截止日以頁面上的「最後更新」為準，之後新提出的政見會在下次更新加入。</li>
+      </ul>
+
+      <h3>「做過的事」</h3>
+      <ul>
+        <li>只收錄可查證的具體作為（推動的法案、完成的工程、擔任的職務），不收錄頭銜本身。</li>
+        <li>只有候選人自述、找不到獨立來源查證的項目，一律標註<strong>「本人說法」</strong>。</li>
+      </ul>
+
+      <h3>身分無法確認時不收錄</h3>
+      <p>若查到的經歷只能「推斷」屬於某位候選人（例如同名同區，但沒有來源明確寫出是同一人），一律不收錄，寧可留空，也不把可能是別人的紀錄算到候選人身上。</p>
+
+      <h3>司法案件</h3>
+      <p>目前<strong>不收錄任何候選人的司法案件</strong>。原因是我們尚未對所有候選人做一致的系統性查詢；只收錄恰好查到的個案，會造成標準不一。若日後收錄，將對每位候選人以相同方式查詢，並清楚區分「已定讞」與「審理中」。</p>
+
+      <h3>議題分類</h3>
+      <p>每則內容歸入一個議題：<span data-stat="topics"></span>。跨議題的政見依其主要目的歸類，例如「以少子化為由」的主張歸入社福或育兒。</p>
+    </section>
+
+    <section id="deid" class="card">
+      <h2>4. 去識別化規則</h2>
+      <p>隱藏姓名只是第一步，文字本身也可能透露身分。我們對所有內容套用以下改寫規則：</p>
+      <ul>
+        <li>刪除候選人姓名、政黨名稱、其他政治人物名字、競選口號與品牌名稱。</li>
+        <li>統一句型：標題寫「做什麼」，說明寫「數字、期程、財源」，語氣一律中性，不保留原文的情緒性形容詞。</li>
+        <li>可辨識的頭銜改為職務層級描述，例如具體職稱改寫為「中央民意代表」「直轄市副首長」「地方政府工程主管」。</li>
+        <li>知名地標若會直接洩漏身分且與政見內容無關，改為一般描述（例如「大型室內體育館」）；與政見本身有關的地名則保留。</li>
+        <li><strong>資料來源網址在開票揭曉前不顯示</strong>，因為網址常含有候選人姓名或官網網域。揭曉後所有出處都能點開查證。</li>
+      </ul>
+      <p class="muted">改寫只調整措辭，不改變政見內容與數字。如果你認為某則改寫失真，歡迎<a href="#corrections">回報</a>。</p>
+    </section>
+
+    <section id="past" class="card">
+      <h2>5. 過去職位與政見兌現</h2>
+      <p>我們整理候選人過去職位的承諾，以及這些承諾後來的狀況。這部分<strong>只供參考，不列入配對分數</strong>。</p>
+      <h3>兌現狀態定義</h3>
+      <table class="def">
+        <tr><th>已達成</th><td>承諾事項已完成，且有公開資料證明。</td></tr>
+        <tr><th>部分達成</th><td>完成一部分，或完成但明顯晚於承諾時程。</td></tr>
+        <tr><th>進行中</th><td>已啟動但尚未完成。</td></tr>
+        <tr><th>未達成</th><td>期限已過未完成，或已確定不會執行。</td></tr>
+        <tr><th>無法查證</th><td>找不到可判斷完成與否的公開資料。</td></tr>
+        <tr><th>未當選・無從兌現</th><td>候選人當時未當選，沒有執行的機會。<strong>這不是負面評價。</strong></td></tr>
+      </table>
+      <h3>不同職位的處理方式</h3>
+      <ul>
+        <li><strong>民選職位</strong>：追蹤其競選時提出的政見（以選舉公報為主）。</li>
+        <li><strong>任命職位</strong>（例如副首長）：本人沒有競選政見。我們收錄其<strong>督導的首長政見</strong>（標註「首長政見，由其督導」）與<strong>本人公開宣示的目標</strong>（標註「本人宣示」），兩者分開標示。</li>
+        <li><strong>未當選的參選經歷</strong>：列出當時的政見與得票率，狀態標為「未當選・無從兌現」。</li>
+      </ul>
+      <h3>注意</h3>
+      <ul>
+        <li>「已達成」只表示事項完成，<strong>不代表是候選人個人的功勞</strong>；許多建設由中央與地方共同推動。</li>
+        <li>達成率、評鑑結果一律註明由誰公布；由候選人自己公布的數字會標示「本人自述」。市府整體的績效指標會標示「市府整體，非個人」。</li>
+      </ul>
+    </section>
+
+    <section id="feasibility" class="card">
+      <h2>6. 可行性評估</h2>
+      <h3>盲評流程</h3>
+      <ol>
+        <li>把所有候選人的政見匯出成一份清單，<strong>移除候選人代號並隨機打亂順序</strong>，每則只留下議題、標題與說明。</li>
+        <li>評估者只看到這份匿名清單，<strong>不知道每則政見屬於哪位候選人</strong>，也被要求不得查詢或推測提出者。</li>
+        <li>所有政見使用同一份書面評分標準（如下）。評估完成後才依對照表接回各候選人。</li>
+      </ol>
+
+      <h3>一般政見：三個面向</h3>
+      <table class="def">
+        <tr><th>權責</th><td><b>高</b>：屬地方自治事項，市府加市議會預算即可推動。<b>中</b>：需中央核定或補助、跨縣市協調。<b>低</b>：屬中央專屬權限（如民法、外交）或市府依法無權。</td></tr>
+        <tr><th>財源</th><td>估算經費（每年或總額），對照市府年度總歲出的比例，以及是否說明財源。<b>高</b>：經費小或財源明確。<b>中</b>：經費中等或財源未說明。<b>低</b>：經費龐大且無財源。</td></tr>
+        <tr><th>期程</th><td>一任四年內能否完成或看到成效；有無用地、環評等關卡；國內外有無先例。</td></tr>
+        <tr><th>總評</th><td><b>高</b>：三面向皆無重大障礙。<b>中</b>：有一項明顯但可克服的障礙。<b>低</b>：有根本障礙。<b>資訊不足</b>：政見太簡略無法評估。<strong>這是中性結論，不是負評。</strong></td></tr>
+      </table>
+
+      <h3>長期建設：改用長期規劃指標</h3>
+      <p>捷運、鐵路、大型場館、產業園區、大量社宅等需要多年興建的實體建設，本來就不可能在四年內完成。若用「一任四年」標準，這類政見幾乎一定拿低分，對提出長期建設的候選人不公平。因此這類政見<strong>不以四年為標準</strong>，改用：</p>
+      <table class="def">
+        <tr><th>權責</th><td>同一般政見。</td></tr>
+        <tr><th>規劃成熟度</th><td><b>高</b>：已核定或施工、招商中。<b>中</b>：已有正式可行性研究，或已列入政府計畫。<b>低</b>：僅有構想。並寫明目前所在階段。</td></tr>
+        <tr><th>財務規劃</th><td>是否有經費估算與財源機制（中央補助比例、自償率、土地開發、BOT、專款）。</td></tr>
+        <tr><th>期程合理性</th><td>候選人提出的期程，與同類工程的一般期程相比是否合理，並列出合理的預估期程。</td></tr>
+      </table>
+      <p>分類標準只看政見內容：<strong>需要多年興建的實體建設</strong>才歸入長期建設。目前歸入的政見：</p>
+      <ul data-stat="long-list"></ul>
+
+      <h3>議員政見：依議員職權判斷「權責」</h3>
+      <p>議員沒有行政權，職權是審議自治條例與預算、質詢監督、爭取建設。多數議員政見本質上是「爭取市府去做」，因此議員政見的「權責」依議員職權判斷：</p>
+      <table class="def">
+        <tr><th>高</th><td>議員憑自身職權就能完成，例如提出自治條例、預算審議、質詢監督、公開自身資訊。</td></tr>
+        <tr><th>中</th><td>需要市府採納並執行，例如爭取建設、要求增設設施。<strong>這是議員政見的常態，本身不算障礙</strong>，不會因此拉低總評。</td></tr>
+        <tr><th>低</th><td>屬中央權限，或超出地方政府權責。</td></tr>
+      </table>
+      <p>財源、期程與長期建設的判斷方式和市長政見相同。議員政見同樣採盲評。</p>
+
+      <h3>使用評估時請注意</h3>
+      <ul>
+        <li>這是本站依上述標準整理的評估，<strong>不是專家意見</strong>，經費多為粗估，並註明估算依據。</li>
+        <li>「可行性低」不代表政見不好，「可行性高」也不代表政見值得支持。可行性只是你判斷時的參考之一，<strong>不列入配對分數</strong>。</li>
+        <li>內容越具體的政見越容易評估；內容簡略的政見會得到「資訊不足」。</li>
+      </ul>
+    </section>
+
+    <section id="scoring" class="card">
+      <h2>7. 配對計分方式</h2>
+      <p>配對分數完全由你自己的評分算出，本站沒有任何加權或調整：</p>
+      <ol>
+        <li>你對每則政見或經歷選擇「認同 +1」「普通 0」「不認同 −1」，未評分的不計入。</li>
+        <li>每則乘上你設定的議題重要度（不在意 0、普通 1、重要 2、非常重要 3）。</li>
+        <li>分數 = 加權後的平均，從 −1 到 +1 換算成 0 到 100 分。</li>
+      </ol>
+      <p class="formula">分數 = ( Σ 重要度 × 評分 ÷ Σ 重要度 + 1 ) × 50</p>
+      <p><strong>不列入計分的項目：</strong>過去政見兌現、可行性評估。這兩者是我們整理的資訊，為了避免本站的判斷影響你的結果，只供參考。</p>
+      <p class="muted">評分越少，分數越不穩定。例如只評了一則「認同」就會得到 100 分。建議每位候選人都多評幾則再看結果。</p>
+    </section>
+
+    <section id="ai" class="card">
+      <h2>8. AI 協助的範圍</h2>
+      <p>為了公開透明，我們說明哪些工作使用了 AI（大型語言模型）：</p>
+      <ul>
+        <li><strong>資料蒐集</strong>：搜尋並摘要候選人政見、經歷、過去政見的兌現資料。每則都要求附上實際讀過的來源網址。</li>
+        <li><strong>去識別化改寫</strong>：依第 4 節的規則改寫措辭。</li>
+        <li><strong>可行性評估</strong>：依第 6 節的書面標準，在匿名狀態下評估。</li>
+        <li><strong>網站程式</strong>。</li>
+      </ul>
+      <p>AI 可能誤讀資料或引用錯誤的數字。因此所有內容都附來源，任何人都能點開核對。<span class="todo">人工抽查：請在此說明人工覆核的範圍與人員。</span></p>
+    </section>
+
+    <section id="limits" class="card">
+      <h2>9. 資料限制</h2>
+      <p>我們盡力做到公平，但以下限制是真實存在的，請你在使用時一併考量：</p>
+      <ul>
+        <li><strong>政見並不完整。</strong>只收錄截至更新日、我們找得到的公開政見；部分官網頁面或報導無法讀取，因此未收錄。</li>
+        <li><strong>各候選人公布的資訊量本來就不同。</strong>有人提出數十項附數字的政見，有人只有少數幾項原則性主張。我們照實呈現，不補不刪，所以各候選人的則數不同。</li>
+        <li><strong>匿名無法做到百分之百。</strong>知名的招牌政見或特殊經歷，即使改寫後仍可能被認出來。</li>
+        <li><strong>候選人背景不同，可比較的紀錄也不同。</strong>民選經歷者有競選政見可追蹤，任命職經歷者沒有個人政見，從未當選者沒有兌現紀錄。三者的資料性質不同，不宜直接比較數量。</li>
+        <li><strong>部分「做過的事」只有本人說法</strong>，已標註，但無法排除誇大的可能。</li>
+        <li><strong>議員候選人的資料落差特別大。</strong>2026 年選舉公報尚未發布，多數議員候選人沒有完整的政見文件；我們從新聞、社群貼文、議會官網整理，部分候選人只查到方向性的主張，或完全查不到。公報發布後會更新。</li>
+        <li><strong>現任議員的提案數有限制。</strong>擔任議會領導職務者依慣例很少個人提案，提案數不宜跨人直接比較，已在該候選人的紀錄中註明。</li>
+        <li><strong>部分選舉公報已無法取得</strong>（原始連結失效），相關年度的政見因此未收錄，已在該候選人的紀錄中註明。</li>
+        <li><strong>預算基準年度不一。</strong>可行性評估引用的市府總預算有 115 年度與 116 年度兩種，評估理由中已寫明年度。</li>
+        <li><strong>評估標準本身有取捨。</strong>例如「權責」面向會讓需要中央配合的政見分數較低，即使那是值得爭取的方向。我們公開標準，讓你自行判斷是否同意。</li>
+        <li><strong>技術上可以看到答案。</strong>候選人身分存在網頁的資料檔中，懂技術的人看原始碼就能看到。本站的目的是幫助你「自己」不帶成見，而不是防止刻意查看。</li>
+      </ul>
+    </section>
+
+    <section id="stats" class="card">
+      <h2>10. 資料統計</h2>
+      <p class="muted">以下數字由網頁直接從資料檔即時計算，不是手寫。為了不破壞盲選，這裡只列總數與範圍，不列各候選人的明細。</p>
+      <div data-stat="table"></div>
+    </section>
+
+    <section id="corrections" class="card">
+      <h2>11. 更正與聯絡</h2>
+      <ul>
+        <li>如果你發現資料錯誤、改寫失真，或認為某項評估不公平，歡迎提供<strong>附來源</strong>的更正。</li>
+        <li>任何候選人陣營提出的更正，都適用與一般讀者相同的標準：必須附公開來源，且只更正事實，不調整措辭立場。</li>
+        <li>所有更正都會記錄在更新紀錄中。</li>
+      </ul>
+      <p class="todo">製作者、經費來源與聯絡方式：請在此填寫（例如：由個人志願製作，未接受任何政黨、候選人或其關係團體的委託與資助；聯絡信箱／GitHub Issues 連結）。</p>
+    </section>
+
+    <p class="back"><a href="index.html" class="primary">← 回到盲選比較</a></p>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>圈選章圖示：<a href="https://commons.wikimedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>（公有領域）。</p>
+  </footer>
+
+  <script src="data/new-taipei.js"></script>
+  <script src="data/new-taipei-council-03.js"></script>
+  <script src="data/new-taipei-council-06.js"></script>
+  <script src="data/new-taipei-feasibility.js"></script>
+  <script>
+    // 由資料檔即時計算統計數字，確保說明頁與實際資料一致
+    (() => {
+      const D = window.ELECTION_DATA, F = window.FEASIBILITY || {};
+      const $ = (k) => document.querySelector(`[data-stat="${k}"]`);
+      const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+      const LV = { high: "高", medium: "中", low: "低", unclear: "資訊不足" };
+
+      $("updated").textContent = D.meta.updated;
+      $("topics").textContent = D.topics.map((t) => t.label).join("、");
+
+      const longItems = [];
+      const rows = D.races.map((race) => {
+        const cs = race.candidates;
+        const plat = cs.map((c) => c.platforms.length);
+        const rec = cs.map((c) => c.record.length);
+        const past = cs.map((c) => (c.past || []).reduce((n, r) => n + r.promises.length, 0));
+        const all = cs.flatMap((c) => [...c.platforms, ...c.record, ...(c.past || []).flatMap((r) => r.promises)]);
+        const withSrc = all.filter((x) => x.source).length;
+        const self = cs.flatMap((c) => c.record).filter((r) => /本人說法/.test(r.text)).length;
+        const feas = {};
+        let feasN = 0;
+        cs.forEach((c) => c.platforms.forEach((p, i) => {
+          const f = F[`${c.id}-p${i}`];
+          if (!f) return;
+          feasN++;
+          feas[f.level] = (feas[f.level] || 0) + 1;
+          if (f.track === "long") longItems.push(`${race.region}${race.office}：${p.title}`);
+        }));
+        const range = (a) => `${a.reduce((x, y) => x + y, 0)}（每人 ${Math.min(...a)}–${Math.max(...a)}）`;
+        return `
+          <h3>${esc(race.region)} ${esc(race.office)}</h3>
+          <table class="def">
+            <tr><th>候選人</th><td>${cs.length} 位（全數收錄）</td></tr>
+            <tr><th>政見</th><td>${range(plat)} 則</td></tr>
+            <tr><th>做過的事</th><td>${range(rec)} 則，其中 ${self} 則標註「本人說法」</td></tr>
+            <tr><th>過去政見</th><td>${range(past)} 則</td></tr>
+            <tr><th>附資料來源</th><td>${withSrc} / ${all.length} 則</td></tr>
+            <tr><th>可行性評估</th><td>${feasN} / ${plat.reduce((x, y) => x + y, 0)} 則政見已評估；總評分布：${
+              Object.keys(LV).filter((k) => feas[k]).map((k) => `${LV[k]} ${feas[k]}`).join("、") || "—"}</td></tr>
+          </table>`;
+      });
+      $("table").innerHTML = rows.join("");
+      $("long-list").innerHTML = longItems.length
+        ? longItems.map((t) => `<li>${esc(t)}</li>`).join("")
+        : "<li>（尚無）</li>";
+    })();
+  </script>
+</body>
+</html>
