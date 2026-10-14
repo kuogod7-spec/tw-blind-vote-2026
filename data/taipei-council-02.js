@@ -10,6 +10,7 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年政見）或選舉公報；提案數取自報導者觀測站。
  * 報導者觀測站列出的提案多為多位議員共同提出，因此寫「參與提案」。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 已知缺漏：第二輪補查（2026-10-14）後，何恕懷、黃啟彬仍查無可收錄資料；多數現任議員的 2026 年政見未見於新聞報導。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-02",
@@ -17,7 +18,7 @@ window.ELECTION_DATA.races.push({
   "office": "第 2 選區市議員",
   "area": "內湖區、南港區",
   "seats": 9,
-  "note": "議員政見整理自候選人公開資料、議會官網、選舉公報與新聞報導（截至 2026-10-14）。2026 年選舉公報尚未發布，本次整理未查得任何候選人具體的 2026 年政見，各人資料多寡差異很大，這裡照實呈現。",
+  "note": "議員政見整理自候選人公開資料、議會官網、選舉公報與新聞報導（截至 2026-10-14）。2026 年選舉公報尚未發布，多數候選人查無公開的 2026 年具體政見，各人資料多寡差異很大，這裡照實呈現。",
   "candidates": [
     {
       "id": "tpc2-1",
@@ -26,7 +27,44 @@ window.ELECTION_DATA.races.push({
         "party": "台灣基進",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "監督通學步道計畫確實達標，並實地檢驗施工品質",
+          "detail": "確保學童上下學安全",
+          "source": "https://taiwangogo.tw/wu-hsin-tai/"
+        },
+        {
+          "topic": "transport",
+          "title": "盤點醫療院所周邊通道，清除障礙、拓寬人行道、改善路口視距",
+          "detail": "",
+          "source": "https://taiwangogo.tw/wu-hsin-tai/"
+        },
+        {
+          "topic": "housing",
+          "title": "針對高風險建築設立單一協助窗口，主動進行結構鑑定與預防性補強",
+          "detail": "由市府主動介入",
+          "source": "https://taiwangogo.tw/wu-hsin-tai/"
+        },
+        {
+          "topic": "safety",
+          "title": "盤點轄區防空避難場所的日常維護管理",
+          "detail": "確保極端狀況下避難設施可正常運作",
+          "source": "https://taiwangogo.tw/wu-hsin-tai/"
+        },
+        {
+          "topic": "education",
+          "title": "推動設立臺北市第一所臺語實驗小學",
+          "detail": "",
+          "source": "https://taiwangogo.tw/wu-hsin-tai/"
+        },
+        {
+          "topic": "education",
+          "title": "地名英譯以本土語言優先，並為文化景點製作本土語言導覽資訊",
+          "detail": "建立本土語言的語言景觀",
+          "source": "https://taiwangogo.tw/wu-hsin-tai/"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -204,7 +242,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "在商圈、公園、交通節點與年輕人口多的社區設置智慧垃圾桶，取代傳統公共垃圾桶",
+          "detail": "落實使用者付費，並增設多元支付方式",
+          "source": "https://news.tvbs.com.tw/politics/3103824"
+        },
+        {
+          "topic": "environment",
+          "title": "市府同步設置智慧回收箱，回收玻璃、乾電池、塑膠可獲回饋點數",
+          "detail": "點數可折抵智慧垃圾桶使用費",
+          "source": "https://news.tvbs.com.tw/politics/3103824"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -215,7 +266,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "重建港墘橋或增設聯外橋梁",
+          "detail": "連接敬業三路與塔悠路、跨越基隆河，分擔成功橋廊道車流",
+          "source": "https://udn.com/news/story/124652/9573650"
+        },
+        {
+          "topic": "transport",
+          "title": "加速捷運東環段完工，並建立內科快速公車與接駁系統",
+          "detail": "內湖科技園區每日通勤人口近 20 萬人（本人說法）",
+          "source": "https://udn.com/news/story/124652/9573650"
+        },
+        {
+          "topic": "transport",
+          "title": "優化國道匝道與聯外道路，增設轉乘停車場（P+R）並導入智慧交通管理系統",
+          "detail": "另推動企業彈性上下班制度",
+          "source": "https://udn.com/news/story/124652/9573650"
+        },
+        {
+          "topic": "housing",
+          "title": "推動中南街再造更新與老舊建物整合",
+          "detail": "改善當地生活空間",
+          "source": "https://udn.com/news/story/124652/9521926"
+        },
+        {
+          "topic": "environment",
+          "title": "推動誠正國中前高鐵引道地下化，以公園綠地取代隔開社區與學校的高牆",
+          "detail": "主張東區門戶計畫應完整推動",
+          "source": "https://udn.com/news/story/124652/9521926"
+        },
+        {
+          "topic": "welfare",
+          "title": "誠正國中周邊的社福長照 BOT 規劃結合鄰近文化廊道",
+          "detail": "串聯南港瓶蓋工廠的歷史空間與步行動線",
+          "source": "https://udn.com/news/story/124652/9521926"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -808,8 +896,24 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
-      "past": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾擔任都市計畫抗爭、勞工團體抗爭及國道收費員抗爭案件的義務律師（本人說法）。",
+          "source": "https://web.archive.org/web/2022/https://www.sdparty.tw/candidates/7"
+        }
+      ],
+      "past": [
+        {
+          "role": "參選地方民意代表",
+          "period": "2018",
+          "elected": false,
+          "result": "得 5,037 票（得票率 2.39%），未當選",
+          "note": "得票數取自維基百科整理之中選會結果；當時政見未查得。",
+          "promises": [],
+          "rates": []
+        }
+      ]
     },
     {
       "id": "tpc2-12",

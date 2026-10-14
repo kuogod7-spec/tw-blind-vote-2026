@@ -10,7 +10,8 @@
  * 現任者的「過去政見」取自 2022 年選舉公報；提案數取自報導者觀測站（臺北市議會提案多為多人共同具名，
  *   「領銜提案」依市府回覆中「○○議員等議員提案」的首位提案人判斷）。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 已知缺漏：整理期間網路搜尋額度受限，朱政騏、賴俊翰、熊羿、李易儒、林子揚、黃麗香查無公開政見。
+ * 已知缺漏：第二輪補查（2026-10-14）後，朱政騏、熊羿、李易儒、林子揚、黃麗香仍查無 2026 年公開政見；
+ *   李易儒補上 2022 年里長選舉公報政見，林子揚補上自述經歷。賴俊翰的政見取自 2026-01 媒體專訪（黨內初選前）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-04",
@@ -141,7 +142,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "在大直橋至臺北橋河段舉辦水上摩托車計時賽",
+          "detail": "讓水岸成為居民日常使用的場域（2026-01 媒體專訪）",
+          "source": "https://n.yam.com/Article/20260120658215"
+        },
+        {
+          "topic": "education",
+          "title": "設置划船訓練基地，簡化借船申請流程並提供器材補助",
+          "detail": "推廣水上運動",
+          "source": "https://n.yam.com/Article/20260120658215"
+        },
+        {
+          "topic": "economy",
+          "title": "規劃河岸光影步道，並在大稻埕碼頭周邊打造連續景觀與市集",
+          "detail": "提升夜間水岸景觀",
+          "source": "https://n.yam.com/Article/20260120658215"
+        }
+      ],
       "record": []
     },
     {
@@ -162,7 +182,61 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [],
+      "past": [
+        {
+          "role": "基層民選公職（里長）",
+          "period": "2022–2026",
+          "elected": true,
+          "result": "2022 年參選里長；2026 年報導稱其為現任里長",
+          "note": "以下為 2022 年里長選舉公報政見（共 10 則，列出 6 則），執行情形未查得。",
+          "promises": [
+            {
+              "topic": "safety",
+              "title": "成立守望相助隊定時巡邏",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/大安區車層里里長.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "定期消毒、清理水溝，成立環保志工隊並推動巷弄綠化",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/大安區車層里里長.pdf"
+            },
+            {
+              "topic": "safety",
+              "title": "增設里民住宅火災警報器",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/大安區車層里里長.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "辦理社區孩童課後輔導與才藝體驗",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/大安區車層里里長.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "為弱勢長者辦理供餐與休閒活動",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/大安區車層里里長.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "建立義工關懷網，關懷銀髮族及弱勢族群",
+              "status": "unknown",
+              "note": "未查得執行紀錄",
+              "source": "https://eebulletin.cec.gov.tw/111/02%E8%87%BA%E5%8C%97%E5%B8%82/05%E6%9D%91%E9%87%8C%E9%95%B7/%E5%A4%A7%E5%AE%89%E5%8D%80/大安區車層里里長.pdf"
+            }
+          ],
+          "rates": []
+        }
+      ]
     },
     {
       "id": "tpc4-6",
@@ -269,7 +343,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任中央政府行政機關幕僚與駐外人員，參與對東南亞、南亞的區域交流工作（本人說法）。",
+          "source": "https://newtalk.tw/news/view/2026-02-09/1019406"
+        }
+      ]
     },
     {
       "id": "tpc4-8",
