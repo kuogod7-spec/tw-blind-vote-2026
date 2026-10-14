@@ -219,6 +219,16 @@
         </ol>
         <p class="muted">開票時候選人以隨機字母代號呈現，與登記號次無關。</p>
       </div>${BALLOT_ART}</section>
+      <section class="method-card">
+        <h2>使用前請先知道</h2>
+        <ul>
+          <li><strong>資料不完整。</strong>選舉公報尚未發布，許多議員候選人只查到少數主張，甚至完全查不到。</li>
+          <li><strong>說得少就顯示得少。</strong>候選人沒說的細節，本站不替任何人補上，所以各人則數不同。</li>
+          <li><strong>每一則都有出處。</strong>網址可能透露身分，開票揭曉後才會顯示。</li>
+          <li><strong>本站不推薦任何人。</strong>配對分數完全由你自己的評分算出。</li>
+        </ul>
+        <a class="method-cta" href="methodology.html">閱讀完整的方法與資料說明<span aria-hidden="true">→</span></a>
+      </section>
       ${Object.entries(groups).map(([region, races]) => `
         <section class="card">
           <h3>${esc(region)}</h3>
