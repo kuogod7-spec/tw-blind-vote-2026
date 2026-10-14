@@ -154,6 +154,10 @@ button:focus-visible, input:focus-visible, summary:focus-visible {
 .kind-section { margin-top: 28px; padding-top: 16px; border-top: 3px double var(--ink); }
 .kind-title { margin-bottom: 4px; }
 .kind-title .muted { font-size: .9rem; font-weight: 400; }
+.past-detail { margin-top: 8px; }
+.past-detail > summary { cursor: pointer; font-size: .9rem; text-decoration: underline; }
+.past-detail .past-role { margin-top: 10px; }
+.past-detail .stream { margin-top: 8px; }
 /* 全盲閱讀：不分候選人，所有項目打散成卡片 */
 .stream { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .stream .item { background: var(--paper); border: 1.5px solid var(--ink); border-radius: 4px; padding: 12px; }

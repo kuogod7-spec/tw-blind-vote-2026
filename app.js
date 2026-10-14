@@ -9,8 +9,6 @@
     { value: 0, label: "普通" },
     { value: -1, label: "不認同" },
   ];
-  // 過去紀錄另用一套代號，與候選人 A、B、C 無關，開票時才對照
-  const PAST_CODES = "甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥";
   // 過去職位政見的兌現狀態
   const STATUS = {
     done: "已達成",
@@ -60,7 +58,6 @@
     ratings: {},   // itemId -> 1 | 0 | -1
     order: {},     // raceId -> 洗牌後的 candidate id 陣列
     itemOrder: {}, // raceId -> 洗牌後的項目 id 陣列（閱讀時不標示提出者）
-    pastOrder: {}, // raceId -> 洗牌後有過去紀錄的 candidate id 陣列，對應甲、乙、丙…
     revealed: {},  // raceId -> true
     kind: "all",
     topics: [],    // 篩選中的議題，空陣列 = 全部
@@ -76,6 +73,7 @@
       if (saved && typeof saved === "object") {
         const s = { ...defaults(), ...saved };
         if (s.raceId && !raceById[s.raceId]) s.raceId = null;
+        if (s.kind === "past") s.kind = "all"; // 過去政見已移到開票頁
         return s;
       }
     } catch (_) { /* 無痕模式等情況，直接用預設值 */ }
@@ -124,7 +122,7 @@
 
   // 選區內所有項目以固定的隨機順序排列，不標示提出者，避免用某則經歷認出代號後連帶認出其他政見
   function blindItems(race) {
-    const items = race.candidates.flatMap(shownOf);
+    const items = race.candidates.flatMap(itemsOf);
     const byId = Object.fromEntries(items.map((it) => [it.id, it]));
     let order = state.itemOrder[race.id];
     if (!order || order.length !== items.length || !order.every((id) => id in byId)) {
@@ -135,25 +133,11 @@
     return order.map((id) => byId[id]);
   }
 
-  // 有過去紀錄的候選人，以另一套隨機代號（甲、乙、丙…）呈現
-  function pastGroups(race) {
-    const ids = race.candidates.filter((c) => c.past.length).map((c) => c.id);
-    let order = state.pastOrder[race.id];
-    if (!order || order.length !== ids.length || !ids.every((id) => order.includes(id))) {
-      order = shuffle(ids);
-      state.pastOrder = { ...state.pastOrder, [race.id]: order };
-      save();
-    }
-    return order.map((id, i) => ({ c: race.candidates.find((c) => c.id === id), code: `紀錄${PAST_CODES[i]}` }));
-  }
-  const pastCode = (race, c) => pastGroups(race).find((g) => g.c.id === c.id)?.code;
-
   const pastOf = (c) => c.past.flatMap((role) => role.promises);
   // 未當選者無從兌現，只呈現、不評分
-  // 過去政見是「說到做到」的參考，與認同度分開呈現，不評分
-  const ratable = (it) => it.kind !== "past";
-  const shownOf = (c) => [...c.platforms, ...c.record, ...pastOf(c)];
-  const itemsOf = (c) => shownOf(c).filter(ratable);  // 可評分、列入計分的項目
+  // 閱讀頁只放可評分的 2026 政見與做過的事；過去政見會洩漏「同一人」的關聯，開票後才顯示
+  const itemsOf = (c) => [...c.platforms, ...c.record];
+  const shownOf = (c) => [...itemsOf(c), ...pastOf(c)];
   const tag = (c) => `<span class="letter">${c.letter}</span>${esc(c.label)}`;
   const STAMP = `<span class="stamp" aria-hidden="true"></span>`;
 
@@ -174,7 +158,7 @@
   function matches(item) {
     if (state.kind !== "all" && item.kind !== state.kind) return false;
     if (state.topics.length && !state.topics.includes(item.topic)) return false;
-    if (state.unratedOnly && (!ratable(item) || item.id in state.ratings)) return false;
+    if (state.unratedOnly && (item.id in state.ratings)) return false;
     const q = state.q.trim().toLowerCase();
     if (q && !`${item.title} ${item.detail || ""}`.toLowerCase().includes(q)) return false;
     return true;
@@ -276,7 +260,6 @@
           <button role="radio" aria-checked="${state.kind === "all"}" data-action="kind" data-value="all">全部</button>
           <button role="radio" aria-checked="${state.kind === "platform"}" data-action="kind" data-value="platform">2026 政見</button>
           <button role="radio" aria-checked="${state.kind === "record"}" data-action="kind" data-value="record">做過的事</button>
-          <button role="radio" aria-checked="${state.kind === "past"}" data-action="kind" data-value="past">過去政見兌現</button>
         </div>
         <input type="search" class="search" placeholder="搜尋關鍵字，例如：捷運、托育" value="${esc(state.q)}" data-action="search" aria-label="搜尋">
         <label class="check"><input type="checkbox" data-action="unrated" ${state.unratedOnly ? "checked" : ""}> 只看還沒評分的</label>
@@ -302,18 +285,16 @@
     `;
   }
 
-  // 這次政見、做過的事、過去政見分段呈現，避免混淆；各段內再依議題分組
+  // 這次政見與做過的事分段呈現，避免混淆；各段內再依議題分組
   const SECTIONS = [
     { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。" },
     { kind: "record", title: "做過的事", note: "候選人過去可查證的具體作為。" },
-    { kind: "past", title: "過去政見兌現", note: "候選人過去參選時提出的政見與後來的狀況，按人分組。「紀錄甲、乙、丙」是另一套隨機代號，和候選人 A、B、C 無關，開票時才會對照。這部分不評分、不列入配對分數，是「說到做到」的參考。" },
   ];
 
   function browseBlind(race) {
     const items = blindItems(race).filter(matches);
     const topics = DATA.topics.filter((t) => !state.topics.length || state.topics.includes(t.id));
     const html = SECTIONS.map((sec) => {
-      if (sec.kind === "past") return pastSection(race, sec);
       const inSec = items.filter((it) => it.kind === sec.kind);
       if (!inSec.length) return "";
       return `
@@ -331,32 +312,6 @@
         </section>`;
     }).join("");
     return html || `<p class="empty">沒有符合條件的內容。</p>`;
-  }
-
-  function pastSection(race, sec) {
-    if (state.kind !== "all" && state.kind !== "past") return "";
-    const filtered = state.topics.length || state.q.trim() || state.unratedOnly;
-    const groups = pastGroups(race)
-      .map((g) => ({ ...g, list: pastOf(g.c).filter(matches) }))
-      .filter((g) => g.list.length || !filtered);
-    if (!groups.length) return "";
-    return `
-      <section class="kind-section kind-past">
-        <h2 class="kind-title">${esc(sec.title)} <span class="muted">${groups.length} 人</span></h2>
-        <p class="muted">${esc(sec.note)}</p>
-        ${groups.map(({ c, code, list }) => `
-          <section class="topic-block past-group">
-            <h3>${esc(code)}</h3>
-            ${c.past.map((role) => `
-              <div class="past-role">
-                <p class="item-title">${esc(role.role)}<span class="muted">・${esc(role.period)}・${role.elected ? "民選職位" : role.result ? esc(role.result) : "非民選職位"}</span></p>
-                ${statusCounts(role.promises)}
-                ${rateLines(role)}
-                ${role.note ? `<p class="item-detail">${esc(role.note)}</p>` : ""}
-              </div>`).join("")}
-            ${list.length ? `<div class="stream">${list.map((it) => itemCard(it)).join("")}</div>` : ""}
-          </section>`).join("")}
-      </section>`;
   }
 
   function rateLines(role) {
@@ -379,8 +334,7 @@
         ${it.detail ? `<p class="item-detail">${esc(it.detail)}</p>` : ""}
         ${it.feasibility ? feasBlock(it.feasibility) : ""}
         ${it.source && state.revealed[state.raceId] ? `<p class="item-src"><a href="${esc(it.source)}" target="_blank" rel="noopener noreferrer">資料來源</a></p>` : ""}
-        ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : ""}
-        ${!ratable(it) ? "" : `
+        ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : `
         <div class="rate" role="radiogroup" aria-label="你的看法">
           ${RATINGS.map((o) => `
             <button role="radio" class="r${o.value}" aria-checked="${r === o.value}"
@@ -402,7 +356,7 @@
       ${raceNote(race)}
       ${anyRated ? "" : `<p class="notice">你還沒有評分任何政見。<button class="link" data-action="go" data-step="browse">回去閱讀政見</button></p>`}
       ${race.seats > 1 ? `<p class="notice">這個選區應選 ${race.seats} 席，但每位選民只能投 1 票。排名第一的是最符合你想法的候選人。</p>` : ""}
-      <p class="muted">「認同度」是你對該候選人 2026 政見與做過的事的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。「過去兌現」是另一個參考指標，只列件數、不算分，也不影響排名：認同度高的人過去做到多少，由你自己權衡。評分越多則結果越可靠。</p>
+      <p class="muted">「認同度」是你對該候選人 2026 政見與做過的事的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。下方「過去政見與達成狀況」是開票後才提供的參考，不算分、不影響排名：認同度高的人過去做到多少，由你自己權衡。評分越多則結果越可靠。</p>
       <div class="results">
         ${rows.map(({ c, s }, i) => `
           <section class="card result ${i === 0 && s.pct != null ? "top" : ""}">
@@ -420,7 +374,7 @@
                   <li><span>${esc(topicById[t]?.label)}</span>
                     <span>認同 ${v.up}・普通 ${v.mid}・不認同 ${v.down}</span></li>`).join("")}
               </ul>` : ""}
-            ${pastSummary(race, c)}
+            ${pastSummary(c)}
             ${revealed ? identity(c) : ""}
           </section>`).join("")}
       </div>
@@ -490,12 +444,23 @@
       .map((k) => `<span class="status s-${k}">${STATUS[k]} ${n[k]}</span>`).join("")}</p>`;
   }
 
-  // 開票時並列的第二個指標：過去兌現（只列件數，「無法查證」多時算成比例會誤導）
-  function pastSummary(race, c) {
-    if (!c.past.length) return `<div class="past-summary"><span class="muted">過去兌現</span><span>無過去紀錄</span></div>`;
-    return `<div class="past-summary"><span class="muted">過去兌現</span><strong>${esc(pastCode(race, c))}</strong>
-      ${c.past.map((role) => `<span>${esc(role.role)}（${esc(role.period)}）</span>${statusCounts(role.promises)}${
-        (role.rates || []).map((rt) => `<span class="muted">${esc(rt.label)} ${esc(rt.value)}（${esc(rt.by)}）</span>`).join("")}`).join("")}</div>`;
+  // 開票後才顯示過去政見與達成狀況，作為「說到做到」的參考（只列件數，「無法查證」多時算成比例會誤導）
+  function pastSummary(c) {
+    if (!c.past.length) return `<div class="past-summary"><span class="muted">過去政見</span><span>無過去紀錄</span></div>`;
+    const promises = pastOf(c);
+    return `
+      <div class="past-summary"><span class="muted">過去政見</span>
+        ${c.past.map((role) => `<span>${esc(role.role)}（${esc(role.period)}）</span>${statusCounts(role.promises)}`).join("")}</div>
+      <details class="past-detail">
+        <summary>查看過去政見與達成狀況${promises.length ? `（${promises.length} 則）` : ""}</summary>
+        ${c.past.map((role) => `
+          <div class="past-role">
+            <p class="item-title">${esc(role.role)}<span class="muted">・${esc(role.period)}・${role.elected ? "民選職位" : role.result ? esc(role.result) : "非民選職位"}</span></p>
+            ${rateLines(role)}
+            ${role.note ? `<p class="item-detail">${esc(role.note)}</p>` : ""}
+            ${role.promises.length ? `<div class="stream">${role.promises.map((it) => itemCard(it)).join("")}</div>` : ""}
+          </div>`).join("")}
+      </details>`;
   }
 
   function raceNote(race) {
@@ -559,9 +524,7 @@
         delete order[race.id];
         const itemOrder = { ...state.itemOrder };
         delete itemOrder[race.id];
-        const pastOrder = { ...state.pastOrder };
-        delete pastOrder[race.id];
-        return set({ ratings, order, itemOrder, pastOrder, revealed: { ...state.revealed, [race.id]: false } });
+        return set({ ratings, order, itemOrder, revealed: { ...state.revealed, [race.id]: false } });
       }
     }
   });
