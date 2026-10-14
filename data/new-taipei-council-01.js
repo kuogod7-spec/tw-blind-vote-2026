@@ -483,9 +483,73 @@ window.ELECTION_DATA.races.push({
           "topic": "economy",
           "text": "擔任地方農會理事長。",
           "source": "https://udn.com/news/story/124652/9323844"
+        },
+        {
+          "topic": "governance",
+          "text": "曾任地方民意代表服務處秘書。",
+          "source": "https://udn.com/news/story/124652/9323844"
         }
       ],
-      "past": []
+      "past": [
+        {
+          "role": "參選地方民意代表",
+          "period": "2018",
+          "elected": false,
+          "result": "得票 1,170 票（0.96%），未當選",
+          "note": "政見取自 2018 年選舉公報；得票數取自維基百科選舉結果列表。同名參選人當時經歷為地方民意代表助理，與 2026 年報導的地方民意代表服務處秘書經歷相符，判斷為同一人。",
+          "promises": [
+            {
+              "topic": "welfare",
+              "title": "爭取淡海新市鎮設置醫療機構，完善八里、淡水、三芝、石門醫療服務",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "推動社區公托、活化喘息服務",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "設置銀髮族健康樂活關懷據點，優化在宅服務",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            },
+            {
+              "topic": "economy",
+              "title": "重新啟動淡水沙崙海水浴場，設置漫步道、規劃露營區",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "爭取自行車道延伸至三芝、石門",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "要求淡海輕軌往南延伸至八里、往北延伸至三芝與石門",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "開闢淡水河北側沿河平面道路，紓解臺 2 線壅塞",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://eebulletin.cec.gov.tw/107/03%E6%96%B0%E5%8C%97%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/新北市議會第3屆議員選舉第1選舉區選舉公報.pdf"
+            }
+          ]
+        }
+      ]
     }
   ]
 });

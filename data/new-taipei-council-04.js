@@ -8,7 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自 2022 年選舉公報或議會官網議員介紹頁；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 整理時網路搜尋額度用盡，多數候選人的 2026 年政見未能完整搜尋，部分候選人查無資料，待補查。
+ * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-04",
@@ -269,7 +269,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "持續追蹤光華段社會住宅、蘆洲醫院與蘆洲擴大都市計畫",
+          "detail": "",
+          "source": "https://n.yam.com/Article/20261004434633"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -387,7 +394,38 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "以 AI 演算調整交通號誌，取代固定時制號誌",
+          "detail": "主張可為三重、蘆洲居民每天省下 30 分鐘通勤時間（本人說法）",
+          "source": "https://andy.believe.tw/"
+        },
+        {
+          "topic": "economy",
+          "title": "導入通路管理經驗，改善傳統市場的購物與經營",
+          "detail": "",
+          "source": "https://andy.believe.tw/"
+        },
+        {
+          "topic": "safety",
+          "title": "以物聯網技術為老舊公寓建立智慧保全",
+          "detail": "",
+          "source": "https://andy.believe.tw/"
+        },
+        {
+          "topic": "economy",
+          "title": "協助住戶、大樓管委會與店家做電費健檢，找出最佳電費方案",
+          "detail": "稱可為大樓每年省下 5 至 10 萬元公設電費（本人說法）",
+          "source": "https://andy.believe.tw/"
+        },
+        {
+          "topic": "governance",
+          "title": "設立數位服務處，提供線上服務",
+          "detail": "",
+          "source": "https://www.storm.mg/article/11104550"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -424,6 +462,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "提案建請市府設置體育局。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/wang-wei-yuan-new-taipei"
+        },
+        {
+          "topic": "transport",
+          "text": "推動三重正義北路人行道拓寬並遷移變電箱，使空間符合 YouBike 設站條件，站點已設置。",
+          "source": "https://cnews.com.tw/248261006a03/"
         }
       ],
       "past": [
@@ -648,8 +691,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "將托育、教育、兒童安全與親子友善公共空間列為問政重點",
+          "detail": "",
+          "source": "https://tw.news.yahoo.com/蘆洲親子-fun水趣-10月3-4日登場-陳俊維聚焦兒童友善與親子空間-031057747.html"
+        }
+      ],
+      "record": [
+        {
+          "topic": "environment",
+          "text": "2018 年與地方民意代表向市府爭取 723 萬元改善蘆洲柳堤公園，增設共融滑梯與透水鋪面（本人說法）。",
+          "source": "https://tw.news.yahoo.com/蘆洲親子-fun水趣-10月3-4日登場-陳俊維聚焦兒童友善與親子空間-031057747.html"
+        },
+        {
+          "topic": "welfare",
+          "text": "在三重、蘆洲舉辦兩場親子戲水活動。",
+          "source": "https://tw.news.yahoo.com/蘆洲親子-fun水趣-10月3-4日登場-陳俊維聚焦兒童友善與親子空間-031057747.html"
+        }
+      ],
       "past": []
     },
     {
@@ -685,6 +746,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "提案國中男生公費接種 HPV 疫苗、辦理 40 歲以上肺癌先期篩檢。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/li-chien-ping-new-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "與中央民意代表邀集中央與市府教育單位協調，學前特教服務中心人員由一年一聘改為不定期契約；市府教育局將提出申請。",
+          "source": "https://www.ctwant.com/article/500481/"
         }
       ],
       "past": [

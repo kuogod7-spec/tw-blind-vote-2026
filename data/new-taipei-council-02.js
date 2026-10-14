@@ -8,7 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 整理時網路搜尋額度用盡，三位新人（含無黨籍）未能完整搜尋，其餘候選人的 2026 年政見也可能有遺漏，待補查。
+ * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-02",
@@ -57,7 +57,73 @@ window.ELECTION_DATA.races.push({
       },
       "platforms": [],
       "record": [],
-      "past": []
+      "past": [
+        {
+          "role": "參選地方民意代表",
+          "period": "2022",
+          "elected": false,
+          "result": "得票 4,629 票（1.71%），未當選",
+          "note": "2022 年在另一選區（土城、樹林、三峽、鶯歌）參選；政見取自 2022 年選舉公報，得票數取自維基百科選舉結果列表。",
+          "promises": [
+            {
+              "topic": "welfare",
+              "title": "增加公共托育服務、增設公辦幼兒園，增加育兒津貼與坐月子津貼",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "economy",
+              "title": "以市府閒置空間設立青年創業辦公室，推動青年創業貸款零利率",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "environment",
+              "title": "設置身心障礙者也能使用的共融式生態公園",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "housing",
+              "title": "推動都市更新及老屋更新，爭取放寬老舊房屋附掛電梯或爬梯機的條件",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "推動 65 歲以上長者免繳健保費，擴大敬老卡使用範圍",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "welfare",
+              "title": "復康巴士增加 APP 即時預約功能",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "增設充電站，提高購置或更換電動汽機車補助",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            },
+            {
+              "topic": "transport",
+              "title": "提高公車預算及班次，推廣 YouBike 輕量站點",
+              "status": "not_applicable",
+              "note": "",
+              "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/02新北市/08-新北市選舉公報-第八選區.pdf"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ntc2-3",
@@ -66,7 +132,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "連任後持續捐出選舉補助款作為學童急難救助",
+          "detail": "歷次補助款捐入市府教育局學童急難救助專戶，累計 717 萬元（本人說法）",
+          "source": "https://www.nownews.com/news/6871535"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -82,6 +155,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "將 2018 年選舉補助款逾 114 萬元全數捐入教育局學生急難救助專戶；歷年捐款估計逾 600 萬元（本人說法）。",
           "source": "https://n.yam.com/Article/20220831841148"
+        },
+        {
+          "topic": "education",
+          "text": "2025 年 6 月質詢要求啟動林口第五所國小用地設校，打造 0 至 12 歲一條龍照顧學校；市府首長表示認同，請相關單位評估。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5081551"
         }
       ],
       "past": [
@@ -209,7 +287,56 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動五泰輕軌、林口輕軌及聯外交通改善",
+          "detail": "包括國道 1 號銜接台 64 線往八里匝道、關渡新橋銜接台 64 線、泰山板橋線，以及捷運 A5、A5a 站轉乘",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603049"
+        },
+        {
+          "topic": "economy",
+          "title": "將五股垃圾山轉型為 AI 智慧產業園區",
+          "detail": "",
+          "source": "https://www.storm.mg/article/11162327"
+        },
+        {
+          "topic": "housing",
+          "title": "推動五股、泰山舊市區都市更新",
+          "detail": "含五股工商路、民義路與泰山明志路周邊，納入停車、人行安全與公共空間",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603049"
+        },
+        {
+          "topic": "housing",
+          "title": "塭仔圳重劃區的主要幹道、公園、公托、親子與長照設施與住宅開發同步完成",
+          "detail": "",
+          "source": "https://www.storm.mg/article/11162327"
+        },
+        {
+          "topic": "welfare",
+          "title": "擴充五股、泰山、林口的公托、課後照顧及長照資源",
+          "detail": "",
+          "source": "https://tw.news.yahoo.com/五泰林整體發展藍圖-藍營新選將提交通-都更-托育長照列優先-060315607.html"
+        },
+        {
+          "topic": "environment",
+          "title": "活化成洲抽水站周邊，打造五股水岸生活廊道",
+          "detail": "",
+          "source": "https://www.storm.mg/article/11162327"
+        },
+        {
+          "topic": "economy",
+          "title": "結合林口醫學中心醫療資源與 AI 產業，打造科技廊帶",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603049"
+        },
+        {
+          "topic": "education",
+          "title": "因應林口人口遷入擴增校舍、改善通學步道",
+          "detail": "",
+          "source": "https://www.storm.mg/article/11162327"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -220,7 +347,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動高速公路、快速道路到平面道路的整體系統化規劃",
+          "detail": "針對台 65 線五股交流道北入匝道通車後的車流交織問題",
+          "source": "https://money.udn.com/money/story/122328/9812173"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -311,7 +445,18 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "safety",
+          "text": "2026 年 1 月邀集交通、水利單位與警方會勘五股新五路二段與成泰路一段 2 巷口，要求拆除造成視線死角的牆面；水利局表示該牆非防洪設施，評估拆除或降低。",
+          "source": "https://n.yam.com/Article/20260129696286"
+        },
+        {
+          "topic": "governance",
+          "text": "擔任地方民意代表服務處主任，基層服務逾 10 年（本人說法）。",
+          "source": "https://n.yam.com/Article/20260129696286"
+        }
+      ],
       "past": []
     },
     {

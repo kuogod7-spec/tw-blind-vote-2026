@@ -8,7 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁（與 2022 年選舉公報內容相同）；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 整理期間網路搜尋額度用盡，2026 年新政見幾乎未能蒐集；新人候選人多數查無資料，待選舉公報發布後補齊。
+ * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-05",
@@ -25,7 +25,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "成立跨局處食安應變中心",
+          "detail": "擴大市府自主檢驗量能，導入 AI 智慧稽查",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5526133"
+        },
+        {
+          "topic": "education",
+          "title": "強化校園反毒教育並建立校園預警機制",
+          "detail": "招募反毒志工，提供教師教育資源與專業支援",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5526133"
+        },
+        {
+          "topic": "housing",
+          "title": "新板特區持續發展的同時，同步升級周邊生活圈",
+          "detail": "列舉浮洲、溪崑、埔墘、後埔、府中、江翠、新埔",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5526133"
+        },
+        {
+          "topic": "transport",
+          "title": "延伸通學步道並補齊中斷的人行道",
+          "detail": "改善學校周邊標線與行人空間",
+          "source": "https://tw.news.yahoo.com/新北通學步道再升級-李昆穎提-安心走-安心接-安心搭-054321060.html"
+        },
+        {
+          "topic": "transport",
+          "title": "依各校路況劃設家長接送區與合法臨停區",
+          "detail": "",
+          "source": "https://tw.news.yahoo.com/新北通學步道再升級-李昆穎提-安心走-安心接-安心搭-054321060.html"
+        },
+        {
+          "topic": "transport",
+          "title": "盤點通學需求，增設候車亭並增加上下學時段公車班次",
+          "detail": "",
+          "source": "https://tw.news.yahoo.com/新北通學步道再升級-李昆穎提-安心走-安心接-安心搭-054321060.html"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -57,6 +94,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "提案提高特教助理員薪資與鐘點時數、擴大課後延長照顧並研議弱勢家庭免收費。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/liu-mei-fang-new-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "2026 年 9 月質詢要求以「培訓一名種子教師、帶回一所學校」方式培訓程式與 AI 機器人師資，並將 AI 課程示範中心升級為教師實作培訓基地；市府首長表示方向與現行政策一致。",
+          "source": "https://udn.com/news/story/6885/9726661"
         }
       ],
       "past": [
@@ -137,6 +179,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "提案要求如期完成「一國中學區一日照中心」目標，並提出三胎以上家庭醫療補助、0–6 歲輪狀病毒疫苗補助。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/tai-wei-shan-new-taipei"
+        },
+        {
+          "topic": "education",
+          "text": "2026 年 9 月質詢要求營養午餐回收區評估導入 AI 辨識統計剩食，並普查市立附設幼兒園素食供餐；市府表示將協助學校安排訂餐或補助。",
+          "source": "https://newtalk.tw/news/view/2026-09-14/1059672"
         }
       ],
       "past": [
@@ -222,6 +269,11 @@ window.ELECTION_DATA.races.push({
           "topic": "safety",
           "text": "提案加強「三無」食品稽查，並研議長照居服員遭遇職場性騷擾的因應規範。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/huang-shu-chun-new-taipei"
+        },
+        {
+          "topic": "environment",
+          "text": "爭取抽水站修繕、公園增設跑道與校園風雨操場（本人說法）。",
+          "source": "https://newtalk.tw/news/view/2026-07-28/1049362"
         }
       ],
       "past": [
@@ -287,7 +339,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任中央民意代表助理，負責法案監督、預算審查與中央地方資源協調（本人說法）。",
+          "source": "https://n.yam.com/Article/20260901455403"
+        }
+      ],
       "past": []
     },
     {
@@ -297,8 +355,51 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "打造 10 分鐘全齡運動生活圈",
+          "detail": "建立板橋運動數據銀行與健康點數折抵，升級河濱運動廊道與照明",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559284"
+        },
+        {
+          "topic": "welfare",
+          "title": "建構社區醫療網，推動醫療與照顧結合",
+          "detail": "連結醫療與長照資源，關注青少年心理健康，擴大喘息服務",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559284"
+        },
+        {
+          "topic": "economy",
+          "title": "活化閒置空間作為青年創業基地與藝文工作室，串聯古蹟與周邊商圈",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559284"
+        },
+        {
+          "topic": "education",
+          "title": "監督校園安全與通學路線，強化輔導與特教支持，減輕教師行政負擔",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559284"
+        },
+        {
+          "topic": "transport",
+          "title": "改善危險路口與無障礙人行道，盤點巷弄照明死角，建立即時整合交通資訊服務",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559284"
+        },
+        {
+          "topic": "housing",
+          "title": "推動老屋安心計畫",
+          "detail": "涵蓋老屋盤點、耐震評估、風險分級、耐震補強、增設電梯與都市更新",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559284"
+        }
+      ],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾任中央與地方民意代表幕僚，參與公園設施修繕、人行道鋪面改善等會勘（本人說法）。",
+          "source": "https://news.ltn.com.tw/amp/news/politics/breakingnews/5486372"
+        }
+      ],
       "past": []
     },
     {
@@ -329,6 +430,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "提案研擬無痛分娩補助，並以每個行政區至少一處為目標擴設社區心理衛生中心。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/yamada-mai-new-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "質詢要求板橋設置查扣車輛專用暫置拖吊場；警察局表示已覓得約 1,700 平方公尺用地規劃。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5536182"
         }
       ],
       "past": [
@@ -487,6 +593,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "提案提升代理教師薪資與權益、研擬 AI 教育規劃，並要求不定期稽查營養午餐中央廚房。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/tseng-huan-chia-new-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "質詢要求鄰長報紙補貼改為電信補貼、調高清潔隊員待遇、規劃商用三輪車與重機分類收費停車，並要求公共工程保固期滿前強制二次檢驗。",
+          "source": "https://n.yam.com/Article/20260915132598"
         }
       ],
       "past": [
@@ -544,7 +655,14 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "員工請孕產假時，由市府加碼核發代理同事獎勵津貼",
+          "detail": "在中央補助外加碼，直接發給代理同事，協助中小企業",
+          "source": "https://news.ltn.com.tw/news/NewTaipei/breakingnews/5488743"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -555,7 +673,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "加速客家文化園區轉型、擴大辦理客家義民祭",
+          "detail": "未列具體做法",
+          "source": "https://tw.news.yahoo.com/李四川客家後援會成立-周韋翰接板橋區會長力推6大亮點政見-083019076.html"
+        },
+        {
+          "topic": "education",
+          "title": "優化客語教育與師資環境，打造客語友善環境",
+          "detail": "未列具體做法",
+          "source": "https://tw.news.yahoo.com/李四川客家後援會成立-周韋翰接板橋區會長力推6大亮點政見-083019076.html"
+        }
+      ],
       "record": [],
       "past": []
     },

@@ -8,7 +8,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自議會官網議員介紹頁（與 2022 年選舉公報內容相同）；提案數取自報導者觀測站；2022 年得票率取自自由時報開票頁。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 整理期間網路搜尋額度用盡，2026 年新政見幾乎未能蒐集；新人候選人多數查無資料，待選舉公報發布後補齊。
+ * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-08",
@@ -26,7 +26,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "education",
+          "text": "曾任國小教師，具諮商心理師資格。",
+          "source": "https://udn.com/news/story/124652/9505820"
+        }
+      ],
       "past": [
         {
           "role": "參選地方民意代表",
@@ -282,8 +288,45 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "調整三鶯線周邊公車路線與轉乘，增加公車班次",
+          "detail": "",
+          "source": "https://www.setn.com/news/1872528"
+        },
+        {
+          "topic": "welfare",
+          "title": "推動長照政策",
+          "detail": "未列具體做法",
+          "source": "https://www.setn.com/news/1872528"
+        },
+        {
+          "topic": "welfare",
+          "title": "在三峽爭取更多公托用地與課後照顧資源",
+          "detail": "",
+          "source": "https://www.setn.com/news/1872528"
+        },
+        {
+          "topic": "economy",
+          "title": "在三峽引進青年基地等就業資源，扶植在地品牌",
+          "detail": "",
+          "source": "https://www.setn.com/news/1872528"
+        },
+        {
+          "topic": "economy",
+          "title": "以三峽老街為核心，串聯藍染、茶、竹筍與森林公園的觀光網絡，促進過夜旅遊",
+          "detail": "",
+          "source": "https://www.setn.com/news/1872528"
+        }
+      ],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "擔任中央民意代表服務處主任 8 年（本人說法）。",
+          "source": "https://udn.com/news/story/124652/9287101"
+        }
+      ],
       "past": []
     },
     {
@@ -309,6 +352,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "提案結合地方診所增加嬰幼兒早期療育評估與復健資源，並要求加強登革熱防治與食品效期標示。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/peng-yi-shu-new-taipei"
+        },
+        {
+          "topic": "economy",
+          "text": "2026 年 5 月質詢建議整合各局處吉祥物建立城市識別，並用於接駁車與地標；市府首長表示評估於年底耶誕活動共同演出。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5442071"
         }
       ],
       "past": [
@@ -394,6 +442,11 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "提案在大柑園都市計畫內評估樹林交流道增設南下匝道；交通局表示待運輸需求研究完成後檢討。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/lu-chia-kai-new-taipei"
+        },
+        {
+          "topic": "transport",
+          "text": "整理三鶯線 12 站周邊機車停車與 YouBike 轉乘資訊並公開，持續向捷運、交通主管機關反映轉乘問題。",
+          "source": "https://news.pchome.com.tw/politics/cnews/20260717/index-78425919935043227001.html"
         }
       ],
       "past": [
@@ -472,6 +525,11 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "提案改善三鶯大橋兩端匯流衝突點，並在三鶯新生地興建多功能轉運中心；市府增設標誌、限速 40 公里，並辦理轉運用地變更。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/su-hung-chin-new-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 8 月審查決算時提案將超收的交通罰鍰用於普發現金；經裁示送市府研議，市府表示目前未研議。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5555533"
         }
       ],
       "past": [

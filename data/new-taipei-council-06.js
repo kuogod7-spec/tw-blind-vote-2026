@@ -1,7 +1,7 @@
 /*
  * 2026 新北市議員第 6 選區市議員（中和區）：候選人政見與經歷（去識別化整理）
  *
- * 整理日期：2026-10-13。候選人名單依中選會「115 年直轄市議員選舉候選人登記彙總表」（9 人，應選 6 席）。
+ * 整理日期：2026-10-14。候選人名單依中選會「115 年直轄市議員選舉候選人登記彙總表」（9 人，應選 6 席）。
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
@@ -801,6 +801,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "提案建請加速汰換智能教室並統一編列預算。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/chen-chin-ting-new-taipei"
+        },
+        {
+          "topic": "safety",
+          "text": "2026 年 6 月與中央民意代表會勘中和員山消防分隊，表示將協助爭取中央經費擴大廳舍。",
+          "source": "https://news.ltn.com.tw/news/society/breakingnews/5469520"
         }
       ],
       "past": [
