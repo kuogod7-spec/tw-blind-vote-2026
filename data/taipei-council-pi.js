@@ -7,6 +7,7 @@
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 第三輪補查（2026-10-14）：國民黨候選人補上 2026 年質詢中的 2 則經歷，仍查無 2026 年具體政見，政見欄維持空白；無黨籍候選人無新增。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-pi",
@@ -44,6 +45,16 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "列名提案補助 65 歲以上長者、中低收入戶購置助聽設備，以及中低收入戶與身障者配鏡費用。",
           "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/li-fang-ju-taipei"
+        },
+        {
+          "topic": "housing",
+          "text": "2026 年 1 月要求市府研議社會住宅續住機制：一定年齡以上、無子女、無其他住宅且經評估無適當替代居住方案的長者，抽中社宅後只要持續符合資格即可續住至終身。",
+          "source": "https://money.udn.com/money/story/5621/9265223"
+        },
+        {
+          "topic": "education",
+          "text": "2026 年 9 月市政總質詢以原住民族文化教育為主題，播放辦公室製作的 16 族族語問候歌曲，主張以輕鬆、接觸式的方式學習族語與文化。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5561997"
         }
       ],
       "past": [

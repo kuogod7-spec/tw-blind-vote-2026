@@ -8,6 +8,8 @@
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 第三輪補查（2026-10-14）：國民黨候選人補上報導中的 1 則政見方向（原文簡略，照實呈現）；民進黨候選人補 1 則經歷（提名方說法），仍無具體政見；
+ *   無黨籍候選人仍查無政見或其他可收錄資料。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-mi",
@@ -15,7 +17,7 @@ window.ELECTION_DATA.races.push({
   "office": "第 8 選區山地原住民市議員",
   "area": "全市",
   "seats": 1,
-  "note": "臺北市全市具山地原住民身分的選舉人投票。現任者未登記參選，三位候選人皆為首次參選本選區。截至 2026-10-14 查無三人具體的公開政見，2026 年選舉公報發布後再更新。",
+  "note": "臺北市全市具山地原住民身分的選舉人投票。現任者未登記參選，三位候選人皆為首次參選本選區。截至 2026-10-14 僅一位候選人有報導中的簡略政見方向，另兩位查無公開政見，2026 年選舉公報發布後再更新。",
   "candidates": [
     {
       "id": "tpcmi-1",
@@ -30,6 +32,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任中央行政機關青年諮詢委員（提名方說法）。",
           "source": "https://newtalk.tw/news/view/2026-07-29/1050129"
+        },
+        {
+          "topic": "economy",
+          "text": "參與原住民青年返鄉、創業等議題（提名方說法）。",
+          "source": "https://udn.com/news/story/124652/9686378"
         }
       ]
     },
@@ -40,7 +47,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "爭取都會原住民在居住、就業、教育、文化方面的權益與福利",
+          "detail": "表示將更重視青年參與、婦女權益及長者照顧；報導未列具體措施、期程或財源",
+          "source": "https://www.ettoday.net/news/20260613/3182772.htm"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
