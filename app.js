@@ -9,6 +9,12 @@
     { value: 0, label: "普通" },
     { value: -1, label: "不認同" },
   ];
+  // 過去政見評的是兌現表現，用詞不同、計分相同
+  const PAST_RATINGS = [
+    { value: 1, label: "滿意" },
+    { value: 0, label: "普通" },
+    { value: -1, label: "不滿意" },
+  ];
   // 過去職位政見的兌現狀態
   const STATUS = {
     done: "已達成",
@@ -132,9 +138,11 @@
     return order.map((id) => byId[id]);
   }
 
-  const itemsOf = (c) => [...c.platforms, ...c.record];  // 可評分、列入計分的項目
-  const pastOf = (c) => c.past.flatMap((role) => role.promises); // 過去政見，只呈現兌現狀態
-  const shownOf = (c) => [...itemsOf(c), ...pastOf(c)];
+  const pastOf = (c) => c.past.flatMap((role) => role.promises);
+  // 未當選者無從兌現，只呈現、不評分
+  const ratable = (it) => !(it.kind === "past" && it.status === "not_applicable");
+  const shownOf = (c) => [...c.platforms, ...c.record, ...pastOf(c)];
+  const itemsOf = (c) => shownOf(c).filter(ratable);  // 可評分、列入計分的項目
   const tag = (c) => `<span class="letter">${c.letter}</span>${esc(c.label)}`;
   const STAMP = `<span class="stamp" aria-hidden="true"></span>`;
 
@@ -155,7 +163,7 @@
   function matches(item) {
     if (state.kind !== "all" && item.kind !== state.kind) return false;
     if (state.topics.length && !state.topics.includes(item.topic)) return false;
-    if (state.unratedOnly && (item.kind === "past" || item.id in state.ratings)) return false;
+    if (state.unratedOnly && (!ratable(item) || item.id in state.ratings)) return false;
     const q = state.q.trim().toLowerCase();
     if (q && !`${item.title} ${item.detail || ""}`.toLowerCase().includes(q)) return false;
     return true;
@@ -287,7 +295,7 @@
   const SECTIONS = [
     { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。" },
     { kind: "record", title: "做過的事", note: "候選人過去可查證的具體作為。" },
-    { kind: "past", title: "過去政見兌現", note: "候選人上一次參選時提出的政見與後來的狀況，僅供參考，不列入配對分數。" },
+    { kind: "past", title: "過去政見兌現", note: "候選人上一次參選時提出的政見與後來的狀況。請依兌現表現評「滿意／普通／不滿意」，和政見一樣列入配對分數；「未當選・無從兌現」的項目不評分。" },
   ];
 
   function browseBlind(race) {
@@ -325,9 +333,10 @@
         ${it.detail ? `<p class="item-detail">${esc(it.detail)}</p>` : ""}
         ${it.feasibility ? feasBlock(it.feasibility) : ""}
         ${it.source && state.revealed[state.raceId] ? `<p class="item-src"><a href="${esc(it.source)}" target="_blank" rel="noopener noreferrer">資料來源</a></p>` : ""}
-        ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : `
-        <div class="rate" role="radiogroup" aria-label="你的看法">
-          ${RATINGS.map((o) => `
+        ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : ""}
+        ${!ratable(it) ? "" : `
+        <div class="rate" role="radiogroup" aria-label="${it.kind === "past" ? "你對兌現表現的看法" : "你的看法"}">
+          ${(it.kind === "past" ? PAST_RATINGS : RATINGS).map((o) => `
             <button role="radio" class="r${o.value}" aria-checked="${r === o.value}"
               data-action="rate" data-id="${esc(it.id)}" data-value="${o.value}">${o.value === 1 ? STAMP : ""}${o.label}</button>`).join("")}
         </div>`}
@@ -347,7 +356,7 @@
       ${raceNote(race)}
       ${anyRated ? "" : `<p class="notice">你還沒有評分任何政見。<button class="link" data-action="go" data-step="browse">回去閱讀政見</button></p>`}
       ${race.seats > 1 ? `<p class="notice">這個選區應選 ${race.seats} 席，但每位選民只能投 1 票。排名第一的是最符合你想法的候選人。</p>` : ""}
-      <p class="muted">分數是你對該候選人政見與經歷的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。評分越多則結果越可靠。</p>
+      <p class="muted">分數是你對該候選人政見、經歷與過去政見兌現的加權認同度（認同／滿意 +1、普通 0、不認同／不滿意 −1，乘上議題重要度後平均）。評分越多則結果越可靠。</p>
       <div class="results">
         ${rows.map(({ c, s }, i) => `
           <section class="card result ${i === 0 && s.pct != null ? "top" : ""}">
