@@ -9,6 +9,7 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（與 2022 年選舉公報內容相同）；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
+ * 2026-10-14 第三輪補查：再以新聞報導補充部分候選人 2026 年政見；其餘仍查無者維持空白。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-05",
@@ -338,7 +339,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "導入 AI 動態調整紅綠燈秒數改善塞車",
+          "detail": "先在板橋示範（如漢生東路、漢生西路與文化路口），再推廣至全市",
+          "source": "https://www.epochtimes.com.tw/n512765/%E8%87%AA%E8%AA%8D%E6%9C%80%E5%8A%AA%E5%8A%9B%E6%96%B0%E4%BA%BA%E9%84%A7%E5%87%B1%E5%8B%9B%E8%AB%87%E6%9D%BF%E6%A9%8B%E4%BA%A4%E9%80%9A%E3%80%81%E5%B1%85%E4%BD%8F.html"
+        },
+        {
+          "topic": "transport",
+          "title": "要求市府對學校周邊停車場建案提出交代",
+          "detail": "校舍結構有問題就改善，沒問題就動工",
+          "source": "https://www.epochtimes.com.tw/n512765/%E8%87%AA%E8%AA%8D%E6%9C%80%E5%8A%AA%E5%8A%9B%E6%96%B0%E4%BA%BA%E9%84%A7%E5%87%B1%E5%8B%9B%E8%AB%87%E6%9D%BF%E6%A9%8B%E4%BA%A4%E9%80%9A%E3%80%81%E5%B1%85%E4%BD%8F.html"
+        },
+        {
+          "topic": "housing",
+          "title": "租屋補助逐步提高至與台北市相同",
+          "detail": "在財政許可下逐步調整",
+          "source": "https://www.epochtimes.com.tw/n512765/%E8%87%AA%E8%AA%8D%E6%9C%80%E5%8A%AA%E5%8A%9B%E6%96%B0%E4%BA%BA%E9%84%A7%E5%87%B1%E5%8B%9B%E8%AB%87%E6%9D%BF%E6%A9%8B%E4%BA%A4%E9%80%9A%E3%80%81%E5%B1%85%E4%BD%8F.html"
+        },
+        {
+          "topic": "welfare",
+          "title": "增加公共托育與公立幼兒園名額",
+          "detail": "",
+          "source": "https://www.epochtimes.com.tw/n512765/%E8%87%AA%E8%AA%8D%E6%9C%80%E5%8A%AA%E5%8A%9B%E6%96%B0%E4%BA%BA%E9%84%A7%E5%87%B1%E5%8B%9B%E8%AB%87%E6%9D%BF%E6%A9%8B%E4%BA%A4%E9%80%9A%E3%80%81%E5%B1%85%E4%BD%8F.html"
+        },
+        {
+          "topic": "housing",
+          "title": "評估引進可負擔住宅模式",
+          "detail": "參考桃園市作法；並從稅率與社會住宅面向處理房價",
+          "source": "https://www.epochtimes.com.tw/n512765/%E8%87%AA%E8%AA%8D%E6%9C%80%E5%8A%AA%E5%8A%9B%E6%96%B0%E4%BA%BA%E9%84%A7%E5%87%B1%E5%8B%9B%E8%AB%87%E6%9D%BF%E6%A9%8B%E4%BA%A4%E9%80%9A%E3%80%81%E5%B1%85%E4%BD%8F.html"
+        },
+        {
+          "topic": "economy",
+          "title": "推動北北基桃共同周遊券",
+          "detail": "整合旅宿、伴手禮、軌道與交通",
+          "source": "https://www.epochtimes.com.tw/n512765/%E8%87%AA%E8%AA%8D%E6%9C%80%E5%8A%AA%E5%8A%9B%E6%96%B0%E4%BA%BA%E9%84%A7%E5%87%B1%E5%8B%9B%E8%AB%87%E6%9D%BF%E6%A9%8B%E4%BA%A4%E9%80%9A%E3%80%81%E5%B1%85%E4%BD%8F.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

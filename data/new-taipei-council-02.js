@@ -9,6 +9,7 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
+ * 2026-10-14 第三輪補查：再以新聞報導補充部分候選人 2026 年政見；其餘仍查無者維持空白。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-02",
@@ -466,7 +467,80 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動五泰輕軌機廠立體化",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "environment",
+          "title": "活化五股堤防荒地",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "transport",
+          "title": "興建泰山大型地下停車場",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取機場捷運 A5 泰山站設置空中廊道",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "environment",
+          "title": "焚化爐收回市府自營",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "economy",
+          "title": "推動林口展演中心",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "transport",
+          "title": "開辦五股、泰山、林口雙層巴士",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "transport",
+          "title": "規劃台 61 線沿海自行車道",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "transport",
+          "title": "改善泰山明志路二段人行空間",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "transport",
+          "title": "導入 AI 智慧紅綠燈",
+          "detail": "2026 年 5 月向市府提出的十項地方建設建議之一",
+          "source": "https://www.scooptw.com/cnews/478098/%E6%9D%8E%E5%AE%87%E7%BF%94%E6%AA%A2%E8%A6%96%E4%BA%94%E6%B3%B0%E6%9E%97%E5%BB%BA%E8%A8%AD%E6%8F%9010%E8%A6%81%E6%B1%82%E3%80%80%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%BF%B4%E9%9F%BF%E7%86%B1%E7%83%88/"
+        },
+        {
+          "topic": "governance",
+          "title": "要求市府預算與資源重新分配至林口、泰山、五股",
+          "detail": "主張市府建設資源向鄰近行政區集中，三區應獲重新分配（2025 年 2 月受訪說法）",
+          "source": "https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97%E5%B0%8F%E9%A3%9B%E4%BF%A03-2-%E4%B8%8D%E6%BB%BF%E4%BA%94%E6%B3%B0%E6%9E%97%E5%A6%82%E9%82%8A%E9%99%B2%E5%9C%B0%E5%B8%B6-%E6%9D%8E%E5%AE%87%E7%BF%94%E7%9B%BC%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%B3%87%E6%BA%90%E9%87%8D%E6%96%B0%E5%88%86%E9%85%8D-063741572.html"
+        },
+        {
+          "topic": "environment",
+          "title": "要求市府加速五股、泰山汙水處理與排水設施建設",
+          "detail": "改善大雨、颱風時的淹水問題（2025 年 2 月受訪說法）",
+          "source": "https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97%E5%B0%8F%E9%A3%9B%E4%BF%A03-2-%E4%B8%8D%E6%BB%BF%E4%BA%94%E6%B3%B0%E6%9E%97%E5%A6%82%E9%82%8A%E9%99%B2%E5%9C%B0%E5%B8%B6-%E6%9D%8E%E5%AE%87%E7%BF%94%E7%9B%BC%E6%96%B0%E5%8C%97%E5%B8%82%E5%BA%9C%E8%B3%87%E6%BA%90%E9%87%8D%E6%96%B0%E5%88%86%E9%85%8D-063741572.html"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
