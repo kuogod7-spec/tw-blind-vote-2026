@@ -50,6 +50,22 @@
     <p>圈選章圖示：<a href="https://commons.wikimedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>（公有領域）。</p>
   </footer>
 
+  <!-- 第一次進站的提醒：按「我知道了」後記在瀏覽器，之後不再出現 -->
+  <dialog class="method-dialog" id="method-dialog" aria-labelledby="method-dialog-title">
+    <h2 id="method-dialog-title">開始之前，請先知道</h2>
+    <ul>
+      <li><strong>資料不完整。</strong>選舉公報尚未發布，許多議員候選人只查到少數主張，甚至完全查不到。</li>
+      <li><strong>說得少就顯示得少。</strong>候選人沒說的細節，本站不替任何人補上，所以各人則數不同。</li>
+      <li><strong>匿名無法做到百分之百。</strong>知名的招牌政見或經歷，改寫後仍可能被認出來。</li>
+      <li><strong>本站不推薦任何人。</strong>配對分數完全由你自己的評分算出，只供參考。</li>
+    </ul>
+    <p class="muted">收錄標準、去識別化規則與資料限制，都寫在方法與資料說明。</p>
+    <div class="dialog-actions">
+      <a class="method-cta" href="methodology.html">閱讀方法與資料說明<span aria-hidden="true">→</span></a>
+      <button class="primary" id="method-dialog-ok" type="button" autofocus>我知道了</button>
+    </div>
+  </dialog>
+
   <!-- 資料檔：data/sample.js 為虛構範例，可替換成其他選區資料 -->
   <script src="data/new-taipei.js"></script>
   <script src="data/new-taipei-council-01.js"></script>

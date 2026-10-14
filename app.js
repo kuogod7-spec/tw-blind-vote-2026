@@ -3,6 +3,7 @@
 
   const DATA = window.ELECTION_DATA;
   const STORE_KEY = "blind-vote-v1";
+  const ACK_KEY = "blind-vote-method-ack-v1";
   const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const RATINGS = [
     { value: 1, label: "認同" },
@@ -582,4 +583,16 @@
     ? "⚠️ 目前顯示的是虛構的範例資料，僅供展示功能。"
     : `資料更新：${DATA.meta.updated}・投票日：${DATA.meta.electionDate}`;
   render();
+
+  // 第一次進站先看資料限制；只能按「我知道了」或前往說明頁離開
+  const dlg = document.getElementById("method-dialog");
+  let acked = false;
+  try { acked = localStorage.getItem(ACK_KEY) === "1"; } catch (_) {}
+  if (dlg && !acked && typeof dlg.showModal === "function") {
+    const ack = () => { try { localStorage.setItem(ACK_KEY, "1"); } catch (_) {} };
+    dlg.addEventListener("cancel", (e) => e.preventDefault());
+    document.getElementById("method-dialog-ok").addEventListener("click", () => { ack(); dlg.close(); });
+    dlg.querySelector(".method-cta").addEventListener("click", ack);
+    dlg.showModal();
+  }
 })();
