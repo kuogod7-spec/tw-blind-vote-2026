@@ -206,6 +206,10 @@
     app.innerHTML = views[state.step](race);
   }
 
+  // 縣市依地理順序排列（北北基桃竹），未列出的排在最後
+  const REGION_ORDER = ["臺北市", "新北市", "基隆市", "桃園市", "新竹市", "新竹縣"];
+  const regionRank = (r) => (REGION_ORDER.includes(r) ? REGION_ORDER.indexOf(r) : REGION_ORDER.length);
+
   function viewRace() {
     const groups = {};
     for (const r of DATA.races) (groups[r.region] ||= []).push(r);
@@ -230,7 +234,7 @@
         </ul>
         <a class="method-cta" href="methodology.html">閱讀完整的方法與資料說明<span aria-hidden="true">→</span></a>
       </section>
-      ${Object.entries(groups).map(([region, races]) => `
+      ${Object.entries(groups).sort(([a], [b]) => regionRank(a) - regionRank(b)).map(([region, races]) => `
         <section class="card">
           <h3>${esc(region)}</h3>
           <div class="race-list">
