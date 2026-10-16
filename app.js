@@ -63,7 +63,6 @@
     order: {},     // raceId -> 洗牌後的 candidate id 陣列
     itemOrder: {}, // raceId -> 洗牌後的項目 id 陣列（閱讀時不標示提出者）
     revealed: {},  // raceId -> true
-    kind: "all",
     topics: [],    // 篩選中的議題，空陣列 = 全部
     q: "",
     unratedOnly: false,
@@ -77,7 +76,7 @@
       if (saved && typeof saved === "object") {
         const s = { ...defaults(), ...saved };
         if (s.raceId && !raceById[s.raceId]) s.raceId = null;
-        if (s.kind === "past") s.kind = "all"; // 過去政見已移到開票頁
+        delete s.kind; // 閱讀頁只剩 2026 政見，舊版的類型篩選不再使用
         return s;
       }
     } catch (_) { /* 無痕模式等情況，直接用預設值 */ }
@@ -139,9 +138,9 @@
 
   const pastOf = (c) => c.past.flatMap((role) => role.promises);
   // 未當選者無從兌現，只呈現、不評分
-  // 閱讀頁只放可評分的 2026 政見與做過的事；過去政見會洩漏「同一人」的關聯，開票後才顯示
-  const itemsOf = (c) => [...c.platforms, ...c.record];
-  const shownOf = (c) => [...itemsOf(c), ...pastOf(c)];
+  // 閱讀頁只放可評分的 2026 政見；做過的事與過去政見容易透露身分，也不易互相比較，開票後才顯示、不計分
+  const itemsOf = (c) => c.platforms;
+  const shownOf = (c) => [...itemsOf(c), ...c.record, ...pastOf(c)];
   const tag = (c) => `<span class="letter">${c.letter}</span>${esc(c.label)}`;
   const STAMP = `<span class="stamp" aria-hidden="true"></span>`;
 
@@ -160,7 +159,6 @@
     </svg>`;
 
   function matches(item) {
-    if (state.kind !== "all" && item.kind !== state.kind) return false;
     if (state.topics.length && !state.topics.includes(item.topic)) return false;
     if (state.unratedOnly && (item.id in state.ratings)) return false;
     const q = state.q.trim().toLowerCase();
@@ -219,8 +217,8 @@
         <ol>
           <li>選擇你要投票的選區與職位。</li>
           <li>設定你在意哪些議題。</li>
-          <li>閱讀政見與過去做的事，逐條表達認同與否。所有內容順序打亂、不標示是誰提出的。</li>
-          <li>開票：看哪位候選人最符合你的想法，最後才揭曉是誰。</li>
+          <li>閱讀 2026 政見，逐條表達認同與否。所有政見順序打亂、不標示是誰提出的。</li>
+          <li>開票：看哪位候選人最符合你的想法，並參考各候選人做過的事與過去政見，最後才揭曉是誰。</li>
         </ol>
         <p class="muted">開票時候選人以隨機字母代號呈現，與登記號次無關。</p>
       </div>${BALLOT_ART}</section>
@@ -274,11 +272,6 @@
 
     const toolbar = `
       <div class="toolbar">
-        <div class="seg" role="radiogroup" aria-label="內容類型">
-          <button role="radio" aria-checked="${state.kind === "all"}" data-action="kind" data-value="all">全部</button>
-          <button role="radio" aria-checked="${state.kind === "platform"}" data-action="kind" data-value="platform">2026 政見</button>
-          <button role="radio" aria-checked="${state.kind === "record"}" data-action="kind" data-value="record">做過的事</button>
-        </div>
         <input type="search" class="search" placeholder="搜尋關鍵字，例如：捷運、托育" value="${esc(state.q)}" data-action="search" aria-label="搜尋">
         <label class="check"><input type="checkbox" data-action="unrated" ${state.unratedOnly ? "checked" : ""}> 只看還沒評分的</label>
       </div>
@@ -303,10 +296,9 @@
     `;
   }
 
-  // 這次政見與做過的事分段呈現，避免混淆；各段內再依議題分組
+  // 閱讀頁只有 2026 政見，依議題分組
   const SECTIONS = [
-    { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。" },
-    { kind: "record", title: "做過的事", note: "候選人過去可查證的具體作為。" },
+    { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。候選人做過的事與過去政見，開票後才會列出，不列入計分。" },
   ];
 
   function browseBlind(race) {
@@ -352,7 +344,7 @@
         ${it.detail ? `<p class="item-detail">${esc(it.detail)}</p>` : ""}
         ${it.feasibility ? feasBlock(it.feasibility) : ""}
         ${it.source && state.revealed[state.raceId] ? `<p class="item-src"><a href="${esc(it.source)}" target="_blank" rel="noopener noreferrer">資料來源</a></p>` : ""}
-        ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : `
+        ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : it.kind !== "platform" ? "" : `
         <div class="rate" role="radiogroup" aria-label="你的看法">
           ${RATINGS.map((o) => `
             <button role="radio" class="r${o.value}" aria-checked="${r === o.value}"
@@ -374,7 +366,7 @@
       ${raceNote(race)}
       ${anyRated ? "" : `<p class="notice">你還沒有評分任何政見。<button class="link" data-action="go" data-step="browse">回去閱讀政見</button></p>`}
       ${race.seats > 1 ? `<p class="notice">這個選區應選 ${race.seats} 席，但每位選民只能投 1 票。排名第一的是最符合你想法的候選人。</p>` : ""}
-      <p class="muted">「認同度」是你對該候選人 2026 政見與做過的事的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。下方「過去政見與達成狀況」是開票後才提供的參考，不算分、不影響排名：認同度高的人過去做到多少，由你自己權衡。評分越多則結果越可靠。各候選人可評的則數不同，這是因為公開資料多寡不同；則數少的人分數容易被少數幾則左右，請一併參考。</p>
+      <p class="muted">「認同度」是你對該候選人 2026 政見的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。下方「做過的事」與「過去政見與達成狀況」是開票後才提供的參考，不算分、不影響排名：認同度高的人過去做了什麼、做到多少，由你自己權衡。評分越多則結果越可靠。各候選人可評的則數不同，這是因為公開資料多寡不同；則數少的人分數容易被少數幾則左右，請一併參考。</p>
       <div class="results">
         ${rows.map(({ c, s }, i) => `
           <section class="card result ${i === 0 && s.pct != null ? "top" : ""}">
@@ -394,6 +386,7 @@
                   <li><span>${esc(topicById[t]?.label)}</span>
                     <span>認同 ${v.up}・普通 ${v.mid}・不認同 ${v.down}</span></li>`).join("")}
               </ul>` : ""}
+            ${recordSummary(c)}
             ${pastSummary(c)}
             ${revealed ? identity(c) : ""}
           </section>`).join("")}
@@ -431,7 +424,7 @@
     const none = cands.filter((c) => !c.platforms.length);
     if (!none.length) return "";
     return `<p class="race-note">${cands.length} 位候選人中，有 ${none.length} 位查無 2026 年公開政見${
-      none.some((c) => !itemsOf(c).length && !c.past.length) ? "（部分候選人也查無任何經歷資料）" : ""
+      none.some((c) => !c.record.length && !c.past.length) ? "（部分候選人也查無任何經歷資料）" : ""
     }。這代表我們找不到公開資料，不代表候選人沒有主張；2026 年選舉公報發布後會再更新。</p>`;
   }
 
@@ -462,6 +455,16 @@
     for (const p of promises) n[p.status] = (n[p.status] || 0) + 1;
     return `<p class="status-row">${Object.keys(STATUS).filter((k) => n[k])
       .map((k) => `<span class="status s-${k}">${STATUS[k]} ${n[k]}</span>`).join("")}</p>`;
+  }
+
+  // 開票後才顯示做過的事，作為參考，不計分
+  function recordSummary(c) {
+    if (!c.record.length) return `<div class="past-summary"><span class="muted">做過的事</span><span>查無資料</span></div>`;
+    return `
+      <details class="past-detail">
+        <summary>查看做過的事（${c.record.length} 則）</summary>
+        <div class="stream">${c.record.map((it) => itemCard(it)).join("")}</div>
+      </details>`;
   }
 
   // 開票後才顯示過去政見與達成狀況，作為「說到做到」的參考（只列件數，「無法查證」多時算成比例會誤導）
@@ -519,8 +522,6 @@
         return go(el.dataset.step);
       case "weight":
         return set({ weights: { ...state.weights, [el.dataset.topic]: Number(value) } });
-      case "kind":
-        return set({ kind: value });
       case "topic": {
         if (!value) return set({ topics: [] });
         const has = state.topics.includes(value);
