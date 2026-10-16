@@ -1,7 +1,7 @@
 /*
  * 2026 臺北市議員第 6 選區市議員（大安區、文山區）：候選人政見與經歷（去識別化整理）
  *
- * 整理日期：2026-10-14。候選人名單依中選會「115 年直轄市議員選舉候選人登記」結果（19 人，應選 13 席）；
+ * 整理日期：2026-10-14。候選人名單依中選會「115 年直轄市議員選舉候選人登記」結果（19 人登記，應選 13 席；審定後 18 人）；
  * 姓名與黨籍取自三立新聞網登記截止當日報導 https://www.setn.com/news/1901722 ，登記人數與中央社 https://cna.com.tw/news/aipl/202609040292.aspx 一致。
  * 未能直接取得中選會登記彙總表原件比對，姓名用字以審定名單為準。
  * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
@@ -10,6 +10,7 @@
  * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
  * 第三輪補查（2026-10-14）：鍾沛君補上競選網站內容，游智彬補上 1 則；李道翔、李奇峯、張維學仍查無可收錄政見。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 2026-10-16 中選會審定：原 tpc6-7 游智彬被認定在臺設籍未滿 10 年，依兩岸人民關係條例第 21 條及選罷法第 27 條不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-06",
@@ -374,30 +375,6 @@ window.ELECTION_DATA.races.push({
           "rates": []
         }
       ]
-    },
-    {
-      "id": "tpc6-7",
-      "identity": {
-        "name": "游智彬",
-        "party": "新黨",
-        "number": null
-      },
-      "platforms": [
-        {
-          "topic": "safety",
-          "title": "推動鞭刑公投",
-          "detail": "",
-          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5560782"
-        }
-      ],
-      "record": [
-        {
-          "topic": "governance",
-          "text": "曾任直轄市政府顧問。",
-          "source": "https://www.ettoday.net/news/20260606/3178705.htm"
-        }
-      ],
-      "past": []
     },
     {
       "id": "tpc6-8",

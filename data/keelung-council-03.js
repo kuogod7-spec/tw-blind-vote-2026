@@ -9,6 +9,7 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
+ * 2026-10-16 中選會審定：原 klc3-3 張芳麗因投票受賄罪定讞，經中選會認定不得登記，已移除（https://tw.news.yahoo.com/%E6%B8%B8%E6%99%BA%E5%BD%AC%E6%8E%B0%E4%BA%86-%E4%B8%AD%E9%81%B8%E6%9C%83%E5%85%AC%E5%91%8A%E7%99%BB%E8%A8%98%E5%90%88%E6%A0%BC%E4%BA%BA%E6%95%B8-%E5%96%AA%E5%A4%B1%E8%B3%87%E6%A0%BC%E5%8F%83%E9%81%B8%E4%BA%BA-%E6%AC%A1%E7%9C%8B-073041082.html）。審定後 4 人，應選 3 席。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-03",
@@ -37,49 +38,6 @@ window.ELECTION_DATA.races.push({
       },
       "platforms": [],
       "record": []
-    },
-    {
-      "id": "klc3-3",
-      "identity": {
-        "name": "張芳麗",
-        "party": "無黨籍",
-        "number": null
-      },
-      "platforms": [],
-      "record": [],
-      "past": [
-        {
-          "role": "地方民意代表",
-          "period": "2022–2026",
-          "elected": true,
-          "result": "",
-          "note": "",
-          "promises": [
-            {
-              "topic": "education",
-              "title": "增設公共托育機構",
-              "status": "unknown",
-              "note": "議會官網列出的上屆政見；查無可判斷完成與否的公開資料",
-              "source": "https://www.kmc.gov.tw/index.php/mac/mi/klra/282-klra-02"
-            },
-            {
-              "topic": "education",
-              "title": "充實教育設備、改善學童膳食",
-              "status": "unknown",
-              "note": "議會官網列出的上屆政見；查無可判斷完成與否的公開資料",
-              "source": "https://www.kmc.gov.tw/index.php/mac/mi/klra/282-klra-02"
-            },
-            {
-              "topic": "welfare",
-              "title": "提升長照品質",
-              "status": "unknown",
-              "note": "議會官網列出的上屆政見；查無可判斷完成與否的公開資料",
-              "source": "https://www.kmc.gov.tw/index.php/mac/mi/klra/282-klra-02"
-            }
-          ],
-          "rates": []
-        }
-      ]
     },
     {
       "id": "klc3-4",

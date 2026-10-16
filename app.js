@@ -241,7 +241,7 @@
             ${races.map((r) => `
               <button class="race-btn ${r.id === state.raceId ? "is-selected" : ""}" data-action="pick-race" data-id="${esc(r.id)}">
                 <span><span>${esc(r.office)}</span>
-                <span class="muted">${r.area ? `${esc(r.area)}・` : ""}${r.seats > 1 ? `應選 ${r.seats} 席・` : ""}${r.candidates.length} 位候選人</span></span>${STAMP}
+                <span class="muted">${r.area ? `${esc(r.area)}・` : ""}${r.seats > 1 ? `應選 ${r.seats} 席・` : ""}${r.candidates.length} 位候選人${r.candidates.length <= (r.seats || 1) ? "・同額競選" : ""}</span></span>${STAMP}
               </button>`).join("")}
           </div>
         </section>`).join("")}

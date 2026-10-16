@@ -9,6 +9,7 @@
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 第 20 位候選人以「王妃天崩開局穿越整頓霸凌者佀廣洋」為登記姓名，與第 19 位候選人佀廣洋為不同人（見 NOWnews 2026-10 報導），照登記名收錄。
  * 已知缺漏：朱永煇、許孟祥、蕭湘瀚、李凱倫、佀廣洋、王妃天崩開局穿越整頓霸凌者佀廣洋查無可收錄的政見與經歷；現任議員多數查無 2026 年新政見。
+ * 2026-10-16 中選會審定：原 tyc1-8 蕭湘瀚因妨害公務等案件尚未執行完畢，依選罷法第 26 條第 9 款不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。審定後 19 人。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-01",
@@ -441,16 +442,6 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許孟祥",
         "party": "勞動黨",
-        "number": null
-      },
-      "platforms": [],
-      "record": []
-    },
-    {
-      "id": "tyc1-8",
-      "identity": {
-        "name": "蕭湘瀚",
-        "party": "無黨籍",
         "number": null
       },
       "platforms": [],
