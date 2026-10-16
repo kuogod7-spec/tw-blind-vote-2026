@@ -8,6 +8,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 2026-10-17 補查：tpm-3 補 2 則政見（附加於陣列尾端）及 4 則司法事件經歷；tpm-4 補 1 則政見、1 則經歷；
+ *         tpm-6 補 1 則經歷；tpm-5、tpm-6 仍未查得 2026 年政見（新聞僅報導登記與過去言行）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-mayor",
@@ -576,7 +578,20 @@ window.ELECTION_DATA.races.push({
         "party": "台灣麻將最大黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "淡水河沿岸改用升降式防洪設施，減少實體堤防阻隔、重新開放水岸與風廊",
+          "detail": "結合分段控制、即時水情監測與 AI 預警系統；未公布期程與經費",
+          "source": "https://www.nownews.com/news/6881026"
+        },
+        {
+          "topic": "welfare",
+          "title": "將麻將定位為銀髮族正當休閒與智能運動，以減輕長照負擔",
+          "detail": "登記參選時報導列出的主張；未公布具體做法、期程與經費",
+          "source": "https://newtalk.tw/news/view/2026-08-31/1056852"
+        }
+      ],
       "record": [
         {
           "topic": "safety",
@@ -592,6 +607,26 @@ window.ELECTION_DATA.races.push({
           "topic": "safety",
           "text": "曾受聘為國防顧問，協助推動國防自製計畫。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5425063"
+        },
+        {
+          "topic": "governance",
+          "text": "1993 年一樁命案中被列為重要關係人，檢方以殺人罪偵查多年，2020 年以罪證不足處分不起訴。",
+          "source": "https://newtalk.tw/news/view/2026-08-31/1056852"
+        },
+        {
+          "topic": "governance",
+          "text": "因在通訊軟體群組辱罵一名退役軍官，被判拘役 50 日、得易科罰金，2024 年判決確定。",
+          "source": "https://newtalk.tw/news/view/2026-08-31/1056852"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 6 月因在網路直播中僅憑傳聞指控他人有不正當關係並加以辱罵，一審依誹謗罪判處有期徒刑 4 個月、得易科罰金（可上訴，尚未確定）。",
+          "source": "https://newtalk.tw/news/view/2026-08-31/1056852"
+        },
+        {
+          "topic": "governance",
+          "text": "同一直播中辱罵另一人的部分，另遭檢方提起公訴（尚未判決）。",
+          "source": "https://newtalk.tw/news/view/2026-08-31/1056852"
         }
       ],
       "past": [
@@ -619,6 +654,12 @@ window.ELECTION_DATA.races.push({
           "title": "推動將閱讀科學（SoR）教學法寫入英文課綱",
           "detail": "為其創辦政黨的唯一訴求；未查得針對市長選舉另提的政見",
           "source": "https://www.miparty.org/news.aspx?id=411"
+        },
+        {
+          "topic": "education",
+          "title": "推廣雙語教育，讓孩子不必在國內外輾轉求學也能將外語學成母語",
+          "detail": "報導所述參選目的；未公布具體做法、期程與經費",
+          "source": "https://ctinews.com/news/items/q9WPPppBWm"
         }
       ],
       "record": [
@@ -631,6 +672,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "曾任國立大學兼任英文講師與偏鄉國小教師，翻譯多部英文文學作品並編纂雙語字典（本人說法）。",
           "source": "https://zh.wikipedia.org/zh-tw/%E8%95%AD%E6%96%87%E4%B9%BE"
+        },
+        {
+          "topic": "governance",
+          "text": "曾擔任國家元首的隨行口譯（本人說法，來自其所屬學會介紹）。",
+          "source": "https://ctinews.com/news/items/q9WPPppBWm"
         }
       ],
       "past": [
@@ -745,7 +791,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "education",
+          "text": "曾為健美國家代表選手、獲健美比賽冠軍頭銜；具體育大學教練研究所碩士學歷。",
+          "source": "https://udn.com/vote2026/local_chiefs"
+        }
+      ],
       "past": []
     }
   ]
