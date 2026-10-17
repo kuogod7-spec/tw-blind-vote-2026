@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>資料統計 · 盲選政見比較</title>
+  <meta name="description" content="盲選政見比較各選區的收錄數量、資料來源比例、可行性評估進度，以及歸入長期建設的政見清單。">
+  <link rel="stylesheet" href="style.css">
+  <script src="analytics.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="stamp logo-stamp" aria-label="回到首頁"></a>
+      <div class="header-text">
+        <p class="eyebrow">2026 地方選舉</p>
+        <p class="brand"><a href="index.html" class="brand-link">盲選政見比較</a></p>
+        <p class="tagline">資料統計</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap doc">
+    <section class="card">
+      <h1>資料統計</h1>
+      <p class="muted">以下數字由網頁直接從資料檔即時計算，不是手寫。為了不破壞盲選，這裡只列總數與範圍，不列各候選人的明細。資料更新：<span data-stat="updated"></span>。收錄與評估標準見<a href="methodology.html">方法與資料說明</a>。</p>
+      <div data-stat="total"></div>
+    </section>
+
+    <section id="races" class="card">
+      <h2>各選區明細</h2>
+      <p class="muted">點縣市名稱展開。</p>
+      <div data-stat="table"></div>
+    </section>
+
+    <section id="long" class="card">
+      <h2>歸入長期建設的政見</h2>
+      <p>需要多年興建的實體建設，可行性改用規劃成熟度、財務規劃與期程合理性評估，不以四年為標準（見<a href="methodology.html#feasibility">方法說明第 6 節</a>）。目前歸入的政見：</p>
+      <div data-stat="long-list"></div>
+    </section>
+
+    <p class="back"><a href="methodology.html">← 方法與資料說明</a>　<a href="index.html" class="primary">回到盲選比較</a></p>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>圈選章圖示：<a href="https://commons.wikimedia.org/wiki/File:Elected_candidate_symbol_(voting_stamp,_Taiwan).svg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>（公有領域）。</p>
+  </footer>
+
+  <script src="data/new-taipei.js"></script>
+  <script src="data/new-taipei-council-01.js"></script>
+  <script src="data/new-taipei-council-02.js"></script>
+  <script src="data/new-taipei-council-03.js"></script>
+  <script src="data/new-taipei-council-04.js"></script>
+  <script src="data/new-taipei-council-05.js"></script>
+  <script src="data/new-taipei-council-06.js"></script>
+  <script src="data/new-taipei-council-07.js"></script>
+  <script src="data/new-taipei-council-08.js"></script>
+  <script src="data/new-taipei-council-09.js"></script>
+  <script src="data/new-taipei-council-10.js"></script>
+  <script src="data/new-taipei-council-11.js"></script>
+  <script src="data/new-taipei-council-12.js"></script>
+  <script src="data/new-taipei-council-13.js"></script>
+  <script src="data/taipei-mayor.js"></script>
+  <script src="data/taipei-council-01.js"></script>
+  <script src="data/taipei-council-02.js"></script>
+  <script src="data/taipei-council-03.js"></script>
+  <script src="data/taipei-council-04.js"></script>
+  <script src="data/taipei-council-05.js"></script>
+  <script src="data/taipei-council-06.js"></script>
+  <script src="data/taipei-council-pi.js"></script>
+  <script src="data/taipei-council-mi.js"></script>
+  <script src="data/keelung-mayor.js"></script>
+  <script src="data/keelung-council-01.js"></script>
+  <script src="data/keelung-council-02.js"></script>
+  <script src="data/keelung-council-03.js"></script>
+  <script src="data/keelung-council-04.js"></script>
+  <script src="data/keelung-council-05.js"></script>
+  <script src="data/keelung-council-06.js"></script>
+  <script src="data/keelung-council-07.js"></script>
+  <script src="data/keelung-council-08.js"></script>
+  <script src="data/keelung-council-09.js"></script>
+  <script src="data/taoyuan-mayor.js"></script>
+  <script src="data/taoyuan-council-01.js"></script>
+  <script src="data/taoyuan-council-02.js"></script>
+  <script src="data/taoyuan-council-03.js"></script>
+  <script src="data/taoyuan-council-04.js"></script>
+  <script src="data/taoyuan-council-05.js"></script>
+  <script src="data/taoyuan-council-06.js"></script>
+  <script src="data/taoyuan-council-07.js"></script>
+  <script src="data/taoyuan-council-08.js"></script>
+  <script src="data/taoyuan-council-09.js"></script>
+  <script src="data/taoyuan-council-10.js"></script>
+  <script src="data/taoyuan-council-11.js"></script>
+  <script src="data/taoyuan-council-12.js"></script>
+  <script src="data/taoyuan-council-13.js"></script>
+  <script src="data/taoyuan-council-14.js"></script>
+  <script src="data/hsinchu-city-mayor.js"></script>
+  <script src="data/hsinchu-city-council-01.js"></script>
+  <script src="data/hsinchu-city-council-02.js"></script>
+  <script src="data/hsinchu-city-council-03.js"></script>
+  <script src="data/hsinchu-city-council-04.js"></script>
+  <script src="data/hsinchu-city-council-05.js"></script>
+  <script src="data/hsinchu-city-council-06.js"></script>
+  <script src="data/hsinchu-city-council-07.js"></script>
+  <script src="data/hsinchu-county-mayor.js"></script>
+  <script src="data/hsinchu-county-council-01.js"></script>
+  <script src="data/hsinchu-county-council-02.js"></script>
+  <script src="data/hsinchu-county-council-03.js"></script>
+  <script src="data/hsinchu-county-council-04.js"></script>
+  <script src="data/hsinchu-county-council-05.js"></script>
+  <script src="data/hsinchu-county-council-06.js"></script>
+  <script src="data/hsinchu-county-council-07.js"></script>
+  <script src="data/hsinchu-county-council-08.js"></script>
+  <script src="data/hsinchu-county-council-09.js"></script>
+  <script src="data/hsinchu-county-council-10.js"></script>
+  <script src="data/hsinchu-county-council-11.js"></script>
+  <script src="data/hsinchu-county-council-12.js"></script>
+  <script src="data/hsinchu-county-council-13.js"></script>
+  <script src="data/hsinchu-county-council-14.js"></script>
+  <script src="data/new-taipei-feasibility.js"></script>
+  <script src="data/taipei-feasibility.js"></script>
+  <script>
+    // 由資料檔即時計算統計數字，確保統計頁與實際資料一致
+    (() => {
+      const D = window.ELECTION_DATA, F = window.FEASIBILITY || {};
+      const $ = (k) => document.querySelector(`[data-stat="${k}"]`);
+      const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+      const LV = { high: "高", medium: "中", low: "低", unclear: "資訊不足" };
+      const sum = (a) => a.reduce((x, y) => x + y, 0);
+      const dist = (o) => Object.keys(LV).filter((k) => o[k]).map((k) => `${LV[k]} ${o[k]}`).join("、") || "—";
+
+      $("updated").textContent = D.meta.updated;
+
+      const tot = { races: 0, cands: 0, plat: 0, feas: 0, empty: 0 };
+      const longByRace = [];
+      const regions = new Map();
+      D.races.forEach((race) => {
+        const cs = race.candidates;
+        const plat = cs.map((c) => c.platforms.length);
+        const rec = cs.map((c) => c.record.length);
+        const past = cs.map((c) => (c.past || []).reduce((n, r) => n + r.promises.length, 0));
+        const all = cs.flatMap((c) => [...c.platforms, ...c.record, ...(c.past || []).flatMap((r) => r.promises)]);
+        const withSrc = all.filter((x) => x.source).length;
+        const self = cs.flatMap((c) => c.record).filter((r) => /本人說法/.test(r.text)).length;
+        const feas = {}, longs = [];
+        let feasN = 0;
+        cs.forEach((c) => c.platforms.forEach((p, i) => {
+          const f = F[`${c.id}-p${i}`];
+          if (!f) return;
+          feasN++;
+          feas[f.level] = (feas[f.level] || 0) + 1;
+          if (f.track === "long") longs.push(p.title);
+        }));
+        if (longs.length) longByRace.push({ name: `${race.region} ${race.office}`, longs });
+        tot.races++; tot.cands += cs.length; tot.plat += sum(plat); tot.feas += feasN;
+        tot.empty += plat.filter((n) => !n).length;
+        const range = (a) => `${sum(a)}（每人 ${Math.min(...a)}–${Math.max(...a)}）`;
+        const html = `
+          <h3>${esc(race.office)}</h3>
+          <table class="def">
+            <tr><th>候選人</th><td>${cs.length} 位（全數收錄），其中 ${plat.filter((n) => !n).length} 位尚無政見</td></tr>
+            <tr><th>政見</th><td>${range(plat)} 則</td></tr>
+            <tr><th>做過的事</th><td>${range(rec)} 則，其中 ${self} 則標註「本人說法」</td></tr>
+            <tr><th>過去政見</th><td>${range(past)} 則</td></tr>
+            <tr><th>附資料來源</th><td>${withSrc} / ${all.length} 則</td></tr>
+            <tr><th>可行性評估</th><td>${feasN} / ${sum(plat)} 則政見已評估；總評分布：${dist(feas)}</td></tr>
+          </table>`;
+        if (!regions.has(race.region)) regions.set(race.region, { html: [], races: 0, cands: 0, plat: 0 });
+        const g = regions.get(race.region);
+        g.html.push(html); g.races++; g.cands += cs.length; g.plat += sum(plat);
+      });
+
+      $("total").innerHTML = `
+        <table class="def">
+          <tr><th>選區</th><td>${tot.races} 個</td></tr>
+          <tr><th>候選人</th><td>${tot.cands} 位，其中 ${tot.empty} 位尚無政見</td></tr>
+          <tr><th>政見</th><td>${tot.plat} 則</td></tr>
+          <tr><th>可行性評估</th><td>${tot.feas} / ${tot.plat} 則</td></tr>
+        </table>`;
+      $("table").innerHTML = [...regions].map(([name, g]) => `
+        <details class="stat-region">
+          <summary>${esc(name)}<span class="muted">${g.races} 個選區・${g.cands} 位候選人・${g.plat} 則政見</span></summary>
+          ${g.html.join("")}
+        </details>`).join("");
+      $("long-list").innerHTML = longByRace.length
+        ? longByRace.map((r) => `<h3>${esc(r.name)}</h3><ul>${r.longs.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`).join("")
+        : "<p>（尚無）</p>";
+    })();
+  </script>
+</body>
+</html>

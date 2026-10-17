@@ -176,8 +176,7 @@
         <tr><th>財務規劃</th><td>是否有經費估算與財源機制（中央補助比例、自償率、土地開發、BOT、專款）。</td></tr>
         <tr><th>期程合理性</th><td>候選人提出的期程，與同類工程的一般期程相比是否合理，並列出合理的預估期程。</td></tr>
       </table>
-      <p>分類標準只看政見內容：<strong>需要多年興建的實體建設</strong>才歸入長期建設。目前歸入的政見：</p>
-      <ul data-stat="long-list"></ul>
+      <p>分類標準只看政見內容：<strong>需要多年興建的實體建設</strong>才歸入長期建設。目前歸入的政見列在<a href="stats.html#long">資料統計頁</a>。</p>
 
       <h3>議員政見：依議員職權判斷「權責」</h3>
       <p>議員沒有行政權，職權是審議自治條例與預算、質詢監督、爭取建設。多數議員政見本質上是「爭取市府去做」，因此議員政見的「權責」依議員職權判斷：</p>
@@ -256,8 +255,7 @@
 
     <section id="stats" class="card">
       <h2>10. 資料統計</h2>
-      <p class="muted">以下數字由網頁直接從資料檔即時計算，不是手寫。為了不破壞盲選，這裡只列總數與範圍，不列各候選人的明細。</p>
-      <div data-stat="table"></div>
+      <p>各選區的收錄數量、資料來源比例、可行性評估進度，以及歸入長期建設的政見清單，都由資料檔即時計算，放在獨立的<a href="stats.html">資料統計頁</a>。</p>
     </section>
 
     <section id="corrections" class="card">
@@ -331,7 +329,7 @@
         <li>「做過的事」移到開票頁，列在各候選人結果下方供參考，不再列入配對分數；閱讀頁只圈選 2026 政見。原因：經歷容易透露身分，各人經歷的性質也難以互相比較。</li>
         <li>臺北市長政見加上可行性評估（59 則，全數附出處）。補出處時查證發現事實有誤或過時的評估理由已修正，例如運動中心經費、南機場公辦都更期程、淡水河的管理權責。</li>
         <li>臺北市長補查：一位候選人新增 2 則政見與 4 則司法紀錄，一位新增 1 則政見；另兩位仍查無 2026 年政見。</li>
-        <li>第 10 節「資料統計」改為涵蓋全部選區。</li>
+        <li>第 10 節「資料統計」改為涵蓋全部選區，並與長期建設政見清單一起移到獨立的<a href="stats.html">資料統計頁</a>，依縣市折疊。</li>
         <li>新增回報機制：每則內容下方可回報錯誤（見第 11 節）。</li>
         <li>啟用 Google Analytics，並改寫第 1 節的隱私說明：點擊外部連結的網址會傳給 Google，可能透露你看了哪個選區或哪位候選人的資料；評分與配對結果不會傳出。</li>
         <li>開始以 Claude 與 Codex 兩套 AI 交叉檢核（見第 8 節）。第一次檢核後的修正：
@@ -450,54 +448,15 @@
   <script src="data/hsinchu-county-council-12.js"></script>
   <script src="data/hsinchu-county-council-13.js"></script>
   <script src="data/hsinchu-county-council-14.js"></script>
-  <script src="data/new-taipei-feasibility.js"></script>
-  <script src="data/taipei-feasibility.js"></script>
   <script>
     // 由資料檔即時計算統計數字，確保說明頁與實際資料一致
     (() => {
-      const D = window.ELECTION_DATA, F = window.FEASIBILITY || {};
+      const D = window.ELECTION_DATA;
       const $ = (k) => document.querySelector(`[data-stat="${k}"]`);
-      const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-      const LV = { high: "高", medium: "中", low: "低", unclear: "資訊不足" };
 
       $("updated").textContent = D.meta.updated;
       $("topics").textContent = D.topics.map((t) => t.label).join("、");
 
-      const longItems = [];
-      const rows = D.races.map((race) => {
-        const cs = race.candidates;
-        const plat = cs.map((c) => c.platforms.length);
-        const rec = cs.map((c) => c.record.length);
-        const past = cs.map((c) => (c.past || []).reduce((n, r) => n + r.promises.length, 0));
-        const all = cs.flatMap((c) => [...c.platforms, ...c.record, ...(c.past || []).flatMap((r) => r.promises)]);
-        const withSrc = all.filter((x) => x.source).length;
-        const self = cs.flatMap((c) => c.record).filter((r) => /本人說法/.test(r.text)).length;
-        const feas = {};
-        let feasN = 0;
-        cs.forEach((c) => c.platforms.forEach((p, i) => {
-          const f = F[`${c.id}-p${i}`];
-          if (!f) return;
-          feasN++;
-          feas[f.level] = (feas[f.level] || 0) + 1;
-          if (f.track === "long") longItems.push(`${race.region}${race.office}：${p.title}`);
-        }));
-        const range = (a) => `${a.reduce((x, y) => x + y, 0)}（每人 ${Math.min(...a)}–${Math.max(...a)}）`;
-        return `
-          <h3>${esc(race.region)} ${esc(race.office)}</h3>
-          <table class="def">
-            <tr><th>候選人</th><td>${cs.length} 位（全數收錄）</td></tr>
-            <tr><th>政見</th><td>${range(plat)} 則</td></tr>
-            <tr><th>做過的事</th><td>${range(rec)} 則，其中 ${self} 則標註「本人說法」</td></tr>
-            <tr><th>過去政見</th><td>${range(past)} 則</td></tr>
-            <tr><th>附資料來源</th><td>${withSrc} / ${all.length} 則</td></tr>
-            <tr><th>可行性評估</th><td>${feasN} / ${plat.reduce((x, y) => x + y, 0)} 則政見已評估；總評分布：${
-              Object.keys(LV).filter((k) => feas[k]).map((k) => `${LV[k]} ${feas[k]}`).join("、") || "—"}</td></tr>
-          </table>`;
-      });
-      $("table").innerHTML = rows.join("");
-      $("long-list").innerHTML = longItems.length
-        ? longItems.map((t) => `<li>${esc(t)}</li>`).join("")
-        : "<li>（尚無）</li>";
     })();
   </script>
 </body>
