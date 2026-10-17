@@ -383,6 +383,15 @@
         ${sourceUrl(rt.source) && revealed ? `<a href="${esc(sourceUrl(rt.source))}" target="_blank" rel="noopener noreferrer">來源</a>` : ""}</p>`).join("");
   }
 
+  // 回報表單（Google 表單）。只帶內容雜湊與選區，不帶候選人代碼，避免從連結看出哪幾則是同一人的
+  const REPORT_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSd2tlENBhbJDLEPKVuJ73XFdEEffJJ1iIil0zT04Gh-xb3Fww/viewform";
+  function reportUrl(it) {
+    const race = raceById[state.raceId];
+    const params = new URLSearchParams({ usp: "pp_url", "entry.448687593": `${race.region} ${race.office}` });
+    if (it) params.set("entry.1079289209", `${it.kind}-${it.id.split("-").pop()}`);
+    return `${REPORT_FORM}?${params}`;
+  }
+
   function itemCard(it) {
     const r = state.ratings[it.id];
     return `
@@ -401,6 +410,7 @@
             <button role="radio" tabindex="${r === o.value || (r == null && o.value === 1) ? 0 : -1}" class="r${o.value}" aria-checked="${r === o.value}"
               data-action="rate" data-id="${esc(it.id)}" data-value="${o.value}">${o.value === 1 ? STAMP : ""}${o.label}</button>`).join("")}
         </div>`}
+        <p class="item-report"><a href="${esc(reportUrl(it))}" target="_blank" rel="noopener noreferrer">回報這則有誤</a></p>
       </article>`;
   }
 
