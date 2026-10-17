@@ -170,7 +170,7 @@
 
   const pastOf = (c) => c.past.flatMap((role) => role.promises);
   // 未當選者無從兌現，只呈現、不評分
-  // 閱讀頁只放可評分的 2026 政見；做過的事與過去政見容易透露身分，也不易互相比較，開票後才顯示、不計分
+  // 閱讀頁只放可評分的 2026 政見；做過的事與過去政見容易透露身分，也不易互相比較，在結果頁才顯示、不計分
   const itemsOf = (c) => c.platforms;
   const shownOf = (c) => [...itemsOf(c), ...c.record, ...pastOf(c)];
   const tag = (c) => `<span class="letter">${c.letter}</span>${esc(c.label)}`;
@@ -263,16 +263,16 @@
           <li>選擇你要投票的選區與職位。</li>
           <li>設定你在意哪些議題。</li>
           <li>閱讀 2026 政見，逐條表達認同與否。政見依議題分組、各組內隨機排列、不標示是誰提出的。</li>
-          <li>開票：看哪位候選人最符合你的想法，並參考各候選人做過的事與過去政見，最後才揭曉是誰。</li>
+          <li>配對結果：看哪位候選人最符合你的想法，並參考各候選人做過的事與過去政見，最後才揭曉是誰。</li>
         </ol>
-        <p class="muted">開票時候選人以隨機字母代號呈現，與登記號次無關。</p>
+        <p class="muted">結果頁以隨機字母代號呈現候選人，與登記號次無關。</p>
       </div>${BALLOT_ART}</section>
       <section class="method-card">
         <h2>使用前請先知道</h2>
         <ul>
           <li><strong>資料不完整。</strong>選舉公報尚未發布，許多議員候選人只查到少數主張，甚至完全查不到。</li>
           <li><strong>說得少就顯示得少。</strong>候選人沒說的細節，本站不替任何人補上，所以各人則數不同。</li>
-          <li><strong>每一則都有出處。</strong>網址可能透露身分，開票揭曉後才會顯示。</li>
+          <li><strong>每一則都有出處。</strong>網址可能透露身分，揭曉身分後才會顯示。</li>
           <li><strong>本站不推薦任何人。</strong>配對分數完全由你自己的評分算出。</li>
         </ul>
         <a class="method-cta" href="methodology.html">閱讀完整的方法與資料說明<span aria-hidden="true">→</span></a>
@@ -332,18 +332,18 @@
     return `
       <h2>${esc(race.region)} ${esc(race.office)}</h2>
       ${raceNote(race)}
-      <p class="notice">為了做到全盲，這裡的每一則內容都不標示是哪位候選人提出的，依議題分組、各組內隨機排列。評分後到「開票」才會看到各候選人的配對結果。</p>
+      <p class="notice">為了做到全盲，這裡的每一則內容都不標示是哪位候選人提出的，依議題分組、各組內隨機排列。評分後到「配對結果」才會看到各候選人的配對結果。</p>
       ${gapNote(cands)}
       ${feasNote(race)}
       ${toolbar}
       ${browseBlind(race)}
-      <div class="actions"><button class="primary" data-action="go" data-step="result">開票 →</button></div>
+      <div class="actions"><button class="primary" data-action="go" data-step="result">看配對結果 →</button></div>
     `;
   }
 
   // 閱讀頁只有 2026 政見，依議題分組
   const SECTIONS = [
-    { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。候選人做過的事與過去政見，開票後才會列出，不列入計分。" },
+    { kind: "platform", title: "2026 政見", note: "候選人這次選舉提出的主張。候選人做過的事與過去政見，在結果頁才會列出，不列入計分。" },
   ];
 
   function browseBlind(race) {
@@ -426,7 +426,7 @@
     const anyRated = rows.some((r) => r.s.rated);
 
     return `
-      <h2>${esc(race.region)} ${esc(race.office)}：開票結果</h2>
+      <h2>${esc(race.region)} ${esc(race.office)}：配對結果</h2>
       ${raceNote(race)}
       ${anyRated ? "" : `<p class="notice">你還沒有評分任何政見。<button class="link" data-action="go" data-step="browse">回去閱讀政見</button></p>`}
       ${race.seats > 1 ? `<p class="notice">這個選區應選 ${race.seats} 席，但每位選民只能投 1 票。排名第一的是最符合你想法的候選人。</p>` : ""}
@@ -521,7 +521,7 @@
       .map((k) => `<span class="status s-${k}">${STATUS[k]} ${n[k]}</span>`).join("")}</p>`;
   }
 
-  // 開票後才顯示做過的事，作為參考，不計分
+  // 在結果頁才顯示做過的事，作為參考，不計分
   function recordSummary(c) {
     if (!c.record.length) return `<div class="past-summary"><span class="muted">做過的事</span><span>查無資料</span></div>`;
     return `
@@ -531,7 +531,7 @@
       </details>`;
   }
 
-  // 開票後才顯示過去政見與達成狀況，作為「說到做到」的參考（只列件數，「無法查證」多時算成比例會誤導）
+  // 在結果頁才顯示過去政見與達成狀況，作為「說到做到」的參考（只列件數，「無法查證」多時算成比例會誤導）
   function pastSummary(c) {
     if (!c.past.length) return `<div class="past-summary"><span class="muted">過去政見</span><span>無過去紀錄</span></div>`;
     const promises = pastOf(c);
@@ -554,7 +554,7 @@
     const src = race.candidates.some((c) => shownOf(c).some((it) => it.source));
     if (!race.note && !src) return "";
     return `<p class="race-note">${esc(race.note || "")}${src && !state.revealed[race.id]
-      ? " 每則都有資料出處，但網址可能透露身分，所以開票揭曉後才會顯示。" : ""}
+      ? " 每則都有資料出處，但網址可能透露身分，所以揭曉身分後才會顯示。" : ""}
       <a class="method-link" href="methodology.html">完整收錄標準 →</a></p>`;
   }
 
