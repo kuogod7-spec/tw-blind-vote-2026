@@ -276,10 +276,12 @@
       <p>本站是純靜態網頁，<strong>沒有後端伺服器，也沒有資料庫</strong>，本站本身不收集任何個人資料。會經手資料的只有下表幾項：</p>
       <table class="def">
         <tr><th>你的瀏覽器</th><td><b>用途</b>：以 localStorage 保存評分、議題重要度、洗牌順序、是否已揭曉，以及第一次進站的提醒是否看過。<br><b>誰拿得到</b>：只存在你這台裝置，本站與任何人都讀不到。清除瀏覽器的網站資料即可刪除。</td></tr>
-        <tr><th>Google Analytics</th><td><b>用途</b>：統計造訪人數與使用情形。<br><b>Google 會收到</b>：造訪與頁面瀏覽、捲動、點擊的外部連結網址，以及瀏覽器、裝置、大略地區、IP 位址等一般資訊；Google 會在你的瀏覽器設定 <code>_ga</code> 等 cookie。<br><b>不會收到</b>：你怎麼評分、重要度怎麼設、配對分數。本站沒有傳送任何自訂事件。</td></tr>
-        <tr><th>Google 表單</th><td><b>用途</b>：回報錯誤。<br><b>Google 會收到</b>：連結中預先帶入的選區名稱與該則內容的代碼，以及你自己填寫的內容。不需要登入，不會帶入你的評分。</td></tr>
-        <tr><th>網站託管（GitHub）</th><td><b>用途</b>：提供網頁檔案。<br><b>GitHub 會收到</b>：一般的伺服器存取紀錄，例如 IP 位址與瀏覽器資訊。</td></tr>
+        <tr><th>Google Analytics</th><td><b>提供者</b>：Google LLC（美國加州，母公司為 Alphabet Inc.）。資料可能存放於美國或 Google 在其他國家的資料中心。<a href="https://policies.google.com/privacy?hl=zh-TW" target="_blank" rel="noopener noreferrer">Google 隱私權政策</a>、<a href="https://support.google.com/analytics/answer/6004245?hl=zh-Hant" target="_blank" rel="noopener noreferrer">Google Analytics 資料保護說明</a><br><b>用途</b>：統計造訪人數與使用情形。<br><b>Google 會收到</b>：造訪與頁面瀏覽、捲動、點擊的外部連結網址，以及瀏覽器、裝置、大略地區、IP 位址等一般資訊；Google 會在你的瀏覽器設定 <code>_ga</code> 等 cookie。<br><b>不會收到</b>：你怎麼評分、重要度怎麼設、配對分數。本站沒有傳送任何自訂事件。</td></tr>
+        <tr><th>Google 表單</th><td><b>提供者</b>：同上，Google LLC。<br><b>用途</b>：回報錯誤。<br><b>Google 會收到</b>：連結中預先帶入的選區名稱與該則內容的代碼，以及你自己填寫的內容。不需要登入，不會帶入你的評分。</td></tr>
+        <tr><th>網站託管（GitHub）</th><td><b>提供者</b>：GitHub, Inc.（美國加州，2018 年起為 Microsoft 的子公司）。<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub 隱私聲明</a><br><b>用途</b>：提供網頁檔案。<br><b>GitHub 會收到</b>：一般的伺服器存取紀錄，例如 IP 位址與瀏覽器資訊。</td></tr>
       </table>
+      <h3>製作過程使用的 AI 服務</h3>
+      <p>資料整理與網站程式使用了 Anthropic, PBC（美國加州）的 Claude，以及 OpenAI（美國加州）的 Codex（見第 8 節）。這兩家公司只參與製作，<strong>你瀏覽本站時不會連到它們，也不會傳任何資料給它們</strong>。<a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener noreferrer">Anthropic 隱私政策</a>、<a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">OpenAI 隱私政策</a></p>
       <h3>要特別注意：外部連結網址</h3>
       <p>點擊的外部連結網址會傳給 Google Analytics，而網址可能透露你在看什麼：例如開票後點「資料來源」，新聞網址常看得出是哪位候選人；點「回報這則有誤」，網址包含選區名稱。</p>
       <h3>沒有使用的東西</h3>
@@ -288,7 +290,7 @@
         <li>字型使用裝置內建字型，不載入 Google Fonts；圈選章圖示放在本站內。</li>
         <li>本頁引用的論文與研究網址，只有你點了才會連過去。</li>
       </ul>
-      <p class="muted">不想被統計的話，可以使用瀏覽器的追蹤防護或廣告阻擋功能；封鎖 Google Analytics 不影響本站任何功能。</p>
+      <p class="muted">不想被統計的話，可以使用瀏覽器的追蹤防護、廣告阻擋功能，或 Google 提供的<a href="https://tools.google.com/dlpage/gaoptout?hl=zh-TW" target="_blank" rel="noopener noreferrer">Google Analytics 停用外掛程式</a>；封鎖 Google Analytics 不影響本站任何功能。</p>
     </section>
 
     <section id="research" class="card">
@@ -350,7 +352,7 @@
         <li>「做過的事」移到開票頁，列在各候選人結果下方供參考，不再列入配對分數；閱讀頁只圈選 2026 政見。原因：經歷容易透露身分，各人經歷的性質也難以互相比較。</li>
         <li>臺北市長政見加上可行性評估（59 則，全數附出處）。補出處時查證發現事實有誤或過時的評估理由已修正，例如運動中心經費、南機場公辦都更期程、淡水河的管理權責。</li>
         <li>臺北市長補查：一位候選人新增 2 則政見與 4 則司法紀錄，一位新增 1 則政見；另兩位仍查無 2026 年政見。</li>
-        <li>新增第 12 節「使用的服務與隱私」，列出本站用到的外部服務與各自會收到的資料；原第 12、13 節順延為第 13、14 節。</li>
+        <li>新增第 12 節「使用的服務與隱私」，列出本站用到的外部服務、提供公司與所在地、各自會收到的資料，以及製作時使用的 AI 服務；原第 12、13 節順延為第 13、14 節。</li>
         <li>第 10 節「資料統計」改為涵蓋全部選區，並與長期建設政見清單一起移到獨立的<a href="stats.html">資料統計頁</a>，依縣市折疊。</li>
         <li>新增回報機制：每則內容下方可回報錯誤（見第 11 節）。</li>
         <li>啟用 Google Analytics，並改寫第 1 節的隱私說明：點擊外部連結的網址會傳給 Google，可能透露你看了哪個選區或哪位候選人的資料；評分與配對結果不會傳出。</li>
