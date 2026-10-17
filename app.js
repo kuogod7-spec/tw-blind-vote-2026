@@ -38,18 +38,29 @@
   const topicById = Object.fromEntries(DATA.topics.map((t) => [t.id, t]));
   const raceById = Object.fromEntries(DATA.races.map((r) => [r.id, r]));
 
+  function stableId(candidateId, kind, item) {
+    const content = JSON.stringify([candidateId, kind, item.title || item.text || "", item.detail || item.note || ""]);
+    // 兩組 32 位元雜湊，避免位置異動把舊評分套到不同內容。
+    let a = 2166136261, b = 5381;
+    for (const ch of content) {
+      a = Math.imul(a ^ ch.codePointAt(0), 16777619);
+      b = Math.imul(b, 33) ^ ch.codePointAt(0);
+    }
+    return `${candidateId}-${kind}-${(a >>> 0).toString(16)}${(b >>> 0).toString(16).padStart(8, "0")}`;
+  }
+
   // 為每則政見／經歷補上穩定 id，評分以此為 key
   for (const race of DATA.races) {
     for (const c of race.candidates) {
       c.platforms.forEach((p, i) => {
         p.kind = "platform";
-        p.id ||= `${c.id}-p${i}`;
-        p.feasibility ||= FEASIBILITY[p.id];
+        p.id ||= stableId(c.id, "platform", p);
+        p.feasibility ||= FEASIBILITY[`${c.id}-p${i}`] || FEASIBILITY[p.id];
       });
-      c.record.forEach((r, i) => { r.kind = "record"; r.id ||= `${c.id}-r${i}`; r.title ||= r.text; });
+      c.record.forEach((r) => { r.kind = "record"; r.id ||= stableId(c.id, "record", r); r.title ||= r.text; });
       c.past ||= [];
-      c.past.forEach((role, j) => role.promises.forEach((p, i) => {
-        Object.assign(p, { kind: "past", id: p.id || `${c.id}-h${j}-${i}`, detail: p.note, role });
+      c.past.forEach((role) => role.promises.forEach((p) => {
+        Object.assign(p, { kind: "past", id: p.id || stableId(c.id, "past", p), detail: p.note, role });
       }));
     }
   }
@@ -70,13 +81,34 @@
 
   let state = load();
 
+  function isObject(value) { return value !== null && typeof value === "object" && !Array.isArray(value); }
+  function validOrder(order, ids) {
+    return Array.isArray(order) && order.length === ids.length && new Set(order).size === ids.length && ids.every((id) => order.includes(id));
+  }
+
   function load() {
     try {
       const saved = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
-      if (saved && typeof saved === "object") {
-        const s = { ...defaults(), ...saved };
-        if (s.raceId && !raceById[s.raceId]) s.raceId = null;
-        delete s.kind; // 閱讀頁只剩 2026 政見，舊版的類型篩選不再使用
+      if (isObject(saved)) {
+        const s = defaults();
+        if (["race", "weights", "browse", "result"].includes(saved.step)) s.step = saved.step;
+        if (typeof saved.raceId === "string" && Object.hasOwn(raceById, saved.raceId)) s.raceId = saved.raceId;
+        const itemIds = new Set(DATA.races.flatMap((r) => r.candidates.flatMap((c) => c.platforms.map((p) => p.id))));
+        if (isObject(saved.ratings)) s.ratings = Object.fromEntries(Object.entries(saved.ratings)
+          .filter(([id, v]) => itemIds.has(id) && [-1, 0, 1].includes(v)));
+        if (isObject(saved.weights)) for (const t of DATA.topics) {
+          if ([0, 1, 2, 3].includes(saved.weights[t.id])) s.weights[t.id] = saved.weights[t.id];
+        }
+        for (const r of DATA.races) {
+          const ids = r.candidates.map((c) => c.id);
+          const items = r.candidates.flatMap((c) => c.platforms.map((p) => p.id));
+          if (isObject(saved.order) && validOrder(saved.order[r.id], ids)) s.order[r.id] = saved.order[r.id];
+          if (isObject(saved.itemOrder) && validOrder(saved.itemOrder[r.id], items)) s.itemOrder[r.id] = saved.itemOrder[r.id];
+          if (isObject(saved.revealed) && typeof saved.revealed[r.id] === "boolean") s.revealed[r.id] = saved.revealed[r.id];
+        }
+        if (Array.isArray(saved.topics)) s.topics = [...new Set(saved.topics.filter((t) => typeof t === "string" && Object.hasOwn(topicById, t)))];
+        if (typeof saved.q === "string") s.q = saved.q;
+        if (typeof saved.unratedOnly === "boolean") s.unratedOnly = saved.unratedOnly;
         return s;
       }
     } catch (_) { /* 無痕模式等情況，直接用預設值 */ }
@@ -111,7 +143,7 @@
   function anonCandidates(race) {
     let order = state.order[race.id];
     const ids = race.candidates.map((c) => c.id);
-    if (!order || order.length !== ids.length || !ids.every((id) => order.includes(id))) {
+    if (!validOrder(order, ids)) {
       order = shuffle(ids);
       state.order = { ...state.order, [race.id]: order };
       save();
@@ -128,7 +160,7 @@
     const items = race.candidates.flatMap(itemsOf);
     const byId = Object.fromEntries(items.map((it) => [it.id, it]));
     let order = state.itemOrder[race.id];
-    if (!order || order.length !== items.length || !order.every((id) => id in byId)) {
+    if (!validOrder(order, items.map((it) => it.id))) {
       order = shuffle(items.map((it) => it.id));
       state.itemOrder = { ...state.itemOrder, [race.id]: order };
       save();
@@ -167,20 +199,21 @@
   }
 
   function score(c) {
-    let num = 0, den = 0, rated = 0;
+    let num = 0, den = 0, rated = 0, effectiveRated = 0;
     const byTopic = {};
     for (const it of itemsOf(c)) {
       if (!(it.id in state.ratings)) continue;
       rated++;
       const w = state.weights[it.topic] ?? 1;
       const r = state.ratings[it.id];
+      if (w > 0) effectiveRated++;
       num += w * r;
       den += w;
       const t = (byTopic[it.topic] ||= { up: 0, mid: 0, down: 0 });
       if (r > 0) t.up++; else if (r < 0) t.down++; else t.mid++;
     }
     return {
-      rated,
+      rated, effectiveRated,
       total: itemsOf(c).length,
       // 加權平均（-1 ~ 1）換算成 0 ~ 100
       pct: den ? Math.round(((num / den) + 1) * 50) : null,
@@ -201,7 +234,19 @@
     });
 
     const views = { race: viewRace, weights: viewWeights, browse: viewBrowse, result: viewResult };
+    const active = document.activeElement;
+    const controls = [...app.querySelectorAll("[data-action]")];
+    const focusData = active && app.contains(active) ? { ...active.dataset } : null;
+    const nextIds = active?.dataset.action === "rate" ? controls.slice(controls.indexOf(active) + 1)
+      .filter((el) => el.dataset.action === "rate" && el.dataset.id !== active.dataset.id).map((el) => el.dataset.id) : [];
     app.innerHTML = views[state.step](race);
+    if (focusData) {
+      const fresh = [...app.querySelectorAll("[data-action]")];
+      const target = fresh.find((el) => Object.entries(focusData).every(([k, v]) => el.dataset[k] === v))
+        || nextIds.map((id) => fresh.find((el) => el.dataset.action === "rate" && el.dataset.id === id && el.tabIndex === 0)).find(Boolean)
+        || fresh.find((el) => el.dataset.action === "go");
+      (target || app).focus({ preventScroll: true });
+    }
   }
 
   // 縣市依地理順序排列（北北基桃竹），未列出的排在最後
@@ -217,7 +262,7 @@
         <ol>
           <li>選擇你要投票的選區與職位。</li>
           <li>設定你在意哪些議題。</li>
-          <li>閱讀 2026 政見，逐條表達認同與否。所有政見順序打亂、不標示是誰提出的。</li>
+          <li>閱讀 2026 政見，逐條表達認同與否。政見依議題分組、各組內隨機排列、不標示是誰提出的。</li>
           <li>開票：看哪位候選人最符合你的想法，並參考各候選人做過的事與過去政見，最後才揭曉是誰。</li>
         </ol>
         <p class="muted">開票時候選人以隨機字母代號呈現，與登記號次無關。</p>
@@ -256,7 +301,7 @@
             <span class="weight-label">${esc(t.label)}</span>
             <div class="seg" role="radiogroup" aria-label="${esc(t.label)} 重要度">
               ${WEIGHTS.map((w) => `
-                <button role="radio" aria-checked="${state.weights[t.id] === w.value}"
+                <button role="radio" tabindex="${state.weights[t.id] === w.value ? 0 : -1}" aria-checked="${state.weights[t.id] === w.value}"
                   data-action="weight" data-topic="${t.id}" data-value="${w.value}">${w.label}</button>`).join("")}
             </div>
           </div>`).join("")}
@@ -287,7 +332,7 @@
     return `
       <h2>${esc(race.region)} ${esc(race.office)}</h2>
       ${raceNote(race)}
-      <p class="notice">為了做到全盲，這裡的每一則內容都不標示是哪位候選人提出的，順序也完全打亂。評分後到「開票」才會看到各候選人的配對結果。</p>
+      <p class="notice">為了做到全盲，這裡的每一則內容都不標示是哪位候選人提出的，依議題分組、各組內隨機排列。評分後到「開票」才會看到各候選人的配對結果。</p>
       ${gapNote(cands)}
       ${feasNote(race)}
       ${toolbar}
@@ -324,12 +369,18 @@
     return html || `<p class="empty">沒有符合條件的內容。</p>`;
   }
 
+  function sourceUrl(value) {
+    if (typeof value !== "string") return "";
+    try { const url = new URL(value); return ["http:", "https:"].includes(url.protocol) ? url.href : ""; }
+    catch (_) { return ""; }
+  }
+
   function rateLines(role) {
     const revealed = state.revealed[state.raceId];
     return (role.rates || []).map((rt) => `
       <p class="rate-line"><span>${esc(rt.label)}</span><strong>${esc(rt.value)}</strong>
         <span class="muted">${esc(rt.by)}</span>
-        ${rt.source && revealed ? `<a href="${esc(rt.source)}" target="_blank" rel="noopener noreferrer">來源</a>` : ""}</p>`).join("");
+        ${sourceUrl(rt.source) && revealed ? `<a href="${esc(sourceUrl(rt.source))}" target="_blank" rel="noopener noreferrer">來源</a>` : ""}</p>`).join("");
   }
 
   function itemCard(it) {
@@ -340,14 +391,14 @@
           <span class="kind">${{ platform: "2026 政見", record: "做過的事", past: "過去政見" }[it.kind]}</span>
           ${it.kind === "past" ? `<span>${esc(it.role.role)} ${esc(it.role.period)}</span>` : ""}
         </div>
-        <p class="item-title">${esc(it.title)}</p>
+        <p class="item-title" id="title-${esc(it.id)}">${esc(it.title)}</p>
         ${it.detail ? `<p class="item-detail">${esc(it.detail)}</p>` : ""}
         ${it.feasibility ? feasBlock(it.feasibility) : ""}
-        ${it.source && state.revealed[state.raceId] ? `<p class="item-src"><a href="${esc(it.source)}" target="_blank" rel="noopener noreferrer">資料來源</a></p>` : ""}
+        ${sourceUrl(it.source) && state.revealed[state.raceId] ? `<p class="item-src"><a href="${esc(sourceUrl(it.source))}" target="_blank" rel="noopener noreferrer">資料來源</a></p>` : ""}
         ${it.kind === "past" ? `<span class="status s-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : it.kind !== "platform" ? "" : `
-        <div class="rate" role="radiogroup" aria-label="你的看法">
+        <div class="rate" role="radiogroup" aria-labelledby="title-${esc(it.id)}">
           ${RATINGS.map((o) => `
-            <button role="radio" class="r${o.value}" aria-checked="${r === o.value}"
+            <button role="radio" tabindex="${r === o.value || (r == null && o.value === 1) ? 0 : -1}" class="r${o.value}" aria-checked="${r === o.value}"
               data-action="rate" data-id="${esc(it.id)}" data-value="${o.value}">${o.value === 1 ? STAMP : ""}${o.label}</button>`).join("")}
         </div>`}
       </article>`;
@@ -358,7 +409,10 @@
     const revealed = !!state.revealed[race.id];
     const rows = cands
       .map((c) => ({ c, s: score(c) }))
-      .sort((a, b) => (b.s.pct ?? -1) - (a.s.pct ?? -1) || b.s.total - a.s.total);
+      .sort((a, b) => (b.s.pct ?? -1) - (a.s.pct ?? -1));
+    rows.forEach((row, i) => {
+      row.rank = i > 0 && row.s.pct === rows[i - 1].s.pct ? rows[i - 1].rank : i + 1;
+    });
     const anyRated = rows.some((r) => r.s.rated);
 
     return `
@@ -368,18 +422,18 @@
       ${race.seats > 1 ? `<p class="notice">這個選區應選 ${race.seats} 席，但每位選民只能投 1 票。排名第一的是最符合你想法的候選人。</p>` : ""}
       <p class="muted">「認同度」是你對該候選人 2026 政見的加權認同度（認同 +1、普通 0、不認同 −1，乘上議題重要度後平均）。下方「做過的事」與「過去政見與達成狀況」是開票後才提供的參考，不算分、不影響排名：認同度高的人過去做了什麼、做到多少，由你自己權衡。評分越多則結果越可靠。各候選人可評的則數不同，這是因為公開資料多寡不同；則數少的人分數容易被少數幾則左右，請一併參考。</p>
       <div class="results">
-        ${rows.map(({ c, s }, i) => `
-          <section class="card result ${i === 0 && s.pct != null ? "top" : ""}">
+        ${rows.map(({ c, s, rank }) => `
+          <section class="card result ${s.pct != null && s.pct === rows[0].s.pct ? "top" : ""}">
             <div class="result-head">
-              <span class="rank">${s.pct == null ? "–" : `#${i + 1}`}</span>
+              <span class="rank">${s.pct == null ? "–" : `#${rank}`}</span>
               <h3 class="cand-tag">${tag(c)}</h3>
-              ${i === 0 && s.pct != null ? `<span class="best-stamp">最合你意</span>` : ""}
-              <span class="pct">${!s.total ? "無資料可評" : s.pct == null ? "尚未評分" : `認同度 ${s.pct}`}</span>
+              ${s.pct != null && s.pct === rows[0].s.pct ? `<span class="best-stamp">最合你意</span>` : ""}
+              <span class="pct">${!s.total ? "無資料可評" : s.pct == null ? (s.rated ? "無有效權重" : "尚未評分") : `認同度 ${s.pct}`}</span>
             </div>
             <div class="bar big"><span style="width:${s.pct ?? 0}%"></span></div>
             <p class="muted">可評 ${s.total} 則・已評 ${s.rated} 則
               ${s.total && s.total < THIN_DATA ? `<span class="warn">資料不足，分數僅供參考</span>` : ""}
-              ${s.pct != null && s.rated < FEW_RATED ? `<span class="warn">評分太少，分數不穩定</span>` : ""}</p>
+              ${s.pct != null && s.effectiveRated < FEW_RATED ? `<span class="warn">評分太少，分數不穩定</span>` : ""}</p>
             ${Object.keys(s.byTopic).length ? `
               <ul class="breakdown">
                 ${Object.entries(s.byTopic).map(([t, v]) => `
@@ -414,8 +468,8 @@
             `<span class="lv-sm lv-${esc(f[k])}">${label} ${esc(FEAS[f[k]] || "–")}</span>`).join("")}</span></p>
         ${long ? `<p class="feas-long"><span>目前階段：${esc(f.stage)}</span><span>合理期程：${esc(f.horizon)}</span></p>` : ""}
         <p class="feas-reason">${esc(f.reason)}</p>
-        ${revealed && f.sources?.length ? `<p class="item-src">評估依據：${f.sources.map((u, i) =>
-          `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${i + 1}</a>`).join("、")}</p>` : ""}
+        ${revealed && f.sources?.length ? `<p class="item-src">評估依據：${f.sources.filter(sourceUrl).map((u, i) =>
+          `<a href="${esc(sourceUrl(u))}" target="_blank" rel="noopener noreferrer">${i + 1}</a>`).join("、")}</p>` : ""}
       </div>`;
   }
 
@@ -550,6 +604,18 @@
     }
   });
 
+  document.addEventListener("keydown", (e) => {
+    const radio = e.target.closest('[role="radio"]');
+    if (!radio || !["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(e.key)) return;
+    e.preventDefault();
+    const radios = [...radio.parentElement.querySelectorAll('[role="radio"]')];
+    const index = radios.indexOf(radio);
+    const next = e.key === "Home" ? 0 : e.key === "End" ? radios.length - 1
+      : (index + (["ArrowLeft", "ArrowUp"].includes(e.key) ? -1 : 1) + radios.length) % radios.length;
+    radios[next].focus();
+    if (radios[next].getAttribute("aria-checked") !== "true") radios[next].click();
+  });
+
   document.addEventListener("input", (e) => {
     if (e.target.dataset.action !== "search") return;
     state.q = e.target.value;
@@ -579,11 +645,21 @@
   }
 
   // ---------- 啟動 ----------
-  const days = Math.ceil((new Date(`${DATA.meta.electionDate}T00:00:00+08:00`) - Date.now()) / 86400000);
+  const electionDate = DATA.meta.electionDate;
+  const validDate = typeof electionDate === "string" && /^\d{4}-\d{2}-\d{2}$/.test(electionDate)
+    && Number.isFinite(Date.parse(`${electionDate}T00:00:00Z`))
+    && new Date(`${electionDate}T00:00:00Z`).toISOString().slice(0, 10) === electionDate;
+  const days = validDate ? Math.ceil((new Date(`${electionDate}T00:00:00+08:00`) - Date.now()) / 86400000) : NaN;
   const cd = document.getElementById("countdown");
-  if (days > 0) cd.innerHTML = `<small>距離投票日</small><strong>${days}</strong><small>天・${DATA.meta.electionDate.replaceAll("-", ".")}</small>`;
-  else if (days === 0) cd.innerHTML = `<small>今天</small><strong>投票日</strong>`;
-  cd.hidden = days < 0;
+  cd.replaceChildren();
+  const countdownText = days > 0 ? [["small", "距離投票日"], ["strong", days], ["small", `天・${electionDate.replaceAll("-", ".")}`]]
+    : days === 0 ? [["small", "今天"], ["strong", "投票日"]] : [];
+  for (const [tagName, text] of countdownText) {
+    const el = document.createElement(tagName);
+    el.textContent = text;
+    cd.append(el);
+  }
+  cd.hidden = !Number.isFinite(days) || days < 0;
   document.getElementById("data-note").textContent = DATA.meta.isSample
     ? "⚠️ 目前顯示的是虛構的範例資料，僅供展示功能。"
     : `資料更新：${DATA.meta.updated}・投票日：${DATA.meta.electionDate}`;

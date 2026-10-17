@@ -160,7 +160,7 @@ button:focus-visible, input:focus-visible, summary:focus-visible {
 .past-detail .stream { margin-top: 8px; }
 .warn { display: inline-block; margin-left: 6px; padding: 0 6px; border: 1px dashed var(--stamp); color: var(--stamp); font-size: .82rem; border-radius: 3px; }
 /* 全盲閱讀：不分候選人，所有項目打散成卡片 */
-.stream { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.stream { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr)); }
 .stream .item { background: var(--paper); border: 1.5px solid var(--ink); border-radius: 4px; padding: 12px; }
 .col { background: var(--paper); border: 1.5px solid var(--ink); border-radius: 4px; padding: 0 12px 12px; }
 
@@ -254,7 +254,7 @@ button:focus-visible, input:focus-visible, summary:focus-visible {
 .notice { background: var(--stamp-soft); border-radius: var(--radius); padding: 12px 14px; }
 
 /* ---------- 開票結果 ---------- */
-.result-head { display: flex; align-items: center; gap: 12px; }
+.result-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .result-head .cand-tag { flex: 1; }
 .rank { font-weight: 800; color: var(--muted); min-width: 2em; }
 .pct { font-size: 1.4rem; font-weight: 800; font-variant-numeric: tabular-nums; }
