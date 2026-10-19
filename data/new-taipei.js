@@ -11,7 +11,7 @@ window.ELECTION_DATA = {
     title: "2026 地方選舉 · 盲選政見比較",
     electionDate: "2026-11-28",
     isSample: false,
-    updated: "2026-10-16",
+    updated: "2026-10-19",
   },
 
   topics: [
