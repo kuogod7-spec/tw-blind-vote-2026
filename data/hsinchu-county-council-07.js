@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：無。唯一候選人的政見取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 2026-10-19 第四輪補查：新增 4 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-07",
@@ -28,7 +30,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "編列預算協助橫山聯通管沿線居民接用自來水",
+          "detail": "中央 2026 年起不再補助非自來水地區供水改善，要求縣府加強編列預算；2026 年 4 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/25%E5%BC%B5%E8%89%AF%E5%8D%B0%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114301.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "與台鐵合作重新推廣合興車站觀光",
+          "detail": "整合台鐵與縣府各局處觀光資源；2026 年 4 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/25%E5%BC%B5%E8%89%AF%E5%8D%B0%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114301.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "專案補助鄉公所整修內灣吊橋",
+          "detail": "吊橋因結構老化封閉，要求縣府以專案方式補助；2026 年 4 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/25%E5%BC%B5%E8%89%AF%E5%8D%B0%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114301.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "橫山警察分局易地重建",
+          "detail": "現有廳舍老舊狹小；2026 年 4 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/25%E5%BC%B5%E8%89%AF%E5%8D%B0%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114301.pdf"
+        }
+      ],
       "record": [],
       "past": [
         {

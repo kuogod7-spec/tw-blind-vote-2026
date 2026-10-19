@@ -12,6 +12,9 @@
  *   紀建漢 2022 年里長連任結果未查得。政見為空不代表候選人沒有主張。
  * 第三輪補查（2026-10-14）：黃瀞瑩補上政黨候選人介紹頁的政見，侯漢廷、劉致妤補上報導中的政見；其餘現任者 2026 年政見仍未查得，
  *   陳彥廷、林揚庭、李文、林聖峰仍查無可收錄資料。
+ * 2026-10-19 第四輪補查：新增 38 則政見、6 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
+ *   已知缺漏（仍查無 2026 年政見）：李文、陳彥廷、鍾佩玲、紀建漢、陳重文、賴苡任、林聖峰。
+ *   陳彥廷另有同名者列於新北市選區，未能確認身分。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -157,6 +160,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "爭取士林臨時托育中心、福順狗公園，以及社子島 65 歲以上弱勢戶終身安置（本人說法，2022 年選舉公報）。",
           "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第01選舉區.pdf"
+        },
+        {
+          "topic": "governance",
+          "text": "參與提案建請士林區公所配合轄內派出所改建，增設區民活動中心及里辦公處所；市府回覆已決議改建為地上 3 層、地下 1 層建物，含約 60 坪區民活動中心與里辦公空間。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chung-pei-ling-taipei"
         }
       ],
       "past": [
@@ -292,7 +300,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "比照鄰近縣市，提供國小半日班學童免費營養午餐",
+          "detail": "2026 年 4 月議會質詢中要求，並主張研議調查用餐意願人數及教師留校指導費用；教育主管機關回應將評估可行性。",
+          "source": "https://www.ctee.com.tw/news/20260428701749-431401"
+        },
+        {
+          "topic": "environment",
+          "title": "校園午餐廚餘改由環保單位清運或協助媒合去化，不轉嫁供餐業者",
+          "detail": "因應隔年全面禁止廚餘養豬，2026 年 4 月議會質詢中要求市府儘早定案，並於當年下半年先規劃配套。",
+          "source": "https://www.ctee.com.tw/news/20260428701749-431401"
+        },
+        {
+          "topic": "environment",
+          "title": "無菸城市政策先訂自治條例並做分期分區吸菸熱區調查",
+          "detail": "2026 年 9 月市政總質詢中要求明確主責機關、整合跨局處，通盤規劃稽查人力並一次編足預算，擬定三年、五年長期計畫逐步推動。",
+          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5573416"
+        },
+        {
+          "topic": "economy",
+          "title": "協助北士科 T17、T18 基地進駐廠商排除法規問題、儘速開工",
+          "detail": "2026 年 5 月議會質詢中追問國際科技大廠總部基地施工進度時提出。",
+          "source": "https://udn.com/news/story/7240/9524213"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -394,7 +427,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "加速社子島開發，區段徵收計畫儘速送中央核定",
+          "detail": "2026 年 4 月議會質詢中追問細部計畫與區段徵收送審時程（市府答覆預計當年 6 月），並主張有依據的反對居民訴求應予滿足。",
+          "source": "https://www.ctee.com.tw/news/20260417701767-431401"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -633,7 +673,56 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "拓寬淡北道路與周邊路網",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "transport",
+          "title": "推動水路通勤",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "environment",
+          "title": "以溫泉相關收益補助溫泉區硫磺氣體造成的損害",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "economy",
+          "title": "活化運用北士科回饋金",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "economy",
+          "title": "推動士林北投汽車城建設",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "housing",
+          "title": "加速關渡平原與社子島開發，督促都市計畫通盤更新",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取流浪教師獎勵機制，推動老少共學",
+          "detail": "2026 年 9 月登記參選時提出，另提及完善早療與教育光譜系統；報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        },
+        {
+          "topic": "safety",
+          "title": "爭取警消勤務加給，增加青年巡守隊及義警義消資源",
+          "detail": "2026 年 9 月登記參選時提出，報導未說明具體做法。",
+          "source": "https://cnews.com.tw/247260902a06/"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -644,7 +733,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "育兒減工時措施納入職務代理津貼",
+          "detail": "2026 年 4 月議會質詢中轉述民間團體建議：將雇主節省的成本轉為職務代理津貼，並提出普及率 15%（約 3.2 萬名家長受惠、預算約 6 億元）供主管機關考慮；同時指出試辦預算僅編 550 萬元、已不敷使用。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5404184"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -757,6 +853,21 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "參與提案要求市府各機關的兩公約人權教育訓練由人事與公訓單位統一辦理。",
           "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chen-chung-wen-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "涉嫌在任內設立由他人出面的公司，利用職權使市府監視系統相關採購由該公司取得而圖利，一審依貪污治罪條例圖利及偽造文書等罪，判處不得易科罰金部分應執行有期徒刑 8 年 6 月、褫奪公權 6 年。本人否認圖利並提起上訴，二審審理中，尚未判決確定。",
+          "source": "https://newtalk.tw/news/view/2026-09-23/1061344"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 3 月因涉嫌在議會質詢中施壓市立動物園，將動物排遺處理改為委外，相關計畫由其實際負責的公司承作，經檢方訊問後依圖利罪嫌以 20 萬元交保，偵查中。本人表示會努力爭取清白。",
+          "source": "https://udn.com/news/story/7321/9412653"
+        },
+        {
+          "topic": "governance",
+          "text": "涉嫌在 2024 年底地區農會理事長選舉前，與家人一同贈送禮盒給有投票權的理事。2026 年 3 月一審依農會法判處有期徒刑 5 月、得易科罰金，可上訴，尚未判決確定。",
+          "source": "https://udn.com/news/story/7321/9379397"
         }
       ],
       "past": [
@@ -828,7 +939,62 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "以就業、住宅、托育、創業等指標衡量青年政策並每年公布",
+          "detail": "主張不以補助金額衡量青年政策成效，改設具體指標並逐年公開。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5546422"
+        },
+        {
+          "topic": "economy",
+          "title": "串連在地產業與大專院校，增加青年實習、跨域培訓與就業媒合",
+          "detail": "串連在地人工智慧、金融、醫療、科技、新創產業與大專院校。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5546422"
+        },
+        {
+          "topic": "housing",
+          "title": "建立青年從租屋到購屋的居住階梯",
+          "detail": "主張不只發放租金補貼，要讓青年能逐步從租屋走向購屋；未說明具體做法。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5546422"
+        },
+        {
+          "topic": "education",
+          "title": "增加夜間、假日臨托與寒暑假照顧服務",
+          "detail": "補足寒暑假照顧缺口，並串聯圖書館、運動中心、親子館等公共資源。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5546422"
+        },
+        {
+          "topic": "transport",
+          "title": "北士科進駐前提早辦理並公開交通衝擊與商圈影響評估",
+          "detail": "評估須提早進行並公開透明。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5595025"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取社子線區域路網延伸串聯至石牌、榮總",
+          "detail": "目的為改善就醫與通勤；未說明經費與期程。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5595025"
+        },
+        {
+          "topic": "housing",
+          "title": "社會住宅優先保留給北投、石牌在地醫療人員與青年",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5595025"
+        },
+        {
+          "topic": "education",
+          "title": "推動士林、北投成為人工智慧教育示範區",
+          "detail": "未說明具體做法。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5595025"
+        },
+        {
+          "topic": "transport",
+          "title": "公開承德路與士商路口新路型評估報告並定期公布成效",
+          "detail": "定期公布事故數、壅塞改善率、行人等待時間與民眾滿意度，蒐集在地意見滾動檢討。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5499415"
+        }
+      ],
       "record": [
         {
           "topic": "safety",
@@ -874,7 +1040,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "將北士科園區至捷運芝山站路線單獨規劃為一條捷運線",
+          "detail": "2026 年 4 月於交通說明會提出，建議機廠設於現臺北市監理所用地。",
+          "source": "https://www.cna.com.tw/news/aloc/202604070307.aspx"
+        },
+        {
+          "topic": "transport",
+          "title": "研議北士科停車空間，包括活化 T3、T4 土地及在蜆仔港公園設地下停車場",
+          "detail": "2026 年 4 月於交通說明會提出；另建議研議讓基隆、桃園客運業者設置上下車點。",
+          "source": "https://www.cna.com.tw/news/aloc/202604070307.aspx"
+        },
+        {
+          "topic": "transport",
+          "title": "北士科捷運路網延伸至天母",
+          "detail": "未說明經費與期程。",
+          "source": "https://www.ctee.com.tw/news/20260815700393-431208"
+        },
+        {
+          "topic": "economy",
+          "title": "持續爭取北士科二期開發與交通地下化",
+          "detail": "未說明具體範圍與期程。",
+          "source": "https://www.ctee.com.tw/news/20260815700393-431208"
+        },
+        {
+          "topic": "welfare",
+          "title": "推動坐月子與帶狀疱疹疫苗補助",
+          "detail": "未說明補助金額。",
+          "source": "https://www.ctee.com.tw/news/20260815700393-431208"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取興建洲美幼兒園暨國中小停車場",
+          "detail": "",
+          "source": "https://www.ctee.com.tw/news/20260815700393-431208"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -976,7 +1179,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "改善教師勞動條件、減輕行政負擔並加速代理教師甄選",
+          "detail": "2026 年 8 月回應教師短缺問題時於個人社群提出，另主張把資源用在留住教師；未說明經費與期程。",
+          "source": "https://www.threads.com/@szukang_chang"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -1086,6 +1296,16 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾擔任轄區一項中央民意代表罷免案的召集人。",
           "source": "https://www.nownews.com/news/6784351"
+        },
+        {
+          "topic": "governance",
+          "text": "2025 年 6 月因涉嫌指導志工抄寫名冊、偽造罷免轄區兩位中央民意代表的提議人名冊，遭檢方依偽造文書、違反個人資料保護法等罪起訴。本人否認，表示並未參與造冊、未下指導，也未接觸黨員名冊。",
+          "source": "https://www.cna.com.tw/news/asoc/202506160309.aspx"
+        },
+        {
+          "topic": "governance",
+          "text": "上述偽造罷免提議書案截至 2026 年 4 月仍由地方法院審理中，尚未判決；同案被起訴者中僅本人不認罪，並受限制出境。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5393887"
         }
       ],
       "past": []
@@ -1097,7 +1317,38 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "加速重要橋梁重置與延壽評估，優先改善士林、北投老舊高車流橋梁",
+          "detail": "2026 年 5 月指出全市 283 座重要橋梁 85% 橋齡逾 30 年、士林北投占半數，要求主管機關優先對高齡、高車流及跨河橋梁提出改善、重建或延壽計畫與期程。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=EBC44691F8E13833"
+        },
+        {
+          "topic": "transport",
+          "title": "建請中央提高通用計程車補助與獎勵",
+          "detail": "2026 年 5 月提出：提高含設備新車購置補助、研議舊車加裝補助、降低基本趟次門檻、調高單趟獎勵金，並對服務 5 年以上駕駛提供久任獎勵。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=91E95FE163D8323A"
+        },
+        {
+          "topic": "safety",
+          "title": "從 65 歲起提前介入高齡駕駛風險管理",
+          "detail": "2026 年 8 月提出：擴大安駕課程宣導管道至醫療院所、社區大學，研議將參訓與交通優惠結合；交通、警察與監理單位建立跨機關事故分析追蹤機制。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=7FB6992B85BDEA3D"
+        },
+        {
+          "topic": "education",
+          "title": "提出教師留任方案並爭取教師首都加給",
+          "detail": "2026 年 7 月提出：減輕行政負擔、完善教師權益保障、改善工作環境。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=3080F37088675132"
+        },
+        {
+          "topic": "welfare",
+          "title": "生育獎勵金增設續留年限，防止領取後遷出",
+          "detail": "2026 年 8 月提出，並建議跨局處檢討助婚政策、研議提高優惠租金住宅的優惠，以及獎勵商辦大樓設立托育中心。",
+          "source": "https://tcc9105.tcc.gov.tw/News_Content.aspx?n=E21989810C9BE6D7&sms=7CA7BDAC33DBE343&s=783BCF4522E9F654"
+        }
+      ],
       "record": [
         {
           "topic": "environment",
@@ -1228,7 +1479,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "全面檢討豪雨應變並提出改善方案與時程",
+          "detail": "2026 年 6 月提出：檢討大型抽水設備預先部署、防災平台運作、災情資訊公開及應變流程。",
+          "source": "https://news.pchome.com.tw/politics/cnews/20260629/index-78271562714082227001.html"
+        },
+        {
+          "topic": "environment",
+          "title": "市府對北士科供電提出自身方案，不必堅持變電所全面地下化",
+          "detail": "2026 年 5 月提出，並要求產業主管機關處理進駐廠商反映的電力需求。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5453123"
+        },
+        {
+          "topic": "environment",
+          "title": "公開行道樹修剪、移植與砍除紀錄並檢討樹木列管制度",
+          "detail": "2026 年 7 月於議會發言提出，並要求說明砍樹認定標準。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5507493"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

@@ -10,6 +10,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  * 2026-10-14 第三輪補查：政見欄空白的 2 位候選人中，1 位補經歷 4 則；2 位仍查無具體的 2026 年政見（候選人網站與競總成立報導只有服務理念，沒有政見條目），維持空白。
+ * 已知缺漏（2026-10-19）：仍查無 2026 年政見：陳以樂。
+ * 2026-10-19 第四輪補查：新增 3 則政見、1 則經歷（皆為許昭興，取自本人社群貼文所述 2026 年 10 月市政總質詢與會勘）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-07",
@@ -191,7 +193,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "擴大公辦都更至捷運站周邊以外的老舊街區",
+          "detail": "2026 年 10 月市政總質詢提出：除頂溪站周邊外，針對老舊、影響公共安全、停車與生活環境的區域，由市府主動介入協助整合、加快更新。",
+          "source": "https://www.threads.com/@happymon100/post/DeN6foxk-ty"
+        },
+        {
+          "topic": "housing",
+          "title": "由市府提供都更契約健檢諮詢",
+          "detail": "2026 年 10 月市政總質詢提出：市府提供專業諮詢，協助民眾在簽約前看懂合約、釐清風險。",
+          "source": "https://www.threads.com/@happymon100/post/DeN6foxk-ty"
+        },
+        {
+          "topic": "safety",
+          "title": "盤點夜間高風險路口，增設行穿線專用照明與醒目標誌",
+          "detail": "2026 年 10 月市政總質詢提出，並建議優先檢視永和易肇事路口，依道路條件評估改善方式。",
+          "source": "https://www.threads.com/@happymon100/post/DedVAJjEycW"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -212,6 +233,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "提案下修大腸癌篩檢補助年齡至 30 歲、產前遺傳診斷補助年齡下修至 31 歲；市府未承諾具體時程。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/hsu-chao-hsing-new-taipei"
+        },
+        {
+          "topic": "transport",
+          "text": "2026 年 10 月邀集雙北相關單位會勘中正橋永和往臺北方向上橋處彎道，市府同意將彎道改善納入該橋人行道拓寬工程一併規劃，待雙北協調分工後預計 2027 年施作（本人說法）。",
+          "source": "https://www.threads.com/@happymon100/post/Dei5i2fk5OJ"
         }
       ],
       "past": [

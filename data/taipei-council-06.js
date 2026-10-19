@@ -9,6 +9,8 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
  * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
  * 第三輪補查（2026-10-14）：鍾沛君補上競選網站內容，游智彬補上 1 則；李道翔、李奇峯、張維學仍查無可收錄政見。
+ * 2026-10-19 第四輪補查：新增 16 則政見、0 則經歷（多為現任者 2026 年議會質詢／提案中的具體要求）。
+ * 已知缺漏：第四輪補查後，李道翔、李奇峯、李柏毅、陳錦祥、張維學仍查無 2026 年公開政見。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-16 中選會審定：原 tpc6-7 游智彬被認定在臺設籍未滿 10 年，依兩岸人民關係條例第 21 條及選罷法第 27 條不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。
  */
@@ -110,7 +112,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "以市庫歲計賸餘加碼普發現金",
+          "detail": "2026 年 8 月表示將提案要求市府運用歲計賸餘及統籌分配稅款剩餘加碼普發現金，主張每人 2 萬元發給市民、1 萬元留供市府緊急應用，稱不需舉債；報導對提案金額說法不一（2 萬或 2.1 萬元），亦未說明是否已正式送出",
+          "source": "https://www.setn.com/news/1891543"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -202,7 +211,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "於懷愛館吸菸區設置負壓式吸菸室示範",
+          "detail": "2026 年 6 月質詢建議在人流多、菸味重的懷愛館吸菸區設置負壓式吸菸室作為示範；市府允評估",
+          "source": "https://www.cna.com.tw/news/aloc/202606010193.aspx"
+        },
+        {
+          "topic": "environment",
+          "title": "向中央爭取犬貓用人藥新制延後施行",
+          "detail": "2026 年 4 月質詢主張可用藥品尚未完全登錄前，請市府向中央爭取延後施行，並鼓勵藥商申請登錄；市府表示將呼籲中央暫緩",
+          "source": "https://www.cna.com.tw/news/aloc/202604090327.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -383,7 +405,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "加強取締大型 LED 動態廣告車並檢討管理規定",
+          "detail": "2026 年 5 月質詢指此類車輛涉違法改裝、違停路口並造成噪音，裁罰件數偏低且由多個機關分管；要求檢討制度，由交通、警察、環保單位共同研修相關規定",
+          "source": "https://www.cna.com.tw/news/aloc/202605050262.aspx"
+        },
+        {
+          "topic": "safety",
+          "title": "全面清查高人流區域的大型招牌並專案列管",
+          "detail": "2026 年 6 月質詢要求清查全市高人流區域具潛在危險的大型招牌，並對長年懸掛、可能鬆脫者專案列管",
+          "source": "https://www.cna.com.tw/news/aloc/202606080300.aspx"
+        },
+        {
+          "topic": "safety",
+          "title": "檢討市立運動中心泳池防溺系統並加強救生人員訓練",
+          "detail": "2026 年 6 月質詢要求檢討泳池防溺偵測系統的使用狀況，釐清廠商、場館與市府監管責任，並加強救生人員教育訓練",
+          "source": "https://www.cna.com.tw/news/aloc/202606080322.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -475,7 +516,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "加快毒駕尿液檢驗速度",
+          "detail": "2026 年 6 月質詢要求改善毒駕尿檢流程，評估由市府自設檢驗中心或請中央成立速件檢驗中心；市府允評估他國快速檢測做法",
+          "source": "https://www.cna.com.tw/news/aloc/202606080189.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -567,7 +615,32 @@ window.ELECTION_DATA.races.push({
         "party": "社會民主黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "研議捷運拒載性犯罪累犯",
+          "detail": "2026 年 6 月質詢指 10 年內有 44 人在捷運系統反覆犯案，建議依現行旅客須知及運送章則拒絕運送加害人，並要求捷運公司與警察機關橫向聯繫、統一統計；市府表示將研議",
+          "source": "https://www.cna.com.tw/news/aloc/202606090305.aspx"
+        },
+        {
+          "topic": "environment",
+          "title": "恢復調查並長期監測鼠類數量",
+          "detail": "2026 年 5 月質詢建議恢復 2007 至 2015 年間曾辦理的鼠類密度調查，長期監測以科學方式因應鼠患",
+          "source": "https://www.cna.com.tw/news/aloc/202605060356.aspx"
+        },
+        {
+          "topic": "environment",
+          "title": "吸菸區須與校園、醫療機構保持距離並擴大禁菸範圍",
+          "detail": "2026 年 6 月質詢要求吸菸區與校園、醫療機構等場域保持一定距離，公園、綠地不再設置吸菸區，並加快擴大禁菸範圍；市府允一個月內提出設置要點",
+          "source": "https://www.cna.com.tw/news/aloc/202606090327.aspx"
+        },
+        {
+          "topic": "housing",
+          "title": "暫緩出售位於新北市的捷運聯合開發住宅",
+          "detail": "2026 年 5 月議會專案報告時要求暫停處分位於新北市的 650 戶聯合開發住宅（其估值約 272 億元），留待新北市下一任首長決定是否承接",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5437915"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1115,7 +1188,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "擴大以 AI 防詐並推動加重網路平台裁罰",
+          "detail": "2026 年 9 月質詢指 2025 年市內詐欺財損約 159 億元，要求警察機關持續以 AI 技術防詐、市府送中央的修法版本應更嚴格，並要求境外平台設立分公司而非僅罰法律代表；市府允彙整建議送中央",
+          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5569892"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1219,7 +1299,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "簡化路邊停車費超商繳費流程，減少補單",
+          "detail": "2026 年 8 月質詢時要求停車管理單位檢討現行繳費流程、研議更便利的繳費方式，讓選擇超商繳費者不必另行補單；主管機關回應將研議以手機掃描通知單 QR Code 產生超商繳費條碼",
+          "source": "https://www.ettoday.net/news/20260808/3215652.htm"
+        },
+        {
+          "topic": "welfare",
+          "title": "建立敬老愛心計程車司機獎勵機制",
+          "detail": "2026 年 5 月提出、8 月質詢追蹤，要求以趟次獎勵或補貼清分服務費提高司機接單意願，改善長者叫不到車、司機拒刷敬老卡問題，並訂出明確上路期程；市府初估補貼 2.5% 清分服務費每年約需 943 萬元",
+          "source": "https://tw.news.yahoo.com/%E7%8E%8B%E6%AC%A3%E5%84%80%E7%88%AD%E5%8F%96%E6%9C%89%E6%88%90-%E5%8C%97%E5%B8%82%E5%8F%AF%E6%9C%9B8%E6%9C%88%E5%BA%95%E5%89%8D%E7%AB%AF%E5%87%BA%E6%95%AC%E8%80%81%E8%A8%88%E7%A8%8B%E8%BB%8A%E7%8D%8E%E5%8B%B5%E6%96%B9%E6%A1%88-024253493.html"
+        },
+        {
+          "topic": "housing",
+          "title": "擴編都市更新與建築管理人力",
+          "detail": "2026 年 5 月提案要求都市發展、都市更新及建築管理單位擴編組織與人力，以因應都更、危老與建管案量增加；市府其後表示規劃增設一科、增加 105 名人力",
+          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5574632"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1340,7 +1439,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "建置議員索資公開平台",
+          "detail": "2026 年 7 月提案將議員索取的資料與市府回覆公開，供議員與市民檢索並減少重複索資；國家機密、個人資料、營業秘密等依法不得公開者除外；市府允約 3 個月研議",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5520280"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

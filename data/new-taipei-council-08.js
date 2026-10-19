@@ -11,6 +11,8 @@
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  * 2026-10-14 第三輪補查：以 2026 年 5–7 月新聞報導（多為大型場館選址相關發言）補充 ntc8-2、ntc8-4、ntc8-7、ntc8-9、ntc8-11 的政見，並為 ntc8-2 補 2 則經歷（本人說法）；ntc8-1、ntc8-6、ntc8-8、ntc8-10、ntc8-12 仍查無具體 2026 年政見，維持空白。
  * 2026-10-14 依使用者決定補列司法事件：ntc8-9 經歷補列 2026 年 10 月涉嫌賄選交保一事（偵查中）。
+ * 已知缺漏（2026-10-19）：仍查無 2026 年政見：高乃芸、林金結、陳膺涵。
+ * 2026-10-19 第四輪補查：新增 5 則政見、2 則經歷（政見多為現任者 2026 年議會質詢中的具體要求）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-08",
@@ -392,7 +394,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "浮洲橋下河濱設置共融式親子遊憩設施",
+          "detail": "連接板橋與樹林的浮洲橋下方，導入親子互動遊具、休憩節點或小型遊戲空間（2026 年 4 月議會質詢提出）；市府表示在不影響防洪疏濬前提下研議。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5416111"
+        },
+        {
+          "topic": "environment",
+          "title": "編列專案預算，跨局處加強學校、公園、市場防鼠清消",
+          "detail": "以招標或委外方式加強重點場域環境整潔與清消，不影響清潔隊既有業務（2026 年 5 月議會質詢提出）。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5426278"
+        },
+        {
+          "topic": "transport",
+          "title": "以三鶯線捷運站為核心重新盤點三峽公車路網",
+          "detail": "補足三峽北大特區與山區景點間的直達公車，兼顧居民通勤、就學需求（2026 年 10 月報導）。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5594787"
+        },
+        {
+          "topic": "education",
+          "title": "為校園廚工編列人事補助並建立加薪機制",
+          "detail": "2026 年 2 月報導。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5328570"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -573,7 +600,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "儘速打通土城柑城橋銜接中山路",
+          "detail": "橋梁多年無法銜接中山路通行，要求市府與中央主管機關協調解決（2026 年 6 月議會質詢提出）。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5458097"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -599,6 +633,16 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "2026 年 8 月審查決算時提案將超收的交通罰鍰用於普發現金；經裁示送市府研議，市府表示目前未研議。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5555533"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 5 月議會審議三峽火化場增設停車空間提案時，質疑夾帶禮廳、牌位區等殯葬設施，要求主管機關評估後重新提案；該案經裁定延後討論。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5429051"
+        },
+        {
+          "topic": "safety",
+          "text": "與家長、學校協助爭取鶯歌國小新闢後門通學廊道，2026 年 2 月啟用，分流上下學人潮。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5351900"
         }
       ],
       "past": [

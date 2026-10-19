@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏（仍查無 2026 年具體政見）：吳平娥、張贊聞、林昭賢。
+ * 2026-10-19 第四輪補查：新增 8 則政見、1 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-10",
@@ -27,7 +29,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "改善既有自行車道斷點與高低落差，串聯龍潭大池與十一份觀光園區",
+          "detail": "2026 年 6 月市政總質詢要求跨局處改善交通節點與設施障礙，建構完整自行車旅遊路網",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5834&chk=4927aeed-e5b6-493e-8046-9ad22ee7f2d8"
+        },
+        {
+          "topic": "economy",
+          "title": "在地節慶活動結合商圈與市場導流，並增加民眾可參與的體驗活動",
+          "detail": "2026 年 6 月市政總質詢提出，例如龍舟、送聖蹟儀式體驗；另建議祭典結合校園在地教育",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5834&chk=4927aeed-e5b6-493e-8046-9ad22ee7f2d8"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -161,7 +176,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "捷運橘線延伸龍潭時納入龍潭科學園區支線並於關鍵節點設站",
+          "detail": "2026 年 8 月市政總質詢提出；市府答詢已指示納入可行性研究",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5879&chk=f8656e78-071c-4c94-8894-14486331bc7e"
+        },
+        {
+          "topic": "education",
+          "title": "加速在梅龍路、梅花莊周邊設立新國小",
+          "detail": "2026 年 8 月市政總質詢提出；教育局答詢校地約 1.8 公頃，目標 118 學年度招生",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5879&chk=f8656e78-071c-4c94-8894-14486331bc7e"
+        },
+        {
+          "topic": "transport",
+          "title": "拓寬工二路、民族路與龍源路口等瓶頸路段，開闢大同路 226 巷",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5879&chk=f8656e78-071c-4c94-8894-14486331bc7e"
+        },
+        {
+          "topic": "transport",
+          "title": "龍潭轉運站啟用後整合公車、小巴、公共自行車與號誌，研議增設直達機場路線",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5879&chk=f8656e78-071c-4c94-8894-14486331bc7e"
+        },
+        {
+          "topic": "housing",
+          "title": "檢討龍潭都市計畫，增加科學園區周邊住宅供給",
+          "detail": "2026 年 8 月市政總質詢指出龍潭住商用地開發率已逾九成；都發局答詢將發包研究，檢討農業區變更可行性",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5879&chk=f8656e78-071c-4c94-8894-14486331bc7e"
+        },
+        {
+          "topic": "welfare",
+          "title": "敬老愛心卡研議擴大用途，納入診所掛號費、高鐵等",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5879&chk=f8656e78-071c-4c94-8894-14486331bc7e"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -287,6 +339,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任地方民意代表（2018–2022），並任地方民意代表秘書八年（2022 年選舉公報自述）。",
           "source": "https://bulletin.cec.gov.tw/01選舉公報/05直轄市議員/111年/03桃園市/桃園市第10選舉區.pdf"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 10 月因涉嫌於模範母親、模範父親表揚活動場外身穿競選背心，致贈得獎民眾床墊與枕頭，經檢方以涉嫌違反公職人員選舉罷免法（對有投票權人行求賄賂）訊後諭令 30 萬元交保；偵查中，尚未起訴。報導未取得本人回應。",
+          "source": "https://news.ltn.com.tw/news/Taoyuan/breakingnews/5599371"
         }
       ],
       "past": [

@@ -8,6 +8,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。 黃文政、劉崇顯為現任議員，本次以無黨籍登記。
+ * 已知缺漏：仍查無 2026 年具體政見者：黃文政、劉崇顯、劉詳樽、張文興、李國璋、宋品瑩、劉彥伶、張祖琰、樊一嶢、許登淇、曾翰揚、鄭美娟、蔡惠婷、陳清智、錢康明、陳珍裕、鍾淑英（現任者的議會提案列於 record）。
+ * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-01",
@@ -587,7 +589,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動科學園區周邊通勤交通改善與大眾運輸",
+          "detail": "表示若進入議會將推動科學園區交通改善，並推動綠色交通、智慧交通與大眾運輸；另提出為園區從業人員辦理紓壓活動。尚未提出具體路線、預算與期程。",
+          "source": "https://news.ltn.com.tw/news/HsinchuCity/breakingnews/5607423"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

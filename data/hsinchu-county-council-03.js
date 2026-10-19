@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：余筱菁、翁紹軒、賴寶鈺、陳岫玫、楊勝馭、戴翊如（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 2026-10-19 第四輪補查：新增 23 則政見、1 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-03",
@@ -28,7 +30,50 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "以縣款拓寬竹 12 線湖口國中旁最後 350 公尺",
+          "detail": "2026 年 5 月議會總質詢提出：該路段 30 年未拓寬，旁有兩所幼兒園，大車出入危險；主張不等中央補助，以約 2,000 多萬元縣款辦理徵收與拓寬。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "在王爺壟文小用地新建國小，分流新湖國小學生",
+          "detail": "2026 年 5 月議會總質詢提出：新湖國小學生約 2,200 人，校舍老舊，主張興建新校分流。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "下班時段開放湖口服務區北上出口，分流湖口交流道",
+          "detail": "2026 年 5 月議會總質詢提出，請交通主管機關與中央民意代表向高速公路主管機關爭取。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        },
+        {
+          "topic": "governance",
+          "title": "湖口戶政事務所遷建至王爺壟",
+          "detail": "2026 年 5 月議會總質詢提出：現有廳舍太小，主張新建綜合辦公大樓。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        },
+        {
+          "topic": "governance",
+          "title": "調高鄰長津貼",
+          "detail": "2026 年 5 月議會總質詢提出，因應物價上漲增加 1,000 或 2,000 元。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "放寬敬老年金設籍年限",
+          "detail": "2026 年 5 月議會總質詢提出：現行以 2005 年以前設籍為限，建議視財政放寬，例如延至 2015 年。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        },
+        {
+          "topic": "environment",
+          "title": "擴大學校、醫療院所與機關周邊禁菸範圍至 50 公尺以上",
+          "detail": "2026 年 5 月議會總質詢提出，涵蓋學校、幼兒園、托嬰中心、醫院診所與行政大樓周邊。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/15甄克堅_114044.pdf"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -60,7 +105,38 @@ window.ELECTION_DATA.races.push({
         "party": "勞動黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "勞工教育經費專款專用，勞動法規與職安課程不低於七成",
+          "detail": "2026 年 5 月議會總質詢提出：公開講師費請領清冊、訂定利益迴避條款，禁止工會幹部在自辦課程兼任講師支領；縣府首長答詢同意辦理，並將召開勞工教育與權益研討會。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/16羅美文_114056.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "提出勞動檢查員擴編計畫與時程",
+          "detail": "2026 年 5 月議會總質詢提出：全縣僅 7 名勞檢員，要求具體擴編；縣府首長答詢表示支持。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/16羅美文_114056.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "王爺壟文小用地新建 36 至 48 班中型國小並結合幼兒園",
+          "detail": "2026 年 5 月議會總質詢提出，主張 3 到 5 年內建成，分流新湖國小（76 班）與信勢國小（約 54 班）；縣府答詢將研究評估。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/16羅美文_114056.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "湖口火車站至公五特色公園打通騎樓、設實體人行道示範廊道",
+          "detail": "2026 年 5 月議會總質詢提出：要求 6 個月內提出規劃，同步盤點中正路、中山路周邊巷弄與畸零地設置替代停車，並向中央爭取人本交通經費。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/16羅美文_114056.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "全面開放湖口服務區出入口銜接市區道路，分流湖口交流道",
+          "detail": "2026 年 5 月議會總質詢提出，利用茄苳溪河堤與服務區旁空地闢設便道。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/16羅美文_114056.pdf"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -123,7 +199,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "國小及公立學校普設 2 歲幼兒專班",
+          "detail": "2026 年 10 月議會總質詢提出。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603652"
+        },
+        {
+          "topic": "welfare",
+          "title": "老人年金恢復每人 6,000 元，設籍滿 10 年即可請領並放寬排富",
+          "detail": "2026 年 10 月議會總質詢提出。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603652"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -180,7 +269,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "科技執法路口提前 100 公尺設置明顯標示",
+          "detail": "2026 年 5 月議會總質詢提出，讓駕駛提早得知轉向與執法路段，避免臨時切換車道。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "鄉道山葉路改列縣道並爭取中央經費拓寬",
+          "detail": "2026 年 5 月議會總質詢提出：東興村人口由 2 千多人增至 8 千多人，道路狹窄且易淹水；工務主管機關答詢已納入縣轄道路總清查。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "快捷公車延駛湖口火車站並與幸福巴士銜接",
+          "detail": "2026 年 5 月議會總質詢提出，讓湖口鄉民可搭公車到高鐵站；交通主管機關答詢將與業者研議。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "在湖口興建縣立防災教育館",
+          "detail": "2026 年 5 月議會總質詢提出；消防主管機關答詢已選定湖口鄉新豐消防分隊旁約 8,342 平方公尺用地，經費初估約 5.99 億元，預計 2031 年 7 月驗收，縣府首長表示將編入明年度預算。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "改善新湖國小教室、活動空間與老舊運動設施",
+          "detail": "2026 年 5 月議會總質詢提出，並追蹤湖口高中人工智慧實驗班設備經費。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "加速湖口第二交流道動工並改善列管危險路口",
+          "detail": "2026 年 10 月議會質詢提出，並要求持續檢討號誌與車道配置、強化路口防護。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5606161"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -244,7 +370,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "economy",
+          "text": "擔任鄉鎮市民意代表期間提案建請公所研議普發每人 5,000 元現金，獲多名代表連署，公所未採納（2025 年）。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5284280"
+        }
+      ],
       "past": []
     },
     {
@@ -265,7 +397,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "建立客家獅長期培訓與校園傳承制度",
+          "detail": "2026 年 4 月議會總質詢提出：設固定培訓據點、師資傳承計畫與培育目標，結合在地節慶與商圈，並爭取在 2029 年全國運動會開閉幕演出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/17陳栢誠議員%20%20%20質詢稿%20%20%201150429_114110.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "加速湖口營區旁勝利一路拓寬",
+          "detail": "2026 年 4 月議會總質詢追蹤；工務主管機關答詢已向中央申請 8,200 萬元補助，軍方土地須以徵收方式取得。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/17陳栢誠議員%20%20%20質詢稿%20%20%201150429_114110.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "延長特教助理員服務時數，並提供鑑定等待期的過渡支援",
+          "detail": "2026 年 4 月議會總質詢提出：每日 4 小時不足，建議延長至 6 至 8 小時並導入彈性支援；教育主管機關答詢將向中央建議，並研議在 2027 年度預算提高私幼特教助理員補助。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/17陳栢誠議員%20%20%20質詢稿%20%20%201150429_114110.pdf"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

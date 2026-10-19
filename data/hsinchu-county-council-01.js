@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：陳秀玲、鄭美琴（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 2026-10-19 第四輪補查：新增 16 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-01",
@@ -28,7 +30,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "敬老愛心卡每月點數由 500 點提高到 600 點，並開放折抵掛號費及農會、藥局消費",
+          "detail": "2026 年 5 月議會總質詢提出：每月點數先提高到 600 點，之後逐年增加；比照其他縣市開放醫療院所掛號費每次折抵 50 點，以及農會、藥局消費。縣府答詢表示會期結束後一個月內研議決定。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/12陳凱榮_114018.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "清寒學生獎學金取消成績門檻",
+          "detail": "2026 年 5 月議會總質詢提出：現行清寒獎學金須成績 80 分以上，主張只要符合清寒資格即可申請，並參考鄰近縣市訂定中低收入戶學生助學金；教育主管機關答詢將研議修訂。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/12陳凱榮_114018.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "在竹北西區非法棄置垃圾熱點設置高解析度、車牌辨識與夜視監視器",
+          "detail": "2026 年 5 月議會總質詢提出，點名鳳山溪堤防道路、鳳岡路五段 415 巷等棄置熱點，要求警察與環保單位合作科技執法，並持續增設西區監視器。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/12陳凱榮_114018.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "放大鳳岡國中、國小前大貨車禁行時段標誌並加繪路面標示",
+          "detail": "2026 年 5 月議會總質詢提出：鳳岡路三段大貨車禁行時段已調整為上午 7 至 8 時、下午 3 時半至 4 時半，要求簡化標誌字樣、在路面繪製禁行時段並設置取締告示，保障學童通行與家長接送安全。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/12陳凱榮_114018.pdf"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -85,7 +112,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "清疏豆仔埔溪河道、加大排水斷面",
+          "detail": "2026 年 8 月邀集縣府會勘時提出：平時就要維持排水暢通以因應極端氣候。縣府同意自水利橋至出海口約 3.5 公里清除河道雜草，並將淤土夯實於兩岸保護護岸。",
+          "source": "https://udn.com/news/story/7324/9674450"
+        },
+        {
+          "topic": "transport",
+          "title": "重新檢討台 1 線竹北段中華路新設標線並加強宣導",
+          "detail": "2026 年 7 月表示接獲陳情，新標線與民眾用路習慣差異大且宣導不足，恐成罰單陷阱與事故隱憂，已請中央民意代表協助向中央反映、重新檢討標線。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5496673"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -148,7 +188,32 @@ window.ELECTION_DATA.races.push({
         "party": "時代力量",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "每所學校設置駐點心理師",
+          "detail": "讓心理專業人員進駐校園，穩定陪伴學生。",
+          "source": "https://taiwangogo.tw/li-ya-fen/"
+        },
+        {
+          "topic": "safety",
+          "title": "改善學區通學安全",
+          "detail": "校園周邊設置實體通學步道、增設減速平台，並降低學區車速。",
+          "source": "https://taiwangogo.tw/li-ya-fen/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取竹北西區親子館與挑戰型共融公園，建立行動育兒資源庫",
+          "detail": "行動育兒資源庫提供專業諮詢與教具租借。",
+          "source": "https://taiwangogo.tw/li-ya-fen/"
+        },
+        {
+          "topic": "welfare",
+          "title": "推動在宅醫療整合平台",
+          "detail": "讓醫療服務進入家中，並整合長照資源，減少長輩就醫奔波。",
+          "source": "https://taiwangogo.tw/li-ya-fen/"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -159,7 +224,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "竹北中正國小、義民中學周邊打通騎樓、劃設通學步道",
+          "detail": "2026 年 5 月議會總質詢提出：中正國小往交流道涵洞路段、義民中學及陽明高中周邊騎樓遭占用，學童被迫走在路邊；要求交通、工務、警察、教育單位跨局處提出改善時間表，至少與店家協調劃設綠色通學步道、尖峰時段禁止停車，並落實學校周邊限時停車。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "修訂營建土石方自治條例，讓有價土石方可直送砂石場",
+          "detail": "2026 年 5 月議會總質詢提出：土方價格暴漲影響建案與公共工程，要求比照其他縣市，讓經技師簽證的優良有價土石方免經土資場、直接運往砂石場與混凝土廠；工務主管機關答詢草案預計下半年完成。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "放寬敬老福利津貼的不動產排富門檻",
+          "detail": "2026 年 5 月議會總質詢提出：竹北公告現值調漲，可能讓首次申請的長者因不動產價值超標而無法請領，要求檢討；高齡長照主管機關答詢將待中央國民年金法放寬後跟進修訂。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "housing",
+          "title": "將竹北光明六路底一處縣有地納入社會住宅評估",
+          "detail": "2026 年 5 月議會總質詢提出，該地為縣府取得的抵價地，約 8,530 平方公尺；產業主管機關答詢目前規劃引進民間資金開發，是否納入社宅仍在都市計畫審議中討論。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "協助竹北私立幼兒園突破準公共化 80% 門檻",
+          "detail": "2026 年 5 月議會總質詢提出：竹北平價教保量能不足，業者若因平價教保機會率已達 80% 而無法加入準公共化，應依中央因人口快速移入可個別認定的但書送審；教育主管機關答詢可協助業者準備資料送審。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "加速竹北交流道周邊交通改善與公車候車亭建置",
+          "detail": "2026 年 10 月議會質詢提出：促請縣府加快紓解光明六路及縣政二路周邊交通；要求交通主管機關加速建置候車亭，必要時動用第二預備金。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5606069"
+        }
+      ],
       "record": [
         {
           "topic": "environment",

@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：何時名。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 2026-10-19 第四輪補查：新增 8 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-10",
@@ -28,7 +30,56 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "新湖路（竹 40 線）拓寬納入 2027 年度縣預算",
+          "detail": "路段為 3K+880 至 5K+030，比照竹 43 線以縣款先行辦理；2026 年 5 月議會提案及總質詢提出。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5553"
+        },
+        {
+          "topic": "economy",
+          "title": "建立寶山水庫周邊地主補償機制",
+          "detail": "土地長期受限使用卻無補償；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/33%E9%82%B1%E5%9D%A4%E6%A1%B6_114439.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "寶山分駐所改建",
+          "detail": "2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/33%E9%82%B1%E5%9D%A4%E6%A1%B6_114439.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "整併偏鄉鄉立與國小附設幼兒園",
+          "detail": "因應招生不足；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/33%E9%82%B1%E5%9D%A4%E6%A1%B6_114439.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "敬老卡提高至每月 1,000 點並放寬使用範圍",
+          "detail": "可用於農會購物、診所與藥局消費、藝文場館購票；2026 年 5 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5528"
+        },
+        {
+          "topic": "welfare",
+          "title": "寶山雙溪生命紀念園區第二期增設禮廳",
+          "detail": "要求縣府編列經費配合鄉公所規劃；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/33%E9%82%B1%E5%9D%A4%E6%A1%B6_114439.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "寶山水庫兩座老舊吊橋改建",
+          "detail": "2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/33%E9%82%B1%E5%9D%A4%E6%A1%B6_114439.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "補助寶山鄉壘球場暨周邊遊憩設施 4,200 萬元",
+          "detail": "2026 年 9 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5931"
+        }
+      ],
       "record": [],
       "past": [
         {

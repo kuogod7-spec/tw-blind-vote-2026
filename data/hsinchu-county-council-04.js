@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：徐勝凌、何昌臨、徐源發、張以聖、林茂青（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 2026-10-19 第四輪補查：新增 4 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-04",
@@ -72,7 +74,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "新豐公共自行車站點延伸到海岸地區，並爭取前 30 分鐘免費",
+          "detail": "2026 年 5 月議會總質詢提出：新豐僅 14 站，要求在觀海大道、坡頭漁港、福陽重劃區等處增設，公所財源不足時由縣府協助。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "協助新豐申請幸福巴士，並要求中央提高客運補助",
+          "detail": "2026 年 5 月提出：新豐公車班次少且尚無幸福巴士，要求縣府立即介入協助公所申請，並向公路主管機關反映提高營運成本補助與司機補貼。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5440818"
+        },
+        {
+          "topic": "governance",
+          "title": "停工的新庄子非營利幼兒園園舍改作消防分隊、派出所與戶政事務所用地",
+          "detail": "2026 年 5 月議會總質詢提出：建議縣府民政、消防、警政單位與公所協商土地交換，避免建物閒置。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/11吳傳地、何建樺、張珈源議員%20%20%20質詢稿%20%20%201150506_113943.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "加快松林國小擴建工程",
+          "detail": "2026 年 10 月議會質詢提出，要求縣府早日施工。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5606108"
+        }
+      ],
       "record": [
         {
           "topic": "environment",

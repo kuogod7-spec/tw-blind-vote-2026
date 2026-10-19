@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏：仍查無 2026 年具體政見：彭康傑、毛嘉慶、張兆恩、劉安祺、吳睿霖、邱奕勝、張仲方、李欣、徐盛揚。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
+ * 2026-10-19 第四輪補查：新增 17 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-07",
@@ -27,7 +29,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "營養午餐改採部分補助、部分自付",
+          "detail": "於市政總質詢指出營養午餐預算約 18 億元且廚餘量大，建議由全面免費改採「部分補助、部分自付」模式。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5844"
+        },
+        {
+          "topic": "welfare",
+          "title": "重新檢討中壢體育園區促參案的公益回饋設施",
+          "detail": "於市政總質詢指出現行公益回饋設施未含游泳池、運動中心僅約 832 坪且球場配置不明，反對現行規劃方向。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5844"
+        },
+        {
+          "topic": "economy",
+          "title": "中壢舊城再生整合跨局處，改善復興路人行環境並以商圈活動導入人流",
+          "detail": "於市政總質詢建議整合都發、交通、工務、文化及經發等局處，改善復興路人行環境，並透過商圈活動導入人流。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5903"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -150,7 +171,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "重新檢討環保公園開放機制，串聯新街溪步道斷點",
+          "detail": "於市政總質詢指出環保公園長期封閉、使用率低，要求環保局檢討開放機制，並與水務局合作串聯新街溪步道斷點，提升綠廊連續性。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5828"
+        },
+        {
+          "topic": "environment",
+          "title": "強化清潔隊資源回收分類稽核",
+          "detail": "於市政總質詢指出疑有清潔隊將免洗餐具回收物混入一般垃圾送焚化，要求環保局強化稽核與作業流程管理。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5828"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -277,7 +311,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "加速布建社區型照護據點並簡化弱勢補助申請",
+          "detail": "於市政總質詢建議重新盤點資源配置，加速布建社區型照護據點、改善照服員人力短缺，並簡化弱勢補助申請流程。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5839"
+        },
+        {
+          "topic": "transport",
+          "title": "檢討科技執法設置地點並定期公開執法數據",
+          "detail": "於市政總質詢建議科技執法回歸事故預防，全面檢討設置地點、強化現場告示與提前預警，並定期公開執法數據。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5839"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -390,7 +437,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "推動市民卡 2.0，以單一數位身分整合多重福利",
+          "detail": "於市政總質詢提議建立單一數位身分 ID，整合學生、身障等多重福利，避免因升學、年齡或身分變化反覆換卡，降低行政成本。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5910"
+        },
+        {
+          "topic": "housing",
+          "title": "社宅研議生育延長租期與育兒修繕補助",
+          "detail": "於市政總質詢提出婚育家庭居住支持時，另建議研議生育延長租期、育兒修繕補助等措施。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5910"
+        }
+      ],
       "record": [
         {
           "topic": "housing",
@@ -503,7 +563,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "市場改建研議攤商自願提前退場機制",
+          "detail": "於市政總質詢關切新明市場改建，建請市府為不進入中繼市場、決定退休的攤商研議「自願提前退場」機制。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5897"
+        },
+        {
+          "topic": "welfare",
+          "title": "身障停車優惠建立統一車號登錄並開放線上申辦",
+          "detail": "於市政總質詢建議身障停車優惠建立統一車號登錄機制，並研議線上申辦、銷單，減少重複申請與臨櫃不便。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5897"
+        },
+        {
+          "topic": "environment",
+          "title": "研議處理私人土地遭廢棄車占用",
+          "detail": "於市政總質詢提議環保局參考其他縣市作法，研議處理私人土地上的廢棄車。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5897"
+        }
+      ],
       "record": [
         {
           "topic": "environment",
@@ -665,7 +744,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "串聯莒光公園與滯洪池打造景觀廊帶，並納入公益回饋空間",
+          "detail": "於市政總質詢建議將體育園區周邊的莒光公園與滯洪池串聯為櫻花景觀廊帶，並納入市民活動中心或集會場所等公益回饋空間。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5843"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -899,7 +985,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "優先修繕龍興國中周邊人行道",
+          "detail": "於市政總質詢指出龍興國中周邊人行道地磚隆起、樹根外露，學生通行危險，要求優先改善；工務局答詢預計暑假進場施工。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5853"
+        },
+        {
+          "topic": "welfare",
+          "title": "中壢體育園區規劃 50 公尺標準競賽游泳池與匹克球場",
+          "detail": "於市政總質詢建議結合體育園區規劃 50 公尺標準競賽游泳池，並提前布局匹克球等新興運動場地。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5902"
+        }
+      ],
       "record": [
         {
           "topic": "safety",
@@ -1023,7 +1122,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "建立公共設施瑕疵致傷的跨機關代位求償與追蹤機制",
+          "detail": "於市政總質詢要求市府建立「跨機關代位求償」與追蹤機制，加速處理民眾因公設瑕疵導致跌傷、車輛破胎等國賠或權益申訴案件。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5891"
+        },
+        {
+          "topic": "education",
+          "title": "國中遷校新校區提出周邊施工規範、交通維持計畫與整地時程",
+          "detail": "於市政總質詢指出新校區周邊「兒 1」、「公 3」用地及閒置國有地尚未整理，要求市府在師生進駐前提出施工規範、交通維持計畫及整地時程表。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5891"
+        }
+      ],
       "record": [
         {
           "topic": "environment",

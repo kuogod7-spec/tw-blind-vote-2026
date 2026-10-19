@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏（仍查無 2026 年具體政見）：陳卉蓁、李鴻志。
+ * 2026-10-19 第四輪補查：新增 17 則政見、0 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-13",
@@ -27,7 +29,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "建立原住民健康地圖與長期追蹤制度",
+          "detail": "2026 年 6 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5854&chk=7300c5d7-fa52-475e-be7d-9232860c9aaa"
+        },
+        {
+          "topic": "welfare",
+          "title": "媒合個管師、營養師與醫療團隊巡迴進駐文化健康站",
+          "detail": "2026 年 6 月市政總質詢提出；目前 38 處文化健康站中 26 處有相關醫療服務",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5854&chk=7300c5d7-fa52-475e-be7d-9232860c9aaa"
+        },
+        {
+          "topic": "welfare",
+          "title": "改善長者前往文化健康站的交通接送",
+          "detail": "2026 年 6 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5854&chk=7300c5d7-fa52-475e-be7d-9232860c9aaa"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -126,7 +147,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "由副市長層級召集跨局處原住民政策會議",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5866&chk=cfe3d86b-4d77-47f2-9827-405244284c21"
+        },
+        {
+          "topic": "welfare",
+          "title": "返鄉參加歲時祭儀交通補助增為一年兩次",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5866&chk=cfe3d86b-4d77-47f2-9827-405244284c21"
+        },
+        {
+          "topic": "governance",
+          "title": "修正原住民族發展及保障自治條例，增設文化活動設施設備補助",
+          "detail": "2026 年 7 月市政總質詢提出，以原住民聚落社區公共空間改善為例",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5866&chk=cfe3d86b-4d77-47f2-9827-405244284c21"
+        },
+        {
+          "topic": "governance",
+          "title": "保留各族歲時祭儀既有補助，跨族群交流另行規劃",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5866&chk=cfe3d86b-4d77-47f2-9827-405244284c21"
+        },
+        {
+          "topic": "education",
+          "title": "整合學校空間、志工與社區據點補強原住民學童課後照顧",
+          "detail": "2026 年 10 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5900&chk=78a32fce-99f5-470d-9a29-9b9467dc0c53"
+        },
+        {
+          "topic": "governance",
+          "title": "通盤盤點 12 區需求，推動平鎮、桃園、楊梅等地的原住民文化與集會場域",
+          "detail": "2026 年 10 月市政總質詢要求平鎮基地儘速完成土地契約、楊梅二期（約 1 億多元）編列預算並爭取中央補助",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5900&chk=78a32fce-99f5-470d-9a29-9b9467dc0c53"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -246,7 +304,38 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "國中小學生每學期提供一組免費文具",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5892&chk=38b27194-069f-4ddb-81aa-9d39316c0be1"
+        },
+        {
+          "topic": "welfare",
+          "title": "試辦獨居原住民長者及失能者智慧手環",
+          "detail": "2026 年 8 月市政總質詢提出，結合定位、健康監測與緊急通報",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5892&chk=38b27194-069f-4ddb-81aa-9d39316c0be1"
+        },
+        {
+          "topic": "welfare",
+          "title": "非設籍復興區原住民長者敬老愛心卡點數提高至 1,000 點，並開放扣抵就醫掛號費",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5892&chk=38b27194-069f-4ddb-81aa-9d39316c0be1"
+        },
+        {
+          "topic": "education",
+          "title": "建置線上部落大學平台，整合線上課程、族語教學與文化影音",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5892&chk=38b27194-069f-4ddb-81aa-9d39316c0be1"
+        },
+        {
+          "topic": "welfare",
+          "title": "提高原住民護理師與社工進用比例",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5892&chk=38b27194-069f-4ddb-81aa-9d39316c0be1"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -363,7 +452,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "輔導原住民企業品牌建立、通路媒合、優先採購與經營培訓",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5888&chk=820b5d22-8bef-4899-814a-84b8075abf61"
+        },
+        {
+          "topic": "education",
+          "title": "建立原住民運動選手主動選才、培訓與參賽輔導機制",
+          "detail": "2026 年 8 月市政總質詢提出，由體育、原民主管機關與各單項委員會合作",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5888&chk=820b5d22-8bef-4899-814a-84b8075abf61"
+        },
+        {
+          "topic": "education",
+          "title": "原住民學生比例高的學校結合文化課程、職涯探索與產業體驗",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5888&chk=820b5d22-8bef-4899-814a-84b8075abf61"
+        }
+      ],
       "record": [
         {
           "topic": "economy",

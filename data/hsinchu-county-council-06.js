@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：黃路加、陳新源。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 2026-10-19 第四輪補查：新增 8 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-06",
@@ -39,7 +41,56 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "社會救助金開放線上捐款與多元支付",
+          "detail": "取代目前僅能匯款的方式；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/23%E5%91%82%E5%AE%9B%E5%BA%AD%E8%AD%B0%E5%93%A1_114243.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "提高敬老愛心卡點數並擴及長照專車與農會、藥局",
+          "detail": "點數由每月 500 點提高到 600 至 1,000 點；長照專車、復康巴士可先以紙本方式核銷；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/23%E5%91%82%E5%AE%9B%E5%BA%AD%E8%AD%B0%E5%93%A1_114243.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "長照專車建立線上預約平台",
+          "detail": "可查詢剩餘額度與可預約時段，改善電話預約不易接通；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/23%E5%91%82%E5%AE%9B%E5%BA%AD%E8%AD%B0%E5%93%A1_114243.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "改善新埔新湖路 117 號 T 字路口",
+          "detail": "中央補助若未核定，要求以縣款調整道路配置；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/23%E5%91%82%E5%AE%9B%E5%BA%AD%E8%AD%B0%E5%93%A1_114243.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "加速寶石大橋拓寬",
+          "detail": "增設機車道、人行道，路口採偏心式左右轉；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/23%E5%91%82%E5%AE%9B%E5%BA%AD%E8%AD%B0%E5%93%A1_114243.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "新埔市場用地評估多目標使用與 BOT 活化",
+          "detail": "福田段 229 地號市場預定地長期閒置，建議以促參或 BOT 方式活化，補足運動與停車空間；2026 年 4 至 5 月定期會總質詢提出，2026 年 5 月並提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5581"
+        },
+        {
+          "topic": "environment",
+          "title": "加速新埔寶石里文德路自來水延管",
+          "detail": "涉及 104 戶，要求成立專案協調平台處理土地、河川公地與中央補助；2026 年 7 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5740"
+        },
+        {
+          "topic": "transport",
+          "title": "督導新埔通學公車完成定位與動態資訊系統",
+          "detail": "對象為 5619、5621 路線，上線前應提供即時班次查詢及異常通報窗口；2026 年 9 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5909"
+        }
+      ],
       "record": [],
       "past": [
         {

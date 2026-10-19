@@ -7,7 +7,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 已知缺漏：吳文凱查無可收錄資料；現任議員查無 2026 年新政見。
+ * 已知缺漏：吳文凱查無可收錄資料；現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
+ * 2026-10-19 第四輪補查：新增 6 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-05",
@@ -24,7 +25,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "加速大園客運園區外圍道路拓寬，改善環區北路瓶頸",
+          "detail": "於市政總質詢指出環區北路僅 2 車道，前後銜接路段皆為 4 車道，路口成為易肇事熱點，要求加快拓寬。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5862"
+        },
+        {
+          "topic": "transport",
+          "title": "加速大園多項通勤道路瓶頸改善與新橋興建",
+          "detail": "於市政總質詢追蹤五青路拓寬、中山南路 75 巷、中正東路 10 巷及 41 巷瓶頸改善、中正東路拓寬暨電纜地下化、永園橋興建等工程，要求加速進度。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5862"
+        },
+        {
+          "topic": "housing",
+          "title": "航空城重建戶搬遷期限延後一年，並補齊安置住宅生活機能",
+          "detail": "於市政總質詢指出安置住宅周邊生活機能不足，建議市府與民航局研議將原定年底前的搬遷期限延後一年；並追蹤店面招租、公車路線增設、消防分隊遷建、派出所、活動中心與學校等配套進度。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5862"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -109,7 +129,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "大園客運園區規劃立體停車場並整體檢討停車配置",
+          "detail": "於市政總質詢指出客運園區停車空間不足、車輛佔用道路與人行道，建議提前規劃立體停車場，因應人口成長。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5837"
+        },
+        {
+          "topic": "transport",
+          "title": "優先改善客運園區人口密集區與學校周邊人行道及公園",
+          "detail": "於市政總質詢指出人行道破損、雜草叢生及電力設施佔用通行空間，影響行人與輪椅族通行，部分公園設施老舊，要求優先改善人口密集區及學校周邊。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5837"
+        },
+        {
+          "topic": "economy",
+          "title": "串聯機場門戶與在地景點規劃半日遊、一日遊行程",
+          "detail": "於市政總質詢建議結合機場門戶優勢，串聯大溪老街、永安漁港、新屋綠色隧道及觀光工廠等景點，規劃主題式半日遊與一日遊，並強化夜間經濟，提升過境旅客留宿與消費。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5837"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

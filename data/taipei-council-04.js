@@ -14,6 +14,9 @@
  *   李易儒補上 2022 年里長選舉公報政見，林子揚補上自述經歷。賴俊翰的政見取自 2026-01 媒體專訪（黨內初選前）。
  * 第三輪補查（2026-10-14）：林子揚補上 1 則概括性政見，林珍羽補上 1 則問政紀錄；朱政騏、熊羿、黃麗香仍查無可收錄資料
  *   （2018 年同選區有同名參選人黃麗香，未能確認為同一人，不收）。
+ * 已知缺漏（2026-10-19 更新）：朱政騏、熊羿、李易儒、柳采葳、林亮君、葉林傳、黃麗香、林珍羽、陳怡君仍查無 2026 年具體政見
+ *   （現任者 2026 年報導多為對他黨候選人的批評或事件回應；報導者觀測站提案資料只到 2025 年，未當作 2026 年政見）。
+ * 2026-10-19 第四輪補查：新增 3 則政見、6 則經歷（含朱政騏、葉林傳、陳怡君的司法案件，均尚未判決確定）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-04",
@@ -31,7 +34,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "2026 年遭地檢署依違反國家安全法等罪嫌起訴並求刑 5 年以上，檢方指其翻拍列為「密」級的立法院文件傳給中國籍人士並收受報酬；尚未判決。本人否認從事共諜行為，表示將在法庭上捍衛清白。",
+          "source": "https://news.ltn.com.tw/news/Taipei/breakingnews/5461701"
+        }
+      ]
     },
     {
       "id": "tpc4-2",
@@ -40,7 +49,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "要求市府與地方商圈合作，依各商圈需求提出輔導及振興方案",
+          "detail": "2026-07 議會質詢提出；引用市府數據指中山區商圈營業額較前一期減少 214 億元（跌幅 8.4%）、大同區減少 15.2 億元（跌幅 5.5%）",
+          "source": "https://n.yam.com/Article/20260720481356"
+        },
+        {
+          "topic": "economy",
+          "title": "及早規劃花博園區改建期間的替代商圈與配套措施",
+          "detail": "2026-07 議會質詢提出，目的是降低改建對周邊商圈的衝擊",
+          "source": "https://n.yam.com/Article/20260720481356"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -247,7 +269,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "在市府新建的環保火化設施中規劃一座寵物專用火化爐",
+          "detail": "2026-04 提出；並建議透過北北基桃跨縣市合作平台研議合法寵物殯葬專區。市府回應將研議可行性",
+          "source": "https://www.cna.com.tw/news/aloc/202604180041.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -485,6 +514,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "領銜提案建請將凍卵補助諮詢納入婚後孕前健康檢查補助。",
           "source": "https://lawmaker.twreporter.org/council/bill/taipei-34437"
+        },
+        {
+          "topic": "safety",
+          "text": "2026-04 議會質詢要求市府投放滅鼠藥時依自訂指引置於隱蔽處、使用鼠餌盒並張貼警語，避免兒童與寵物誤觸。",
+          "source": "https://newtalk.tw/news/view/2026-05-04/1033185"
         }
       ],
       "past": [
@@ -580,6 +614,16 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾擔任議會領導職務；擔任議會領導職務者依慣例很少個人領銜提案，提案數不宜跨人比較。",
           "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第04選舉區.pdf"
+        },
+        {
+          "topic": "governance",
+          "text": "2025-08 遭地檢署依意圖營利供給賭博場所及貪污治罪條例「對於主管或監督事務圖利」等罪嫌起訴，檢方請求從重量刑。",
+          "source": "https://www.cna.com.tw/news/asoc/202508290073.aspx"
+        },
+        {
+          "topic": "governance",
+          "text": "前述案件 2026-07 仍在地方法院一審審理中，尚未判決；法院 2026-04 裁定延長電子監控 8 個月並限制出境。本人表示全案仍在訴訟中，不便評論。",
+          "source": "https://tw.news.yahoo.com/%E8%91%89%E6%9E%97%E5%82%B3%E6%B6%89%E4%BF%AE%E6%B3%95%E5%9C%96%E5%88%A9%E8%87%AA%E5%AE%B6%E8%B3%AD%E5%8D%9A%E9%9B%BB%E7%8E%A9-%E5%89%8D%E5%BA%97%E9%95%B7%E5%87%BA%E5%BA%AD%E5%85%A8%E8%AA%AA%E4%BA%86-%E4%BB%96%E5%B0%B1%E6%98%AF-%E8%80%81%E9%97%86-064031222.html"
         }
       ],
       "past": [
@@ -781,6 +825,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "領銜提案建請盤點各級學校閒置空間，設立獨立教師休息室。",
           "source": "https://lawmaker.twreporter.org/council/bill/taipei-34682"
+        },
+        {
+          "topic": "governance",
+          "text": "涉詐領助理費及收受建商賄賂，一審依利用職務機會詐取財物、不違背職務收受賄賂等罪判處有期徒刑 7 年 10 月、褫奪公權 5 年；2026-10 二審審理中，尚未確定。本人否認犯罪，辯方主張相關款項用於其他公務支出。",
+          "source": "https://news.cts.com.tw/cna/society/202610/202610153090023.html"
         }
       ],
       "past": [

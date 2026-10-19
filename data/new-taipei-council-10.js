@@ -12,6 +12,8 @@
  * 現任者的「過去政見」取自 2022 年選舉公報；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第三輪補查：ntc10-1 仍查無 2026 年競選政見，政見欄維持空白；補經歷 1 則（2026 年 5 月質詢偏鄉老屋整建）。
+ * 已知缺漏（2026-10-19）：無（ntc10-1 的政見取自 2026 年質詢要求與服務處說法，尚非完整競選政見）。
+ * 2026-10-19 第四輪補查：新增 2 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-10",
@@ -28,7 +30,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "啟動偏鄉老屋整建輔導計畫",
+          "detail": "2026 年 5 月市政總質詢提出：市府主動盤點偏鄉老屋，協助都市計畫發布前既有建物補辦證明、釐清產權，以利增設電梯等設施。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5448530"
+        },
+        {
+          "topic": "environment",
+          "title": "爭取經費美化瑞芳東和路擋土牆",
+          "detail": "2026 年 10 月與區公所會勘後規劃分階段施作，當年先完成部分牆面，其餘預計 2027 年初接續；經費由民意代表協助爭取補助（服務處說法）。",
+          "source": "https://udn.com/news/story/7323/9800964"
+        }
+      ],
       "record": [
         {
           "topic": "housing",

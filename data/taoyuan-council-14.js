@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏（仍查無 2026 年具體政見）：謝卓儒、邱伯倫、張倉豪、曾庭筠。
+ * 2026-10-19 第四輪補查：新增 16 則政見、1 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-14",
@@ -27,7 +29,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "研議適合部落的聚落型住宅，協助青年返鄉",
+          "detail": "2026 年 10 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5909&chk=414b0311-c2c1-45ff-87d6-7ec705d423f4"
+        },
+        {
+          "topic": "education",
+          "title": "加碼原住民大專生住宿補助，並與大專院校協調宿舍資源",
+          "detail": "2026 年 10 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5909&chk=414b0311-c2c1-45ff-87d6-7ec705d423f4"
+        },
+        {
+          "topic": "welfare",
+          "title": "復興區文化健康站串聯智慧醫療，經同意後應用長者健康量測資料",
+          "detail": "2026 年 10 月市政總質詢提出，復興區共 14 處文化健康站",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5909&chk=414b0311-c2c1-45ff-87d6-7ec705d423f4"
+        },
+        {
+          "topic": "economy",
+          "title": "跨局處依各里特色發展復興區主題文化旅遊",
+          "detail": "2026 年 10 月市政總質詢提出；觀旅局答詢將盤點原鄉旅遊資源",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5909&chk=414b0311-c2c1-45ff-87d6-7ec705d423f4"
+        },
+        {
+          "topic": "welfare",
+          "title": "媒合原住民專長人才與大專學生投入文化健康站服務",
+          "detail": "2026 年 6 月市政總質詢提出，建議試辦",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5836"
+        },
+        {
+          "topic": "welfare",
+          "title": "擴大原住民心理健康服務年齡範圍，導入具文化敏感度的諮商人力",
+          "detail": "2026 年 6 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5836"
+        }
+      ],
       "record": [
         {
           "topic": "housing",
@@ -124,8 +163,33 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "爭取部落在地醫療照護點與行動醫療",
+          "detail": "",
+          "source": "https://www.cdns.com.tw/articles/1476152"
+        },
+        {
+          "topic": "welfare",
+          "title": "擴大原鄉弱勢家庭扶助，強化幼兒教育與原鄉學童學習資源",
+          "detail": "",
+          "source": "https://www.cdns.com.tw/articles/1476152"
+        },
+        {
+          "topic": "economy",
+          "title": "扶植部落在地產業與特色旅遊，創造青年留鄉機會",
+          "detail": "",
+          "source": "https://www.cdns.com.tw/articles/1476152"
+        }
+      ],
+      "record": [
+        {
+          "topic": "welfare",
+          "text": "長期自費並號召社會資源，捐贈白米物資給原鄉弱勢家庭，定期發放書包與學習用品給原鄉學童（本人說法）。",
+          "source": "https://www.cdns.com.tw/articles/1476152"
+        }
+      ],
       "past": []
     },
     {
@@ -163,7 +227,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "加速推動復興區醫療、行政與社福園區",
+          "detail": "2026 年 7 月市政總質詢提出，以原國中周邊腹地整合長照、社福機構與醫院分院；主張可先做的部分先推動",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5859&chk=cd8aee5c-2c33-4391-92f1-d328fb371e61"
+        },
+        {
+          "topic": "welfare",
+          "title": "結合區農會既有空間設置在地長照服務據點",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5859&chk=cd8aee5c-2c33-4391-92f1-d328fb371e61"
+        },
+        {
+          "topic": "safety",
+          "title": "強化復興區無人機隊訓練與設備，提升山區救災效率",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5859&chk=cd8aee5c-2c33-4391-92f1-d328fb371e61"
+        },
+        {
+          "topic": "welfare",
+          "title": "衛生單位主動稽查醫美診所",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5859&chk=cd8aee5c-2c33-4391-92f1-d328fb371e61"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -262,7 +351,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "改善族語教師待遇，鬆綁資格認證與聘用辦法，建立培育與補充機制",
+          "detail": "2026 年 6 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5840&chk=be31ef48-fd46-4cc4-bbb9-f73219f62c24"
+        },
+        {
+          "topic": "education",
+          "title": "推動族語教學數位化，發展數位教材與線上平台",
+          "detail": "2026 年 6 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5840&chk=be31ef48-fd46-4cc4-bbb9-f73219f62c24"
+        },
+        {
+          "topic": "housing",
+          "title": "檢討原住民租金補貼申請門檻與補助機制",
+          "detail": "2026 年 6 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5840&chk=be31ef48-fd46-4cc4-bbb9-f73219f62c24"
+        }
+      ],
       "record": [
         {
           "topic": "education",

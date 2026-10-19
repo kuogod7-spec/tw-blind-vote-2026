@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏：仍查無 2026 年具體政見：劉定唐、古振豐。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
+ * 2026-10-19 第四輪補查：新增 14 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-09",
@@ -44,7 +46,50 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "長者社福點數由 800 點提高至 1,200 至 1,500 點，可用於運動服務",
+          "detail": "將 65 歲以上長者社福點數從現行 800 點提高到 1,200 至 1,500 點，並擴大可用於健身教練與運動服務。",
+          "source": "https://newtalk.tw/news/view/2026-02-25/1021427"
+        },
+        {
+          "topic": "welfare",
+          "title": "與在地健身場館合作開設免費入門教練課程",
+          "detail": "由市府與在地健身場館合作，定期定額開設免費入門課程。",
+          "source": "https://newtalk.tw/news/view/2026-02-25/1021427"
+        },
+        {
+          "topic": "environment",
+          "title": "更新老舊公園設施、改善無障礙動線並增設寵物友善專區",
+          "detail": "更新老舊公園設施、改善無障礙動線，並增設寵物友善專區。",
+          "source": "https://newtalk.tw/news/view/2026-02-25/1021427"
+        },
+        {
+          "topic": "transport",
+          "title": "檢視改善省道、國道銜接路段標線，提升夜間行車安全",
+          "detail": "全面檢視省道、國道銜接路段標線並改善；另研議商圈停車位不足的解決方案。",
+          "source": "https://newtalk.tw/news/view/2026-02-25/1021427"
+        },
+        {
+          "topic": "education",
+          "title": "加速老舊校舍整建並強化通學步道安全",
+          "detail": "加速老舊校舍整建，補足法規要求的多元教室空間，並強化通學步道與校園周邊交通安全規劃。",
+          "source": "https://newtalk.tw/news/view/2026-02-25/1021427"
+        },
+        {
+          "topic": "transport",
+          "title": "評估捷運路網延伸至楊梅，加速國道高架延伸頭份工程",
+          "detail": "評估將捷運路網延伸至楊梅；加速五楊高架延伸頭份工程，並盤點瓶頸道路推動改善。",
+          "source": "https://lifenews.com.tw/582667"
+        },
+        {
+          "topic": "economy",
+          "title": "爭取半導體與 AI 產業鏈進駐龍潭科學園區三期，加速擴大幼獅工業區",
+          "detail": "爭取先進半導體及 AI 產業鏈進駐龍科三期，並加速擴大幼獅工業區。",
+          "source": "https://lifenews.com.tw/582667"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -61,7 +106,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "四維國小啟動校舍興建規劃並評估增設幼兒園兩歲專班",
+          "detail": "於市政總質詢指出校地約 0.4 公頃已飽和，市府已爭取鄰近國防部用地，要求儘速啟動校舍興建規劃，並評估增設兩歲專班。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5849"
+        },
+        {
+          "topic": "education",
+          "title": "加速中興路周邊通學廊道改善與楊明國小校舍重建",
+          "detail": "於市政總質詢敦促加速楊明國小、瑞塘國小及陽光中小學周邊中興路通學廊道改善，並儘速推動楊明國小老舊校舍重建。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5849"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -172,7 +230,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "加速楊明國小周邊道路用地取得與動工",
+          "detail": "於市政總質詢指出學童上下學需大幅繞道，要求加速用地取得並儘速動工。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5835"
+        },
+        {
+          "topic": "housing",
+          "title": "依法維護梅江國宅周邊道路公共通行權",
+          "detail": "於市政總質詢指出私人土地糾紛影響數百戶住戶出入，要求市府依法維護公共通行權。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5835"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -302,7 +373,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "楊梅自立停車場由新工處統籌並整合多目標使用",
+          "detail": "於市政總質詢建議自立停車場由新工處統籌、整合多目標使用；市府答詢預算將提升至 3.2 億元。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5845"
+        },
+        {
+          "topic": "governance",
+          "title": "活化楊梅火車站舊宿舍空間並改善小楊梅步道",
+          "detail": "於市政總質詢要求活化楊梅火車站舊宿舍空間，並改善小楊梅步道濕滑問題。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5845"
+        },
+        {
+          "topic": "environment",
+          "title": "編列預算推動楊梅污水下水道與治水工程",
+          "detail": "於市政總質詢強調污水下水道與治水工程應編列預算積極推動。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5845"
+        }
+      ],
       "record": [
         {
           "topic": "education",

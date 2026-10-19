@@ -8,6 +8,8 @@
  * 號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 已知缺漏：仍查無 2026 政見者：莫璦緁、連恩典、蔡長宏。
+ * 2026-10-19 第四輪補查：新增 5 則政見、0 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  */
 window.ELECTION_DATA.races.push({
@@ -102,7 +104,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "市府自辦消防人員招考補足人力，並提高消防員危險加給",
+          "detail": "消防員編制 337 名、實際 256 名；要求於追加減預算編列危險加給加成，比照雙北每人 1 萬元，送議會審議（2026 年 2 月議會外發言）",
+          "source": "https://www.cna.com.tw/news/asoc/202602130175.aspx"
+        },
+        {
+          "topic": "environment",
+          "title": "要求市府定期提出月眉土資場營運監督報告",
+          "detail": "土資場有限度重啟收容後，要求市府事中即時介入、事後究責（2026 年 1 月）",
+          "source": "https://www.cna.com.tw/news/aloc/202601020114.aspx"
+        },
+        {
+          "topic": "economy",
+          "title": "全面盤點暖東峽谷設施並建立長期管理機制",
+          "detail": "木棧步道等設施更新約 4 年即老化、疑遭白蟻蛀蝕；要求評估整體更新、重新檢視管理權責，使暖東峽谷及淡蘭古道成為山林觀光入口（2026 年 9 月）",
+          "source": "https://www.cna.com.tw/news/aloc/202609030294.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -129,7 +150,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "爭取雙北快捷公車路線優化並增加班次",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260904/3231757.htm"
+        },
+        {
+          "topic": "education",
+          "title": "增加公共托嬰與公立幼兒園名額",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260904/3231757.htm"
+        }
+      ],
       "record": []
     }
   ]

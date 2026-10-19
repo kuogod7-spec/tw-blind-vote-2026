@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：范文鴻。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 2026-10-19 第四輪補查：新增 7 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-11",
@@ -28,7 +30,50 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "北埔客運站與峨眉隆聖宮設置公共自行車站",
+          "detail": "2026 年 5 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/34%E7%8E%8B%E8%BE%B0%E7%BF%94%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114457.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "台三線北埔至三灣路段設噪音科技執法",
+          "detail": "並加強取締，檢討速限、警示設施與道路改善；2026 年 5 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/34%E7%8E%8B%E8%BE%B0%E7%BF%94%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114457.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "盤點北埔、峨眉淹水熱區並強化排水與預警",
+          "detail": "涉及北埔南坑村、南埔村及峨眉中盛村；2026 年 5 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/34%E7%8E%8B%E8%BE%B0%E7%BF%94%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114457.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "放寬敬老愛心卡使用項目並提高點數",
+          "detail": "2026 年 5 月書面質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/34%E7%8E%8B%E8%BE%B0%E7%BF%94%E6%9B%B8%E9%9D%A2%E8%B3%AA%E8%A9%A2%E8%B3%87%E6%96%99_114457.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "教室冷氣開啟標準由 28 度調為 26 度",
+          "detail": "或授權教師視課堂狀況彈性開啟；2026 年 7 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5787"
+        },
+        {
+          "topic": "welfare",
+          "title": "補助帶狀疱疹疫苗",
+          "detail": "優先補助高齡長者、低收入戶及高風險族群；2026 年 7 月議會提案，請縣府研議。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5783"
+        },
+        {
+          "topic": "safety",
+          "title": "改善北埔消防分隊廳舍漏水",
+          "detail": "2026 年 7 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5813"
+        }
+      ],
       "record": [],
       "past": [
         {

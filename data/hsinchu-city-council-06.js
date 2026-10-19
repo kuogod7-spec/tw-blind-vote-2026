@@ -8,6 +8,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
+ * 已知缺漏：仍查無 2026 年具體政見者：李雅雯（現任者的議會提案列於 record）。
+ * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-06",
@@ -35,7 +37,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "爭取原住民族歲時祭儀跨縣市返鄉交通費補助",
+          "detail": "於議會建議市府補助設籍本市的原住民族人返鄉參加歲時祭儀的跨縣市交通費。市府回應將參考他縣市做法估算預算與財源，預計下一年度規劃實施，補助期間依各族祭儀日期訂定，可於三區公所申請；補助金額尚未公布。",
+          "source": "https://udn.com/news/story/7324/9807568"
+        }
+      ],
       "record": [
         {
           "topic": "safety",

@@ -9,6 +9,8 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁或 2022 年選舉公報；提案數取自報導者觀測站。
  * 2026-10-14 補查：多數現任者的 2026 年政見查無報導，過去政見兌現狀況多數仍標為 unknown。
  * 第三輪補查（2026-10-14）：陳力新補上競選網站政見；譚傳紹仍查無可收錄資料。
+ * 2026-10-19 第四輪補查：新增 9 則政見、1 則經歷（多為 2026 年議會中對市府的具體要求）。
+ * 已知缺漏：第四輪補查後，吳志剛、鍾小平、張延廷、譚傳紹仍查無 2026 年具體政見。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA.races.push({
@@ -457,7 +459,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "盤點公有市場耗電空調並訂定分年汰換期程",
+          "detail": "全市 47 處公有零售市（商）場僅 17 處明列使用一級能效空調；優先汰換設備老舊、冷房效率不佳的場域。為 2026 年議會中對市府的要求。",
+          "source": "https://tw.news.yahoo.com/%E5%B8%82%E5%A0%B4%E9%9B%BB%E8%B2%BB%E8%A3%9C%E5%8A%A9%E4%B9%8B%E5%A4%96%E9%82%84%E8%A6%81%E9%99%8D%E8%80%97%E8%83%BD-%E6%B4%AA%E5%A9%89%E8%87%BB%E8%BF%BD%E8%94%A3%E8%90%AC%E5%AE%89%E6%89%BF%E8%AB%BE-%E5%88%A5%E5%8F%AA%E9%96%8B%E9%81%B8%E8%88%89%E6%94%AF%E7%A5%A8-110100923.html"
+        },
+        {
+          "topic": "economy",
+          "title": "市場電費補助與節能設備更新、用電改善成效連動",
+          "detail": "主張補助不只給電費，另建立節能設備更新的補助或獎勵機制。為 2026 年議會中對市府的要求。",
+          "source": "https://tw.news.yahoo.com/%E5%B8%82%E5%A0%B4%E9%9B%BB%E8%B2%BB%E8%A3%9C%E5%8A%A9%E4%B9%8B%E5%A4%96%E9%82%84%E8%A6%81%E9%99%8D%E8%80%97%E8%83%BD-%E6%B4%AA%E5%A9%89%E8%87%BB%E8%BF%BD%E8%94%A3%E8%90%AC%E5%AE%89%E6%89%BF%E8%AB%BE-%E5%88%A5%E5%8F%AA%E9%96%8B%E9%81%B8%E8%88%89%E6%94%AF%E7%A5%A8-110100923.html"
+        },
+        {
+          "topic": "environment",
+          "title": "行道樹補植速度須跟上移除速度，並公開補植時間、地點與數量",
+          "detail": "引用 2025 年移除與天災減損合計 3,164 株、補植僅 778 株；主張以補植樹木而非遮陽設施提供綠蔭。為 2026 年議會中對市府的要求。",
+          "source": "https://health.ftvnews.com.tw/news/detail/2026708W0351"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -654,7 +675,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "西寧中繼市場在攤商遷入前備齊基礎設施",
+          "detail": "中繼市場至少使用 6 年，主張設備不應等啟用後再由攤商自行申請經費購置。為 2026 年 5 月議會考察時對市府的要求。",
+          "source": "https://www.ctee.com.tw/news/20260520701614-431401"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -773,7 +801,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "推動為 2 歲以上幼兒教保場所監視錄影設備建立法律依據",
+          "detail": "訂定設置、影像保存、調閱與管理規範，由地方政府稽查監督；疑似不當對待時保全影像，並兼顧兒童隱私與教保人員權益。與受虐兒家長團體共同提出的修法訴求。",
+          "source": "https://udn.com/news/story/7314/9816520"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -804,6 +839,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "推動長者免繳健保費、議會質詢網路直播（本人說法）。",
           "source": "https://www.tcc.gov.tw/Councilor_Content.aspx?n=13898&s=2597"
+        },
+        {
+          "topic": "education",
+          "text": "2026 年 10 月與受虐兒家長自救會在凱達格蘭大道發起反虐童集會，訴求完善幼兒園監視錄影法制。",
+          "source": "https://www.ettoday.net/news/20261017/3256145.htm"
         }
       ],
       "past": [
@@ -941,7 +981,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "要求年內通過大眾運輸導向開發（TOD）容積獎勵 3.0 方案",
+          "detail": "為 2026 年議會中對市府的要求。",
+          "source": "https://mypeoplevol.com/2026/politics/85036/"
+        },
+        {
+          "topic": "housing",
+          "title": "要求年內完成第三種住宅區提升為住三之一（容積率 300%）的都市計畫審議",
+          "detail": "案件已進入都市設計審議。為 2026 年議會中對市府的要求。",
+          "source": "https://mypeoplevol.com/2026/politics/85036/"
+        },
+        {
+          "topic": "transport",
+          "title": "捷運沿線公車等候亭與捷運出入口不採原樣復舊，改結合人行道拓寬與綠色植栽",
+          "detail": "要求導入在地意象美化，並請市府於 2026 年 5 月前提出配套對策。為 2026 年議會中對市府的要求。",
+          "source": "https://mypeoplevol.com/2026/politics/85036/"
+        },
+        {
+          "topic": "welfare",
+          "title": "艋舺公園改造後引導物資捐贈至指定地點，並以輔導街友重返社會為目標",
+          "detail": "請社會局與警察局介入引導捐贈，避免影響商圈秩序；主張輔導而非驅趕。為 2026 年議會中對市府的要求。",
+          "source": "https://mypeoplevol.com/2026/politics/85036/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

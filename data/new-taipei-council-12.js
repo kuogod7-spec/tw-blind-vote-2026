@@ -21,6 +21,8 @@
  *   （提名與登記報導只有名單或「持續為族人發聲」等概括描述；同場出現的具體政見屬市長參選人或政黨，不歸給個別議員候選人），platforms 維持空白；
  *   經歷亦無新增。吳建智、連祐崧、忠仁‧達祿斯除登記名單外，查無其他 2026 年參選報導。
  * 2026-10-14 依使用者決定補列司法事件：ntc12-4 經歷補列 2026 年 9 月涉嫌賄選交保一事（偵查中）。
+ * 已知缺漏（2026-10-19）：仍查無 2026 年政見：忠仁‧達祿斯、吳國譽La‧Is‧Amid、蘇錦雄Paylang‧Caya、楊春妹、宋雨蓁Nikar‧Falong、吳建智、連祐崧（全部 7 人）。
+ * 2026-10-19 第四輪補查：新增 0 則政見、2 則經歷（ntc12-1 2021 年賄選案判決確定與解職；同名且同為本市平地原住民選區議員，判斷為同一人）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-12",
@@ -38,7 +40,18 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "2020 年立法委員選舉期間受託向選民行賄，2021 年 3 月一審依預備交付賄賂罪判處有期徒刑 7 月、褫奪公權 1 年；本人審理時否認，稱查扣名單為電話拜票名單。",
+          "source": "https://news.ltn.com.tw/news/society/breakingnews/3473293"
+        },
+        {
+          "topic": "governance",
+          "text": "上述賄選案 2021 年 12 月二審上訴駁回確定，依法解除當時的地方民意代表職務，由同選區落選者遞補。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/3779611"
+        }
+      ],
       "past": [
         {
           "role": "地方民意代表",

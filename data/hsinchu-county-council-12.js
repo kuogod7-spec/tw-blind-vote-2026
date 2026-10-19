@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：法隆伊佑。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 2026-10-19 第四輪補查：新增 6 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-12",
@@ -39,7 +41,44 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "原住民建購修繕補助與急難紓困開放線上申辦",
+          "detail": "2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/35%E5%8A%89%E5%BB%BA%E6%B0%91%E8%AD%B0%E5%93%A1%E3%80%81%E6%9E%97%E7%A7%89%E5%90%9B%E8%AD%B0%E5%93%A1_114518.pdf"
+        },
+        {
+          "topic": "governance",
+          "title": "輔導鄉鎮市公所申辦戶役政電子閘門",
+          "detail": "由數位發展主管機關一條龍協助完成申請程序，取代紙本名冊；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/35%E5%8A%89%E5%BB%BA%E6%B0%91%E8%AD%B0%E5%93%A1%E3%80%81%E6%9E%97%E7%A7%89%E5%90%9B%E8%AD%B0%E5%93%A1_114518.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "縣府自籌補足原住民急難救助經費",
+          "detail": "中央計畫刪除後地方配合款無法使用，要求縣府自行編列；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/35%E5%8A%89%E5%BB%BA%E6%B0%91%E8%AD%B0%E5%93%A1%E3%80%81%E6%9E%97%E7%A7%89%E5%90%9B%E8%AD%B0%E5%93%A1_114518.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "文化健康站長者接送改採特約車隊",
+          "detail": "以購車與聘駕駛經費改向運輸業者購買上下課時段服務，並協調關西部落長者接送；2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/35%E5%8A%89%E5%BB%BA%E6%B0%91%E8%AD%B0%E5%93%A1%E3%80%81%E6%9E%97%E7%A7%89%E5%90%9B%E8%AD%B0%E5%93%A1_114518.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "提高體育選手營養金",
+          "detail": "2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/35%E5%8A%89%E5%BB%BA%E6%B0%91%E8%AD%B0%E5%93%A1%E3%80%81%E6%9E%97%E7%A7%89%E5%90%9B%E8%AD%B0%E5%93%A1_114518.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "關西馬武督部落文化彩繪與美化專案輔導",
+          "detail": "2026 年 4 至 5 月定期會總質詢提出。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/35%E5%8A%89%E5%BB%BA%E6%B0%91%E8%AD%B0%E5%93%A1%E3%80%81%E6%9E%97%E7%A7%89%E5%90%9B%E8%AD%B0%E5%93%A1_114518.pdf"
+        }
+      ],
       "record": [],
       "past": [
         {

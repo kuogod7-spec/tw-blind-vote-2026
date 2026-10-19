@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏（仍查無 2026 年具體政見）：無。
+ * 2026-10-19 第四輪補查：新增 13 則政見、0 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-12",
@@ -27,7 +29,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "盤點觀音具客庄歷史的埤塘、水圳與周邊空間，與居民共同規劃並爭取中央水環境改善計畫",
+          "detail": "社群貼文提出（2026 年 10 月），結合安全步行動線，兼顧生態與文化",
+          "source": "https://www.threads.com/@guanyinmelody/post/Deow0n5DFmI"
+        },
+        {
+          "topic": "economy",
+          "title": "請市府結合農會協助觀音青年農民參加中央青農輔導遴選，並連結品牌、加工與通路輔導",
+          "detail": "社群貼文提出（2026 年 10 月）",
+          "source": "https://www.threads.com/@guanyinmelody/post/DemyW07DPBA"
+        },
+        {
+          "topic": "education",
+          "title": "請市府媒合藝文團隊進入觀音學校開設藝術課程",
+          "detail": "社群貼文提出（2026 年 10 月），涵蓋音樂、戲劇、工藝、文學、電影等",
+          "source": "https://www.threads.com/@guanyinmelody/post/Dej1l3zk3NX"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -38,7 +59,44 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "在觀音區七富溪段市場用地設置現代化傳統市場",
+          "detail": "2026 年 2 月市政總質詢要求三個月內提出可行性報告（用地約 1,902 平方公尺）；經發局答詢承諾三個月內完成評估",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5813&chk=70fb039d-dfb9-4a36-b63f-c81677d37ea9"
+        },
+        {
+          "topic": "housing",
+          "title": "重啟觀音都市計畫檢討，整體規劃觀音、新坡、草漯三大生活圈",
+          "detail": "2026 年 2 月市政總質詢提出；都發局答詢將重啟檢討",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5813&chk=70fb039d-dfb9-4a36-b63f-c81677d37ea9"
+        },
+        {
+          "topic": "safety",
+          "title": "增設聲音照相科技執法，並在長直路段施作震動標線等防飆車措施",
+          "detail": "2026 年 2 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5813&chk=70fb039d-dfb9-4a36-b63f-c81677d37ea9"
+        },
+        {
+          "topic": "transport",
+          "title": "增加觀音往返高鐵站小巴的尖峰與假日班次",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5863&chk=717a6b45-2410-4c93-a6db-43988099737f"
+        },
+        {
+          "topic": "governance",
+          "title": "重新檢討觀音納骨塔收費與回饋範圍",
+          "detail": "2026 年 7 月市政總質詢指出骨灰櫃定價約 4 萬 5,000 元起，部分與公墓有歷史淵源的里未納入回饋",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5863&chk=717a6b45-2410-4c93-a6db-43988099737f"
+        },
+        {
+          "topic": "welfare",
+          "title": "公益性社團借用市民活動中心提供租金優惠",
+          "detail": "2026 年 7 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5863&chk=717a6b45-2410-4c93-a6db-43988099737f"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -137,7 +195,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "天然氣接收站公共藝術經費留用觀音，打造展演空間與旅遊服務中心",
+          "detail": "2026 年 8 月市政總質詢提出，經費初估約 9 億元；主張串聯燈塔、藻礁、沙丘等在地景點",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5877&chk=984eba78-2462-42c0-80dc-3a2f8e8fbba3"
+        },
+        {
+          "topic": "transport",
+          "title": "加速開放富林溪防汛道路與步道，分流工業區車潮",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5877&chk=984eba78-2462-42c0-80dc-3a2f8e8fbba3"
+        },
+        {
+          "topic": "environment",
+          "title": "超高壓變電所若推動，應同步以主要電纜地下化作為回饋",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5877&chk=984eba78-2462-42c0-80dc-3a2f8e8fbba3"
+        },
+        {
+          "topic": "environment",
+          "title": "檢討並提高焚化爐垃圾處理回饋金",
+          "detail": "2026 年 8 月市政總質詢提出",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5877&chk=984eba78-2462-42c0-80dc-3a2f8e8fbba3"
+        }
+      ],
       "record": [
         {
           "topic": "environment",

@@ -9,6 +9,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
+ * 已知缺漏：仍查無 2026 政見者：張家馨、俞叁發、秦鉦、黃永翔、黃忠賢、吳程澤、鄭愷玲、劉韋巡。
+ * 2026-10-19 第四輪補查：新增 3 則政見、1 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-05",
@@ -47,6 +49,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "曾任慈善協會執行長。",
           "source": "https://udn.com/news/story/124652/9294565"
+        },
+        {
+          "topic": "governance",
+          "text": "曾遭地方法院以使公務員登載不實罪判決（報導未載明刑度及是否確定），原所屬政黨於 2026 年 7 月據此將其除名並撤銷提名；本人表示除名係依匿名檢舉拼湊內容，感到遺憾，並改以無黨籍參選。",
+          "source": "https://udn.com/news/story/7328/9648555"
         }
       ]
     },
@@ -272,7 +279,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "主張議員建議工程經費刪至象徵性金額，重建公平透明的分配機制",
+          "detail": "2026 年 10 月審議 2027 年度總預算時，與其他議員共同主張將零星工程與里鄰工程經費（合計約 1.6 億元）刪至 1 元，日後再以追加預算重新編列",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5606351"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -402,7 +416,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "要求公開鼠患防治進度與滅鼠藥分配方式，並整合清消與熱點管理",
+          "detail": "2026 年 6 月議會質詢提出；要求說明全市 157 里是否都已配發滅鼠藥及分配依據，並由市府整合環境清消、熱點管理與跨局處合作",
+          "source": "https://udn.com/news/story/7328/9540803"
+        },
+        {
+          "topic": "governance",
+          "title": "主張議員建議工程經費刪至象徵性金額，重建公平透明的分配機制",
+          "detail": "2026 年 10 月審議 2027 年度總預算時，與其他議員共同主張將零星工程與里鄰工程經費（合計約 1.6 億元）刪至 1 元，日後再以追加預算重新編列",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5606351"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

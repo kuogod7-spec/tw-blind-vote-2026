@@ -9,6 +9,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
+ * 已知缺漏：仍查無 2026 政見者：蔡旺璉、陳安淇、張耿輝、戴璟安。
+ * 2026-10-19 第四輪補查：新增 2 則政見、1 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-07",
@@ -82,8 +84,21 @@ window.ELECTION_DATA.races.push({
         "party": "親民黨",
         "number": null
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "在七堵車站前打造彩繪街區，行銷七堵、活絡地方經濟",
+          "detail": "逐戶整合老舊民宅外牆彩繪；2026 年 6 月議會質詢中提出",
+          "source": "https://udn.com/news/story/7328/9543282"
+        }
+      ],
+      "record": [
+        {
+          "topic": "economy",
+          "text": "出錢出力推動七堵車站前老舊民宅外牆彩繪，由專業團隊規劃並逐戶整合住戶。",
+          "source": "https://udn.com/news/story/7328/9543282"
+        }
+      ],
       "past": [
         {
           "role": "地方民意代表",
@@ -155,7 +170,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "建議七堵實踐橋增設側板或遮蔽設施擋風雨",
+          "detail": "2026 年 10 月接獲陳情後向市府提出，請市府現勘評估兼顧安全、通風與防雨的方案",
+          "source": "https://tw.news.yahoo.com/%E8%AD%B0%E5%93%A1%E6%9B%BE%E6%80%A1%E8%8A%B3%E5%BB%BA%E8%AD%B0%E5%AF%A6%E8%B8%90%E6%A9%8B%E5%A2%9E%E8%A8%AD%E5%81%B4%E6%9D%BF%E6%93%8B%E9%A2%A8%E9%9B%A8-114844751.html"
+        }
+      ],
       "record": [],
       "past": [
         {

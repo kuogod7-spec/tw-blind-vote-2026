@@ -8,6 +8,8 @@
  * 號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 已知缺漏：仍查無 2026 政見者：李嘉濠、何淑萍、李程祥、鄭素禎、林廷奕。
+ * 2026-10-19 第四輪補查：新增 4 則政見、1 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 鄭素禎：唯一查到的報導（轉載）把參選地區寫為臺北市信義區，無法確認是本選區同一人，
  * 依「身分無法確認時不收錄」規則，該報導內容不收。
@@ -94,7 +96,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "建議市府建立公開平台，讓居民與民意代表的建議事項可供檢視與監督",
+          "detail": "2026 年 10 月市府取消議員建議款、併入里鄰工程時提出；並支持相關預算回歸專業審核，以避免綁標、圍標",
+          "source": "https://udn.com/news/story/7328/9812056"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -161,8 +170,21 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
-      "record": []
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "推動老屋延壽",
+          "detail": "列為當選後最優先推動的三件事之一，另兩件為改善通勤品質與市容美化；未說明具體做法",
+          "source": "https://www.cdns.com.tw/articles/1474190"
+        }
+      ],
+      "record": [
+        {
+          "topic": "transport",
+          "text": "擔任民意代表助理期間，協助調查公車車班與各站乘客人數，參與促成 2088B、C 支線調整（支持者說法）。",
+          "source": "https://cnews.com.tw/235261013a04/"
+        }
+      ]
     },
     {
       "id": "klc2-6",
@@ -181,7 +203,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "推動設置寵物公園",
+          "detail": "與親子友善並列為競選主打訴求；未說明地點與期程",
+          "source": "https://udn.com/news/story/124652/9797281"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -231,7 +260,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "增設匹克球場",
+          "detail": "2026 年 6 月議會質詢中建議市府盤點適合地點增設",
+          "source": "https://news.ltn.com.tw/news/Keelung/breakingnews/5458466"
+        }
+      ],
       "record": [],
       "past": [
         {

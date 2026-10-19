@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：游雅婷、戴佩如、范格菱、杜文中、范揚琪（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 2026-10-19 第四輪補查：新增 40 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-02",
@@ -45,7 +47,62 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動人本交通與智慧交通管理",
+          "detail": "保障行人路權、導入智慧交通管理改善壅塞，並升級公共運輸、推動共享運具普及。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5428954"
+        },
+        {
+          "topic": "education",
+          "title": "增設公托、公幼並落實在地就學",
+          "detail": "減輕家庭育兒負擔，同時落實校園安全與在地就學權益。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5428954"
+        },
+        {
+          "topic": "welfare",
+          "title": "擴大長者照護據點並爭取各年齡層疫苗補助",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5428954"
+        },
+        {
+          "topic": "environment",
+          "title": "增建特色公園與綠地，加強環境污染稽查與食安把關",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5428954"
+        },
+        {
+          "topic": "governance",
+          "title": "持續推動議會資訊公開，強化市民參與公共事務",
+          "detail": "",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5428954"
+        },
+        {
+          "topic": "transport",
+          "title": "開放大型重機與駕艙機車停放機車格，或劃設專用車格",
+          "detail": "2026 年 5 月議會總質詢提出：參考其他縣市依停車場法由地方自行調整，讓大型重機可停機車格（過長者可斜停兩格），或劃設重機與駕艙機車共用格；交通主管機關答詢同意研議。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/10歐陽霆議員_113928.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "三民路、福興路、嘉興路增設人行道，嘉豐南路與莊敬南路路口增設左轉車道",
+          "detail": "2026 年 5 月議會總質詢提出：要求縣府列管各案進度，對公所養護路段主動協調並協助工程經費，條件成熟的福興路（約 1.5 公里）優先改善。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/10歐陽霆議員_113928.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "光明六路打除中央分隔島設左轉車道，取消強制機車待轉",
+          "detail": "2026 年 5 月議會總質詢提出：縣政五街至縣政九路設置附加左轉車道；縣政十街至縣政二路重新規劃停車空間，並在縣政六路路肩增設約 300 格機車停車位；完工後取消禁行機車與強制待轉，但保留待轉格供需要者使用。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/10歐陽霆議員_113928.pdf"
+        },
+        {
+          "topic": "safety",
+          "title": "增加取締非法棄置廢棄物的監視器預算",
+          "detail": "2026 年 5 月議會總質詢提出：環保單位每年取締用監視器僅 6 至 8 支，要求明年增編預算，並由警察與環保單位訂定跨局處合作策略；環保主管機關答詢同意爭取增加。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/10歐陽霆議員_113928.pdf"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -183,7 +240,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "盤點竹北公有地，加速新建社會住宅",
+          "detail": "2026 年 5 月議會總質詢提出：縣內社會住宅達成率在桃竹竹苗最低、尚無地方自建社宅，要求盤點竹北可用公有地加速新建。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/13蔡蕥鍹_114028.pdf"
+        },
+        {
+          "topic": "governance",
+          "title": "竹北第八公墓規劃為環保葬，並提前啟動第一、第二公墓遷葬查估",
+          "detail": "2026 年 3 月提案將第八公墓規劃為環保葬；5 月議會總質詢要求不必等待園區開發案通過，提前辦理第一、第二公墓查估與補償費編列。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/13蔡蕥鍹_114028.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "研議鳳山溪橋台遺址登山步道，串聯竹北、湖口、新埔低碳觀光",
+          "detail": "2026 年 6 月提案：以安全為前提先規劃步道，串聯鳳山溪自行車道。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5471190"
+        },
+        {
+          "topic": "education",
+          "title": "新建總圖書館納入日治時期州立圖書館藏書返鄉典藏",
+          "detail": "2026 年 3 月要求文化主管機關釐清返鄉責任分工並公開進度，將典藏修護人力與專區空間納入總圖營運計畫。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5364237"
+        }
+      ],
       "record": [
         {
           "topic": "housing",
@@ -268,7 +350,38 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "敬老愛心卡點數由 500 點提高到 800 至 1,000 點，並擴大到農會、藥局",
+          "detail": "2026 年 4 月議會總質詢提出：由交通補助轉為生活支持，結合長照讓家屬可代購紙尿布、營養品等必需品；縣府首長答詢將請主管機關研究。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/09蔡志環議員%20%20%20質詢稿%20%20%201150428_113912.pdf"
+        },
+        {
+          "topic": "governance",
+          "title": "竹北設置都會型追思會館",
+          "detail": "2026 年 4 月議會總質詢提出：督促縣府推動竹北就近治喪設施並加強與市民溝通；民政主管機關答詢將在 2027 年度預算編列設計規劃與環境可行性評估經費。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/09蔡志環議員%20%20%20質詢稿%20%20%201150428_113912.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "因應物價調升營養午餐餐費",
+          "detail": "2026 年 4 月議會總質詢提出：目前國小每餐 60 元、國中 67 元，要求檢討調升，並調查用餐時間與廚餘成因；教育主管機關答詢研議中。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/09蔡志環議員%20%20%20質詢稿%20%20%201150428_113912.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "增闢快捷 9 號支線，服務竹北國道西側社區",
+          "detail": "2026 年 9 月爭取，服務縣政二路南側大型社區往返高鐵站與縣治區的通勤需求；縣府表示將納入年底啟動的公車路網規劃案評估。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5588090"
+        },
+        {
+          "topic": "economy",
+          "title": "加速舊量販店大樓 2、3 樓閒置店面招商，帶動縣治區商圈",
+          "detail": "2026 年 10 月議會質詢提出，並建議結合對面停車場規劃連結動線。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603688"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -325,7 +438,38 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "犬貓緊急救援醫療預算一次編足，並推動動物保護園區",
+          "detail": "2026 年 5 月議會總質詢提出：醫療救援經費年年不足，要求增編（主管機關答詢 2027 年度擬由 280 萬元提高到 413 萬元）；並持續推動兼具生命教育功能的動物保護園區。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/06朱健銘議員%20%20%20質詢稿%20%20%201150505_113843.pdf"
+        },
+        {
+          "topic": "environment",
+          "title": "研議補助認養傷殘犬的飼主",
+          "detail": "2026 年 5 月議會總質詢提出：針對遭獸鋏致殘的犬隻，對認養人提供營養品、飼料或醫療補助；主管機關答詢將研議額度制補助。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/06朱健銘議員%20%20%20質詢稿%20%20%201150505_113843.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "研議寵物友善公車",
+          "detail": "2026 年 5 月議會總質詢提出，比照其他直轄市於非尖峰時段開放寵物搭乘；交通主管機關答詢待客運汰換為低底盤大客車後研議。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/06朱健銘議員%20%20%20質詢稿%20%20%201150505_113843.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "比照鄰近縣市補助篩檢異常者做無痛大腸鏡",
+          "detail": "2026 年 5 月議會總質詢提出，參考新竹市每人約 3,000 元補助，優先照顧經濟負擔困難的家庭；衛生主管機關答詢將與醫療團體評估。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/06朱健銘議員%20%20%20質詢稿%20%20%201150505_113843.pdf"
+        },
+        {
+          "topic": "economy",
+          "title": "為身心障礙者辦理就業媒合",
+          "detail": "2026 年 5 月議會總質詢提出，希望今明兩年內針對有證照、能力佳但行動不便的求職者加強媒合。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/06朱健銘議員%20%20%20質詢稿%20%20%201150505_113843.pdf"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -382,7 +526,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "補助新生兒自費健檢項目",
+          "detail": "2026 年 5 月議會總質詢提出：財政許可下補助基因檢測、結構異常超音波、聽損、過敏體質與遺傳疾病等自費篩檢，並推動到校主動篩檢嬰幼兒發展。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/05林禹佑_113828.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "托育補助每月加碼",
+          "detail": "2026 年 5 月議會總質詢提出，比照鄰近縣市每月加碼 1,000 至 2,000 元；社政主管機關答詢中央限制地方加碼，將滾動檢討。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/05林禹佑_113828.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "文興高中、自強高工增設體育班",
+          "detail": "2026 年 5 月議會總質詢提出：將三級體育制度延伸到高中，增設桌球、排球、籃球、棒球等項目，讓學生不必到外鄉鎮就讀。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/05林禹佑_113828.pdf"
+        },
+        {
+          "topic": "education",
+          "title": "六家車站高架橋下闢設滑板場等青少年運動場域",
+          "detail": "2026 年 5 月議會總質詢提出，並要求在公園綠地增設各類球場；教育主管機關答詢已獲鐵路單位同意無償租用 10 年，將在 7 月編列建置預算。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/05林禹佑_113828.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "通盤檢討公車路網，快捷 5 號延駛東平、鹿場、隘口里",
+          "detail": "2026 年 5 月議會總質詢提出，並要求竹北都市計畫區內可設候車亭處優先設置，其餘站牌改為電子站牌。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/05林禹佑_113828.pdf"
+        },
+        {
+          "topic": "welfare",
+          "title": "成人健檢加入糖化血色素篩檢",
+          "detail": "2026 年 10 月議會質詢提出，並要求加強飲料店標示稽查。",
+          "source": "https://health.ltn.com.tw/article/breakingnews/5604897"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -445,7 +626,44 @@ window.ELECTION_DATA.races.push({
         "party": "時代力量",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "高風險工廠依違規紀錄排定稽查順序，嚴管動火作業",
+          "detail": "整合消防、環保、產業與職安機關，依違規紀錄與易燃物風險排定優先稽查順序；反覆違規業者限期改善；提出預防計畫與預算時程，以缺失改善率及災害損失作為管考指標。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603585"
+        },
+        {
+          "topic": "transport",
+          "title": "重新盤點竹北公車與跨縣市通學需求，與新竹市建立交通資料協調機制",
+          "detail": "檢視學生上下學時段、通勤尖峰、實際載客量、班次準點與重疊路線，作為加班與調整路線的依據。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5588091"
+        },
+        {
+          "topic": "transport",
+          "title": "交通罰鍰專款專用，依執法紀錄排定道路改善優先順序",
+          "detail": "提前盤點道路改善需求，把行人違規熱點納入道路設計檢討，並追蹤改善成效。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5595017"
+        },
+        {
+          "topic": "transport",
+          "title": "針對行人死亡事故做專案檢討並公開分析",
+          "detail": "2026 年 9 月針對縣內上半年 9 名行人死亡事故提出，要求公開事故地點、道路型態與原因，並據以調整下半年執行工作。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5572999"
+        },
+        {
+          "topic": "environment",
+          "title": "主動推動犬貓絕育並公開異地回置標準",
+          "detail": "編列穩定預算與人力主動執行絕育，建立追蹤機制落實飼主責任，並釐清與公開異地回置的評估標準與紀錄。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5601656"
+        },
+        {
+          "topic": "education",
+          "title": "公開全縣校園運動設施安全盤點與履歷進度",
+          "detail": "至少公布盤點完成率、設備總數、異常與停用件數及複查時間表，並建立縣級專責彙整、追蹤與定期公開機制。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5567834"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -456,7 +674,32 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "竹北推動海綿城市，人行道改用透水鋪面",
+          "detail": "2026 年 5 月議會總質詢提出：公部門建設率先採用透水鋪面，減少積水並降低地表溫度；工務主管機關答詢將在淹水潛勢較高區域試辦。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/08林碩彥議員_113859.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "路燈統一升級為智慧路燈",
+          "detail": "2026 年 5 月議會總質詢提出：整合監視器、緊急按鈕、公共無線網路與空氣品質監測，並由縣府訂定規範，與植栽、街道家具一併規劃。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/08林碩彥議員_113859.pdf"
+        },
+        {
+          "topic": "transport",
+          "title": "夜間與支線路口改設感應式號誌",
+          "detail": "2026 年 5 月議會總質詢提出，以車流偵測調整秒數，避免空等。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/08林碩彥議員_113859.pdf"
+        },
+        {
+          "topic": "environment",
+          "title": "啟動行道樹普查並成立行道樹景觀委員會",
+          "detail": "2026 年 5 月議會總質詢提出，建議選用台灣欒樹、青楓、樟樹、無患子等兼顧景觀、生態與耐風的樹種。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/08林碩彥議員_113859.pdf"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -541,7 +784,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "督促鄉鎮市公所申請中央幸福巴士，由縣府統籌公車路網",
+          "detail": "2026 年 5 月議會總質詢提出：中央補助 85%，仍有鄉鎮未提案；主張發展軌道運輸前應先建立公車路網，由縣府統籌主導。",
+          "source": "https://www.hcc.gov.tw/upload/web_program/2026/08/18/03邱靖雅議員_113749.pdf"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

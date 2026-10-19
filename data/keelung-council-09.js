@@ -10,6 +10,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 山地原住民議員席次為本屆新增（山地原住民人口達法定門檻），議會官網無前屆資料。
+ * 已知缺漏：仍查無 2026 政見者：徐馬政妘、林崇道 Motu Quyat、高李茂俊。
+ * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-09",
@@ -26,7 +28,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "設立原住民關懷據點",
+          "detail": "",
+          "source": "https://udn.com/news/story/124652/9797281"
+        }
+      ],
       "record": [
         {
           "topic": "economy",

@@ -12,6 +12,9 @@
  * 已知缺漏：第二輪補查（2026-10-14）後，郭凡、左曉明、林柏勛、許原榮仍查無公開政見；李明璇僅查得 1 則；
  *   2022 年同選區有同名參選人林柏勛，但未找到來源確認為同一人，依規則不收其 2022 年參選紀錄。
  * 第三輪補查（2026-10-14）：郭凡、許原榮補上報導中的經歷，仍無具體政見；左曉明、林柏勛仍查無可收錄資料。
+ * 2026-10-19 第四輪補查：新增 8 則政見、4 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
+ *   已知缺漏（仍查無 2026 年政見）：洪健益、左曉明、許淑華、林柏勛、許原榮。
+ *   林柏勛仍未找到來源確認與 2022 年同名參選人為同一人。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-03",
@@ -63,7 +66,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "市立運動中心泳池提供孕婦友善水道",
+          "detail": "2026 年 10 月提出：希望全市 12 座運動中心都能提供，不要求全天固定保留一條水道，可依泳池規模、人數與尖離峰時段彈性安排，孕婦提出需求時由現場人員協助。市府表示正評估納入服務規範。",
+          "source": "https://www.ettoday.net/news/20261013/3254096.htm"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -148,7 +158,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "捷運聯合開發住宅出售前須提出完整財務與公共住宅影響評估",
+          "detail": "2026 年 5 月市政總質詢提出：處分聯開宅案送議會前，應提出多情境財務比較、估價報告、租金收益折現、TIF 假設、現金流分析及公共住宅影響評估；並由捷運、都發、財政、主計單位共同檢視涉及住宅政策的市有資產。",
+          "source": "https://www.tcpttw.com/local/2026/05/27/276655/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -247,7 +264,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "以市府補助推動老屋加裝外掛電梯",
+          "detail": "專訪中提出，以市府補助整合資源，改善老舊住宅的居住便利性；未說明補助額度與期程。",
+          "source": "https://maygoddejia.com.tw/%E5%AA%92%E8%A7%92%EF%BC%8F%E9%83%AD%E5%87%A1%E7%9A%84%E4%B8%8D%E5%B9%B3%E5%87%A1%E3%80%80%E3%80%8C%E5%9B%9B%E5%80%8B%E5%87%A1%E4%BA%8B%E3%80%8D%E6%8B%9A%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83/"
+        },
+        {
+          "topic": "environment",
+          "title": "規劃寵物公園並訂定寵物友善規範",
+          "detail": "專訪中提出，未說明地點與規模。",
+          "source": "https://maygoddejia.com.tw/%E5%AA%92%E8%A7%92%EF%BC%8F%E9%83%AD%E5%87%A1%E7%9A%84%E4%B8%8D%E5%B9%B3%E5%87%A1%E3%80%80%E3%80%8C%E5%9B%9B%E5%80%8B%E5%87%A1%E4%BA%8B%E3%80%8D%E6%8B%9A%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83/"
+        },
+        {
+          "topic": "environment",
+          "title": "借鏡國外經驗推動城市綠化植樹，再延伸至綠建築",
+          "detail": "專訪中提出的方向，未說明具體做法、數量與期程。",
+          "source": "https://maygoddejia.com.tw/%E5%AA%92%E8%A7%92%EF%BC%8F%E9%83%AD%E5%87%A1%E7%9A%84%E4%B8%8D%E5%B9%B3%E5%87%A1%E3%80%80%E3%80%8C%E5%9B%9B%E5%80%8B%E5%87%A1%E4%BA%8B%E3%80%8D%E6%8B%9A%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83/"
+        },
+        {
+          "topic": "governance",
+          "title": "督促市府運用姊妹市關係舉辦論壇與交流",
+          "detail": "專訪中提出，認為市府對數十個姊妹市的運用仍有很大空間；未說明具體活動規劃。",
+          "source": "https://maygoddejia.com.tw/%E5%AA%92%E8%A7%92%EF%BC%8F%E9%83%AD%E5%87%A1%E7%9A%84%E4%B8%8D%E5%B9%B3%E5%87%A1%E3%80%80%E3%80%8C%E5%9B%9B%E5%80%8B%E5%87%A1%E4%BA%8B%E3%80%8D%E6%8B%9A%E5%8C%97%E5%B8%82%E8%AD%B0%E6%9C%83/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -291,7 +333,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "就松山機場遷移改建產業園區案發起地方性公民投票",
+          "detail": "2026 年 10 月於個人社群表示願擔任領銜提案人，題目為是否同意市府首長提出的松山機場遷移、轉為 AI 園區政見；希望與 2028 年 1 月全國選舉同日投票，並比照全國性公投辦理多場說明或辯論。尚待提案與連署程序。",
+          "source": "https://news.nextapple.com/politics/20261019/F233335BB40A62910CD045A00691C6BB"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -317,6 +366,11 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "領銜提案建請放寬敬老卡搭乘臺鐵規定，擴及北北桃三市任一車站。",
           "source": "https://lawmaker.twreporter.org/council/bill/taipei-34191"
+        },
+        {
+          "topic": "education",
+          "text": "2025 年 10 月提案建請教育局研擬松山區民族國小校舍改建計畫，並評估增設地下停車場、預先編列預算。",
+          "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chin-hui-chu-taipei"
         }
       ],
       "past": [
@@ -430,7 +484,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動信義路五段 150 巷周邊電箱地下化、道路鋪面更新與綠色標線型人行道",
+          "detail": "2026 年 9 月表示，該巷機車停車場完工後將接續推動周邊改善；未說明期程與經費。",
+          "source": "https://tw.news.yahoo.com/%E5%81%9C%E8%BB%8A%E4%B8%8D%E5%86%8D-%E4%BD%8D%E9%9B%A3%E6%B1%82-%E6%88%B4%E9%8C%AB%E6%AC%BD%E5%AE%A3%E5%B8%83-1%E5%9C%B0%E6%96%B9%E5%BB%BA%E8%A8%AD-%E6%AD%A3%E5%BC%8F%E5%AE%8C%E5%B7%A5-001715117.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -461,6 +522,11 @@ window.ELECTION_DATA.races.push({
           "topic": "housing",
           "text": "推動松山區延壽國宅都市更新，並協助基隆路預拌混凝土廠遷址（本人說法）。",
           "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第03選舉區.pdf"
+        },
+        {
+          "topic": "transport",
+          "text": "與當地里長會勘追蹤兩年多，爭取信義路五段 150 巷免費機車停車場於 2026 年 9 月完工（本人說法）。",
+          "source": "https://tw.news.yahoo.com/%E5%81%9C%E8%BB%8A%E4%B8%8D%E5%86%8D-%E4%BD%8D%E9%9B%A3%E6%B1%82-%E6%88%B4%E9%8C%AB%E6%AC%BD%E5%AE%A3%E5%B8%83-1%E5%9C%B0%E6%96%B9%E5%BB%BA%E8%A8%AD-%E6%AD%A3%E5%BC%8F%E5%AE%8C%E5%B7%A5-001715117.html"
         }
       ],
       "past": [
@@ -596,6 +662,11 @@ window.ELECTION_DATA.races.push({
           "topic": "housing",
           "text": "爭取健康、廣慈、三興、六張犁等公宅規劃及興建預算逾 315 億元（本人說法）。",
           "source": "https://eebulletin.cec.gov.tw/111/02臺北市/02市議員/臺北市第03選舉區.pdf"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 5 月市政總質詢追問何時發文撤銷京華城改建案 20% 違法容積獎勵並要求公開調查小組會議紀錄；市府首長答詢表示將撤銷該 20% 容積獎勵。",
+          "source": "https://udn.com/news/story/7323/9518902"
         }
       ],
       "past": [
@@ -690,6 +761,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "擔任民意代表幕僚約 23 年，經歷地方議會與立法院，參與捷運延伸路線等交通建設事務（本人說法）。",
           "source": "https://udn.com/news/story/124652/9367767"
+        },
+        {
+          "topic": "economy",
+          "text": "2026 年 5 月於信義區黎忠里民活動中心舉辦社區報稅服務，由會計師協助所得查詢與申報。",
+          "source": "https://udn.com/news/story/7323/9521535"
         }
       ]
     }

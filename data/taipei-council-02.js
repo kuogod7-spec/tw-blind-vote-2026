@@ -13,6 +13,8 @@
  * 已知缺漏：第二輪補查（2026-10-14）後，何恕懷、黃啟彬仍查無可收錄資料；多數現任議員的 2026 年政見未見於新聞報導。
  * 第三輪補查（2026-10-14）：陳宥丞補上政黨候選人介紹頁政見，陳又新、何恕懷補上報導中的政見；黃啟彬仍查無資料，
  *   其他現任者 2026 年政見仍未查得。
+ * 2026-10-19 第四輪補查：新增 12 則政見、2 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
+ *   已知缺漏（仍查無 2026 年政見）：吳世正、黃啟彬。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-02",
@@ -139,7 +141,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "擴大忠孝西路開放機車通行時段",
+          "detail": "現行只在 23 時至隔日 6 時開放機車通行。2026 年 5 月議會質詢引用開放後車禍件數下降的數據，要求擴大開放時段，並要求交通主管機關一個月內答覆是否開放。",
+          "source": "https://news.ltn.com.tw/news/Taipei/paper/1754433"
+        },
+        {
+          "topic": "welfare",
+          "title": "重新檢視社會住宅準公托保母的托育限制，保障保母工作權",
+          "detail": "2026 年 3 月以質詢資料指出，準公托保母受政府管理、評鑑與補助，和商業營利不同，建議市府重新檢視是否適用社宅禁止營利等規範。",
+          "source": "https://www.cna.com.tw/news/aloc/202603040266.aspx"
+        },
+        {
+          "topic": "governance",
+          "title": "檢討環保裁罰的行政救濟與強制執行流程，追回未繳罰款",
+          "detail": "2026 年 9 月書面質詢指出環保裁罰呆帳約 3 億元，要求檢討行政救濟與強制執行流程；同時指出稽查人力不足、待遇偏低。",
+          "source": "https://www.cna.com.tw/news/aloc/202609250128.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -403,7 +424,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "提高生育補助，第三胎補助提高至 100 萬元",
+          "detail": "2026 年 4 月議會委員會審查時主張市府加碼鼓勵結婚生育，認為現行第一胎補助 4 萬元太少；未說明財源。",
+          "source": "https://udn.com/news/story/7266/9459711"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -414,6 +442,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "參與提案建請將關渡自然公園列為國中小校外教學指定地點，推動濕地生態教育。",
           "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/wang-hsiao-wei-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 4 月以議會委員會召集人身分，要求政風單位就京華城案提出檢討報告。",
+          "source": "https://www.cna.com.tw/news/aloc/202604210176.aspx"
         }
       ],
       "past": [
@@ -498,7 +531,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "成功路四段邊坡崩落後，一併檢測鄰近社區邊坡裂縫並整治",
+          "detail": "2026 年 6 月豪雨造成土石崩落後，請工程主管機關檢測鄰近社區邊坡，有裂縫就一併處理；並說明將進行坡面修整、自鑽式岩釘、掛網噴漿及水平排水管等工程，市府預估兩個月完成。",
+          "source": "https://news.nextapple.com/life/20260626/E1C73D48145002164A9AD42B9C9E26E0"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -593,7 +633,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "儘速訂定吸菸區設置標準，戶外吸菸區改以屏風式阻絕二手菸",
+          "detail": "2026 年 9 月市政總質詢要求儘速完成吸菸區設置標準規範，市府 App 上的吸菸區地圖要在 10 月大型禁菸活動前改善、標示禁菸範圍；建議戶外非封閉式吸菸區以屏風式為主，並質疑綠籬式吸菸區植栽約 3 個月就枯黃、維護成本過高。",
+          "source": "https://www.cna.com.tw/news/aloc/202609030279.aspx"
+        },
+        {
+          "topic": "environment",
+          "title": "訂定河濱大型音樂活動的重低音使用準則",
+          "detail": "2026 年 6 月一場河濱音樂活動的重低音影響約 6 公里外居民後，建議市府找專家與業者研議減少共鳴與迴音，並訂定使用準則。",
+          "source": "https://www.cna.com.tw/news/aloc/202606140106.aspx"
+        },
+        {
+          "topic": "housing",
+          "title": "南港機廠社會住宅電梯限期完成第三方總體檢並維修",
+          "detail": "2026 年 5 月 25 日質詢時要求都市發展主管機關在 6 月 9 日前完成第三方總體檢、三個月內維修完畢，並主動向住戶公開過去的維修紀錄。",
+          "source": "https://www.threads.com/@taipeihmh/post/DZKPDKRk-E5/"
+        },
+        {
+          "topic": "welfare",
+          "title": "保障入住社會住宅的準公托保母在家托育",
+          "detail": "2026 年 3 月以質詢資料指出，保母依托育準公共契約合法登記，社宅契約也沒有把托育當成違規使用房屋，認為市府禁止托育的認定與事實不符。",
+          "source": "https://www.cna.com.tw/news/aloc/202603040266.aspx"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -949,7 +1014,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "建立營養午餐成本調整、流標預警、備援供餐與固定協商四項機制",
+          "detail": "2026 年 7 月底全市 152 所學校營養午餐招標流標後提出：依物價、食材與人事成本定期調整價格；首次流標就啟動專案輔導與跨局處協助；二度流標時由教育主管機關替學校找臨時供餐業者；定期邀集學校、家長及團膳業者檢討。",
+          "source": "https://news.ltn.com.tw/news/Taipei/paper/1764870"
+        },
+        {
+          "topic": "education",
+          "title": "升級校園食材登錄平台、建立家長數位反映管道，學童每週增加鮮奶或豆漿",
+          "detail": "2026 年 9 月總質詢提出：研議升級校園食材登錄平台並納入衛生稽查認證；建立學生及家長的數位反映平台；檢討教師午餐指導費制度；每週增加 1 至 2 瓶鮮奶或豆漿，長期目標每日供應（市府首長答詢原則同意）。",
+          "source": "https://www.setn.com/news/1903066"
+        },
+        {
+          "topic": "welfare",
+          "title": "研議將 65 至 85 歲長者重陽敬老禮金提高至 3,000 元，敬老卡點數可跨月累積",
+          "detail": "2026 年 6 月市政總質詢提出，希望市府視財政狀況研議（尚非確定作法）；另建議敬老卡點數可跨月累積，並可在超商或超市兌換鮮奶、豆漿。",
+          "source": "https://tw.news.yahoo.com/%E6%8E%A8%E5%8B%95%E9%8A%80%E9%AB%AE%E7%A6%8F%E5%88%A9%E6%94%BF%E7%AD%96-%E9%97%95%E6%9E%9A%E8%8E%8E%E6%88%90%E5%8A%9F%E7%88%AD%E5%8F%96-3%E5%A4%A7%E6%95%AC%E8%80%81%E7%A6%8F%E5%88%A9-083600211.html"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -965,6 +1049,11 @@ window.ELECTION_DATA.races.push({
           "topic": "education",
           "text": "參與提案建請教育局、文化局制定國家語言社團認定基準並提供場館借用優惠。",
           "source": "https://lawmaker.twreporter.org/council/taipei/lawmaker/chueh-mei-sha-taipei"
+        },
+        {
+          "topic": "welfare",
+          "text": "曾建議提高敬老福利，市府後來將愛心計程車單趟補助由 65 點提高至 85 點、敬老卡每月點數由 480 點提高至 600 點、85 至 98 歲重陽禮金由 1,500 元提高至 3,000 元（本人說法）。",
+          "source": "https://tw.news.yahoo.com/%E6%8E%A8%E5%8B%95%E9%8A%80%E9%AB%AE%E7%A6%8F%E5%88%A9%E6%94%BF%E7%AD%96-%E9%97%95%E6%9E%9A%E8%8E%8E%E6%88%90%E5%8A%9F%E7%88%AD%E5%8F%96-3%E5%A4%A7%E6%95%AC%E8%80%81%E7%A6%8F%E5%88%A9-083600211.html"
         }
       ],
       "past": [

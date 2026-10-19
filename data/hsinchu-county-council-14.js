@@ -12,6 +12,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 已知缺漏：仍查無 2026 年具體政見者：張雁萍、Laling Yumin。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 2026-10-19 第四輪補查：新增 4 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-14",
@@ -50,7 +52,32 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "研議制定新竹縣原住民族自治條例",
+          "detail": "合理分配土地及人口權益資源，並建立穩定經費保障；2026 年 8 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5868"
+        },
+        {
+          "topic": "welfare",
+          "title": "弱勢老人看護補助免先墊付並簡化申請",
+          "detail": "2026 年 9 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5942"
+        },
+        {
+          "topic": "safety",
+          "title": "編列 2027 年度坑溝野溪整治預算",
+          "detail": "2026 年 3 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5430"
+        },
+        {
+          "topic": "transport",
+          "title": "改善五峰、尖石山區道路標誌標線",
+          "detail": "2026 年 1 月議會提案。",
+          "source": "https://www.hcc.gov.tw/proposal-detail?article=5371"
+        }
+      ],
       "record": [],
       "past": [
         {

@@ -10,6 +10,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第三輪補查：李倩萍、王威元、李余典補上報導中的 2026 年政見（王威元、李倩萍另補本人說法經歷）；李翁月娥、邱婷蔚補上問政紀錄，仍無 2026 年政見；黃桂蘭、董俊良、陳東雲、蔡政呈、許宏平、蕭告仍查無可收錄資料，維持空白。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
+ * 已知缺漏（2026-10-19）：仍查無 2026 年政見：黃桂蘭、董俊良、陳東雲、蔡政呈、許宏平、蕭告。
+ * 2026-10-19 第四輪補查：新增 3 則政見、0 則經歷（李翁月娥 2 則、邱婷蔚 1 則，均為 2026 年議會質詢中的具體要求）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-04",
@@ -26,7 +28,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "禁止民宅以「太空艙」形式對外出租",
+          "detail": "2026 年 9 月議會質詢中提出，指中和、三重、蘆洲已有民宅在狹小室內空間設置太空艙出租，有火災傷亡與治安疑慮",
+          "source": "https://www.cna.com.tw/news/aloc/202609080084.aspx"
+        },
+        {
+          "topic": "education",
+          "title": "在蘆洲成蘆橋下增設 2 面匹克球場",
+          "detail": "2026 年 6 月議會質詢中提出，設於橋下既有網球場與高爾夫球練習區之間，經費約 100 多萬元",
+          "source": "https://udn.com/news/story/7005/9543029"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -1170,7 +1185,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "推動第三胎生育補助 100 萬元",
+          "detail": "2026 年 5 月議會質詢中提出，要求本市率先實施；表示金額也可考慮 50 萬元",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5441038"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

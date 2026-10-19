@@ -10,6 +10,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  * 2026-10-14 第三輪補查：再以新聞報導補充部分候選人 2026 年政見；其餘仍查無者維持空白。
+ * 已知缺漏（2026-10-19）：仍查無 2026 年政見：林國春、黃淑珍。
+ * 2026-10-19 第四輪補查：新增 17 則政見、1 則經歷（政見多為現任者 2026 年議會質詢中的具體要求）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-05",
@@ -74,7 +76,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "試辦偏鄉學童視力巡迴保健，引進驗光師入校初篩分流",
+          "detail": "針對萬里、石碇、雙溪等無眼科院所的地區；並要求研議定期就醫學童以就醫證明折抵學校視力回條。2026 年 7 月要求教育、衛生部門 1 個月內提出試辦方案。",
+          "source": "https://udn.com/news/story/7323/9605413"
+        },
+        {
+          "topic": "housing",
+          "title": "建立青年房貸壓力預警機制與諮詢窗口",
+          "detail": "盤點青年購屋熱區、設房貸壓力諮詢窗口並定期追蹤房貸逾期率，因應優惠房貸寬限期結束後的還款壓力（2026 年 5 月議會質詢提出）。",
+          "source": "https://www.setn.com/News.aspx?NewsID=1847333"
+        },
+        {
+          "topic": "education",
+          "title": "研議試辦 12 歲以下子女父母提早 1 小時下班",
+          "detail": "研議中，比照鄰近直轄市做法試辦（2026 年 5 月議會質詢提出）；市府估計全面實施約需 70 多億元，表示待中央定案再配合。",
+          "source": "https://www.setn.com/News.aspx?NewsID=1847333"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -164,7 +185,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "營養午餐改採定食定量供餐，由營養師依熱量精算份量",
+          "detail": "參考日本供餐模式，從菜單設計、份量管理與飲食教育減少廚餘，並依最新飲食指南更新菜單（2026 年 5 月議會質詢提出）。",
+          "source": "https://udn.com/news/story/6885/9516594"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -249,7 +277,38 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "嬰幼兒輪狀病毒疫苗補助擴及全市",
+          "detail": "目前僅特定身分與 13 個偏鄉地區免費接種，要求比照台北市依福利身分全額或定額補助，並同步提升警消團體保險與心理支持；要求納入下一年度預算（2026 年 5 月議會質詢提出）。",
+          "source": "https://tw.news.yahoo.com/%E9%9B%99%E5%8C%97%E7%A6%8F%E5%88%A9%E8%90%BD%E5%B7%AE%E5%A4%A7-%E9%BB%83%E6%B7%91%E5%90%9B%E4%BF%83%E6%96%B0%E5%8C%97%E8%A3%9C%E5%8A%A9%E5%85%A8%E9%9D%A2%E5%8D%87%E7%B4%9A-163921538.html"
+        },
+        {
+          "topic": "education",
+          "title": "提高運動選手獎金並建立運動醫療補助",
+          "detail": "全國運動會第一名獎金新北 12 萬元、台北 18 萬元，身障運動獎金差距更大，要求拉齊並比照建立績優選手運動醫療補助（2026 年 5 月議會質詢提出）。",
+          "source": "https://tw.news.yahoo.com/%E9%9B%99%E5%8C%97%E7%A6%8F%E5%88%A9%E8%90%BD%E5%B7%AE%E5%A4%A7-%E9%BB%83%E6%B7%91%E5%90%9B%E4%BF%83%E6%96%B0%E5%8C%97%E8%A3%9C%E5%8A%A9%E5%85%A8%E9%9D%A2%E5%8D%87%E7%B4%9A-163921538.html"
+        },
+        {
+          "topic": "welfare",
+          "title": "盤點社工安全裝備，建立社工與派出所協力訪視機制",
+          "detail": "社工人力仍缺 129 人；要求確保每名社工有必要安全設備、高風險訪視可即時取得警方支援，並爭取比照警消的危險加給（2026 年 9 月議會質詢提出）。",
+          "source": "https://udn.com/news/story/7323/9749014"
+        },
+        {
+          "topic": "education",
+          "title": "幼兒園午餐從公立幼兒園起導入產銷履歷等標章食材",
+          "detail": "全市約 1,120 間幼兒園供餐無標章食材保證與稽查機制；並要求每餐 75 元補助基準法制化（2026 年 9 月議會質詢提出）。",
+          "source": "https://tw.news.yahoo.com/%E6%96%B0%E5%8C%97%E5%B9%BC%E5%85%92%E5%9C%92%E5%8D%88%E9%A4%90%E6%9C%AA%E5%8F%973%E7%AB%A01q%E4%BF%9D%E8%AD%89-%E9%BB%83%E6%B7%91%E5%90%9B%E4%BF%83%E8%A3%9C%E6%BC%8F%E6%B4%9E-053609799.html"
+        },
+        {
+          "topic": "governance",
+          "title": "殯葬與公益捐款流向比照台北市按月公開",
+          "detail": "要求全面檢討殯葬捐款、公益捐款平台與文化基金會的捐款揭露機制（2026 年 5 月議會質詢提出）。",
+          "source": "https://news.pchome.com.tw/politics/cnews/20260513/index-77864121711482227001.html"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -447,7 +506,38 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "加速板橋未納戶污水接管工程發包",
+          "detail": "未納戶開口契約已流標 2 次，點名江子翠、大觀路、福州、朝陽里等延宕地區（2026 年 8 月議會質詢提出）。",
+          "source": "https://news.pchome.com.tw/politics/cnews/20260806/index-78598446350722227001.html"
+        },
+        {
+          "topic": "welfare",
+          "title": "心理健康諮商補助對象擴大至 7 至 14 歲",
+          "detail": "現行補助對象 15 至 45 歲、每人每次 1,600 元；並要求校園加強宣導（2026 年 5 月議會質詢提出）。",
+          "source": "https://udn.com/news/story/7323/9512661"
+        },
+        {
+          "topic": "transport",
+          "title": "評估在實踐國小增設地下停車場，並訂定電動貨箱三輪車停放規範",
+          "detail": "板橋特專三平面停車場預計 11 月停止營運、市民廣場地下停車場尖峰一位難求（2026 年 9 月議會質詢提出）。",
+          "source": "https://cnews.com.tw/248260917a02/"
+        },
+        {
+          "topic": "education",
+          "title": "補足公立幼兒園室內監視器",
+          "detail": "公立幼兒園室內監視器設置率僅 57%（2026 年 9 月議會質詢提出）。",
+          "source": "https://cnews.com.tw/248260917a02/"
+        },
+        {
+          "topic": "safety",
+          "title": "以自治條例訂定防偷拍罰則",
+          "detail": "現行僅有管理辦法，要求比照台北市以自治條例訂罰則，並規範業者自主檢測紀錄的保存期限（2026 年 9 月議會質詢提出）。",
+          "source": "https://cnews.com.tw/248260917a02/"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -615,7 +705,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "公共工程保固期滿前強制辦理第二次檢驗",
+          "detail": "發現缺失要求廠商在保固責任期間內改善（2026 年 9 月議會質詢提出）。",
+          "source": "https://mypeoplevol.com/2026/life/111756"
+        },
+        {
+          "topic": "transport",
+          "title": "整合規劃商用三輪貨車、大型重機與身障機車停車並分類收費",
+          "detail": "2026 年 9 月議會質詢提出。",
+          "source": "https://mypeoplevol.com/2026/life/111756"
+        },
+        {
+          "topic": "economy",
+          "title": "鄰長報紙補貼改為電信補貼，並檢討清潔隊員待遇",
+          "detail": "2026 年 9 月議會質詢提出。",
+          "source": "https://mypeoplevol.com/2026/life/111756"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -636,6 +745,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "質詢要求鄰長報紙補貼改為電信補貼、調高清潔隊員待遇、規劃商用三輪車與重機分類收費停車，並要求公共工程保固期滿前強制二次檢驗。",
           "source": "https://n.yam.com/Article/20260915132598"
+        },
+        {
+          "topic": "education",
+          "text": "2026 年與中央民意代表邀集中央與市府單位會勘，確定在板橋新海網球場旁空地興建 4 座匹克球場並加裝夜間照明，經費約 550 萬元、工期 90 天（本人說法）。",
+          "source": "https://pinnews.com.tw/archives/71355"
         }
       ],
       "past": [

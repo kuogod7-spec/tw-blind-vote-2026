@@ -8,6 +8,8 @@
  * 號次 10/23 抽籤，屆時請補上 identity.number。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 已知缺漏：仍查無 2026 政見者：林孟泓、呂美玲、張文彬、黃紀仁、江清容。
+ * 2026-10-19 第四輪補查：新增 5 則政見、1 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  */
 window.ELECTION_DATA.races.push({
@@ -25,7 +27,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "建立重大事件改善追蹤機制並定期公開進度",
+          "detail": "每件重大事故記錄原因、制度缺失、改善措施、負責單位、完成期限與目前完成率，定期向議會與市民公開說明；2026 年 9 月議會質詢中提出",
+          "source": "https://tw.news.yahoo.com/%E6%87%89%E8%AE%8A%E5%8D%B1%E6%A9%9F%E7%81%BD%E5%AE%B3-%E8%AD%B0%E5%93%A1%E5%BB%BA%E8%AD%B0%E5%81%9A%E5%88%B0%E7%AC%AC-%E6%99%82%E9%96%93%E6%8E%8C%E6%8E%A7%E8%AA%AA%E6%98%8E-123105948.html"
+        },
+        {
+          "topic": "safety",
+          "title": "天災造成土石崩塌時由市府先行搶修，直接動用災害預備金",
+          "detail": "事後再依程序向中央主管機關申請經費；主張自下一屆起實施；2026 年 9 月議會質詢中提出",
+          "source": "https://tw.news.yahoo.com/%E6%87%89%E8%AE%8A%E5%8D%B1%E6%A9%9F%E7%81%BD%E5%AE%B3-%E8%AD%B0%E5%93%A1%E5%BB%BA%E8%AD%B0%E5%81%9A%E5%88%B0%E7%AC%AC-%E6%99%82%E9%96%93%E6%8E%8C%E6%8E%A7%E8%AA%AA%E6%98%8E-123105948.html"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -237,7 +252,13 @@ window.ELECTION_DATA.races.push({
         "number": null
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "2026 年 10 月因涉嫌招待 50 多名里民搭郵輪赴日旅遊、代付當地餐飲與交通費用，遭檢方以違反《公職人員選舉罷免法》投票行賄罪嫌偵辦，諭知 30 萬元交保；偵查中，尚未起訴，報導未見本人回應。",
+          "source": "https://tw.news.yahoo.com/%E5%9F%BA%E9%9A%86%E9%A9%9A%E7%88%86%E8%B3%84%E9%81%B8-%E9%83%B5%E8%BC%AA%E9%81%8A%E7%9F%B3%E5%9E%A3%E5%B3%B670%E4%BA%BA%E6%B6%89%E6%A1%88-%E5%B8%82%E8%AD%B0%E5%93%A1%E5%8F%83%E9%81%B8%E4%BA%BA-%E9%87%8C%E9%95%B7%E4%BA%A4%E4%BF%9D%E6%95%B8%E5%AD%97%E6%9B%9D%E5%85%89-041240572.html"
+        }
+      ]
     },
     {
       "id": "klc1-6",
@@ -262,7 +283,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "整頓海產街與美食街的宰客爭議，振興觀光",
+          "detail": "參考日韓等地的市場經營模式",
+          "source": "https://tw.news.yahoo.com/%E5%9F%BA%E9%9A%86%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%AD%B0%E5%93%A1-8%E6%90%B64-%E6%B7%B7%E6%88%B0-3-5%E8%90%AC%E7%B2%89%E7%B5%B2%E7%BE%8E%E9%A3%9F%E6%97%85%E9%81%8A%E7%B6%B2%E7%B4%85%E5%AE%A3%E5%B8%83%E5%8F%83%E9%81%B8-065600173.html"
+        },
+        {
+          "topic": "economy",
+          "title": "協助曾從事家庭代工的女性重返職場",
+          "detail": "例如開班授課，或培訓擔任文化導覽員",
+          "source": "https://tw.news.yahoo.com/%E5%9F%BA%E9%9A%86%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%AD%B0%E5%93%A1-8%E6%90%B64-%E6%B7%B7%E6%88%B0-3-5%E8%90%AC%E7%B2%89%E7%B5%B2%E7%BE%8E%E9%A3%9F%E6%97%85%E9%81%8A%E7%B6%B2%E7%B4%85%E5%AE%A3%E5%B8%83%E5%8F%83%E9%81%B8-065600173.html"
+        },
+        {
+          "topic": "environment",
+          "title": "協助申請寵物疫苗與絕育補助，爭取寵物福利",
+          "detail": "",
+          "source": "https://tw.news.yahoo.com/%E5%9F%BA%E9%9A%86%E4%B8%AD%E6%AD%A3%E5%8D%80%E8%AD%B0%E5%93%A1-8%E6%90%B64-%E6%B7%B7%E6%88%B0-3-5%E8%90%AC%E7%B2%89%E7%B5%B2%E7%BE%8E%E9%A3%9F%E6%97%85%E9%81%8A%E7%B6%B2%E7%B4%85%E5%AE%A3%E5%B8%83%E5%8F%83%E9%81%B8-065600173.html"
+        }
+      ],
       "record": []
     },
     {

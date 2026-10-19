@@ -8,6 +8,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
+ * 已知缺漏：仍查無 2026 年具體政見者：施淑婷、陳思妤（現任者的議會提案列於 record）。
+ * 2026-10-19 第四輪補查：新增 1 則政見、2 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-03",
@@ -30,6 +32,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任縣市政府局處首長（民政業務），2026 年 7 月請辭參選。",
           "source": "https://newtalk.tw/news/view/2026-07-13/1046854"
+        },
+        {
+          "topic": "economy",
+          "text": "擔任縣市政府局處首長（民政業務）期間擴大辦理地方中元祭典活動，結合古蹟與廟宇資源並加入親子與文創元素，活動獲國際設計獎項。",
+          "source": "https://polls.com.tw/cnews/149671/"
         }
       ],
       "past": [
@@ -62,7 +69,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "要求延平路地下停車場提出調整方案、確保完工",
+          "detail": "針對該停車場招標四度流標、中央前瞻補助約 2.07 億元（總經費約 3.65 億元）恐被收回，要求市府提出設計優化、分期施工或財務結構檢討等調整方案，確保建設如期如質推動。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5317264"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -78,6 +92,11 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "擔任地方民意代表期間提案建請市府儘速整建四維路郵局路段人行空間。",
           "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=19"
+        },
+        {
+          "topic": "transport",
+          "text": "任內推動米粉寮公園、公車候車亭新建及西門國小通學步道等建設。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5609434"
         }
       ],
       "past": [

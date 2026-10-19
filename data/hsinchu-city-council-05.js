@@ -8,6 +8,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
+ * 已知缺漏：仍查無 2026 年具體政見者：吳國寶、陳啓源、蔡志堅、陳慶齡、廖子齊（現任者的議會提案列於 record）。
+ * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-05",
@@ -468,7 +470,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "爭取香山區 24 里每里都設置公共自行車站點",
+          "detail": "指出香山區公共自行車設站進度落後；虎山里約 6,000 人、2,243 戶目前沒有站點，列為優先，海山里、南隘里也有設站需求。未提出站數與期程。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5609247"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

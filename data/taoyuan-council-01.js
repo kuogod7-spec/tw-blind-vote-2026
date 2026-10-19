@@ -8,8 +8,9 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 第 20 位候選人以「王妃天崩開局穿越整頓霸凌者佀廣洋」為登記姓名，與第 19 位候選人佀廣洋為不同人（見 NOWnews 2026-10 報導），照登記名收錄。
- * 已知缺漏：朱永煇、許孟祥、蕭湘瀚、李凱倫、佀廣洋、王妃天崩開局穿越整頓霸凌者佀廣洋查無可收錄的政見與經歷；現任議員多數查無 2026 年新政見。
+ * 已知缺漏：朱永煇、許孟祥、李凱倫、佀廣洋、王妃天崩開局穿越整頓霸凌者佀廣洋查無可收錄的政見與經歷；詹江村、李光達、于北辰、余信憲、黃瓊慧、李柏瑟、黃家齊仍查無 2026 年具體政見（第四輪補查後）。
  * 2026-10-16 中選會審定：原 tyc1-8 蕭湘瀚因妨害公務等案件尚未執行完畢，依選罷法第 26 條第 9 款不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。審定後 19 人。
+ * 2026-10-19 第四輪補查：新增 38 則政見、1 則經歷；政見取自 2026 年議會質詢中的具體要求與登記時公布的政見報導；第 20 位候選人的參選訴求僅見於電視節目來賓轉述且帶諷刺性質，未收。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-01",
@@ -26,7 +27,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "爭取國中小免費營養午餐、教科書與鮮奶延伸至高中職",
+          "detail": "2026 年 10 月議會總質詢提出；市府表示持續檢討，未具體承諾。",
+          "source": "https://www.ettoday.net/news/20261001/3247492.htm"
+        },
+        {
+          "topic": "welfare",
+          "title": "孕產婦乘車補助使用期限延長至產後兩年",
+          "detail": "以便帶幼兒接種疫苗；市府表示研議延伸。",
+          "source": "https://www.ettoday.net/news/20261001/3247492.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "提高捷運公司人員待遇，增加專業及輔導加給",
+          "detail": "因應捷運人力流失。",
+          "source": "https://www.ettoday.net/news/20261001/3247492.htm"
+        },
+        {
+          "topic": "education",
+          "title": "比照國民運動中心規格改建老舊市立游泳池",
+          "detail": "游泳池使用逾 30 年，要求增設水療區、親子遊戲區、社區運動教室及輕食區；市府承諾改善。",
+          "source": "https://tw.news.yahoo.com/%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E6%B8%B8%E6%B3%B3%E6%B1%A0%E8%A8%AD%E5%82%99%E8%80%81%E8%88%8A-%E8%AD%B0%E5%93%A1%E8%A6%81%E6%B1%82%E6%AF%94%E7%85%A7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E8%A6%8F%E6%A0%BC%E6%94%B9%E5%96%84-034453364.html"
+        },
+        {
+          "topic": "transport",
+          "title": "推動虎頭山三聖路延伸至長壽路工程",
+          "detail": "市府表示用地徵收已獲核定，進行細部設計中。",
+          "source": "https://tw.news.yahoo.com/%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E6%B8%B8%E6%B3%B3%E6%B1%A0%E8%A8%AD%E5%82%99%E8%80%81%E8%88%8A-%E8%AD%B0%E5%93%A1%E8%A6%81%E6%B1%82%E6%AF%94%E7%85%A7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E8%A6%8F%E6%A0%BC%E6%94%B9%E5%96%84-034453364.html"
+        },
+        {
+          "topic": "transport",
+          "title": "提高公共自行車理賠額度並放寬理賠條件，改善公車脫班誤點",
+          "detail": "",
+          "source": "https://tw.news.yahoo.com/%E6%A1%83%E5%9C%92%E5%B8%82%E7%AB%8B%E6%B8%B8%E6%B3%B3%E6%B1%A0%E8%A8%AD%E5%82%99%E8%80%81%E8%88%8A-%E8%AD%B0%E5%93%A1%E8%A6%81%E6%B1%82%E6%AF%94%E7%85%A7%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E8%A6%8F%E6%A0%BC%E6%94%B9%E5%96%84-034453364.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -132,6 +170,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "多次提案擴大敬老卡使用範圍。",
           "source": "https://lawmaker.twreporter.org/council/taoyuan/lawmaker/chan-chiang-tsun-taoyuan"
+        },
+        {
+          "topic": "welfare",
+          "text": "2026 年 5 月議會總質詢指出長者假牙補助有診所申請內容與實際不符，要求市府清查其他診所；市府承諾優先處理並擴大查核。",
+          "source": "https://udn.com/news/story/7324/9503245"
         }
       ],
       "past": [
@@ -274,7 +317,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "在捷運綠線蘆興埤站周邊設立市立科學博物館",
+          "detail": "利用站旁約 5 公頃機關用地；市府表示啟動規劃並逐年編列預算。",
+          "source": "https://www.ettoday.net/news/20260515/3166712.htm"
+        },
+        {
+          "topic": "environment",
+          "title": "在捷運綠線蘆竹中正北站周邊規劃大型森林公園與國際級野生動物園",
+          "detail": "周邊約 42 公頃綠地；市府表示納入規劃考量。",
+          "source": "https://www.ettoday.net/news/20260515/3166712.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "公車駕駛薪資以每月 7 萬元為目標",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260515/3166712.htm"
+        },
+        {
+          "topic": "education",
+          "title": "國小學童鮮乳供應擴大至國中",
+          "detail": "市府表示研議推動。",
+          "source": "https://www.ettoday.net/news/20260515/3166712.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "在大潭電廠旁市有地設立 AI 算力中心",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260515/3166712.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "明年第二季前將本市納入北台灣跨縣市觀光通行票卡，並結合捷運推出聯名一日票",
+          "detail": "2026 年 9 月議會總質詢提出；市府以明年第二季前完成納入為目標評估。",
+          "source": "https://www.ettoday.net/news/20260924/3243060.htm"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -454,7 +534,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "公車研議尖峰半職駕駛與彈性排班，並導入需求反應式預約運輸",
+          "detail": "整合小型公車、九人座小巴與計程車，人流較低站點導入智慧預約。",
+          "source": "https://tw.news.yahoo.com/%E6%99%BA%E6%85%A7%E8%AA%BF%E5%BA%A6%E8%A7%A3%E5%85%AC%E8%BB%8A%E5%9B%B0%E5%A2%83-%E5%B8%82%E8%AD%B0%E5%93%A1%E9%99%B3%E7%BE%8E%E6%A2%85%E4%BF%83%E5%BD%88%E6%80%A7%E6%8E%92%E7%8F%AD%E5%85%BC%E9%A1%A7%E6%A9%9F%E8%BB%8A%E8%B7%AF%E6%AC%8A-110253361.html"
+        },
+        {
+          "topic": "transport",
+          "title": "逐路檢討桃園區禁行機車與強制兩段式左轉規定",
+          "detail": "依道路寬度、車流及事故數據檢討，要求交通局提出檢討路段與完成期程。",
+          "source": "https://tw.news.yahoo.com/%E6%99%BA%E6%85%A7%E8%AA%BF%E5%BA%A6%E8%A7%A3%E5%85%AC%E8%BB%8A%E5%9B%B0%E5%A2%83-%E5%B8%82%E8%AD%B0%E5%93%A1%E9%99%B3%E7%BE%8E%E6%A2%85%E4%BF%83%E5%BD%88%E6%80%A7%E6%8E%92%E7%8F%AD%E5%85%BC%E9%A1%A7%E6%A9%9F%E8%BB%8A%E8%B7%AF%E6%AC%8A-110253361.html"
+        },
+        {
+          "topic": "transport",
+          "title": "捷運綠線 G11 站周邊盤點空地增設收費停車場",
+          "detail": "以收費管理提高周轉率。",
+          "source": "https://www.ettoday.net/news/20260815/3219526.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "2027 年燈會串聯 13 區宮廟、商圈與公共運輸分散人流",
+          "detail": "以接駁與賞燈路線分散人潮。",
+          "source": "https://tw.news.yahoo.com/%E6%99%BA%E6%85%A7%E8%AA%BF%E5%BA%A6%E8%A7%A3%E5%85%AC%E8%BB%8A%E5%9B%B0%E5%A2%83-%E5%B8%82%E8%AD%B0%E5%93%A1%E9%99%B3%E7%BE%8E%E6%A2%85%E4%BF%83%E5%BD%88%E6%80%A7%E6%8E%92%E7%8F%AD%E5%85%BC%E9%A1%A7%E6%A9%9F%E8%BB%8A%E8%B7%AF%E6%AC%8A-110253361.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -709,7 +814,116 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "推動果菜市場遷建",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "transport",
+          "title": "打通國際路與南平路，推動國道一號甲線東段",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "governance",
+          "title": "推動桃園監獄遷移並重新規劃土地使用",
+          "detail": "監獄核定容額 1,275 人，2026 年 8 月收容 2,041 人；要求市府與中央協調。",
+          "source": "https://www.ettoday.net/news/20260812/3217898.htm"
+        },
+        {
+          "topic": "governance",
+          "title": "爭取行政中心續留中路地區",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "education",
+          "title": "推動設立市立大學",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "environment",
+          "title": "加速污水下水道建設",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "transport",
+          "title": "在車站、市場、醫院及學校周邊建置連續遮雨設施",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260918/3239528.htm"
+        },
+        {
+          "topic": "safety",
+          "title": "改善巷弄照明，消除暗巷",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "welfare",
+          "title": "建立高齡安全防護網並擴大敬老卡使用範圍",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "governance",
+          "title": "設立閩南事務處與新住民事務局",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "governance",
+          "title": "每個里配置幹事與活動場所",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "南門市場改建",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "safety",
+          "title": "推動防災社區、培訓防災士並推廣每戶一個防災包",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260902/3230576.htm"
+        },
+        {
+          "topic": "governance",
+          "title": "建置 AI 智慧市政服務系統，一站查詢補助與申辦資源",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260918/3239528.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "成立特定工廠轉型合法化跨局處聯合審查小組",
+          "detail": "全市 530 家特定工廠，截至 2026 年 5 月轉型核准率為零；另推巡迴輔導、標準計畫書範本與替代綠化方案。",
+          "source": "https://www.ettoday.net/news/20260918/3239528.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "推動製造業 AI 轉型三年計畫",
+          "detail": "以健檢、人才培育、工具導入、概念驗證、補助、成果擴散六階段輔導，並設智慧製造示範專區。",
+          "source": "https://www.ettoday.net/news/20260918/3239528.htm"
+        },
+        {
+          "topic": "welfare",
+          "title": "利用公有空間、社宅與少子化學校餘裕空間設置青銀共融中心",
+          "detail": "結合公共托育、親子館、日照中心與銀髮照顧。",
+          "source": "https://www.ettoday.net/news/20260918/3239528.htm"
+        },
+        {
+          "topic": "transport",
+          "title": "儘速打通南山街，作為地下道施工期間替代道路",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260918/3239528.htm"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -884,7 +1098,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "設置校園食安專責人員並落實吹哨者檢舉獎金",
+          "detail": "要求衛生局會同教育局一個月內提出人力編制與經費評估。",
+          "source": "https://www.ettoday.net/news/20260917/3238836.htm"
+        },
+        {
+          "topic": "education",
+          "title": "學校午餐國產可溯源食材比例不低於 98.98%，擴大有機蔬菜供餐並公開食材資訊",
+          "detail": "",
+          "source": "https://www.ettoday.net/news/20260917/3238836.htm"
+        },
+        {
+          "topic": "transport",
+          "title": "改善建德國小門口接送動線，延平路增設人行道與照明",
+          "detail": "評估取消慢車道改設臨停接送彎。",
+          "source": "https://www.ettoday.net/news/20260917/3238836.htm"
+        },
+        {
+          "topic": "education",
+          "title": "強化特殊需求幼兒入園支持，增加巡迴特教人力並評估特教交通車",
+          "detail": "同時要求降低幼兒園師生比。",
+          "source": "https://udn.com/news/story/6885/9791537"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

@@ -8,7 +8,8 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 劉茂羣、蔡永芳為前任議員；過去政見因選舉公報版面無法可靠對應未收錄。
- * 已知缺漏：段林淑婷查無可收錄資料；林晏良僅查得交通政見。現任議員查無 2026 年新政見。
+ * 已知缺漏：段林淑婷查無可收錄資料；林晏良僅查得交通政見。許家睿、劉茂羣、蔡永芳、楊朝偉、呂林小鳳仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
+ * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷；本輪搜尋額度用盡，僅補查到 1 位現任者的議會具體要求，其餘候選人待選舉公報發布後再補。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-03",
@@ -202,7 +203,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "增設公共自行車站點並提高電動輔助車比例",
+          "detail": "2026 年 8 月交通局工作報告質詢提出。",
+          "source": "https://www.ettoday.net/news/20260815/3219526.htm"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏（仍查無 2026 年具體政見）：邱文威。
+ * 2026-10-19 第四輪補查：新增 3 則政見、0 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-11",
@@ -27,7 +29,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "新屋埤運動公園用地儘速取得或研議替代方案",
+          "detail": "2026 年 6 月市政總質詢指出現用土地屬私人所有、地主有意收回",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5829&chk=8658f649-f5c6-4a1d-ba59-47ef7a191519"
+        },
+        {
+          "topic": "environment",
+          "title": "改善海岸侵蝕熱點護岸，保留部分緩坡或步道兼顧親水",
+          "detail": "2026 年 6 月市政總質詢提出，主張不全面採用拋石護岸，並加強藻礁沿線設施安全",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5829&chk=8658f649-f5c6-4a1d-ba59-47ef7a191519"
+        },
+        {
+          "topic": "economy",
+          "title": "協助加速農會穀倉完成審查並啟用",
+          "detail": "2026 年 6 月市政總質詢指出已投入逾 6,500 萬元仍未啟用",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5829&chk=8658f649-f5c6-4a1d-ba59-47ef7a191519"
+        }
+      ],
       "record": [
         {
           "topic": "housing",

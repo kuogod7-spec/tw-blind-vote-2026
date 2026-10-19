@@ -7,7 +7,8 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 已知缺漏：劉儲禎、江國輝查無可收錄資料；徐慈檉僅有理念性陳述（世代交替、三明治世代），未收為政見。現任議員查無 2026 年新政見。
+ * 已知缺漏：劉儲禎、江國輝查無可收錄資料；徐慈檉僅有理念性陳述（世代交替、三明治世代、青創成家等方向），未收為政見。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
+ * 2026-10-19 第四輪補查：新增 10 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-06",
@@ -24,7 +25,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "提出大漢溪沿線跨河橋與兩側道路的整體銜接計畫",
+          "detail": "於市政總質詢指出大漢溪沿線橋梁之間橫向道路串聯不足，要求市府提出整體交通網絡與兩側銜接計畫，並通盤檢討機車道、待轉區及交通號誌配置。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5883"
+        },
+        {
+          "topic": "transport",
+          "title": "捷運綠線延伸大溪河東地區時納入站體、停車與分流需求",
+          "detail": "於市政總質詢要求延伸規劃實質納入河東居民需求，提早考量站體空間、停車配套、通勤通學及觀光人潮分流。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5883"
+        },
+        {
+          "topic": "safety",
+          "title": "雙色溫路燈優先擴及通學廊道、易肇事路口及醫院周邊",
+          "detail": "於市政總質詢要求持續推動雙色溫路燈，並優先設置於通學廊道、易肇事路口及醫院周邊。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5883"
+        },
+        {
+          "topic": "welfare",
+          "title": "大溪醫院分院定位為急重症醫療及聯合門診中心",
+          "detail": "於市政總質詢指出大溪分院即將開工，建議定位朝急重症醫療及聯合門診中心規劃，回應大溪、復興山區緊急醫療需求。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5883"
+        },
+        {
+          "topic": "economy",
+          "title": "農機補助納入吹葉機、堆高機及栽培機具",
+          "detail": "於市政總質詢建議將吹葉機、堆高機及栽培機具等實用設備納入農業補助範圍，並安排操作培訓與查核規範。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5883"
+        },
+        {
+          "topic": "economy",
+          "title": "評估大溪第一公有市場重建並增設地下停車場",
+          "detail": "於市政總質詢建請市府就大溪第一公有市場及周邊，朝重建、增設地下停車場及區域整體更新方向進行可行性評估。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5883"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -153,7 +191,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "推動豆渣轉作飼料的去化與示範模式",
+          "detail": "於市政總質詢要求農業局主動對接豆製品業者與養豬場，將豆渣轉化為飼料資源，建立穩定的去化與商業示範模式。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5871"
+        },
+        {
+          "topic": "economy",
+          "title": "大溪休閒農業區推動友善耕作與智慧農業，導入省工設備",
+          "detail": "於市政總質詢建議由休閒農業區先行示範友善耕作、有機與智慧農業，並導入省工設備與農業科技，協助小農降低成本。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5871"
+        },
+        {
+          "topic": "economy",
+          "title": "活化大漢溪河域與埔頂舊址，發展自行車道與運動休閒",
+          "detail": "於市政總質詢促請市府跨局處整合，利用大漢溪河岸腹地發展自行車道、運動休閒及觀光場域，並活化埔頂舊址及相關區域。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5871"
+        },
+        {
+          "topic": "welfare",
+          "title": "加速南桃園市立醫院或分院規劃，補足急重症醫療",
+          "detail": "於市政總質詢要求加速推動市立醫院或分院規劃，補足大溪、復興、龍潭等地的急重症醫療缺口。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5871"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

@@ -11,6 +11,8 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
+ * 已知缺漏：仍查無 2026 年具體政見：高宇彥（僅有 2022 年參選時的主張，未收）、舒翠玲、陳韋曄（本年度質詢內容已收於做過的事）、白丞堯、吳正吉、彭柏霖、羅文欽。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
+ * 2026-10-19 第四輪補查：新增 5 則政見、0 則經歷。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-08",
@@ -48,7 +50,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "人口稠密區放寬公共自行車站距並評估路側設站",
+          "detail": "於市政總質詢指出平鎮等地每站服務人口偏高，建議在人口稠密區適度放寬站距限制、評估路側設站，並結合捷運、人行步道與自行車路網規劃。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5869"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -168,7 +177,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "補助公幼與國小課後照顧經費並增聘專職人力",
+          "detail": "於市政總質詢建請市府研議補助公立幼兒園及國小課後照顧服務經費，並增聘專職課照人力，避免由教師額外承擔。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5830"
+        },
+        {
+          "topic": "governance",
+          "title": "市民卡 APP 整合停車資訊與公車動態",
+          "detail": "於市政總質詢指出停車資訊與公車動態尚未完整整合、特約商店推廣不足，要求加速系統整合並強化店家端推廣。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5830"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -481,7 +503,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": null
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "優先評估捷運自機場捷運環北站往平鎮、龍潭延伸",
+          "detail": "於市政總質詢建議因應龍潭科學園區三期開發與南桃園發展，優先評估自機場捷運 A21 環北站往平鎮、龍潭方向延伸。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5865"
+        },
+        {
+          "topic": "safety",
+          "title": "醫美診所偷拍疑慮啟動跨局處專案稽查",
+          "detail": "於市政總質詢要求衛生局、警察局、消防局與法務局啟動跨局處專案稽查，全面清查診所診療室、更衣區與恢復室等高隱私空間，並協助受害者申訴。",
+          "source": "https://www.tycc.gov.tw/TC/newm_info.aspx?mid=50&lid=5865"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
