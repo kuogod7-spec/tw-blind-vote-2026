@@ -3,7 +3,7 @@
  *
  * 整理日期：2026-10-13。資料來自候選人官網及新聞報導，每則都附出處（source）。
  * 出處網址常會透露候選人身分，網站只在「開票揭曉」之後才顯示。
- * 號次將於 2026-10-23 抽籤，屆時請補上 identity.number。
+ * 新北市選委會原訂 10/23 的號次抽籤，因薔琵颱風當日停班，改於 2026-10-27 辦理（https://www.cna.com.tw/news/aloc/202610210317.aspx ；停班見 https://news.ltn.com.tw/news/life/breakingnews/5615160 ），抽籤後請補上 identity.number（2026-10-25 註）。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  */
 window.ELECTION_DATA = {

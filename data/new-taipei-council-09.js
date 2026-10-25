@@ -5,7 +5,8 @@
  * 本次未能直接讀取中選會登記彙總表，名單以自由時報 2026-09-04 登記截止報導
  * （https://news.ltn.com.tw/news/politics/breakingnews/5563564）與島民觀察室整理之登記名單
  * （https://formosaobservatory.com/election/65000）交叉核對，兩者一致。
- * 審定名單 10/16 公告、號次 10/23 抽籤，屆時請補上 identity.number。
+ * 審定名單 10/16 公告。新北市選委會原訂 10/23 的號次抽籤，因薔琵颱風當日停班，改於 2026-10-27 辦理（https://www.cna.com.tw/news/aloc/202610210317.aspx ；停班見 https://news.ltn.com.tw/news/life/breakingnews/5615160 ），抽籤後請補上 identity.number（2026-10-25 註）。
+ * 黨籍已與中選會「115 年直轄市議員選舉候選人登記彙總表」（https://web.cec.gov.tw/api/file/ccd7e51a-5fd0-4ea0-a81b-a120cd550c9c.pdf ）推薦政黨欄逐一核對，全部一致（2026-10-25）。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」取自 2022 年選舉公報；提案數取自報導者觀測站。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。

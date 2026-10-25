@@ -7,7 +7,8 @@
  * 選區劃分依中選會 114/09/26 公告（https://web.cec.gov.tw/api/file/59c5c972-d1ca-455d-9c07-ceb452c3e56f.odt），
  * 應選名額依中選會 115/08/20 選舉公告（https://web.cec.gov.tw/api/file/45d8e965-f63a-46d5-b636-7d81e47cf4d1.pdf）。
  * 黨籍依中選會登記之推薦政黨；登記為「無」者寫無黨籍。
- * 號次 10/23 抽籤，屆時請補上 identity.number。
+ * 號次抽籤原訂 10/23，因薔琵颱風停班延至 2026-10-27 上午 10 時（新竹縣選委會 2026-10-20 新聞稿 https://web.cec.gov.tw/hccec/article/65286 ；聯合報 2026-10-22 https://udn.com/news/story/124652/9832141 ）。
+ * 2026-10-25 查證時尚未抽籤，identity.number 維持 null，10/27 後請補上。黨籍已再核對中選會 9/7 登記彙總表，全數相符。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
