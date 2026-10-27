@@ -15,6 +15,7 @@
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：余筱菁、翁紹軒、賴寶鈺、陳岫玫、楊勝馭、戴翊如（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
  * 2026-10-19 第四輪補查：新增 23 則政見、1 則經歷。
+ * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-03",

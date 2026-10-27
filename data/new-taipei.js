@@ -5,13 +5,14 @@
  * 出處網址常會透露候選人身分，網站只在「開票揭曉」之後才顯示。
  * 新北市選委會原訂 10/23 的號次抽籤，因薔琵颱風當日停班，改於 2026-10-27 辦理（https://www.cna.com.tw/news/aloc/202610210317.aspx ；停班見 https://news.ltn.com.tw/news/life/breakingnews/5615160 ），抽籤後請補上 identity.number（2026-10-25 註）。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
+ * 號次：依 10/27 抽籤結果補上（https://www.cna.com.tw/news/aipl/202610270032.aspx；2026-10-27 註）。
  */
 window.ELECTION_DATA = {
   meta: {
     title: "2026 地方選舉 · 盲選政見比較",
     electionDate: "2026-11-28",
     isSample: false,
-    updated: "2026-10-19",
+    updated: "2026-10-27",
   },
 
   topics: [
@@ -34,7 +35,7 @@ window.ELECTION_DATA = {
       candidates: [
         {
           id: "ntp-1",
-          identity: { name: "蘇巧慧", party: "民主進步黨", number: null },
+          identity: { name: "蘇巧慧", party: "民主進步黨", number: 1 },
           platforms: [
             { topic: "education", title: "公立國中小營養午餐全面免費", detail: "另補助團膳業者升級冷藏冷凍、低溫倉儲、保溫配送等食安設備", source: "https://chiao.tw/policies/%e4%b8%83%e5%a4%a7%e6%95%99%e8%82%b2%e6%94%bf%e8%a6%8b" },
             { topic: "welfare", title: "0–6 歲兒童免門診及住院部分負擔", detail: "免費接種腸病毒、輪狀病毒疫苗；早產兒家庭發 3 萬元照顧津貼", source: "https://www.cna.com.tw/news/aipl/202602040108.aspx" },
@@ -62,7 +63,7 @@ window.ELECTION_DATA = {
         },
         {
           id: "ntp-2",
-          identity: { name: "李四川", party: "中國國民黨", number: null },
+          identity: { name: "李四川", party: "中國國民黨", number: 3 },
           platforms: [
             { topic: "transport", title: "成立北北基桃首長級跨域交通治理平台", detail: "共同規劃捷運、公車、國道與快速道路，目標雙北 30 分鐘核心生活圈；未公布預算與期程", source: "https://www.cna.com.tw/news/aloc/202609220127.aspx" },
             { topic: "transport", title: "增加路外停車並打通人行道斷點", detail: "利用公共建築、學校、公園、捷運聯開與都更增設路外停車，逐步減少路邊停車；成立人本友善城市委員會", source: "https://www.cna.com.tw/news/aloc/202609220127.aspx" },
@@ -88,7 +89,7 @@ window.ELECTION_DATA = {
         },
         {
           id: "ntp-3",
-          identity: { name: "蘇輝湟", party: "無黨籍", number: null },
+          identity: { name: "蘇輝湟", party: "無黨籍", number: 2 },
           platforms: [
             { topic: "welfare", title: "開放未婚者一夫二妻或一妻二夫合法化", detail: "以回應少子化為由，主張男女都有相同選擇權，不要求所有人採同一模式", source: "https://tw.news.yahoo.com/%E5%8F%83%E9%81%B8%E6%96%B0%E5%8C%97%E5%B8%82%E9%95%B7%E9%82%84%E6%9C%89-%E4%BB%96-%E5%8A%9B%E6%8C%BA-%E5%A4%AB%E4%BA%8C%E5%A6%BB-%E5%90%88%E6%B3%95%E5%8C%96-015312947.html" },
             { topic: "welfare", title: "派出所提供免費飲食、洗澡、住宿與喪葬協助", detail: "由各警察分局派出所提供", source: "https://news.ltn.com.tw/news/politics/breakingnews/5563372" },

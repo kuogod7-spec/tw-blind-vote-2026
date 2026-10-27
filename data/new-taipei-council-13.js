@@ -16,6 +16,7 @@
  *   王珍珍、林啟明仍查無任何可查證的經歷或政見。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：何應明、布落‧馬信、王珍珍、馬見Lahuy‧Ipin、林啟明、羅美菁（全部 6 人）。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-13",
@@ -30,7 +31,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "何應明",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [],
@@ -94,7 +95,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "布落‧馬信",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -110,7 +111,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王珍珍",
         "party": "無黨籍",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": []
@@ -120,7 +121,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "馬見Lahuy‧Ipin",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [
@@ -224,7 +225,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林啟明",
         "party": "親民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": []
@@ -234,7 +235,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "羅美菁",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [

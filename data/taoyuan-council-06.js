@@ -9,6 +9,7 @@
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：劉儲禎、江國輝查無可收錄資料；徐慈檉僅有理念性陳述（世代交替、三明治世代、青創成家等方向），未收為政見。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 10 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-06",
@@ -23,7 +24,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳治文",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -145,7 +146,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉儲禎",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": []
@@ -155,7 +156,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐慈檉",
         "party": "親民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -189,7 +190,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李柏坊",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -299,7 +300,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "江國輝",
         "party": "無黨籍",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": []

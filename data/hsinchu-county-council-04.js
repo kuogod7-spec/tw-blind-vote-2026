@@ -15,6 +15,7 @@
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：徐勝凌、何昌臨、徐源發、張以聖、林茂青（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
  * 2026-10-19 第四輪補查：新增 4 則政見、0 則經歷。
+ * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-04",

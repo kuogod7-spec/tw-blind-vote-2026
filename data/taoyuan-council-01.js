@@ -11,6 +11,7 @@
  * 已知缺漏：朱永煇、許孟祥、李凱倫、佀廣洋、王妃天崩開局穿越整頓霸凌者佀廣洋查無可收錄的政見與經歷；詹江村、李光達、于北辰、余信憲、黃瓊慧、李柏瑟、黃家齊仍查無 2026 年具體政見（第四輪補查後）。
  * 2026-10-16 中選會審定：原 tyc1-8 蕭湘瀚因妨害公務等案件尚未執行完畢，依選罷法第 26 條第 9 款不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。審定後 19 人。
  * 2026-10-19 第四輪補查：新增 38 則政見、1 則經歷；政見取自 2026 年議會質詢中的具體要求與登記時公布的政見報導；第 20 位候選人的參選訴求僅見於電視節目來賓轉述且帶諷刺性質，未收。
+ * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-01",
@@ -25,7 +26,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃婉如",
         "party": "中國國民黨",
-        "number": null
+        "number": 17
       },
       "platforms": [
         {
@@ -142,7 +143,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "朱永煇",
         "party": "無黨籍",
-        "number": null
+        "number": 18
       },
       "platforms": [],
       "record": []
@@ -152,7 +153,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "詹江村",
         "party": "中國國民黨",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [
@@ -244,7 +245,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐千晴",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -315,7 +316,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "凌濤",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -437,7 +438,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李光達",
         "party": "民主進步黨",
-        "number": null
+        "number": 15
       },
       "platforms": [],
       "record": [
@@ -522,7 +523,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許孟祥",
         "party": "勞動黨",
-        "number": null
+        "number": 19
       },
       "platforms": [],
       "record": []
@@ -532,7 +533,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳美梅",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -637,7 +638,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "于北辰",
         "party": "無黨籍",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": [
@@ -727,7 +728,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "余信憲",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -812,7 +813,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林政賢",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -1001,7 +1002,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李凱倫",
         "party": "無黨籍",
-        "number": null
+        "number": 13
       },
       "platforms": [],
       "record": []
@@ -1011,7 +1012,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃瓊慧",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -1096,7 +1097,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張碩芳",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -1206,7 +1207,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李柏瑟",
         "party": "民主進步黨",
-        "number": null
+        "number": 16
       },
       "platforms": [],
       "record": [
@@ -1278,7 +1279,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃家齊",
         "party": "民主進步黨",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [
@@ -1363,7 +1364,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "沈佩玲",
         "party": "小民參政歐巴桑聯盟",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -1397,7 +1398,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "佀廣洋",
         "party": "無黨籍",
-        "number": null
+        "number": 14
       },
       "platforms": [],
       "record": []
@@ -1407,7 +1408,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王妃天崩開局穿越整頓霸凌者佀廣洋",
         "party": "無黨籍",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": []

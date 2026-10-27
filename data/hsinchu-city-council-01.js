@@ -11,6 +11,7 @@
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。 黃文政、劉崇顯為現任議員，本次以無黨籍登記。
  * 已知缺漏：仍查無 2026 年具體政見者：黃文政、劉崇顯、劉詳樽、張文興、李國璋、宋品瑩、劉彥伶、張祖琰、樊一嶢、許登淇、曾翰揚、鄭美娟、蔡惠婷、陳清智、錢康明、陳珍裕、鍾淑英（現任者的議會提案列於 record）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://news.ltn.com.tw/news/politics/breakingnews/5620059；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-01",
@@ -25,7 +26,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃文政",
         "party": "無黨籍",
-        "number": null
+        "number": 19
       },
       "platforms": [],
       "record": [
@@ -98,7 +99,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉崇顯",
         "party": "無黨籍",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [
@@ -176,7 +177,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉詳樽",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [],
@@ -187,7 +188,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張文興",
         "party": "中國國民黨",
-        "number": null
+        "number": 14
       },
       "platforms": [],
       "record": [
@@ -271,7 +272,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李國璋",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 15
       },
       "platforms": [],
       "record": [
@@ -351,7 +352,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "宋品瑩",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -424,7 +425,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉彥伶",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -497,7 +498,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張祖琰",
         "party": "中國國民黨",
-        "number": null
+        "number": 18
       },
       "platforms": [],
       "record": [
@@ -577,7 +578,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "樊一嶢",
         "party": "中國國民黨",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": [],
@@ -588,7 +589,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭宏輝",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -617,7 +618,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許登淇",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [
@@ -644,7 +645,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "曾翰揚",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -671,7 +672,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭美娟",
         "party": "民主進步黨",
-        "number": null
+        "number": 13
       },
       "platforms": [],
       "record": [
@@ -751,7 +752,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡惠婷",
         "party": "時代力量",
-        "number": null
+        "number": 16
       },
       "platforms": [],
       "record": [
@@ -824,7 +825,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林妤芬",
         "party": "無黨籍",
-        "number": null
+        "number": 17
       },
       "platforms": [
         {
@@ -878,7 +879,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳清智",
         "party": "中國國民黨",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [
@@ -905,7 +906,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "錢康明",
         "party": "無黨籍",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [
@@ -922,7 +923,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳珍裕",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [
@@ -949,7 +950,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鍾淑英",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [

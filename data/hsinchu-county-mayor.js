@@ -10,6 +10,7 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
+ * 號次：依 10/27 抽籤結果補上（https://news.cts.com.tw/cna/local/202610/202610273094248.html；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-mayor",
@@ -22,7 +23,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭朝方",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -155,7 +156,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "朱定瑀",
         "party": "無黨籍",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -209,7 +210,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐欣瑩",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {

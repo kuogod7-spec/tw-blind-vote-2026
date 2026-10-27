@@ -17,6 +17,7 @@
  * 已知缺漏（2026-10-19 更新）：朱政騏、熊羿、李易儒、柳采葳、林亮君、葉林傳、黃麗香、林珍羽、陳怡君仍查無 2026 年具體政見
  *   （現任者 2026 年報導多為對他黨候選人的批評或事件回應；報導者觀測站提案資料只到 2025 年，未當作 2026 年政見）。
  * 2026-10-19 第四輪補查：新增 3 則政見、6 則經歷（含朱政騏、葉林傳、陳怡君的司法案件，均尚未判決確定）。
+ * 號次：依 10/27 抽籤結果補上 2/14 位（https://news.ltn.com.tw/news/Taipei/breakingnews/5620043）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-04",
@@ -394,7 +395,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "柳采葳",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -710,7 +711,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林珍羽",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [

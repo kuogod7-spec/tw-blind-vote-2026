@@ -13,6 +13,7 @@
  * 2026-10-14 第三輪補查：ntc9-7 仍查無本人提出的具體政見（競總成立報導中的建設構想為市長參選人所提，未收），政見欄維持空白。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：游皓麟。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷（2026-09-27 聯合競總報導中的三項建設為市長參選人所提，本人僅表態支持，未收）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-09",
@@ -27,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張柏詠",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -87,7 +88,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "邸聖德",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -166,7 +167,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張佑輔",
         "party": "台灣綠黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -209,7 +210,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳乃瑜",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -314,7 +315,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃心華",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -429,7 +430,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳韋任",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -477,7 +478,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "游皓麟",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -494,7 +495,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉哲彰",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -617,7 +618,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳儀君",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {

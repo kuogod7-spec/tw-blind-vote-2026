@@ -11,6 +11,7 @@
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
  * 已知缺漏：仍查無 2026 年具體政見者：吳國寶、陳啓源、蔡志堅、陳慶齡、廖子齊（現任者的議會提案列於 record）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://news.ltn.com.tw/news/politics/breakingnews/5620059；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-05",
@@ -25,7 +26,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳若茵",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -67,7 +68,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳國寶",
         "party": "無黨籍",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -140,7 +141,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "葉國文",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -245,7 +246,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳啓源",
         "party": "無黨籍",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -304,7 +305,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡志堅",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -321,7 +322,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳慶齡",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -394,7 +395,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "廖子齊",
         "party": "時代力量",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -469,7 +470,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林盈徹",
         "party": "民主進步黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {

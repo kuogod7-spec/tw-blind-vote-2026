@@ -11,6 +11,7 @@
  * 2022 年市長選舉公報中現任者的政見欄未刊登文字，過去政見依新聞報導整理。
  * 已知缺漏：仍查無 2026 政見者：魏造文。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷（僅補查政見為空者；仍查無公開政見或經歷，媒體報導僅確認其登記參選）。
+ * 號次：依 10/27 抽籤結果補上（https://news.ltn.com.tw/news/Keelung/breakingnews/5619727；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-mayor",
@@ -23,7 +24,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "謝國樑",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -135,7 +136,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "魏造文",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": []
@@ -145,7 +146,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "童子瑋",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {

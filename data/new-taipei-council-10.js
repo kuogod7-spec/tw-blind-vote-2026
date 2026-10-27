@@ -15,6 +15,7 @@
  * 2026-10-14 第三輪補查：ntc10-1 仍查無 2026 年競選政見，政見欄維持空白；補經歷 1 則（2026 年 5 月質詢偏鄉老屋整建）。
  * 已知缺漏（2026-10-19）：無（ntc10-1 的政見取自 2026 年質詢要求與服務處說法，尚非完整競選政見）。
  * 2026-10-19 第四輪補查：新增 2 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-10",
@@ -29,7 +30,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林裔綺",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {

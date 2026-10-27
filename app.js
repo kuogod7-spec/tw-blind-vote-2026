@@ -564,7 +564,7 @@
       <div class="identity">
         <strong>${esc(id.name)}</strong>
         <span>${esc(id.party)}</span>
-        <span>${id.number != null ? `號次 ${esc(id.number)}` : "號次待抽籤"}</span>
+        <span>${id.number != null ? `號次 ${esc(id.number)}` : "號次待補"}</span>
       </div>`;
   }
 

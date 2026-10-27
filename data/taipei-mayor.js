@@ -11,6 +11,7 @@
  * 2026-10-17 補查：tpm-3 補 2 則政見（附加於陣列尾端）及 4 則司法事件經歷；tpm-4 補 1 則政見、1 則經歷；
  *         tpm-6 補 1 則經歷；tpm-5、tpm-6 仍未查得 2026 年政見（新聞僅報導登記與過去言行）。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷；已知缺漏：唐新民、林志成仍查無 2026 年具體政見。
+ * 號次：依 10/27 抽籤結果補上（https://www.mirrormedia.mg/external/setn_1929205；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-mayor",
@@ -23,7 +24,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔣萬安",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -312,7 +313,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "沈伯洋",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -577,7 +578,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "郭璽",
         "party": "台灣麻將最大黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -647,7 +648,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蕭文乾",
         "party": "臺灣SoR無法黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -719,7 +720,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "唐新民",
         "party": "三勢團結促進聯盟",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -789,7 +790,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林志成",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [

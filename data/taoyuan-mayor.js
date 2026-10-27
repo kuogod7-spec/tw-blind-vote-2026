@@ -8,6 +8,7 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：曾任中央民意代表的候選人，其上屆（2020 年）競選政見未查得，past 暫缺；現任首長 2022 年政見僅取自新聞報導，未取得選舉公報。
+ * 號次：依 10/27 抽籤結果補上（https://www.cna.com.tw/news/aloc/202610270036.aspx；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-mayor",
@@ -20,7 +21,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張善政",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -125,7 +126,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃世杰",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {

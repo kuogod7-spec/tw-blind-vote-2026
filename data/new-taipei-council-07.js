@@ -13,6 +13,7 @@
  * 2026-10-14 第三輪補查：政見欄空白的 2 位候選人中，1 位補經歷 4 則；2 位仍查無具體的 2026 年政見（候選人網站與競總成立報導只有服務理念，沒有政見條目），維持空白。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：陳以樂。
  * 2026-10-19 第四輪補查：新增 3 則政見、1 則經歷（皆為許昭興，取自本人社群貼文所述 2026 年 10 月市政總質詢與會勘）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-07",
@@ -27,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "羅文崇",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -145,7 +146,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳以樂",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -192,7 +193,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許昭興",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -301,7 +302,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳鴻源",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -465,7 +466,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蘇昭龍",
         "party": "無黨籍",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {

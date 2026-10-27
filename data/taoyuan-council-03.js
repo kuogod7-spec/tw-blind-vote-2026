@@ -10,6 +10,7 @@
  * 劉茂羣、蔡永芳為前任議員；過去政見因選舉公報版面無法可靠對應未收錄。
  * 已知缺漏：段林淑婷查無可收錄資料；林晏良僅查得交通政見。許家睿、劉茂羣、蔡永芳、楊朝偉、呂林小鳳仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷；本輪搜尋額度用盡，僅補查到 1 位現任者的議會具體要求，其餘候選人待選舉公報發布後再補。
+ * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-03",
@@ -24,7 +25,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "段林淑婷",
         "party": "無黨籍",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": []
@@ -34,7 +35,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林晏良",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -57,7 +58,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許家睿",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -142,7 +143,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉茂羣",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -158,7 +159,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡永芳",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -201,7 +202,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "朱珍瑤",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -288,7 +289,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "楊朝偉",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -373,7 +374,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "呂林小鳳",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [

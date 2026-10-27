@@ -10,6 +10,7 @@
  * 林明義：2022 年選舉公報第 2 選區有同名參選人，但無來源確認為同一人，未收其過去紀錄。
  * 已知缺漏：呂學記、陳泓維查無可收錄資料；陳泓維僅有理念性陳述（新世代、貼近生活需求），未收。陳雅倫、李宗豪、林明義、江冠妤、高華駿仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷；本輪搜尋額度用盡，僅補查到 1 位現任者的議會具體要求，其餘候選人待選舉公報發布後再補。
+ * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-02",
@@ -24,7 +25,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "呂學記",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": []
@@ -34,7 +35,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳雅倫",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": [
@@ -114,7 +115,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "周曉芸",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -143,7 +144,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李宗豪",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -228,7 +229,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳泓維",
         "party": "親民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": []
@@ -238,7 +239,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林明義",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -254,7 +255,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "江冠妤",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [
@@ -270,7 +271,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "高華駿",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -286,7 +287,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "孫韻璇",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {

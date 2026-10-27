@@ -10,6 +10,7 @@
  * 郭麗華為前任議員（2014–2022），過去政見取自 2018 年選舉公報。
  * 已知缺漏：胡家智查無可收錄資料；許清順、錢龍、郭麗華仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
  * 2026-10-19 第四輪補查：新增 6 則政見、1 則經歷；政見取自 2026 年議會質詢中的具體要求；本輪搜尋額度用盡，未查完的候選人待選舉公報發布後再補。
+ * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-04",
@@ -24,7 +25,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許清順",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -102,7 +103,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "胡家智",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": []
@@ -112,7 +113,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "錢龍",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -202,7 +203,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉勝全",
         "party": "無黨籍",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -311,7 +312,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "郭麗華",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -397,7 +398,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張桂綿",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {

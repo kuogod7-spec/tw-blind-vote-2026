@@ -11,6 +11,7 @@
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
  * 已知缺漏：仍查無 2026 年具體政見者：彭昆耀、王雲慶、蕭志潔、林士凱、曾國維、黃美慧、楊玲宜、鄭慶欽、林彥甫、吳旭豐、許竹見、孫宗孝、蔡文盛（現任者的議會提案列於 record）。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://news.ltn.com.tw/news/politics/breakingnews/5620059；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-04",
@@ -25,7 +26,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "彭昆耀",
         "party": "無黨籍",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -98,7 +99,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王雲慶",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [],
@@ -109,7 +110,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蕭志潔",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -146,7 +147,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林士凱",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -168,7 +169,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "曾國維",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [
@@ -185,7 +186,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃美慧",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [
@@ -251,7 +252,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "楊玲宜",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -338,7 +339,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭慶欽",
         "party": "無黨籍",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [
@@ -404,7 +405,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林彥甫",
         "party": "時代力量",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -477,7 +478,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳旭豐",
         "party": "中國國民黨",
-        "number": null
+        "number": 13
       },
       "platforms": [],
       "record": [
@@ -557,7 +558,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許竹見",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [],
@@ -568,7 +569,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "孫宗孝",
         "party": "無黨籍",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": [],
@@ -579,7 +580,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡文盛",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [

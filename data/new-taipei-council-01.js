@@ -11,6 +11,7 @@
  * 第三輪補查（2026-10-14）：唯一政見欄空白的國民黨候選人（ntc1-5）再查新聞報導，相關報導只記載其出席聯合競選活動、未引述本人政見，仍查無；其餘候選人無變動。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：呂鈞鴻。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷（聯合競總成立報導中的淡海建設主張均為市長參選人所提，未收）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-01",
@@ -25,7 +26,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭宇恩",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -201,7 +202,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳偉杰",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -336,7 +337,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "游明諺",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -375,7 +376,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳家琪",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -479,7 +480,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "呂鈞鴻",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [

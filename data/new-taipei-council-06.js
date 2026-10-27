@@ -9,6 +9,7 @@
  * 2026-10-14 第三輪補查：再以新聞報導搜尋政見欄空白的 5 位候選人，僅為其中 1 位補經歷 2 則；5 位仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。另有同名里長，但無來源確認與無黨籍參選人為同一人，未收。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：金瑞龍、林達、邱烽堯、游輝宂、陳錦錠。
  * 2026-10-19 第四輪補查：新增 0 則政見、1 則經歷（ntc6-7 圖利案二審判決，尚未定讞）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-06",
@@ -23,7 +24,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張維倩",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -145,7 +146,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張志豪",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -318,7 +319,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "金瑞龍",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -408,7 +409,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林達",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [],
@@ -419,7 +420,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳怡君",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -467,7 +468,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張嘉玲",
         "party": "民主進步黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -589,7 +590,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "邱烽堯",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -695,7 +696,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "游輝宂",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -792,7 +793,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳錦錠",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [

@@ -10,6 +10,7 @@
  * 2026-10-14 第三輪補查：以新聞報導補充 2 位現任者的 2026 年政見各 1 則（其中 1 位另補經歷 1 則）；2 位無黨籍參選人仍查無具體政見或可查證經歷，維持空白，待選舉公報發布後補齊。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：簡麗花、陳茂嘉。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷（陳茂嘉 2026 年 3 月參選宣布報導只有口號，未收）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-03",
@@ -24,7 +25,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "翁震州",
         "party": "民主進步黨",
-        "number": null
+        "number": 12
       },
       "platforms": [
         {
@@ -153,7 +154,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "簡麗花",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [],
@@ -164,7 +165,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林秉宥",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -293,7 +294,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔣根煌",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -397,7 +398,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡健棠",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -501,7 +502,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳奕萱",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -571,7 +572,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳岱吟",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -613,7 +614,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王珮宇",
         "party": "中國國民黨",
-        "number": null
+        "number": 10
       },
       "platforms": [
         {
@@ -688,7 +689,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳世軒",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -828,7 +829,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "甘崇緯",
         "party": "台灣綠黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -893,7 +894,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蕭夙玲",
         "party": "親民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -935,7 +936,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳茂嘉",
         "party": "無黨籍",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [

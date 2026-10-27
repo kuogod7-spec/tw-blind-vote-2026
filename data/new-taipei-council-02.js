@@ -13,6 +13,7 @@
  * 2026-10-14 第三輪補查：再以新聞報導補充部分候選人 2026 年政見；其餘仍查無者維持空白。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：張昭隆、蔡佩呈。
  * 2026-10-19 第四輪補查：新增 0 則政見、2 則經歷（張昭隆補司法事件 1 則；蔡佩呈補 1 則）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-02",
@@ -27,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "戴翎育",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -57,7 +58,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張昭隆",
         "party": "無黨籍",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -140,7 +141,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡淑君",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -295,7 +296,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭丞宏",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -355,7 +356,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳明義",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -452,7 +453,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡佩呈",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -479,7 +480,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李宇翔",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {

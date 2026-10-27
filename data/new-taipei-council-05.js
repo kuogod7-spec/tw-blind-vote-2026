@@ -13,6 +13,7 @@
  * 2026-10-14 第三輪補查：再以新聞報導補充部分候選人 2026 年政見；其餘仍查無者維持空白。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：林國春、黃淑珍。
  * 2026-10-19 第四輪補查：新增 17 則政見、1 則經歷（政見多為現任者 2026 年議會質詢中的具體要求）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-05",
@@ -27,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李昆穎",
         "party": "民主進步黨",
-        "number": null
+        "number": 12
       },
       "platforms": [
         {
@@ -75,7 +76,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉美芳",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -184,7 +185,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "戴瑋姗",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -276,7 +277,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃淑君",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -397,7 +398,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄧凱勛",
         "party": "中國國民黨",
-        "number": null
+        "number": 11
       },
       "platforms": [
         {
@@ -451,7 +452,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳俊諺",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -505,7 +506,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "山田摩衣",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -626,7 +627,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林國春",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [
@@ -704,7 +705,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "曾煥嘉",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -806,7 +807,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林子宇",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -824,7 +825,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "周韋翰",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -848,7 +849,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃淑珍",
         "party": "司法改革黨",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [],

@@ -14,6 +14,7 @@
  * 2026-10-14 依使用者決定補列司法事件：ntc8-9 經歷補列 2026 年 10 月涉嫌賄選交保一事（偵查中）。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：高乃芸、林金結、陳膺涵。
  * 2026-10-19 第四輪補查：新增 5 則政見、2 則經歷（政見多為現任者 2026 年議會質詢中的具體要求）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-08",
@@ -28,7 +29,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "高乃芸",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -98,7 +99,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "廖宜琨",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -226,7 +227,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳亞倫",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 12
       },
       "platforms": [
         {
@@ -262,7 +263,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "卓冠廷",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -345,7 +346,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳昇翰",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -393,7 +394,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "彭一書",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -503,7 +504,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "呂家愷",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -599,7 +600,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蘇泓欽",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [
         {
@@ -706,7 +707,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃永昌",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -803,7 +804,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林金結",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [
@@ -876,7 +877,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "洪佳君",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -961,7 +962,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳膺涵",
         "party": "愛民黨",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [],

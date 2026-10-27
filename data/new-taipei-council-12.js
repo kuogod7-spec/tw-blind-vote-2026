@@ -24,6 +24,7 @@
  * 2026-10-14 依使用者決定補列司法事件：ntc12-4 經歷補列 2026 年 9 月涉嫌賄選交保一事（偵查中）。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：忠仁‧達祿斯、吳國譽La‧Is‧Amid、蘇錦雄Paylang‧Caya、楊春妹、宋雨蓁Nikar‧Falong、吳建智、連祐崧（全部 7 人）。
  * 2026-10-19 第四輪補查：新增 0 則政見、2 則經歷（ntc12-1 2021 年賄選案判決確定與解職；同名且同為本市平地原住民選區議員，判斷為同一人）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-12",
@@ -38,7 +39,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "忠仁‧達祿斯",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -145,7 +146,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳國譽La‧Is‧Amid",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [
@@ -222,7 +223,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蘇錦雄Paylang‧Caya",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -335,7 +336,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "楊春妹",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -447,7 +448,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "宋雨蓁Nikar‧Falong",
         "party": "無黨籍",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -544,7 +545,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳建智咖啡哥",
         "party": "親民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [],
@@ -572,7 +573,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "連祐崧",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [],

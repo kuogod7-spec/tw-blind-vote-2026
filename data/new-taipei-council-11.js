@@ -17,6 +17,7 @@
  * 2026-10-14 依使用者決定補列司法事件：ntc11-6 經歷補列 2026 年 9 月遭起訴一事（尚未判決）。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：黃瑞傳。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-11",
@@ -31,7 +32,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張錦豪",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -154,7 +155,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳語倢",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -226,7 +227,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳竹音",
         "party": "勞動黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -250,7 +251,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡美華",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -279,7 +280,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉財鑫",
         "party": "無黨籍",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -303,7 +304,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "白珮茹",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -429,7 +430,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "何元楷",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -453,7 +454,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃瑞傳",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [],
@@ -538,7 +539,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "郭書成",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {

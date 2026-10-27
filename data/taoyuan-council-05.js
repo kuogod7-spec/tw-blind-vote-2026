@@ -9,6 +9,7 @@
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：吳文凱查無可收錄資料；現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 6 則政見、0 則經歷。
+ * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-05",
@@ -23,7 +24,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "游吾和",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -127,7 +128,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐其萬",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -231,7 +232,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳文凱",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": []

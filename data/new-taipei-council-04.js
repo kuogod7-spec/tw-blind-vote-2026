@@ -13,6 +13,7 @@
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：黃桂蘭、董俊良、陳東雲、蔡政呈、許宏平、蕭告。
  * 2026-10-19 第四輪補查：新增 3 則政見、0 則經歷（李翁月娥 2 則、邱婷蔚 1 則，均為 2026 年議會質詢中的具體要求）。
+ * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-04",
@@ -27,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李翁月娥",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [
         {
@@ -185,7 +186,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃桂蘭",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -294,7 +295,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "彭佳芸",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -419,7 +420,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳彥廷",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -461,7 +462,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王威元",
         "party": "中國國民黨",
-        "number": null
+        "number": 14
       },
       "platforms": [
         {
@@ -631,7 +632,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李余典",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -763,7 +764,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳俊維",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -792,7 +793,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李倩萍",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -969,7 +970,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "董俊良",
         "party": "無黨籍",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": [],
@@ -1068,7 +1069,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "顏蔚慈",
         "party": "民主進步黨",
-        "number": null
+        "number": 15
       },
       "platforms": [
         {
@@ -1184,7 +1185,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "邱婷蔚",
         "party": "民主進步黨",
-        "number": null
+        "number": 13
       },
       "platforms": [
         {
@@ -1306,7 +1307,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳東雲",
         "party": "無黨籍",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [],
@@ -1317,7 +1318,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蔡政呈",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [],
@@ -1328,7 +1329,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉成謙",
         "party": "親民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -1370,7 +1371,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳宛毓",
         "party": "小民參政歐巴桑聯盟",
-        "number": null
+        "number": 16
       },
       "platforms": [
         {
@@ -1461,7 +1462,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許宏平",
         "party": "台聯黨",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [],
@@ -1472,7 +1473,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "蕭告",
         "party": "無黨籍",
-        "number": null
+        "number": 17
       },
       "platforms": [],
       "record": [],
