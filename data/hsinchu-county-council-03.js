@@ -15,7 +15,7 @@
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：余筱菁、翁紹軒、賴寶鈺、陳岫玫、楊勝馭、戴翊如（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
  * 2026-10-19 第四輪補查：新增 23 則政見、1 則經歷。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依 10/27 抽籤結果補上（https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=357801；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-03",
@@ -30,7 +30,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "甄克堅",
         "party": "中國國民黨",
-        "number": null
+        "number": 11
       },
       "platforms": [
         {
@@ -94,7 +94,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "余筱菁",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [],
@@ -105,7 +105,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "羅美文",
         "party": "勞動黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -199,7 +199,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳菊花",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -269,7 +269,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "何建樺",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -369,7 +369,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "翁紹軒",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [
@@ -386,7 +386,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "賴寶鈺",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [],
@@ -397,7 +397,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳栢誠",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -479,7 +479,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳岫玫",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [],
@@ -490,7 +490,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "楊勝馭",
         "party": "無黨籍",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [],
@@ -501,7 +501,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "戴翊如",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [],

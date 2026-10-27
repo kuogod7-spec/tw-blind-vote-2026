@@ -15,7 +15,7 @@
  *   其他現任者 2026 年政見仍未查得。
  * 2026-10-19 第四輪補查：新增 12 則政見、2 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
  *   已知缺漏（仍查無 2026 年政見）：吳世正、黃啟彬。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依 10/27 抽籤結果補上 12/13 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-02",
@@ -30,7 +30,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳欣岱",
         "party": "台灣基進",
-        "number": null
+        "number": 13
       },
       "platforms": [
         {
@@ -140,7 +140,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李明賢",
         "party": "中國國民黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -264,7 +264,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳冠安",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -288,7 +288,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "高嘉瑜",
         "party": "民主進步黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -423,7 +423,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王孝維",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -530,7 +530,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "游淑慧",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -632,7 +632,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "何孟樺",
         "party": "民主進步黨",
-        "number": null
+        "number": 11
       },
       "platforms": [
         {
@@ -762,7 +762,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳宥丞",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 10
       },
       "platforms": [
         {
@@ -995,7 +995,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "何恕懷",
         "party": "新黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -1013,7 +1013,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "闕枚莎",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -1137,7 +1137,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳又新",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -1195,7 +1195,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳世正",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [

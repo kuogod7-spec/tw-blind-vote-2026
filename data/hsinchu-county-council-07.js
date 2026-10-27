@@ -15,7 +15,7 @@
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：無。唯一候選人的政見取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
  * 2026-10-19 第四輪補查：新增 4 則政見、0 則經歷。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依 10/27 抽籤結果補上（https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=357801；2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-07",
@@ -30,7 +30,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張良印",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {

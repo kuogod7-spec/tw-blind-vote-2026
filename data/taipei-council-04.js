@@ -17,7 +17,7 @@
  * 已知缺漏（2026-10-19 更新）：朱政騏、熊羿、李易儒、柳采葳、林亮君、葉林傳、黃麗香、林珍羽、陳怡君仍查無 2026 年具體政見
  *   （現任者 2026 年報導多為對他黨候選人的批評或事件回應；報導者觀測站提案資料只到 2025 年，未當作 2026 年政見）。
  * 2026-10-19 第四輪補查：新增 3 則政見、6 則經歷（含朱政騏、葉林傳、陳怡君的司法案件，均尚未判決確定）。
- * 號次：依 10/27 抽籤結果補上 2/14 位（https://news.ltn.com.tw/news/Taipei/breakingnews/5620043）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上 13/14 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://yuanfengmedia.tw/detail.php?type=lastest&id=62444、https://news.ltn.com.tw/news/Taipei/breakingnews/5620043）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-04",
@@ -32,7 +32,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "朱政騏",
         "party": "無黨籍",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -48,7 +48,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "顏若芳",
         "party": "民主進步黨",
-        "number": null
+        "number": 10
       },
       "platforms": [
         {
@@ -165,7 +165,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "賴俊翰",
         "party": "民主進步黨",
-        "number": null
+        "number": 13
       },
       "platforms": [
         {
@@ -194,7 +194,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "熊羿",
         "party": "勞動黨",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": []
@@ -204,7 +204,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李易儒",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [],
@@ -268,7 +268,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳炳甫",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -372,7 +372,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林子揚",
         "party": "民主進步黨",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -395,7 +395,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "柳采葳",
         "party": "中國國民黨",
-        "number": 6
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -487,7 +487,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林亮君",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -701,7 +701,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃麗香",
         "party": "台聯黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": []
@@ -798,7 +798,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳怡君",
         "party": "無黨籍",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [
@@ -907,7 +907,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李惠暄",
         "party": "小民參政歐巴桑聯盟",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {

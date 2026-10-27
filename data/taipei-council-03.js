@@ -15,7 +15,7 @@
  * 2026-10-19 第四輪補查：新增 8 則政見、4 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
  *   已知缺漏（仍查無 2026 年政見）：洪健益、左曉明、許淑華、林柏勛、許原榮。
  *   林柏勛仍未找到來源確認與 2022 年同名參選人為同一人。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依 10/27 抽籤結果補上 10/13 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://news.nextapple.com/politics/20261027/9D97130C9738BF3BCBC6843CB4761AE7）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-03",
@@ -65,7 +65,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "詹為元",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -157,7 +157,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張文潔",
         "party": "民主進步黨",
-        "number": null
+        "number": 10
       },
       "platforms": [
         {
@@ -263,7 +263,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "郭凡",
         "party": "民主進步黨",
-        "number": null
+        "number": 11
       },
       "platforms": [
         {
@@ -304,7 +304,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李明璇",
         "party": "中國國民黨",
-        "number": null
+        "number": 12
       },
       "platforms": [
         {
@@ -332,7 +332,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "秦慧珠",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -398,7 +398,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "洪健益",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -590,7 +590,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許甫",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -625,7 +625,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "左曉明",
         "party": "無黨籍",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": []
@@ -635,7 +635,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許淑華",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -744,7 +744,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林柏勛",
         "party": "無黨籍",
-        "number": null
+        "number": 13
       },
       "platforms": [],
       "record": []

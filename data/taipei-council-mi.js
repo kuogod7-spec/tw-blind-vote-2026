@@ -12,7 +12,7 @@
  *   無黨籍候選人仍查無政見或其他可收錄資料。
  * 已知缺漏：孔垂崢Haisul Islituan 仍查無 2026 年公開政見。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷（民進黨候選人競選總部成立報導中的文化政見方向，原文簡略，照實呈現）。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依 10/27 抽籤結果補上 2/3 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-mi",
@@ -27,7 +27,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林家豪",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -78,7 +78,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "孔垂崢Haisul Islituan",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [

@@ -17,7 +17,7 @@
  *   已知缺漏（仍查無 2026 年政見）：李文、陳彥廷、鍾佩玲、紀建漢、陳重文、賴苡任、林聖峰。
  *   陳彥廷另有同名者列於新北市選區，未能確認身分。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依 10/27 抽籤結果補上 16/20 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://news.nextapple.com/politics/20261027/9D97130C9738BF3BCBC6843CB4761AE7、https://yuanfengmedia.tw/detail.php?type=lastest&id=62444）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-01",
@@ -32,7 +32,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "謝閔弘",
         "party": "時代力量",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -107,7 +107,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李文",
         "party": "無黨籍",
-        "number": null
+        "number": 15
       },
       "platforms": [],
       "record": [],
@@ -118,7 +118,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳彥廷",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [],
@@ -129,7 +129,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鍾佩玲",
         "party": "民主進步黨",
-        "number": null
+        "number": 13
       },
       "platforms": [],
       "record": [
@@ -300,7 +300,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳賢蔚",
         "party": "民主進步黨",
-        "number": null
+        "number": 20
       },
       "platforms": [
         {
@@ -427,7 +427,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林世宗",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -536,7 +536,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃瀞瑩",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 16
       },
       "platforms": [
         {
@@ -673,7 +673,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林揚庭",
         "party": "中國國民黨",
-        "number": null
+        "number": 18
       },
       "platforms": [
         {
@@ -733,7 +733,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳慈慧",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -1040,7 +1040,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林杏兒",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -1179,7 +1179,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張斯綱",
         "party": "中國國民黨",
-        "number": null
+        "number": 14
       },
       "platforms": [
         {
@@ -1290,7 +1290,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "賴苡任",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [
@@ -1450,7 +1450,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉致妤",
         "party": "無黨籍",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -1479,7 +1479,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林延鳳",
         "party": "民主進步黨",
-        "number": null
+        "number": 19
       },
       "platforms": [
         {
@@ -1602,7 +1602,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林聖峰",
         "party": "天宙和平統一家庭黨",
-        "number": null
+        "number": 17
       },
       "platforms": [],
       "record": [],
@@ -1613,7 +1613,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "侯漢廷",
         "party": "新黨",
-        "number": null
+        "number": 11
       },
       "platforms": [
         {

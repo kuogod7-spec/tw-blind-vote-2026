@@ -13,7 +13,7 @@
  * 已知缺漏：第四輪補查後，李道翔、李奇峯、李柏毅、陳錦祥、張維學仍查無 2026 年公開政見。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-16 中選會審定：原 tpc6-7 游智彬被認定在臺設籍未滿 10 年，依兩岸人民關係條例第 21 條及選罷法第 27 條不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。
- * 號次：依 10/27 抽籤結果補上 2/18 位（https://news.ltn.com.tw/news/Taipei/breakingnews/5620043、https://news.ltn.com.tw/news/Taipei/breakingnews/5619958）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上 14/18 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://news.ltn.com.tw/news/Taipei/breakingnews/5620043、https://news.ltn.com.tw/news/Taipei/breakingnews/5619958）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-06",
@@ -28,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李道翔",
         "party": "左翼聯盟",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [],
@@ -39,7 +39,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳峙穎",
         "party": "時代力量",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -100,7 +100,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李奇峯",
         "party": "無黨籍",
-        "number": null
+        "number": 14
       },
       "platforms": [],
       "record": [],
@@ -210,7 +210,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "楊植斗",
         "party": "中國國民黨",
-        "number": null
+        "number": 12
       },
       "platforms": [
         {
@@ -315,7 +315,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳聖文",
         "party": "民主進步黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -515,7 +515,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐弘庭",
         "party": "中國國民黨",
-        "number": null
+        "number": 16
       },
       "platforms": [
         {
@@ -887,7 +887,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鍾沛君",
         "party": "中國國民黨",
-        "number": null
+        "number": 17
       },
       "platforms": [
         {
@@ -1030,7 +1030,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉品妡",
         "party": "民主進步黨",
-        "number": null
+        "number": 18
       },
       "platforms": [
         {
@@ -1054,7 +1054,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張志豪",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 13
       },
       "platforms": [
         {
@@ -1187,7 +1187,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "曾獻瑩",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -1438,7 +1438,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王閔生",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -1561,7 +1561,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張維學",
         "party": "無黨籍",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [],
