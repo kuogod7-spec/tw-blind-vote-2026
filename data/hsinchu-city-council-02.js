@@ -9,9 +9,10 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
- * 已知缺漏：仍查無 2026 年具體政見者：許修睿、田雅芳（現任者的議會提案列於 record）。
+ * 已知缺漏：無（許修睿、田雅芳的政見取自 2026 年議會質詢或公開要求，並非正式競選政見）。
  * 2026-11-02 第五輪補查：新增 10 則政見、1 則經歷。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 2026-11-02 第六輪補查：新增 3 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -344,7 +345,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "以專案變更方式儘速規劃新市政中心選址",
+          "detail": "2026 年 8 月公開要求市府以專案變更方式，儘速整體規劃市政府與議會合一的新市政中心並選址，以符合實際需求。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5529480"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -364,6 +372,11 @@ window.ELECTION_DATA.races.push({
         {
           "topic": "education",
           "text": "促成市府與國立大學合作，在該校校區設立市立圖書館分館（本人說法）。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5593434"
+        },
+        {
+          "topic": "environment",
+          "text": "爭取南區青草湖環境改善，並要求市府在當地辦理文藝活動（本人說法）。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5593434"
         }
       ],
@@ -429,7 +442,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "調查南門溪上游違法傾倒營建廢棄物並清理溪流",
+          "detail": "於 2026 年 10 月議會質詢指出南門溪流域出現大量營建廢棄物，疑為上游高峰里山坡地有廠商違法傾倒，要求市府立案調查，並儘速清理溪流，避免堵塞造成周邊低矮住宅淹水。",
+          "source": "https://www.thehubnews.net/archives/674171"
+        },
+        {
+          "topic": "housing",
+          "title": "要求市府介入協助大樓火災受災戶取得修繕資料",
+          "detail": "於 2026 年 6 月議會質詢指出兩年前大樓火災的修繕工程遲未完工，受災戶無法得知管理委員會修繕支出細項與選商理由，要求市府依法介入，要求管委會提供資料。",
+          "source": "https://www.thehubnews.net/archives/633139"
+        }
+      ],
       "record": [
         {
           "topic": "economy",

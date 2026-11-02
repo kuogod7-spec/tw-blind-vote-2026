@@ -8,9 +8,11 @@
  * 號次抽籤原訂 2026-10-23，因颱風薔琵來襲基隆市停班，基隆市選委會順延至 2026-10-27 舉行（https://www.chinatimes.com/realtimenews/20261022004643-260405），2026-10-25 時尚無結果，抽籤後請補上 identity.number。黨籍已於 2026-10-25 對照 9/4 登記一覽表推薦政黨欄核對，全部一致。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 已知缺漏：仍查無 2026 政見者：李昀靜、莊敬聖、林祐德、吳巧瀅、宋瑋莉、郭美秀。
+ * 已知缺漏：仍查無 2026 政見者：李昀靜、莊敬聖、林祐德、吳巧瀅（第六輪補查後）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
  * 2026-11-02 第五輪補查：新增 3 則政見、1 則經歷。
+ * 2026-11-02 第六輪補查：新增 13 則政見、0 則經歷。
+ * 第六輪新增的議會提案來自基隆市議會議事檢索（https://www.kmc.gov.tw/kmcweb/#/motion ，單頁應用程式無個別提案網址，以提案人姓名查詢第 20 屆第 7 次定期會〔2026 年 5–6 月〕及第 19–23 次臨時會），只收本人為唯一提案人的提案。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
@@ -238,7 +240,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "要求改善公車智慧站牌功能與到站資訊準確度",
+          "detail": "2026 年 10 月就中山區太白里公車首站（兼終點站）設置智慧站牌也無法顯示動態、站牌時刻不準確等問題辦理會勘，要求公車主管機關提升智慧站牌軟硬體。",
+          "source": "https://www.youtube.com/watch?v=L69nwLjKW5I"
+        },
+        {
+          "topic": "safety",
+          "title": "建議市府建立山坡地房屋監測機制",
+          "detail": "2026 年 4 月就中山二路 89 巷房屋地基遭山水掏空會勘時提出，監測項目包括排水溝是否正常、水路走向與山坡地滑動。",
+          "source": "https://www.youtube.com/watch?v=GLcd1KaiaVs"
+        },
+        {
+          "topic": "transport",
+          "title": "要求改善大慶大城社區周邊停車",
+          "detail": "2026 年議會總質詢提出；市府答詢已覓得兩處平面停車場用地，預定 2026 年底完成。",
+          "source": "https://www.youtube.com/watch?v=In9tAgMLpA8"
+        },
+        {
+          "topic": "transport",
+          "title": "加強中山一路至中山四路沿線道路照明",
+          "detail": "2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -295,7 +322,62 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "研議發放 7 至 12 歲兒童成長津貼",
+          "detail": "每人每月 3,000 元，減輕家庭育兒負擔；2026 年 5 至 6 月議會定期會提案，經大會通過，尚待市府研議。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "辦理東西岸跨海大橋可行性評估",
+          "detail": "改善市區交通瓶頸，並提報港市建設與招商協調平台研議；2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "盤點公有閒置畸零地設置微型立體停車塔",
+          "detail": "盤點國有及公有閒置畸零地，解決市區與巷弄停車空間不足；2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "welfare",
+          "title": "以每區設置托嬰與托老資源為長期目標",
+          "detail": "完善育兒與高齡照護資源；2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "welfare",
+          "title": "研議長者中央廚房統一供餐並建立送餐訪視網",
+          "detail": "整合里鄰系統送餐並訪視，因應地形造成的取餐障礙、預防長者孤立；2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "environment",
+          "title": "活化太平國小、大德國中舊校地打造全齡運動公園",
+          "detail": "運用協和電廠促進電力開發協助金，於太平國小、大德國中舊校地及中山公園逐步建置運動設施；2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "safety",
+          "title": "擴大住宅用火災警報器補助與安裝",
+          "detail": "2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "跨域規劃八斗子至八里濱海自行車道",
+          "detail": "要求市府與北部海岸觀光主管機關、新北市政府合作，串聯東岸至西岸並延伸至北海岸；2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "environment",
+          "title": "要求減少船舶停泊排煙空污",
+          "detail": "2026 年 9 月議會質詢環保主管機關；市府答詢港務單位年底將增設一套高壓岸電設施，環保單位並加強稽查。",
+          "source": "https://www.youtube.com/watch?v=I8EnHexLMU8"
+        }
+      ],
       "record": [],
       "past": [
         {

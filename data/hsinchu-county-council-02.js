@@ -14,6 +14,7 @@
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：游雅婷、戴佩如、范格菱（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 2026-11-02 第六輪補查：新增 0 則政見、1 則經歷。
  * 2026-10-19 第四輪補查：新增 40 則政見、0 則經歷。
  * 2026-11-02 第五輪補查：新增 7 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
@@ -232,6 +233,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "現任鄉鎮市民意代表。",
           "source": "https://udn.com/news/story/124652/9668755"
+        },
+        {
+          "topic": "safety",
+          "text": "居中聯繫在地企業捐贈 3 輛消防救災車及多項救難器材給縣消防局，獲縣府公開致謝（2026 年 9 月）。",
+          "source": "https://www.taiwanhot.net/news/focus/1147598/%E6%8C%B9%E6%B3%A8%E5%B7%A5%E6%A5%AD%E5%8D%80%E3%80%81%E5%B1%B1%E9%9B%A3%E6%95%91%E7%81%BD%E9%87%8F%E8%83%BD+%E4%BC%81%E6%A5%AD%E6%8D%90%E6%B6%88%E9%98%B2%E6%95%91%E7%81%BD%E8%BB%8A%E5%8F%8A%E5%99%A8%E6%9D%90/53/%E6%96%B0%E7%AB%B9"
         }
       ],
       "past": []

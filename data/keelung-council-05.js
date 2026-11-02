@@ -9,9 +9,11 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
- * 已知缺漏：仍查無 2026 政見者：張家馨、黃永翔、俞叁發、黃忠賢、吳程澤、劉韋巡。
+ * 已知缺漏：仍查無 2026 政見者：張家馨、黃永翔、黃忠賢、吳程澤（第六輪補查後）。
  * 2026-10-19 第四輪補查：新增 3 則政見、1 則經歷。
  * 2026-11-02 第五輪補查：新增 6 則政見、4 則經歷。
+ * 2026-11-02 第六輪補查：新增 7 則政見、0 則經歷。
+ * 第六輪新增的議會提案來自基隆市議會議事檢索（https://www.kmc.gov.tw/kmcweb/#/motion ，單頁應用程式無個別提案網址，以提案人姓名查詢第 20 屆第 7 次定期會〔2026 年 5–6 月〕及第 19–23 次臨時會），只收本人為唯一提案人的提案。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -76,7 +78,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 11
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "爭取大武崙棒球場改善並興建滯洪池、停車場與游泳池",
+          "detail": "2026 年 6 月議會總質詢追問中央財源變動後的推動情形，表示最希望市府持續推動興建游泳池。",
+          "source": "https://www.youtube.com/watch?v=f6ChXIxqPMs"
+        },
+        {
+          "topic": "transport",
+          "title": "安樂區崇德路 10 巷路面全面刨鋪",
+          "detail": "2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "基金三路 51 號至 63 號社區道路重新刨鋪",
+          "detail": "2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "武崙街口與社區出口交界處增設黃網線",
+          "detail": "禁止臨時停車、維持路口淨空；2026 年議會臨時會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -554,7 +581,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "以更高規格改建大武崙棒球場並結合滯洪池多功能停車場",
+          "detail": "主張改建不應沿用舊式設計，以可吸引職業球隊進駐的規格規劃，並結合滯洪池多功能停車場解決停車問題；2026 年 8 月網路節目訪談中提出。",
+          "source": "https://www.youtube.com/watch?v=uWCvs90JlcA"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取增開 9026、1815 等客運班次",
+          "detail": "以大眾運輸紓解安樂區通勤壅塞；2026 年 8 月網路節目訪談中提出。",
+          "source": "https://www.youtube.com/watch?v=uWCvs90JlcA"
+        },
+        {
+          "topic": "transport",
+          "title": "要求快速道路引道規劃不得將車流轉嫁大武崙",
+          "detail": "針對國城商圈周邊未來可能規劃的快速道路引道，主張解決國家新城塞車的同時不得把車流導入已壅塞的大武崙，並持續向中央與市府爭取道路規劃優化；2026 年 8 月網路節目訪談中提出。",
+          "source": "https://www.youtube.com/watch?v=uWCvs90JlcA"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

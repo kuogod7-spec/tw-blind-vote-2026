@@ -16,6 +16,7 @@
  * 已知缺漏：仍查無 2026 年具體政見者：黃正彪。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
  * 2026-11-02 第五輪補查：新增 0 則政見、0 則經歷。
+ * 2026-11-02 第六輪補查：新增 0 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -34,7 +35,13 @@ window.ELECTION_DATA.races.push({
         "number": 1
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "transport",
+          "text": "擔任鄉級首長期間，2024 年 2 月與鄰近市公所協商，讓竹北免費市民公車 60、61 路在芎林綠獅社區增設停靠站，鄉公所負責周邊動線、標線與停等車格。",
+          "source": "https://tw.news.yahoo.com/%E7%AB%B9%E5%8C%97%E5%B8%82%E6%B0%91%E5%85%AC%E8%BB%8A%E5%A2%9E%E7%AB%99%E4%B8%A8%E9%84%AD%E6%9C%9D%E6%96%B9%E9%BB%83%E6%AD%A3%E5%BD%AA%E5%85%B1%E5%90%8C%E6%8E%A8%E5%8B%95%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%E4%BE%BF%E5%88%A9%E5%8C%96-133659368.html"
+        }
+      ],
       "past": []
     }
   ]

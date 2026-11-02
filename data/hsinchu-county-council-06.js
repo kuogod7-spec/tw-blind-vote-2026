@@ -13,9 +13,10 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 已知缺漏：仍查無 2026 年具體政見者：黃路加、陳新源。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 已知缺漏：仍查無 2026 年具體政見者：（無，各候選人皆已查到至少一則 2026 年具體主張）。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
  * 2026-10-19 第四輪補查：新增 8 則政見、0 則經歷。
  * 2026-11-02 第五輪補查：新增 0 則政見、0 則經歷。
+ * 2026-11-02 第六輪補查：新增 4 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -33,7 +34,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "增設公共托育與室內親子活動空間",
+          "detail": "增加公共托育與親子共學空間，設置室內兒童活動空間、滑步車公園等，並增加藝文與親子活動資源。出自 2026 年 8 月獲提名時報導整理的地方發展構想。",
+          "source": "https://www.atanews.net/?news=122969"
+        },
+        {
+          "topic": "transport",
+          "title": "複雜路口導入智慧號誌",
+          "detail": "針對新埔複雜路口與通勤問題，導入智慧號誌等科技應用，提升道路安全與交通效率。出自 2026 年 8 月獲提名時報導整理的地方發展構想，屬方向性構想。",
+          "source": "https://www.atanews.net/?news=122969"
+        },
+        {
+          "topic": "welfare",
+          "title": "設智慧醫療服務站並串聯鄰近醫療資源",
+          "detail": "針對新埔夜間與在地醫療資源不足，設置智慧醫療服務站、串聯竹北醫療資源並建立轉診管道，讓長輩、兒童與急需就醫者夜間也能獲得協助。出自 2026 年 8 月獲提名時報導整理的地方發展構想，屬方向性構想。",
+          "source": "https://www.atanews.net/?news=122969"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -150,8 +170,21 @@ window.ELECTION_DATA.races.push({
         "party": "勞動黨",
         "number": 3
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "爭取縣府分攤偏鄉自來水延管經費",
+          "detail": "新埔照門休閒農業區等偏鄉地區距鎮區遠，主張由縣府協助分攤自來水延管工程經費，壓低每戶接管的工程單價。出自 2026 年 10 月廣播媒體專訪。",
+          "source": "https://www.rti.org.tw/news?pid=238448&uid=3"
+        }
+      ],
+      "record": [
+        {
+          "topic": "environment",
+          "text": "因供應新埔飲用與灌溉用水的霄裡溪遭工業廢水污染，投入抗爭並參與爭取偏鄉自來水延管計畫（本人說法）。",
+          "source": "https://www.rti.org.tw/news?pid=238448&uid=3"
+        }
+      ],
       "past": []
     }
   ]

@@ -18,6 +18,8 @@
  *   已知缺漏（2026-11-02 更新，仍查無 2026 年政見）：左曉明、許原榮。
  *   林柏勛仍未找到來源確認與 2022 年同名參選人為同一人。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
+ * 2026-11-02 第六輪補查：新增 0 則政見、2 則經歷（tpc3-13 酒駕受罰紀錄、站台者所述地方建設參與）。
+ *   已知缺漏（2026-11-02 第六輪後，仍查無 2026 年政見）：左曉明、許原榮。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-03",
@@ -808,6 +810,16 @@ window.ELECTION_DATA.races.push({
           "topic": "economy",
           "text": "2026 年 5 月於信義區黎忠里民活動中心舉辦社區報稅服務，由會計師協助所得查詢與申報。",
           "source": "https://udn.com/news/story/7323/9521535"
+        },
+        {
+          "topic": "governance",
+          "text": "十多年前擔任民意代表助理期間曾因酒駕受罰，未造成事故；2026-03 受訪時承認，表示以此為戒。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5386214"
+        },
+        {
+          "topic": "transport",
+          "text": "任民意代表辦公室主任期間，參與將健康路閘道改為可左轉通行（站台者說法）。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5362021"
         }
       ]
     }

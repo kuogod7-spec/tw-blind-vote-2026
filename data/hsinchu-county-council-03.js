@@ -14,6 +14,7 @@
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：余筱菁、翁紹軒、賴寶鈺、陳岫玫、楊勝馭、戴翊如（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 2026-11-02 第六輪補查：新增 0 則政見、2 則經歷。
  * 2026-10-19 第四輪補查：新增 23 則政見、1 則經歷。
  * 2026-11-02 第五輪補查：新增 0 則政見、4 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
@@ -103,6 +104,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾因擔任地方民意代表期間反對竹北焚化爐興建時的發文，被法院判處散布文字誹謗罪拘役 30 日，上訴高等法院未獲改判（已判決確定）。本人說明係質疑縣府圖利廠商，被法院連結為指控另一名民意代表。",
           "source": "https://www.mirrormedia.mg/story/20260917edi054"
+        },
+        {
+          "topic": "transport",
+          "text": "前次擔任地方民意代表期間（2020 年 11 月）質詢路平問題，主張延長道路全面刨鋪後的保固期，並要求管線挖掘後的臨時修復比照道路管理規定的平整度標準；縣府回應延長保固將再研議。",
+          "source": "https://dda.hsinchu.gov.tw/News_Content.aspx?n=3386&s=231030"
         }
       ],
       "past": []
@@ -384,6 +390,11 @@ window.ELECTION_DATA.races.push({
           "topic": "economy",
           "text": "擔任鄉鎮市民意代表期間提案建請公所研議普發每人 5,000 元現金，獲多名代表連署，公所未採納（2025 年）。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5284280"
+        },
+        {
+          "topic": "governance",
+          "text": "擔任鄉鎮市民意代表會副首長期間，主張刪除鄉公所 2026 年度預算中編列過高或說明不清的項目，包括老人文康中心 5,000 萬元室內裝修、每月約 4 萬元的公務車租賃及疑似重複採購的設備；公所報請縣府協商（2026 年 3 月）。",
+          "source": "https://www.fountmedia.io/article/360619"
         }
       ],
       "past": []

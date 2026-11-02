@@ -16,6 +16,7 @@
  * 已知缺漏：仍查無 2026 年具體政見者：曾國大 Masaw．Moto、林世偉、范經生、高忠正。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
  * 2026-11-02 第五輪補查：新增 1 則政見、2 則經歷。
+ * 2026-11-02 第六輪補查：新增 0 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -44,6 +45,11 @@ window.ELECTION_DATA.races.push({
           "topic": "economy",
           "text": "2026 年 7 月颱風重創尖石水蜜桃產區近五成後，與縣府及地方民意代表共同發起水蜜桃緊急認購。",
           "source": "https://tw.news.yahoo.com/巴威颱風重創產區近五成-徐欣瑩-楊文科-曾國大發起水蜜桃緊急認購-085704988.html"
+        },
+        {
+          "topic": "welfare",
+          "text": "擔任鄉級首長期間成立行動志工團，招募全鄉志工關懷弱勢家戶。",
+          "source": "https://n.yam.com/Article/20260116687989"
         }
       ],
       "past": []

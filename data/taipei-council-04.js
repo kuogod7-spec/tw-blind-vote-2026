@@ -20,6 +20,8 @@
  * 2026-11-02 第五輪補查：新增 5 則政見、4 則經歷（多為 2026 年議會質詢中的具體要求）。
  *   已知缺漏（2026-11-02 更新，仍查無 2026 年具體政見）：朱政騏、熊羿、李易儒、葉林傳、黃麗香、陳怡君。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
+ * 2026-11-02 第六輪補查：新增 4 則政見、0 則經歷（tpc4-13 為 2026 年議會質詢／公開要求，tpc4-10 為 2026-09 協調會中的具體要求）。
+ *   已知缺漏（2026-11-02 第六輪後，仍查無 2026 年具體政見）：朱政騏、熊羿、李易儒、黃麗香。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-04",
@@ -637,7 +639,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 14
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "加快大直倒塌建物受災戶的都更重建程序",
+          "detail": "2026-09 受災戶協調會中責成市府加快都更重建程序，以解決受災戶租金支付中斷問題。",
+          "source": "https://news.pchome.com.tw/living/m00361/20260908/index-78881840040223361009.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -845,7 +854,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 12
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "改善大同區承德路與錦西街口庇護島施工品質",
+          "detail": "2026-01 提出；指該處庇護島高度僅約 5 公分、標線剝落、反光立桿螺絲未鎖緊，要求市府首長偕交通工程單位實地會勘。交通工程單位回應廠商施工不符規定，將依約開罰並限期改善。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5302976"
+        },
+        {
+          "topic": "housing",
+          "title": "清查並改善社會住宅消防安全缺失",
+          "detail": "2026-05 市政總質詢指南港機廠社宅停車場鋼構防火披覆破損、防火門無法閉合、逃生梯照明全無、部分樓層缺滅火器，另指興隆社宅 A、E 區漏水壁癌；市府允諾即刻處理，並清查營運逾 10 年的社宅。",
+          "source": "https://udn.com/news/story/7323/9532059"
+        },
+        {
+          "topic": "safety",
+          "title": "北門捷運站周邊塌陷後進行地下掏空檢測",
+          "detail": "2026-06 塌陷事故後提出；要求建管與新建工程單位針對高架橋沿線結構及地下土層做掏空檢測，以透地雷達巡檢，並在坍塌處周圍設置地體變形監測，避免波及市民大道高架橋。",
+          "source": "https://newtalk.tw/news/view/2026-06-10/1040513"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

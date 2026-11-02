@@ -9,9 +9,11 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
- * 已知缺漏：仍查無 2026 政見者：陳安淇、張耿輝、戴璟安。
+ * 已知缺漏：仍查無 2026 政見者：陳安淇、戴璟安（第六輪補查後）。
  * 2026-10-19 第四輪補查：新增 2 則政見、1 則經歷。
  * 2026-11-02 第五輪補查：新增 1 則政見、1 則經歷。
+ * 2026-11-02 第六輪補查：新增 8 則政見、3 則經歷。
+ * 第六輪新增的議會提案來自基隆市議會議事檢索（https://www.kmc.gov.tw/kmcweb/#/motion ，單頁應用程式無個別提案網址，以提案人姓名查詢第 20 屆第 7 次定期會〔2026 年 5–6 月〕及第 19–23 次臨時會），只收本人為唯一提案人的提案。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -243,12 +245,76 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "光明路停車場改建多目標立體停車場並遷入部分市府機關",
+          "detail": "改善七堵市區停車位不足，推動七堵成為副都心；2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "長興公園興建地下停車場，地面興建國民運動中心",
+          "detail": "2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取國道 1 號五堵交流道增設七堵北出匝道",
+          "detail": "減輕五堵交流道尖峰負荷；2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "公路客運 1573 路線延伸至調和街轉運站並評估新闢七堵國道客運",
+          "detail": "2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "environment",
+          "title": "七堵區長興社區污水接管",
+          "detail": "2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "transport",
+          "title": "俊賢路與大華二路口評估設置智慧號誌",
+          "detail": "紓解車流；2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "economy",
+          "title": "七堵區設置農漁產品、伴手禮及地方創生商品展售中心",
+          "detail": "增加在地業者產銷管道；2026 年 5 至 6 月議會定期會提案，經大會通過。",
+          "source": "https://www.kmc.gov.tw/kmcweb/#/motion"
+        },
+        {
+          "topic": "education",
+          "title": "推動明德國中中正堂改建並增設地下停車場",
+          "detail": "2026 年 9 月議會質詢追問改建計畫；市府答詢規劃將中正堂與風雨操場改建為多功能活動中心及停車場，或將運動操場改建為地下停車場，約 133 至 140 個汽車停車格。",
+          "source": "https://www.youtube.com/watch?v=O9-YDRXwbn8"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
           "text": "2024 年 1 月受理陳情後會同市府工務單位與學校會勘，爭取中央行人安全計畫經費改善長興國小旁人行道，2026 年 10 月完成路面刨鋪。",
           "source": "https://www.cdns.com.tw/articles/1478815"
+        },
+        {
+          "topic": "safety",
+          "text": "2026 年 8 月邀集市府工務單位、中央河川管理單位與區公所會勘七堵區崇智橋段防汛步道裂縫，河川管理單位表示 10 月前灌漿填補。",
+          "source": "https://www.youtube.com/watch?v=Y_vfptVb8Qo"
+        },
+        {
+          "topic": "safety",
+          "text": "2026 年 9 月暴雨後邀集市府產業發展單位與區公所會勘瑪西里福民橋段道路破損及瑪東里農路邊坡滑動，市府表示將依程序提報復舊工程。",
+          "source": "https://www.youtube.com/watch?v=IOj1tQmxz8M"
+        },
+        {
+          "topic": "governance",
+          "text": "2022–2026 年任期內累計完成 185 項民政、工務、交通、產業等基層建設（本人說法）。",
+          "source": "https://www.epochtimes.com/b5/26/9/3/n14842130.htm"
         }
       ],
       "past": [

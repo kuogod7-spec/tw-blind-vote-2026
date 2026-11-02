@@ -14,6 +14,7 @@
  * 已知缺漏（2026-11-02）：仍查無 2026 年政見：陳以樂。
  * 2026-10-19 第四輪補查：新增 3 則政見、1 則經歷（皆為許昭興，取自本人社群貼文所述 2026 年 10 月市政總質詢與會勘）。
  * 2026-11-02 第五輪補查：新增 0 則政見、0 則經歷（新聞與網路搜尋僅見初選與聯合活動報導，查無本人政見）。
+ * 2026-11-02 第六輪補查：新增 0 則政見、1 則經歷（陳以樂任里長期間作為 1 則；初選與聯合活動報導仍無本人政見）。
  * 號次：依新北市選委會「市議員選舉候選人姓名號次抽籤結果一覽表」（2026-10-27，https://web.cec.gov.tw/tpcec/article/65361 ；https://web.cec.gov.tw/api/file/efe116ff-946f-4772-b3d2-f7f97a9dde25.pdf ）核對無誤（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -175,6 +176,11 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "擔任里長期間向市府交通單位建議增設公車站與 YouBike 站點（本人說法；是否採納未查證）。",
           "source": "https://www.zencosmos.com.tw/2023/08/village/42824/"
+        },
+        {
+          "topic": "safety",
+          "text": "擔任里長期間推動智慧巡守，並成立銀髮俱樂部。",
+          "source": "https://udn.com/news/story/124652/9478240"
         }
       ],
       "past": [
