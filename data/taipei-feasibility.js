@@ -71,5 +71,5 @@ window.FEASIBILITY = Object.assign(window.FEASIBILITY || {}, {
   // 興建 12 座核能電廠
   "tpm-5-p0": {"track":"long","level":"low","authority":"low","maturity":"low","financing":"low","schedule":"low","stage":"僅列項目名稱","horizon":"無法預估","reason":"核能電廠興建屬中央能源與核安主管機關權限，市府依法無權核准或興建。興建 12 座需選址、環評、核安審查與大量資金，未說明地點、期程與財源，存在根本障礙。","sources":[]},
   // 推動岩漿發電
-  "tpm-5-p1": {"track":"long","level":"low","authority":"medium","maturity":"low","financing":"unclear","schedule":"low","stage":"僅列項目名稱","horizon":"無法預估","reason":"地熱發電須經中央能源主管機關核准，市府可推動示範計畫。直接利用岩漿發電全球尚無商轉先例，仍屬研究階段；且潛在場域多在國家公園範圍，開發限制多。未說明做法、期程與財源。","sources":[]},
+  "tpm-5-p1": {"track":"long","level":"low","authority":"medium","maturity":"low","financing":"unclear","schedule":"low","stage":"僅列項目名稱","horizon":"無法預估","reason":"發電設施須經中央能源主管機關許可，市府只能推動或爭取。直接利用岩漿發電目前仍在試驗階段，冰島相關計畫自稱是史上第一個設計直接鑽入岩漿的研究試驗場，尚無商轉電廠；政見未說明場址、做法、期程與財源。","sources":["https://kmt.is/"]},
 });
