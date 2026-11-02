@@ -8,9 +8,10 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 第 20 位候選人以「王妃天崩開局穿越整頓霸凌者佀廣洋」為登記姓名，與第 19 位候選人佀廣洋為不同人（見 NOWnews 2026-10 報導），照登記名收錄。
- * 已知缺漏：朱永煇、許孟祥、李凱倫、佀廣洋、王妃天崩開局穿越整頓霸凌者佀廣洋查無可收錄的政見與經歷；詹江村、李光達、于北辰、余信憲、黃瓊慧、李柏瑟、黃家齊仍查無 2026 年具體政見（第四輪補查後）。
+ * 已知缺漏：朱永煇、許孟祥、李凱倫、王妃天崩開局穿越整頓霸凌者佀廣洋查無可收錄的政見與經歷；佀廣洋僅有司法事件經歷、查無政見；黃瓊慧仍查無 2026 年具體政見（第五輪補查後）。
  * 2026-10-16 中選會審定：原 tyc1-8 蕭湘瀚因妨害公務等案件尚未執行完畢，依選罷法第 26 條第 9 款不得登記，已移除（https://news.ltn.com.tw/news/Taipei/breakingnews/5608512）。審定後 19 人。
  * 2026-10-19 第四輪補查：新增 38 則政見、1 則經歷；政見取自 2026 年議會質詢中的具體要求與登記時公布的政見報導；第 20 位候選人的參選訴求僅見於電視節目來賓轉述且帶諷刺性質，未收。
+ * 2026-11-02 第五輪補查：新增 16 則政見、1 則經歷；政見多取自 2026 年議會質詢中的具體要求；另一候選人競選總部報導中由市長參選人轉述的議題方向（非本人提出）未收。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -155,7 +156,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 11
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "市立游泳池由零星修繕改為整體翻修",
+          "detail": "2026 年 9 月議會總質詢提出。",
+          "source": "https://n.yam.com/Article/20260923327903"
+        },
+        {
+          "topic": "transport",
+          "title": "以合理補貼維持必要的虧損公車路線，並建立駕駛服務獎懲制度",
+          "detail": "2026 年 9 月議會總質詢提出，要求解決公車準點率、脫班及駕駛不足問題。",
+          "source": "https://n.yam.com/Article/20260923327903"
+        },
+        {
+          "topic": "governance",
+          "title": "整合跨局處重大工程，避免道路反覆開挖",
+          "detail": "2026 年 9 月議會總質詢提出。",
+          "source": "https://n.yam.com/Article/20260923327903"
+        },
+        {
+          "topic": "education",
+          "title": "強化特殊學生陪伴輔導與教師支持機制",
+          "detail": "2026 年 9 月議會總質詢提出，要求特殊學生有專人陪伴與輔導，並強化校園通報、輔導及教師安全保障。",
+          "source": "https://n.yam.com/Article/20260923327903"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -440,7 +466,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 15
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "爭取捷運橘線列為第二階段優先路線並改採中運量系統",
+          "detail": "2026 年 8 月議會總質詢提出，期望貫穿南北桃園，未來延伸連接青線至青埔；未提出期程。",
+          "source": "https://n.yam.com/Article/20260819986233"
+        },
+        {
+          "topic": "welfare",
+          "title": "敬老卡額度由 800 點提高至 1,000 點並擴大使用項目",
+          "detail": "2026 年 4 月議會質詢提出，指該卡每年使用率約僅三成。",
+          "source": "https://n.yam.com/Article/20260429474400"
+        },
+        {
+          "topic": "education",
+          "title": "研議坐月子期間每月 5,000 元營養補助",
+          "detail": "2026 年 4 月議會質詢要求市府研議，對象為孕婦及照顧配偶，作為中央生育補助以外的支持。",
+          "source": "https://n.yam.com/Article/20260429474400"
+        },
+        {
+          "topic": "transport",
+          "title": "加速規劃捷運青線並提出往返青埔的替代道路方案",
+          "detail": "2026 年 4 月議會質詢提出，並要求中路重劃區的都市發展與交通建設同步推進。",
+          "source": "https://n.yam.com/Article/20260429474400"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -640,7 +691,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 9
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "以大數據分析通勤尖峰，成立應變車隊支援國道客運",
+          "detail": "2026 年 9 月議會質詢提出，針對 9005、9023 路線週一及週四、週五尖峰時段。",
+          "source": "https://n.yam.com/Article/20260915606578"
+        },
+        {
+          "topic": "safety",
+          "title": "建立毒駕風險地圖並充實防護裝備",
+          "detail": "2026 年 9 月議會質詢提出，建議適度揭露高風險路線提醒用路人，並研發讓毒駕車輛立即失去動力的技術。",
+          "source": "https://n.yam.com/Article/20260915606578"
+        },
+        {
+          "topic": "welfare",
+          "title": "依長者人數彈性增設社區關懷據點",
+          "detail": "2026 年 9 月議會質詢提出，認為人口較多的里維持「一里一處」不敷需求。",
+          "source": "https://n.yam.com/Article/20260915606578"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -730,7 +800,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "建立公車脫班陳情的完整追蹤流程並掌握裁罰與改善機制",
+          "detail": "2026 年 9 月議會總質詢提出，要求市府檢視脫班成因與改善成效，認為僅增加駕駛人力不足以解決。",
+          "source": "https://n.yam.com/Article/20260921124003"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1209,7 +1286,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 16
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動騎樓整平、人行道淨空與路口無障礙改善",
+          "detail": "2026 年 10 月參與輪椅移動體驗後表示列為政見重點；未指明路段。",
+          "source": "https://www.setn.com/news/1924642"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1281,7 +1365,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 10
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "檢討孕婦乘車服務的付款與派單機制",
+          "detail": "2026 年 9 月議會總質詢提出，指孕婦以補助券叫車常無人接單、改用信用卡則很快有車，要求市府從使用及執行面檢視成效。",
+          "source": "https://n.yam.com/Article/20260914519575"
+        },
+        {
+          "topic": "education",
+          "title": "盤點匹克球場地並建立公開場地地圖",
+          "detail": "2026 年 9 月議會總質詢要求體育主管機關一個月內盤點專用及可用場地的數量、位置與開放時間，並評估運動中心、公園、學校及多功能球場改造。",
+          "source": "https://n.yam.com/Article/20260914519575"
+        },
+        {
+          "topic": "environment",
+          "title": "要求提出補足清潔隊人力的明確期程",
+          "detail": "2026 年 9 月議會總質詢提出，指本市每名清潔隊員服務約 806 人，若比照新北標準約差 280 人。",
+          "source": "https://n.yam.com/Article/20260914519575"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -1401,7 +1504,13 @@ window.ELECTION_DATA.races.push({
         "number": 14
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "2026 年 10 月因涉嫌以替社區爭取垃圾子母車換取感謝狀、贊助中秋晚會摸彩品等方式變相行賄，遭檢方搜索並以違反選罷法投票行求賄賂罪嫌偵訊後，諭知 12 萬元交保；偵查中，尚未起訴。本人否認，稱未捐贈子母車、未出席該晚會，指為惡意檢舉。",
+          "source": "https://news.tvbs.com.tw/politics/4043452"
+        }
+      ]
     },
     {
       "id": "tyc1-20",

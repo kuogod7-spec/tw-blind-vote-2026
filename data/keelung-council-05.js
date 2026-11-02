@@ -9,8 +9,9 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
- * 已知缺漏：仍查無 2026 政見者：張家馨、俞叁發、秦鉦、黃永翔、黃忠賢、吳程澤、鄭愷玲、劉韋巡。
+ * 已知缺漏：仍查無 2026 政見者：張家馨、黃永翔、俞叁發、黃忠賢、吳程澤、劉韋巡。
  * 2026-10-19 第四輪補查：新增 3 則政見、1 則經歷。
+ * 2026-11-02 第五輪補查：新增 6 則政見、4 則經歷。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -34,6 +35,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任地方政府首長秘書。",
           "source": "https://udn.com/news/story/124652/9407574"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 7 月參與接力絕食抗議，訴求中央政府正視致癌物超標食用油的食安問題。",
+          "source": "https://udn.com/news/story/124948/9641697"
         }
       ]
     },
@@ -55,6 +61,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾遭地方法院以使公務員登載不實罪判決（報導未載明刑度及是否確定），原所屬政黨於 2026 年 7 月據此將其除名並撤銷提名；本人表示除名係依匿名檢舉拼湊內容，感到遺憾，並改以無黨籍參選。",
           "source": "https://udn.com/news/story/7328/9648555"
+        },
+        {
+          "topic": "education",
+          "text": "擔任地方家長團體理事暨幼兒學程召集人，並擔任更生保護團體志工，訪視陪伴更生人（本人說法）。",
+          "source": "https://bo6s.com.tw/news_detail.php?NewsID=116031"
         }
       ]
     },
@@ -133,7 +144,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "安樂路二段未施作路段縮減人行道寬度、優先維持車道",
+          "detail": "人行道拓寬造成機車道消失、事故增加，2026 年 3 月會勘時建議調整自強隧道出口右側人行道寬度，人行道設計應因地制宜、不宜一體適用",
+          "source": "https://www.cdns.com.tw/articles/1377698"
+        },
+        {
+          "topic": "welfare",
+          "title": "改建後的市立田徑場設施免費開放市民使用",
+          "detail": "2026 年 3 月議會中與多名議員共同要求田徑場設施免費開放，或研議差別費率（市民優惠、外縣市民一般收費）",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5361815"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -191,7 +215,13 @@ window.ELECTION_DATA.races.push({
         "number": 1
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "safety",
+          "text": "以地方關懷協會理事長身分，2026 年 8 月結合企業捐贈市警察局 1,000 劑毒品唾液快篩試劑，供查緝毒駕使用。",
+          "source": "https://n.yam.com/Article/20260820975691"
+        }
+      ]
     },
     {
       "id": "klc5-6",
@@ -360,8 +390,39 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 12
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "國道聯外道路改用既有巷道路幅銜接交流道",
+          "detail": "安樂區國一至國三聯外道路第一階段，主張利用麥金路 3 巷既有路幅（已通行二、三十年），拓寬國道管理機關土地後銜接國一交流道，以減少工程費、環境擾動與用地取得難度；2026 年 5 月定期會提出",
+          "source": "https://www.cdns.com.tw/articles/1407186"
+        },
+        {
+          "topic": "transport",
+          "title": "假日塞車尖峰時段主幹道號誌同步",
+          "detail": "短期措施：假日尖峰時段將主幹線交通號誌調整一致，舒緩車流；2026 年 5 月定期會提出",
+          "source": "https://www.cdns.com.tw/articles/1407186"
+        },
+        {
+          "topic": "transport",
+          "title": "捷運二階規劃保留台鐵，與捷運並存",
+          "detail": "反對以捷運取代台鐵（「廢鐵換捷」），認為郵輪母港需要台鐵；2026 年 5 月定期會提出",
+          "source": "https://www.cdns.com.tw/articles/1407186"
+        },
+        {
+          "topic": "welfare",
+          "title": "改建後的市立田徑場設施免費開放市民使用",
+          "detail": "2026 年 3 月議會中與多名議員共同要求田徑場設施免費開放，或研議差別費率（市民優惠、外縣市民一般收費）",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5361815"
+        }
+      ],
+      "record": [
+        {
+          "topic": "transport",
+          "text": "協調市府與電力公司，將安樂路一段自強隧道口公車站旁 3 根電線桿地下化、改設落地變電箱，舊候車亭已拆除、市府規劃新建（本人說法）。",
+          "source": "https://www.cdns.com.tw/articles/1436251"
+        }
+      ],
       "past": [
         {
           "role": "地方民意代表",

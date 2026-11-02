@@ -8,8 +8,9 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 林明義：2022 年選舉公報第 2 選區有同名參選人，但無來源確認為同一人，未收其過去紀錄。
- * 已知缺漏：呂學記、陳泓維查無可收錄資料；陳泓維僅有理念性陳述（新世代、貼近生活需求），未收。陳雅倫、李宗豪、林明義、江冠妤、高華駿仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
+ * 已知缺漏：呂學記查無可收錄經歷（只有頭銜，未收）。仍查無 2026 年具體政見：陳泓維（僅有理念性陳述：新世代、貼近生活需求，未收）、江冠妤、高華駿（僅有「打造宜居城市」等方向性陳述，未收）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷；本輪搜尋額度用盡，僅補查到 1 位現任者的議會具體要求，其餘候選人待選舉公報發布後再補。
+ * 2026-11-02 第五輪補查：新增 14 則政見、2 則經歷（含 1 則偵查中司法事件）。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -27,7 +28,32 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "評估捷運路網由迴龍延伸至機場捷運 A7 站",
+          "detail": "主張評估捷運土城線相關路網由迴龍延伸至 A7 站的可行性，延伸約 4 至 5 公里。",
+          "source": "https://new-reporter.com/news/281586/"
+        },
+        {
+          "topic": "transport",
+          "title": "推動國道一號甲線相關路網延伸",
+          "detail": "構想由文林坑一帶往林口特定區方向銜接，經舊路、兔子坑等區域，強化龜山與新北市土城一帶產業聚落的交通連結。",
+          "source": "https://new-reporter.com/news/281586/"
+        },
+        {
+          "topic": "transport",
+          "title": "打通華亞科技三路銜接縱貫一路並規劃輔助道路",
+          "detail": "建議經迴龍萬壽路一段 634 巷一帶規劃約 2.5 公里、40 公尺寬道路作為輔助路網；路線、用地與經費仍待評估。",
+          "source": "https://new-reporter.com/news/281586/"
+        },
+        {
+          "topic": "economy",
+          "title": "推動龜山智慧科學園區規劃",
+          "detail": "整合龜山產業園區、華亞科技園區等既有產業資源，並同步檢視周邊交通與公共設施。",
+          "source": "https://new-reporter.com/news/281586/"
+        }
+      ],
       "record": []
     },
     {
@@ -37,7 +63,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 9
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "A7 產業專用區住宅污水幹管延管費用由市府負擔",
+          "detail": "主張研議補貼並訂出明確工程期程；接管完成前協助居民處理抽水肥等過渡問題。",
+          "source": "https://n.yam.com/Article/20260910929541"
+        },
+        {
+          "topic": "environment",
+          "title": "評估公共設施保留地轉作公園",
+          "detail": "建議評估公置三、公置七轉作公園的可行性，並建立公園建設 SOP，避免規劃一再縮減。",
+          "source": "https://n.yam.com/Article/20260910929541"
+        },
+        {
+          "topic": "safety",
+          "title": "迴龍消防分隊配合捷運與都市發展整體規劃",
+          "detail": "分隊已逾 30 年、空間狹小；市府規劃 116 至 118 年度編列約 4,000 萬元耐震補強修繕，主張提前整體規劃消防、圖書館與公共空間。",
+          "source": "https://n.yam.com/Article/20260910929541"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -146,7 +191,38 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "研議龜山舊城區都市更新與老城再生方案",
+          "detail": "要求針對萬壽路、大同路及既有市區，結合捷運棕線場站周邊 TOD 與都市計畫調整，增加公共設施空間、改善老舊街廓與人行環境。",
+          "source": "https://n.yam.com/Article/20260917775064"
+        },
+        {
+          "topic": "environment",
+          "title": "優先補足龜山區清潔隊員額",
+          "detail": "龜山每名清潔隊員服務約 861 人、負荷居全市第二；主張員額分配納入服務人口、人口成長與實際活動人口。",
+          "source": "https://n.yam.com/Article/20260831230948"
+        },
+        {
+          "topic": "environment",
+          "title": "將龜山山區納入非法棄置智慧圍籬布建",
+          "detail": "第一期 24 處點位未含龜山；要求依棄置熱點與陳情案件重新評估，優先納入大坑、大崗一帶高風險山區。",
+          "source": "https://n.yam.com/Article/20260831230948"
+        },
+        {
+          "topic": "environment",
+          "title": "強化深夜噪音車科技執法",
+          "detail": "要求檢討聲音照相設備位置與辨識精準度，深夜熱區加強固定式設備，並落實夜間、累犯加重裁罰。",
+          "source": "https://n.yam.com/Article/20260831230948"
+        },
+        {
+          "topic": "environment",
+          "title": "加速取得用地、完整開闢樂善與長樂公園綠廊",
+          "detail": "公園用地 1 萬 6737 平方公尺中僅 288 平方公尺未取得，拖延 1 年；市府已編列 6,000 餘萬元協議價購。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5577566"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -241,12 +317,35 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 7
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動捷運棕線加速興建與路網銜接",
+          "detail": "縫合龜山與桃園市中心及新北市大眾運輸系統，提升轉乘便捷度。",
+          "source": "https://www.taiwanhot.net/news/1152638/%E6%9E%97%E6%98%8E%E7%BE%A9%E7%99%BC%E5%B8%83%E9%BE%9C%E5%B1%B1%E4%BA%A4%E9%80%9A%E7%99%BD%E7%9A%AE%E6%9B%B8%EF%BC%9A%E6%8E%A8%E5%8B%95%E3%80%8C%E6%A3%95%E7%B7%9A%E3%80%8D%E7%B8%AB%E5%90%88%E5%A4%A7%E7%9C%BE%E8%B7%AF%E7%B6%B2+%E8%A6%8F%E5%8A%83%E3%80%8C%E9%8A%80%E7%B7%9A%E3%80%8D%E7%B4%93%E8%A7%A3%E8%8F%AF%E4%BA%9E%E5%9C%92%E5%8D%80%E9%80%9A%E5%8B%A4%E6%BD%AE"
+        },
+        {
+          "topic": "transport",
+          "title": "爭取規劃捷運銀線服務華亞科技園區通勤",
+          "detail": "針對華亞科技園區、A7 重劃區及長庚醫療園區通勤需求，主張加速爭取規劃銀線路網，分流主要幹道車流。",
+          "source": "https://www.taiwanhot.net/news/1152638/%E6%9E%97%E6%98%8E%E7%BE%A9%E7%99%BC%E5%B8%83%E9%BE%9C%E5%B1%B1%E4%BA%A4%E9%80%9A%E7%99%BD%E7%9A%AE%E6%9B%B8%EF%BC%9A%E6%8E%A8%E5%8B%95%E3%80%8C%E6%A3%95%E7%B7%9A%E3%80%8D%E7%B8%AB%E5%90%88%E5%A4%A7%E7%9C%BE%E8%B7%AF%E7%B6%B2+%E8%A6%8F%E5%8A%83%E3%80%8C%E9%8A%80%E7%B7%9A%E3%80%8D%E7%B4%93%E8%A7%A3%E8%8F%AF%E4%BA%9E%E5%9C%92%E5%8D%80%E9%80%9A%E5%8B%A4%E6%BD%AE"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
           "text": "擔任地方宗教團體董事長。",
           "source": "https://www.ettoday.net/news/20260520/3169265.htm"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 10 月因涉嫌於同年 4 月利用擔任寺廟董事長身分，以寺廟名義挪用公款招待龜山區各里里長赴澎湖旅遊 3 天，遭檢方以涉犯選罷法投票行賄及刑法公益侵占罪嫌聲請羈押禁見，法院訊問後裁定 16 萬元交保；偵查中，尚未起訴。",
+          "source": "https://tw.news.yahoo.com/%E6%8B%9B%E5%BE%85%E9%87%8C%E9%95%B7%E5%87%BA%E9%81%8A%E6%B6%89%E8%B3%84-%E8%AD%B0%E5%93%A1%E5%80%99%E9%81%B8%E4%BA%BA%E6%9E%97%E6%98%8E%E7%BE%A916%E8%90%AC%E4%BA%A4%E4%BF%9D-011446371.html"
+        },
+        {
+          "topic": "governance",
+          "text": "針對上述招待旅遊案，本人發表聲明稱該活動為寺方依章程辦理的常態交流行程，絕無選舉對價關係，尊重司法並將配合調查。",
+          "source": "https://n.yam.com/Article/20261101396200"
         }
       ]
     },

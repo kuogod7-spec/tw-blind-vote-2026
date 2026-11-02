@@ -9,8 +9,9 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
- * 已知缺漏：仍查無 2026 政見者：陳明建、拔耐．茹妮老王。
+ * 已知缺漏：仍查無 2026 政見者：拔耐．茹妮老王。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 1 則政見、0 則經歷。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -28,7 +29,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "建議評估設立原住民族事務專責局處",
+          "detail": "2026 年議會質詢時以本市原住民人口增加、需求多元為由提出；未提出期程。",
+          "source": "https://www.cdns.com.tw/articles/1468340"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

@@ -17,6 +17,8 @@
  * 已知缺漏（2026-10-19 更新）：朱政騏、熊羿、李易儒、柳采葳、林亮君、葉林傳、黃麗香、林珍羽、陳怡君仍查無 2026 年具體政見
  *   （現任者 2026 年報導多為對他黨候選人的批評或事件回應；報導者觀測站提案資料只到 2025 年，未當作 2026 年政見）。
  * 2026-10-19 第四輪補查：新增 3 則政見、6 則經歷（含朱政騏、葉林傳、陳怡君的司法案件，均尚未判決確定）。
+ * 2026-11-02 第五輪補查：新增 5 則政見、4 則經歷（多為 2026 年議會質詢中的具體要求）。
+ *   已知缺漏（2026-11-02 更新，仍查無 2026 年具體政見）：朱政騏、熊羿、李易儒、葉林傳、黃麗香、陳怡君。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -397,7 +399,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "公園遊戲場增設遮陽設施",
+          "detail": "2026-05 議會質詢實測遊具表面溫度近 60 度，要求比照其他縣市以自治權限訂定免辦建築執照處理原則，突破建蔽率限制設置遮陽；市府指示成立專案小組，一個月內處理法規問題並選定示範公園。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5461428"
+        },
+        {
+          "topic": "environment",
+          "title": "訂定吸菸區距離標準並改善查詢與清潔維護",
+          "detail": "2026-05 議會質詢要求設立無菸城市資訊專區定期公開、訂定吸菸區與公共設施及民居的距離標準、設置前與里辦公處及住戶溝通、編列清潔人力預算，並為吸菸區地圖補上照片與英語介面、串接國際通用地圖。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5441343"
+        },
+        {
+          "topic": "education",
+          "title": "協調團膳業者並訂定校園午餐招標備援計畫",
+          "detail": "2026-07 指出全市約六成國中小午餐案未決標，要求教育主管機關邀集團膳業者協調，針對高規格食材價格波動與偏遠學校運輸成本建立補貼機制，並訂定開學備援計畫。",
+          "source": "https://news.tvbs.com.tw/politics/3272097"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -489,7 +510,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "以累計歲計賸餘普發每位市民 2 萬 1 千元",
+          "detail": "2026-08 表示將在議會再次提案（前一年已與其他議員提出相同主張），金額依市府累計歲計賸餘試算；要求市府正式說明。",
+          "source": "https://www.fountmedia.io/article/414775"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -520,6 +548,11 @@ window.ELECTION_DATA.races.push({
           "topic": "safety",
           "text": "2026-04 議會質詢要求市府投放滅鼠藥時依自訂指引置於隱蔽處、使用鼠餌盒並張貼警語，避免兒童與寵物誤觸。",
           "source": "https://newtalk.tw/news/view/2026-05-04/1033185"
+        },
+        {
+          "topic": "welfare",
+          "text": "2026-10 警方搜索同志酒吧引發執法爭議後，辦公室開設專案法律諮詢與心理健康諮詢，協助媒合律師與諮商心理師。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5596102"
         }
       ],
       "past": [
@@ -713,7 +746,14 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": 8
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "依人流與違規熱點規劃吸菸區，建立吸菸亭認養管理",
+          "detail": "2026-04 市政質詢要求依人流、違規熱點與動線選址設置吸菸區並評估數量是否足夠，為負壓式吸菸亭建立統一管理模式、開放企業認養；市府首長答詢允諾研議導入企業或民間資源認養。",
+          "source": "https://cnews.com.tw/174260411a01/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -729,6 +769,11 @@ window.ELECTION_DATA.races.push({
           "topic": "welfare",
           "text": "質詢要求設置戶外吸菸室；市府其後除西門町外，也在中山區設置負壓吸菸室。",
           "source": "https://udn.com/news/story/124652/9494120"
+        },
+        {
+          "topic": "governance",
+          "text": "任內要求公務人員訓練課程將性別平等列為專門課程，且須上滿實體課（本人說法）。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5625038"
         }
       ],
       "past": [
@@ -831,6 +876,16 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "涉詐領助理費及收受建商賄賂，一審依利用職務機會詐取財物、不違背職務收受賄賂等罪判處有期徒刑 7 年 10 月、褫奪公權 5 年；2026-10 二審審理中，尚未確定。本人否認犯罪，辯方主張相關款項用於其他公務支出。",
           "source": "https://news.cts.com.tw/cna/society/202610/202610153090023.html"
+        },
+        {
+          "topic": "governance",
+          "text": "2026-04 財建部門質詢指出永樂市場外牆磁磚剝落、滅火器與電梯許可過期，以及攤商與顧客個資文件堆放於樓上空間；市場主管機關答詢表示即刻檢討。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5414759"
+        },
+        {
+          "topic": "welfare",
+          "text": "爭取國中小、高中職學生生理用品免費，並促成開設戒賭門診、凍卵補助（本人說法）。",
+          "source": "https://tdns.net.tw/news_view.php?new_sn=147943"
         }
       ],
       "past": [

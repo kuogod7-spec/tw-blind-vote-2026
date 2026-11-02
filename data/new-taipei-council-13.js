@@ -14,8 +14,9 @@
  * 第三輪補查（2026-10-14）：羅美菁補上 1 則經歷（報導轉述其參選貼文，標為本人說法）；6 人仍查無 2026 年具體政見
  *   （原視 2026-06-27、07-29、09-16 報導與各黨提名報導皆只有名單或概括描述，政見多屬市長參選人或政黨層級，不歸給個別議員候選人），
  *   王珍珍、林啟明仍查無任何可查證的經歷或政見。
- * 已知缺漏（2026-10-19）：仍查無 2026 年政見：何應明、布落‧馬信、王珍珍、馬見Lahuy‧Ipin、林啟明、羅美菁（全部 6 人）。
+ * 已知缺漏（2026-11-02）：仍查無 2026 年政見：何應明、布落‧馬信、王珍珍、林啟明、羅美菁（5 人）。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 1 則政見、1 則經歷（ntc13-4 2026 年議會質詢要求與預算審查作為）。何應明、布落‧馬信的競總與座談報導中，政見均屬同場市長參選人，不歸給議員候選人。
  * 號次：依新北市選委會「市議員選舉候選人姓名號次抽籤結果一覽表」（2026-10-27，https://web.cec.gov.tw/tpcec/article/65361 ；https://web.cec.gov.tw/api/file/efe116ff-946f-4772-b3d2-f7f97a9dde25.pdf ）核對無誤（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -123,7 +124,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "設立單一窗口，輔導烏來原鄉民宿合法化",
+          "detail": "2026 年 6 月議會質詢要求市府配合放寬的法規設立單一窗口、訂定具體流程，協助申請資格、房屋條件、結構安全與消防鑑定、法規諮詢等；市府同意設立，由區公所及相關局處協力。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5459066"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -149,6 +157,11 @@ window.ELECTION_DATA.races.push({
           "topic": "economy",
           "text": "提案開辦假日職訓課程並保留原住民名額；市府回覆已辦理原住民優先班 26 班。",
           "source": "https://lawmaker.twreporter.org/council/new-taipei/lawmaker/lahuy-ipin-new-taipei"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 1 月審查原民局預算時，將 30 餘個科目各刪減 1 元，使科目間無法流用，要求依年度預算計畫書執行。",
+          "source": "https://news.ipcf.org.tw/193090"
         }
       ],
       "past": [

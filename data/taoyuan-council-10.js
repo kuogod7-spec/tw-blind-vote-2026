@@ -11,8 +11,9 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
- * 已知缺漏（仍查無 2026 年具體政見）：吳平娥、張贊聞、林昭賢。
+ * 已知缺漏（仍查無 2026 年具體政見）：吳平娥。
  * 2026-10-19 第四輪補查：新增 8 則政見、1 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
+ * 2026-11-02 第五輪補查：新增 10 則政見、0 則經歷。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -160,7 +161,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "爭取國道客運尖峰時段增開由龍潭直接發車的班次",
+          "detail": "以 709 路為例，外地發車路線尖峰時段抵達龍潭時常已客滿、民眾需連等數班；表示當選後將向市府交通主管機關及客運業者反映，爭取評估",
+          "source": "https://www.chinatimes.com/realtimenews/20261022003481-260407"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -334,7 +342,62 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "龍潭科學園區三期擴建要求市府做好徵收溝通、安置補償與生態評估",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "transport",
+          "title": "舊圖書館旁公有停車場改建立體停車場，並開闢龍青路、東華街周邊道路",
+          "detail": "2026 年 9 月登記參選時公布的政見，目的為改善市區停車",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "transport",
+          "title": "拓寬湧光路，並爭取沿自由街、工二路、龍平路的橫向外環道路",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "economy",
+          "title": "推動龍潭都市計畫變更，活化原圖書館、區公所、代表會所在的行政區土地",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "economy",
+          "title": "爭取已報編未開發的烏樹林工業區納入中央工業主管機關所屬工業區",
+          "detail": "2026 年 9 月登記參選時公布的政見，目的為增加地方稅收與就業",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "transport",
+          "title": "推動機場捷運由中壢經平鎮延伸至龍潭、捷運綠線由八德延伸至龍潭",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "transport",
+          "title": "推動新梅龍快速道路，以及板橋沿大漢溪左岸至龍潭的環河快速道路",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取在北二高橋下新增匹克球場",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取提高客家事務主管機關對地方社團的補助款",
+          "detail": "2026 年 9 月登記參選時公布的政見",
+          "source": "https://www.fclnews.com/223013/"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

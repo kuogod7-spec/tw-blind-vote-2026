@@ -22,8 +22,10 @@
  *   （提名與登記報導只有名單或「持續為族人發聲」等概括描述；同場出現的具體政見屬市長參選人或政黨，不歸給個別議員候選人），platforms 維持空白；
  *   經歷亦無新增。吳建智、連祐崧、忠仁‧達祿斯除登記名單外，查無其他 2026 年參選報導。
  * 2026-10-14 依使用者決定補列司法事件：ntc12-4 經歷補列 2026 年 9 月涉嫌賄選交保一事（偵查中）。
- * 已知缺漏（2026-10-19）：仍查無 2026 年政見：忠仁‧達祿斯、吳國譽La‧Is‧Amid、蘇錦雄Paylang‧Caya、楊春妹、宋雨蓁Nikar‧Falong、吳建智、連祐崧（全部 7 人）。
+ * 已知缺漏（2026-11-02）：仍查無 2026 年政見：忠仁‧達祿斯、吳國譽La‧Is‧Amid、楊春妹、吳建智、連祐崧（5 人）。
  * 2026-10-19 第四輪補查：新增 0 則政見、2 則經歷（ntc12-1 2021 年賄選案判決確定與解職；同名且同為本市平地原住民選區議員，判斷為同一人）。
+ * 2026-11-02 第五輪補查：新增 2 則政見、1 則經歷（ntc12-3、ntc12-5 各 1 則 2026 年議會中的具體要求；ntc12-1 補 2026 年 10 月涉賄選交保，偵查中）。
+ *   吳建智、林啟明（13 區）登記時只說要協助族人就業創業、爭取部落建設，屬概括方向，未收。
  * 號次：依新北市選委會「市議員選舉候選人姓名號次抽籤結果一覽表」（2026-10-27，https://web.cec.gov.tw/tpcec/article/65361 ；https://web.cec.gov.tw/api/file/efe116ff-946f-4772-b3d2-f7f97a9dde25.pdf ）核對無誤（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -52,6 +54,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "上述賄選案 2021 年 12 月二審上訴駁回確定，依法解除當時的地方民意代表職務，由同選區落選者遞補。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/3779611"
+        },
+        {
+          "topic": "governance",
+          "text": "涉嫌於 2026 年 3 月以招待宴飲（約 18 桌）方式賄賂選民。10 月檢調搜索，檢方依選罷法投票行賄罪嫌聲請羈押，法院裁定 8 萬元交保並限制住居，偵查中。報導未見本人回應。",
+          "source": "https://www.cna.com.tw/news/asoc/202610160077.aspx"
         }
       ],
       "past": [
@@ -225,7 +232,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 7
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "housing",
+          "title": "檢討原民住宅租期規定，為弱勢族人建立彈性續租機制",
+          "detail": "2026 年 9 月議會質詢要求市府重新檢視原民住宅租期屆滿即退場的規定，對沒有其他居住選項的弱勢族人建立續租或例外機制，並檢討欠租靠人工逐筆核對的管理方式；市府表示本波續約完成後檢討。",
+          "source": "https://udn.com/news/story/7323/9752978"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -450,7 +464,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "全面強化失聯與非法移工稽查",
+          "detail": "2026 年 4 月中央研議擴大引進移工來源國時表示，應先解決非法用工問題，讓稽查機制更全面。",
+          "source": "https://news.ipcf.org.tw/199864"
+        }
+      ],
       "record": [
         {
           "topic": "transport",

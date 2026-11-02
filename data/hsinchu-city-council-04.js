@@ -9,8 +9,9 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
- * 已知缺漏：仍查無 2026 年具體政見者：彭昆耀、王雲慶、蕭志潔、林士凱、曾國維、黃美慧、楊玲宜、鄭慶欽、林彥甫、吳旭豐、許竹見、孫宗孝、蔡文盛（現任者的議會提案列於 record）。
+ * 已知缺漏：仍查無 2026 年具體政見者：彭昆耀、王雲慶、林士凱、曾國維（現任者的議會提案列於 record）。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 12 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -112,7 +113,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "要求完善市立棒球場大型賽事散場交通疏運",
+          "detail": "於議會指出市立棒球場 11 月起將舉辦約 1.5 萬名觀眾規模的賽事，要求交通處完善散場疏運機制，並同時保障周邊住戶、補習班、商家及棒球場地下停車場月租戶的權益。",
+          "source": "https://udn.com/news/story/7324/9778415"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -188,7 +196,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 8
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "推動客語跨局處推廣，市府總機增設客語語音選項",
+          "detail": "於議會指出本市客語認證率低於全國平均、相關計畫欠缺量化指標，建議客語推廣由文化、教育、民政、行政及產業等局處共同負責，增加日常使用機會；具體建議包括市府總機語音增設客語選項，以及在客家聚落的關東市場設置客語問候標示。市府回應將朝總機增設客語選項辦理，市場部分將研議。",
+          "source": "https://udn.com/news/story/7324/9799756"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -254,7 +269,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 7
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "推動台大醫院新竹分院湳雅院區興建",
+          "detail": "於議會質詢指出湳雅院區擴建案多年未有進展，急診滯留 48 小時的比例上升，要求市府推動院區興建，紓解在地醫療量能不足。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5583802"
+        },
+        {
+          "topic": "environment",
+          "title": "活化閒置的湳雅退舍土地，建議改設公園",
+          "detail": "於議會建議活化已無人居住、閒置多時的湳雅退舍土地，例如改設公園，補足周邊公園綠地不足。",
+          "source": "https://www.thehubnews.net/archives/670136"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -341,7 +369,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 11
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "改善公園遊具高溫問題並加速增設遮陽設施",
+          "detail": "於議會要求市府在高溫時段抽測特色公園及鄰里遊戲場的遊具表面溫度；共融遊戲場新建或改建時納入遮陽率與樹蔭規畫；南寮、舊港及北區大型公園加速增設遮陽棚、遮陽網或噴霧降溫設備；評估以木屑、細砂或透水降溫材質取代高蓄熱橡膠地墊；並訂定高溫遊戲警示指引。市府回應將選定高使用率遊戲場量測溫度，今年預計改善 5 處。",
+          "source": "https://udn.com/news/story/7324/9797163"
+        },
+        {
+          "topic": "safety",
+          "title": "校園導入電子圍籬與即時通報系統，補足輔導人力",
+          "detail": "於議會要求市府檢測校園死角與無圍牆校區，導入智慧校園電子圍籬與即時通報系統協助校警人力，並補足學生輔導諮商中心的心理師與社工師編制。市府回應明年度已編列約 8,000 多萬元用於第一線校安人力與科技設備。",
+          "source": "https://tw.news.yahoo.com/%E5%96%AA%E5%B1%8D%E7%85%99%E5%BD%88-%E7%AB%84%E6%A0%A1%E5%9C%92%E5%AE%B6%E9%95%B7%E5%BF%83%E9%A9%9A-%E9%84%AD%E6%85%B6%E6%AC%BD%E6%8F%AA%E9%98%B2%E8%AD%B7%E6%AD%BB%E8%A7%92-%E6%95%99%E8%82%B2%E8%99%95%E6%80%A5%E7%A0%B88%E5%8D%83%E8%90%AC%E8%A3%9C%E7%A0%B4%E7%B6%B2-045254015.html"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -407,7 +448,14 @@ window.ELECTION_DATA.races.push({
         "party": "時代力量",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "住宅區飲酒店家比照麻將館實質審查",
+          "detail": "於議會建議市府對設於住宅區的飲酒店家，比照麻將館的實質審查方式把關，減少深夜酒客滋擾、維護住宅安寧。",
+          "source": "https://www.thehubnews.net/archives/670159"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -480,7 +528,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 13
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "爭取北門市場停車優惠與攤商月租折扣",
+          "detail": "於議會單位業務質詢針對北門市場提出優惠建議，包括停車優惠與攤商月租折扣；報導未說明優惠幅度。",
+          "source": "https://www.thehubnews.net/archives/670136"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -560,7 +615,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 10
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "改善基層運動設施，強化在地運動人才培育",
+          "detail": "競選總部成立時表示，將從基層訓練、場地建設與競技運動發展著手，推動教育與體育銜接、改善基層運動設施，強化在地培育機制；並將監督市立棒球場重啟與公共工程安全。尚未提出具體地點、預算或期程。",
+          "source": "https://www.cdns.com.tw/articles/1479562"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -571,7 +633,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 9
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "爭取社區共餐據點與公共托育資源",
+          "detail": "競選總部成立時表示將爭取北區的社區共餐據點及公共托育資源，兼顧長者與幼兒照顧；未提出數量或期程。",
+          "source": "https://www.thehubnews.net/archives/670695"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -582,7 +651,20 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": 12
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "盤點北區校園與運動設施並爭取修繕整建",
+          "detail": "提出盤點北區校園與體育設施，爭取修繕整建，因應匹克球等新興運動的場地需求。",
+          "source": "https://cnews.com.tw/174261028a07/"
+        },
+        {
+          "topic": "education",
+          "title": "本土語言認證獎勵金翻倍，本土語教師納入教師節禮金",
+          "detail": "與其他多名議員候選人聯合提出：本市原住民族語言能力認證及客語認證的獎勵金翻倍，並將原住民族語、客語、閩南語教師全面納入教師節禮金發放對象；未公布金額。",
+          "source": "https://udn.com/news/story/7324/9772662"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -593,6 +675,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任基層里長、國小家長會長。",
           "source": "https://eebulletin.cec.gov.tw/111/22%E6%96%B0%E7%AB%B9%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%96%B0%E7%AB%B9%E5%B8%82%E7%AC%AC04%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+        },
+        {
+          "topic": "economy",
+          "text": "擔任地方農產運銷公司高階主管期間，推動市場環境改善、垃圾減量，並加強農產品農藥殘留檢驗（本人說法）。",
+          "source": "https://cnews.com.tw/174261028a07/"
         }
       ],
       "past": [

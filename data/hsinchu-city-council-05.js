@@ -9,8 +9,9 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
- * 已知缺漏：仍查無 2026 年具體政見者：吳國寶、陳啓源、蔡志堅、陳慶齡、廖子齊（現任者的議會提案列於 record）。
+ * 已知缺漏：仍查無 2026 年具體政見者：蔡志堅（現任者的議會提案列於 record）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 9 則政見、0 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -70,7 +71,14 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "重新評估機場周邊噪音分級並擴大房屋稅減免",
+          "detail": "於議會指出近期軍機起降頻繁，緊鄰跑道的樹下里卻只列為二級噪音影響區，建議市府重新評估噪音分級、擴大受影響區域，給予相應的房屋稅減免（現行依級別減免一至三成）。",
+          "source": "https://www.thehubnews.net/archives/668632"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -248,7 +256,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "建議市府孵蛋計畫選址香山",
+          "detail": "於議會總質詢指出香山區長年發展遲緩，建議市府將孵蛋計畫選址於香山，帶動地方發展與人潮。",
+          "source": "https://www.thehubnews.net/archives/670706"
+        },
+        {
+          "topic": "transport",
+          "title": "推動美山聯絡道早日興建",
+          "detail": "於議會持續追蹤串聯香山山區與濱海的美山聯絡道工程（曾一度暫緩），要求市府積極推動、早日興建完成。",
+          "source": "https://www.thehubnews.net/archives/669796"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -324,7 +345,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "評估武陵高架橋延伸銜接景觀大道",
+          "detail": "台一線替代道路預計明年年中通車，於議會指出可能帶來大量車流，建議市府重新評估早年將武陵高架橋延伸銜接景觀大道的規劃，避免平面交通堵塞。",
+          "source": "https://www.thehubnews.net/archives/674171"
+        },
+        {
+          "topic": "governance",
+          "title": "啟動第 11 公墓遷葬並召開公聽會",
+          "detail": "位於內湖里、鄰近五福路與內湖國小的第 11 公墓自 106 年公告禁葬已近九年，於議會要求民政處盡快研擬遷葬，並辦理公聽會向居民說明期程與後續規畫。",
+          "source": "https://www.thehubnews.net/archives/629425"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -397,7 +431,20 @@ window.ELECTION_DATA.races.push({
         "party": "時代力量",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "完善香山區學童通學步道",
+          "detail": "於議會指出香山區多所學校的通學步道不完整（例如虎林國小至米粉寮公園一帶），要求市府爭取公有土地撥用、必要時徵收私有土地，完善通學廊帶。",
+          "source": "https://www.thehubnews.net/archives/669796"
+        },
+        {
+          "topic": "education",
+          "title": "市府運動地圖 APP 增設健走功能",
+          "detail": "於議會建議市府的運動地圖 APP 增加健走項目並優化相關功能，促進市民健走運動風氣。",
+          "source": "https://www.thehubnews.net/archives/629416"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -478,6 +525,18 @@ window.ELECTION_DATA.races.push({
           "title": "爭取香山區 24 里每里都設置公共自行車站點",
           "detail": "指出香山區公共自行車設站進度落後；虎山里約 6,000 人、2,243 戶目前沒有站點，列為優先，海山里、南隘里也有設站需求。未提出站數與期程。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5609247"
+        },
+        {
+          "topic": "welfare",
+          "title": "香山區增設心理諮商據點，加開夜間與視訊諮商",
+          "detail": "於議會建議市府比照科學園區模式在香山區設立心理諮商分站、推動視訊諮商，加開衛生所夜間諮商時段，並將經歷小產與不孕困擾的婦女及配偶納入補助對象。衛生局回應將於香山衛生所提供心理健康諮詢服務。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5595941"
+        },
+        {
+          "topic": "environment",
+          "title": "青青草原設施盤點、定期維護並規劃接駁",
+          "detail": "於議會要求市府盤點青青草原現有設施與道路狀況，建立分階段、定期的維護修繕期程，立即改善園區導覽指引並打造全齡友善步道；並建議串聯周邊景點、研議觀光巴士與專屬接駁車。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5592889"
         }
       ],
       "record": [

@@ -10,8 +10,9 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 第三輪補查（2026-10-14）：國民黨候選人補上報導中的 1 則政見方向（原文簡略，照實呈現）；民進黨候選人補 1 則經歷（提名方說法），仍無具體政見；
  *   無黨籍候選人仍查無政見或其他可收錄資料。
- * 已知缺漏：孔垂崢Haisul Islituan 仍查無 2026 年公開政見。
+ * 已知缺漏（2026-11-02）：三位候選人都已有政見；國民黨、民進黨候選人各僅 1 則且原文簡略。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷（民進黨候選人競選總部成立報導中的文化政見方向，原文簡略，照實呈現）。
+ * 2026-11-02 第五輪補查：新增 3 則政見、0 則經歷（tpcmi-3 宣布參選時提出的三項計畫；來源報導內容幾乎全為本人說法，近似新聞稿）。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -80,7 +81,26 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "推動原住民族金融教育推廣計畫",
+          "detail": "宣布參選時表示，若進入議會將推動；選前先籌辦公益金融巡迴講座，未提場次與預算。",
+          "source": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E8%A1%8C%E5%93%A1%E6%94%B6%E4%BD%A3%E6%A1%88%E5%BC%95%E9%97%9C%E6%B3%A8-%E5%AD%94%E5%9E%82%E5%B4%A2%E7%B1%8C%E8%BE%A6%E5%85%AC%E7%9B%8A%E9%87%91%E8%9E%8D%E5%B7%A1%E8%BF%B4%E8%AC%9B%E5%BA%A7-%E6%89%93%E9%80%A0%E8%87%BA%E5%8C%97%E5%8E%9F%E6%B0%91%E9%87%91%E8%9E%8D%E5%AE%89%E5%85%A8%E7%B6%B2-032733136.html"
+        },
+        {
+          "topic": "safety",
+          "title": "建立原住民族防詐騙宣導機制",
+          "detail": "未說明具體做法與期程。",
+          "source": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E8%A1%8C%E5%93%A1%E6%94%B6%E4%BD%A3%E6%A1%88%E5%BC%95%E9%97%9C%E6%B3%A8-%E5%AD%94%E5%9E%82%E5%B4%A2%E7%B1%8C%E8%BE%A6%E5%85%AC%E7%9B%8A%E9%87%91%E8%9E%8D%E5%B7%A1%E8%BF%B4%E8%AC%9B%E5%BA%A7-%E6%89%93%E9%80%A0%E8%87%BA%E5%8C%97%E5%8E%9F%E6%B0%91%E9%87%91%E8%9E%8D%E5%AE%89%E5%85%A8%E7%B6%B2-032733136.html"
+        },
+        {
+          "topic": "economy",
+          "title": "設立原住民青年創業與購屋金融輔導平台",
+          "detail": "對象為年輕族人；未說明具體做法與期程。",
+          "source": "https://tw.stock.yahoo.com/news/%E9%8A%80%E8%A1%8C%E8%A1%8C%E5%93%A1%E6%94%B6%E4%BD%A3%E6%A1%88%E5%BC%95%E9%97%9C%E6%B3%A8-%E5%AD%94%E5%9E%82%E5%B4%A2%E7%B1%8C%E8%BE%A6%E5%85%AC%E7%9B%8A%E9%87%91%E8%9E%8D%E5%B7%A1%E8%BF%B4%E8%AC%9B%E5%BA%A7-%E6%89%93%E9%80%A0%E8%87%BA%E5%8C%97%E5%8E%9F%E6%B0%91%E9%87%91%E8%9E%8D%E5%AE%89%E5%85%A8%E7%B6%B2-032733136.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

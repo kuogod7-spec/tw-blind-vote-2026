@@ -11,6 +11,7 @@
  * 2026-10-17 補查：tpm-3 補 2 則政見（附加於陣列尾端）及 4 則司法事件經歷；tpm-4 補 1 則政見、1 則經歷；
  *         tpm-6 補 1 則經歷；tpm-5、tpm-6 仍未查得 2026 年政見（新聞僅報導登記與過去言行）。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷；已知缺漏：唐新民、林志成仍查無 2026 年具體政見。
+ * 2026-11-02 第五輪補查：新增 2 則政見、0 則經歷（tpm-5 據東森新聞報導列出的政見項目，報導只有項目名稱）。已知缺漏（2026-11-02）：林志成仍查無 2026 年具體政見。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/C1/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -722,7 +723,20 @@ window.ELECTION_DATA.races.push({
         "party": "三勢團結促進聯盟",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "興建 12 座核能電廠",
+          "detail": "競選政見列出「12 座核四」；報導僅列項目名稱，未說明地點、期程與財源。",
+          "source": "https://news.ebc.net.tw/news/politics/577688"
+        },
+        {
+          "topic": "environment",
+          "title": "推動岩漿發電",
+          "detail": "報導僅列項目名稱，未說明做法、期程與財源。",
+          "source": "https://news.ebc.net.tw/news/politics/577688"
+        }
+      ],
       "record": [
         {
           "topic": "education",

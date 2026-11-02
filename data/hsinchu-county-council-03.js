@@ -15,6 +15,7 @@
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：余筱菁、翁紹軒、賴寶鈺、陳岫玫、楊勝馭、戴翊如（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
  * 2026-10-19 第四輪補查：新增 23 則政見、1 則經歷。
+ * 2026-11-02 第五輪補查：新增 0 則政見、4 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -97,7 +98,13 @@ window.ELECTION_DATA.races.push({
         "number": 1
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "governance",
+          "text": "曾因擔任地方民意代表期間反對竹北焚化爐興建時的發文，被法院判處散布文字誹謗罪拘役 30 日，上訴高等法院未獲改判（已判決確定）。本人說明係質疑縣府圖利廠商，被法院連結為指控另一名民意代表。",
+          "source": "https://www.mirrormedia.mg/story/20260917edi054"
+        }
+      ],
       "past": []
     },
     {
@@ -482,7 +489,13 @@ window.ELECTION_DATA.races.push({
         "number": 8
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "environment",
+          "text": "2023 年擔任湖口反對縣立生命園區自救會會長，要求縣府撤回在湖口鄉興建生命園區的計畫，並公開殯葬設施需求數據的來源與評估方式。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/4316610"
+        }
+      ],
       "past": []
     },
     {
@@ -493,7 +506,18 @@ window.ELECTION_DATA.races.push({
         "number": 6
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "safety",
+          "text": "移居湖口後捐贈一輛警用巡邏車（本人說法）。",
+          "source": "https://n.yam.com/Article/20261029734503"
+        },
+        {
+          "topic": "welfare",
+          "text": "籌組地方公益協會，協助弱勢學童餐費、學雜費、課後輔導與急難救助（本人說法）。",
+          "source": "https://n.yam.com/Article/20261029734503"
+        }
+      ],
       "past": []
     },
     {

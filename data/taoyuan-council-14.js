@@ -11,8 +11,9 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
- * 已知缺漏（仍查無 2026 年具體政見）：謝卓儒、邱伯倫、張倉豪、曾庭筠。
+ * 已知缺漏（仍查無 2026 年具體政見）：邱伯倫、張倉豪、曾庭筠。
  * 2026-10-19 第四輪補查：新增 16 則政見、1 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
+ * 2026-11-02 第五輪補查：新增 1 則政見、1 則經歷。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -147,7 +148,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "整理族人可申請的資源與對應窗口，並加強跨局處協調",
+          "detail": "2026 年 10 月提出：讓族人清楚知道遇到問題該找哪個單位、能申請到什麼，減少申請資源時往返不同窗口；居住、育兒與長照、族語、就業與創業等其他主張未說明具體做法",
+          "source": "https://news.pchome.com.tw/society/focus586/20261027/index-79310932739428289002.html"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -217,6 +225,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "現任基層民意代表會主席（原住民區）。",
           "source": "https://news.ltn.com.tw/news/politics/breakingnews/5382425"
+        },
+        {
+          "topic": "governance",
+          "text": "2026 年 10 月因涉嫌於同年 7 月在龍潭區餐廳以每桌 5,000 元席開 3 桌、免費招待有投票權的選民並在席間尋求支持，經檢方依公職人員選舉罷免法（對有投票權人交付不正利益罪嫌）搜索、訊問後諭令 15 萬元交保；偵查中，尚未起訴。報導未取得本人回應。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5614642"
         }
       ],
       "past": []

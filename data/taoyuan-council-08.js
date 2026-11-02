@@ -11,8 +11,9 @@
  * 上屆政見取自議會官網議員介紹頁「問政理念」（與 2022 年選舉公報內容相同或相近），兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
- * 已知缺漏：仍查無 2026 年具體政見：高宇彥（僅有 2022 年參選時的主張，未收）、舒翠玲、陳韋曄（本年度質詢內容已收於做過的事）、白丞堯、吳正吉、彭柏霖、羅文欽。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
+ * 已知缺漏：仍查無 2026 年具體政見：高宇彥（僅有 2022 年參選時的主張，未收）、舒翠玲、白丞堯、吳正吉、彭柏霖、羅文欽。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 5 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 4 則政見、2 則經歷（含 1 則司法事件）；羅文欽有 2014 年前縣議員同名辱警案判決，報導未確認為同一人，未收。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -299,6 +300,11 @@ window.ELECTION_DATA.races.push({
           "topic": "transport",
           "text": "本屆提案 123 件，以工務類（63 件）最多；提案包括老街溪左岸人行及自行車步道、尖峰時段以雙層巴士行駛高速公路段。",
           "source": "https://lawmaker.twreporter.org/council/taoyuan/lawmaker/shu-tsui-ling-taoyuan"
+        },
+        {
+          "topic": "governance",
+          "text": "涉以人頭詐領助理補助費遭檢方依貪污治罪條例等罪起訴（起訴金額約 980 萬元）；一審依偽造文書罪判處有期徒刑 1 年、緩刑 3 年並須向公庫支付 50 萬元，貪污部分未成立；2026 年 10 月二審維持，全案仍可上訴。本人於二審承認其中一名助理薪資有灌報，主張判決過重。",
+          "source": "https://www.taisounds.com/news/content/71/293888"
         }
       ],
       "past": [
@@ -384,7 +390,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "設置公托進校園示範點",
+          "detail": "平鎮公托候補人數較多；建議 116 年完成校園閒置空間盤點並設置示範點。",
+          "source": "https://n.yam.com/Article/20260916452625"
+        },
+        {
+          "topic": "welfare",
+          "title": "0 至 6 歲兒童門急診掛號費與部分負擔補助擴及一般家庭",
+          "detail": "並針對多胎家庭加碼。",
+          "source": "https://n.yam.com/Article/20260916452625"
+        },
+        {
+          "topic": "transport",
+          "title": "研議學生通勤費用補助",
+          "detail": "每名學生每月最高 600 元，整合公車、捷運及計程車等運具。",
+          "source": "https://n.yam.com/Article/20260916452625"
+        },
+        {
+          "topic": "safety",
+          "title": "路口導入 AI 視覺辨識與感應式延長綠燈號誌",
+          "detail": "依長者、學童通行狀況延長綠燈，優先評估學校、醫院及車站周邊。",
+          "source": "https://n.yam.com/Article/20260916452625"
+        }
+      ],
       "record": [
         {
           "topic": "housing",
@@ -643,6 +674,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "執業律師（報導所述）。",
           "source": "https://today.line.me/tw/v3/article/PG5Vozo"
+        },
+        {
+          "topic": "housing",
+          "text": "2026 年協助涉違法使用農地設置停車位的建案購屋住戶成立自救會，整理契約、廣告等資料並評估法律途徑（本人說法）。",
+          "source": "https://n.yam.com/Article/20260804460413"
         }
       ],
       "past": []

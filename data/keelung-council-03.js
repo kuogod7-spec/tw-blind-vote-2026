@@ -8,8 +8,9 @@
  * 號次抽籤原訂 2026-10-23，因颱風薔琵來襲基隆市停班，基隆市選委會順延至 2026-10-27 舉行（https://www.chinatimes.com/realtimenews/20261022004643-260405），2026-10-25 時尚無結果，抽籤後請補上 identity.number。黨籍已於 2026-10-25 對照 9/4 登記一覽表推薦政黨欄核對，全部一致。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 已知缺漏：仍查無 2026 政見者：林杏潔、鄭文婷、莊傑宇、曾維祥。
+ * 已知缺漏：仍查無 2026 政見者：林杏潔、曾維祥。
  * 2026-10-19 第四輪補查：新增 0 則政見、1 則經歷。
+ * 2026-11-02 第五輪補查：新增 9 則政見、0 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 2026-10-16 中選會審定：原 klc3-3 張芳麗因投票受賄罪定讞，經中選會認定不得登記，已移除（https://tw.news.yahoo.com/%E6%B8%B8%E6%99%BA%E5%BD%AC%E6%8E%B0%E4%BA%86-%E4%B8%AD%E9%81%B8%E6%9C%83%E5%85%AC%E5%91%8A%E7%99%BB%E8%A8%98%E5%90%88%E6%A0%BC%E4%BA%BA%E6%95%B8-%E5%96%AA%E5%A4%B1%E8%B3%87%E6%A0%BC%E5%8F%83%E9%81%B8%E4%BA%BA-%E6%AC%A1%E7%9C%8B-073041082.html）。審定後 4 人，應選 3 席。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
@@ -55,7 +56,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "重整市公車路網，不再要求各線繞回市中心轉乘",
+          "detail": "主張依七個行政區的實際通勤需求重新規劃路線，改變所有路線都須回到市中心循環站才能轉車的設計；2026 年 10 月提出",
+          "source": "https://www.epochtimes.com/b5/26/10/12/n14868306.htm"
+        },
+        {
+          "topic": "transport",
+          "title": "要求市府提出逐年汰換老舊公車的具體計畫",
+          "detail": "針對市公車老舊、運能與司機不足提出；2026 年 10 月",
+          "source": "https://www.epochtimes.com/b5/26/10/12/n14868306.htm"
+        },
+        {
+          "topic": "transport",
+          "title": "觀光夜市周邊增設有聲號誌",
+          "detail": "廟口夜市觀光客多，2026 年 3 月議會中建議在當地增設有聲號誌",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5359444"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -118,7 +138,44 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "爭取醫學中心等級醫療資源",
+          "detail": "讓重大疾病患者不必經常前往台北就醫；2026 年 6 月宣布參選時提出",
+          "source": "https://news.nextapple.com/local/20260603/A214C65EC7B034BB0EADE784B46D7C85"
+        },
+        {
+          "topic": "transport",
+          "title": "導入公共自行車與共享機車",
+          "detail": "讓搭火車或客運抵達的旅客出站後可就近租借",
+          "source": "https://news.nextapple.com/local/20260603/A214C65EC7B034BB0EADE784B46D7C85"
+        },
+        {
+          "topic": "economy",
+          "title": "推動身心障礙者友善就業空間",
+          "detail": "已有身障團體投入汽車美容工作，表示將爭取更大場地與更多資源，創造友善就業機會",
+          "source": "https://news.nextapple.com/local/20260603/A214C65EC7B034BB0EADE784B46D7C85"
+        },
+        {
+          "topic": "environment",
+          "title": "推動電線桿地下化",
+          "detail": "",
+          "source": "https://news.nextapple.com/local/20260603/A214C65EC7B034BB0EADE784B46D7C85"
+        },
+        {
+          "topic": "education",
+          "title": "活化閒置運動中心空間為街舞與健身場館",
+          "detail": "將閒置、冷門的既有運動中心空間重新規劃，提供青年使用",
+          "source": "https://news.nextapple.com/local/20260603/A214C65EC7B034BB0EADE784B46D7C85"
+        },
+        {
+          "topic": "environment",
+          "title": "利用天橋或高架道路下方空間設置有遮蔽的寵物公園",
+          "detail": "利用天然遮雨條件，讓飼主雨天也能遛狗",
+          "source": "https://news.nextapple.com/local/20260603/A214C65EC7B034BB0EADE784B46D7C85"
+        }
+      ],
       "record": []
     }
   ]

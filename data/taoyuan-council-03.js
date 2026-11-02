@@ -8,8 +8,9 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 劉茂羣、蔡永芳為前任議員；過去政見因選舉公報版面無法可靠對應未收錄。
- * 已知缺漏：段林淑婷查無可收錄資料；林晏良僅查得交通政見。許家睿、劉茂羣、蔡永芳、楊朝偉、呂林小鳳仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
+ * 已知缺漏：段林淑婷查無可收錄資料；林晏良僅查得交通政見。仍查無 2026 年具體政見：段林淑婷、劉茂羣、蔡永芳。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷；本輪搜尋額度用盡，僅補查到 1 位現任者的議會具體要求，其餘候選人待選舉公報發布後再補。
+ * 2026-11-02 第五輪補查：新增 8 則政見、2 則經歷（皆為司法事件）。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -60,7 +61,32 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "加速規劃八德行政園區",
+          "detail": "八德人口快速增加，主張整合既有機關並新增館舍；需求評估已召開，可行性評估進行中。",
+          "source": "https://n.yam.com/Article/20260911911344"
+        },
+        {
+          "topic": "housing",
+          "title": "推動八德、大湳兩都市計畫區縫合",
+          "detail": "兩區計畫人口均已超過原規劃量；主張配合國土計畫縫合，盤整非都市地區與公有土地，結合軌道建設形成雙軸核心。",
+          "source": "https://n.yam.com/Article/20260911911344"
+        },
+        {
+          "topic": "welfare",
+          "title": "擴大敬老愛心卡使用範圍",
+          "detail": "建議參考其他縣市，開放特約藥局及代購等使用方式。",
+          "source": "https://n.yam.com/Article/20260911911344"
+        },
+        {
+          "topic": "governance",
+          "title": "建置市府自有 AI 算力與平台",
+          "detail": "建議建立自有算力、系統及平台，投入智慧治理應用並強化資料安全。",
+          "source": "https://n.yam.com/Article/20260911911344"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -151,6 +177,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任地方民意代表多屆（改制前縣議員及改制後市議員）（本人說法）。",
           "source": "https://eebulletin.cec.gov.tw/107/04%E6%A1%83%E5%9C%92%E5%B8%82/02%E5%B8%82%E8%AD%B0%E5%93%A1/%E6%A1%83%E5%9C%92%E5%B8%82%E7%AC%AC03%E9%81%B8%E8%88%89%E5%8D%80.pdf"
+        },
+        {
+          "topic": "governance",
+          "text": "2018 年選前致贈蘋果禮盒予社區住戶，經提起當選無效之訴，2020 年民事二審判決當選無效定讞；同案刑事部分一審判決無罪。本人表示尊重司法，但重申沒有賄選意圖。",
+          "source": "https://www.setn.com/news/759186"
         }
       ]
     },
@@ -227,6 +258,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "提案建議 1999 市民專線導入 AI 語音辨識，提升通報與分流效率。",
           "source": "https://lawmaker.twreporter.org/council/taoyuan/lawmaker/chu-chen-yao-taoyuan"
+        },
+        {
+          "topic": "governance",
+          "text": "涉以親屬掛名公費助理詐領助理補助費遭起訴，2026 年 10 月一審依貪污治罪條例利用職務機會詐取財物罪等判處有期徒刑 8 年、褫奪公權 5 年；尚未判決確定。本人否認，表示將上訴。",
+          "source": "https://udn.com/news/story/7321/9816990"
         }
       ],
       "past": [
@@ -291,7 +327,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "評估成立市級食品安全實驗室",
+          "detail": "食安直接預算約占總預算 0.03%；主張增加抽驗及專業人力，建立市級檢驗及預警機制。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5531537"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -376,7 +419,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 7
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "追蹤福德一路 177 巷拓寬工程",
+          "detail": "由 6 米拓寬至 8 米，涉及桃園、新北兩市分工；要求市府追蹤進度。市府預估明年完成用地取得、後年底完工。",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5584570"
+        },
+        {
+          "topic": "transport",
+          "title": "要求八德第二交流道提出短期替代方案",
+          "detail": "聯絡道最快 2030 年完工；要求市府提出明確時程與短期疏解方案，並確認交通量預測納入大湳及八德擴大都市計畫發展量體。",
+          "source": "https://n.yam.com/Article/20260429546187"
+        },
+        {
+          "topic": "transport",
+          "title": "追蹤捷運三鶯線延伸八德及綠線延伸工程",
+          "detail": "要求說明轉乘規劃與聯合開發分工，並追問綠線延伸大溪的審議進度及延伸中壢各標決標時程。",
+          "source": "https://n.yam.com/Article/20260429546187"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

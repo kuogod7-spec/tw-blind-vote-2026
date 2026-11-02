@@ -8,8 +8,9 @@
  * 現任者的「過去政見」取自議會官網議員介紹頁（2022 年參選政見）；提案數取自報導者觀測站。兌現狀況未逐則查證，一律標 unknown。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 郭麗華為前任議員（2014–2022），過去政見取自 2018 年選舉公報。
- * 已知缺漏：胡家智查無可收錄資料；許清順、錢龍、郭麗華仍查無 2026 年具體政見（第四輪補查因搜尋額度用盡，僅部分完成）。
+ * 已知缺漏：胡家智僅查得政見、無可收錄經歷；郭麗華的政見僅為抽籤時提出的方向性主張。
  * 2026-10-19 第四輪補查：新增 6 則政見、1 則經歷；政見取自 2026 年議會質詢中的具體要求；本輪搜尋額度用盡，未查完的候選人待選舉公報發布後再補。
+ * 2026-11-02 第五輪補查：新增 14 則政見、0 則經歷。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -27,7 +28,26 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "調整桃小巴路線串聯公所與醫療院所",
+          "detail": "建議串聯區公所、醫療院所、社區、休憩及宗教據點，回應長者就醫交通需求，並重新檢視路線與班次。",
+          "source": "https://n.yam.com/Article/20260929937469"
+        },
+        {
+          "topic": "transport",
+          "title": "檢視南崁地區道路開闢與路網銜接",
+          "detail": "中正路下午 4 時至 5 時經常壅塞，大竹路周邊亦有車流壓力；要求因應重劃區及住宅開發檢視道路開闢。",
+          "source": "https://n.yam.com/Article/20260929937469"
+        },
+        {
+          "topic": "safety",
+          "title": "加強校園微型電動二輪車安全宣導",
+          "detail": "14 歲即可騎乘；要求交通、警察及教育單位共同加強校園宣導。",
+          "source": "https://n.yam.com/Article/20260929937469"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -105,7 +125,38 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "爭取在蘆竹設立公立技術型高中",
+          "detail": "蘆竹缺乏公立高職，學生須跨區通勤；主張結合南崁、大竹、海湖等工業區及航空城產業需求培養在地人才。",
+          "source": "https://n.yam.com/Article/20261029601856"
+        },
+        {
+          "topic": "transport",
+          "title": "尖峰時段增設點對點桃小巴或中型巴士",
+          "detail": "串聯住宅區、捷運 A10 站與重要交通節點。",
+          "source": "https://n.yam.com/Article/20261029601856"
+        },
+        {
+          "topic": "transport",
+          "title": "評估公共設施共構停車空間",
+          "detail": "盤點停車需求，參考南崁婦幼館地下停車場模式。",
+          "source": "https://n.yam.com/Article/20261029601856"
+        },
+        {
+          "topic": "safety",
+          "title": "推動安心通學路網",
+          "detail": "盤點各校通學步道及周邊交通，改善危險路口與校園接送動線，並以尖峰分流、智慧號誌改善道路瓶頸。",
+          "source": "https://n.yam.com/Article/20260918728108"
+        },
+        {
+          "topic": "education",
+          "title": "設立家長諮詢與申訴平台",
+          "detail": "針對霸凌、詐騙及毒品等問題提供學生與家長協助。",
+          "source": "https://n.yam.com/Article/20261029601856"
+        }
+      ],
       "record": []
     },
     {
@@ -115,7 +166,32 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "五福重劃區規劃 0 至 6 歲整合托育園區",
+          "detail": "若重劃區國小用地經評估無設校必要，改為整合托嬰中心、2 歲專班、幼兒園及親子館的一站式托育園區。",
+          "source": "https://www.ettoday.net/news/20260508/3162869.htm"
+        },
+        {
+          "topic": "education",
+          "title": "五福重劃區納入藝文展演設施",
+          "detail": "蘆竹缺乏大型藝文展演空間，建議教育局與文化局跨局處納入整體規劃。",
+          "source": "https://www.ettoday.net/news/20260508/3162869.htm"
+        },
+        {
+          "topic": "housing",
+          "title": "提前規劃宏竹里生活圈公共設施",
+          "detail": "因應社會住宅陸續進駐，補足公園綠地、人行道及停車空間；建議活化軍方閒置土地作運動及兒童遊戲空間。",
+          "source": "https://www.ettoday.net/news/20260508/3162869.htm"
+        },
+        {
+          "topic": "economy",
+          "title": "串聯濱海觀光廊道與桃林鐵路綠廊",
+          "detail": "建議坑口垃圾掩埋場轉型為教育休閒節點，並以南崁港為起點清淤、改善景觀、設置解說與觀景平台。",
+          "source": "https://www.ettoday.net/news/20260508/3162869.htm"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -314,7 +390,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "擴建幼兒托育機構與社區長照據點",
+          "detail": "並完善親子友善設施。",
+          "source": "https://taiwanreports.com/archives/1021945"
+        },
+        {
+          "topic": "transport",
+          "title": "加速區域聯外道路建設、優化大眾運輸路網",
+          "detail": "並爭取新設公共設施與公園綠地。",
+          "source": "https://taiwanreports.com/archives/1021945"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

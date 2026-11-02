@@ -8,8 +8,9 @@
  * 號次抽籤原訂 2026-10-23，因颱風薔琵來襲基隆市停班，基隆市選委會順延至 2026-10-27 舉行（https://www.chinatimes.com/realtimenews/20261022004643-260405），2026-10-25 時尚無結果，抽籤後請補上 identity.number。黨籍已於 2026-10-25 對照 9/4 登記一覽表推薦政黨欄核對，全部一致。
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 已知缺漏：仍查無 2026 政見者：林孟泓、呂美玲、張文彬、黃紀仁、江清容。
+ * 已知缺漏：仍查無 2026 政見者：林孟泓、張文彬、黃紀仁、江清容。
  * 2026-10-19 第四輪補查：新增 5 則政見、1 則經歷。
+ * 2026-11-02 第五輪補查：新增 6 則政見、1 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
@@ -99,7 +100,8 @@ window.ELECTION_DATA.races.push({
         "number": 5
       },
       "platforms": [],
-      "record": []
+      "record": [
+      ]
     },
     {
       "id": "klc1-3",
@@ -108,7 +110,44 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "道路拓寬工程併同改善排水，加寬側溝並設深層陰井",
+          "detail": "中正區新豐街、和豐街口及新豐街 162 巷周邊為水流匯集的淹水低窪處，建議市府「新豐街與和豐街道路拓寬工程（新豐街 162 巷口至和豐街首段）」重新配置排水，將側溝加寬與深層陰井納入設計；2026 年 2 月會勘時提出",
+          "source": "https://www.cdns.com.tw/articles/1358556"
+        },
+        {
+          "topic": "safety",
+          "title": "和豐街口邊坡優先辦理水土保持",
+          "detail": "針對和豐街口強降雨沖刷與曾發生的走山，建議優先處理該處邊坡水土保持，並落實滯洪池、抽水機組等水利設施維護；2026 年 2 月會勘時提出",
+          "source": "https://www.cdns.com.tw/articles/1358556"
+        },
+        {
+          "topic": "governance",
+          "title": "建議出售長期虧損的市有觀景塔設施",
+          "detail": "造價約 3.7 億元的市區觀景塔每年需二、三千萬元維養、營運收入有限，2026 年議會審查追加招商評估預算時建議乾脆拍賣，免得持續編列預算，並建議日後不再興建類似建築",
+          "source": "https://www.cdns.com.tw/articles/1412940"
+        },
+        {
+          "topic": "welfare",
+          "title": "改建後的市立田徑場設施免費開放市民使用",
+          "detail": "2026 年 3 月議會中與多名議員共同要求田徑場設施免費開放，或研議差別費率（市民優惠、外縣市民一般收費）",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5361815"
+        },
+        {
+          "topic": "transport",
+          "title": "加強巡查故障的有聲號誌",
+          "detail": "有聲號誌故障時視障者無法靠聲音判斷過馬路時機，2026 年 3 月議會中要求市府加強巡查",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5359444"
+        },
+        {
+          "topic": "governance",
+          "title": "儘速整修老舊破損的古蹟步道",
+          "detail": "2026 年初與其他議員會勘中正區古蹟海門天險步道老舊破損情形，要求市府儘速整修",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5335865"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -314,7 +353,13 @@ window.ELECTION_DATA.races.push({
         "number": 3
       },
       "platforms": [],
-      "record": []
+      "record": [
+        {
+          "topic": "governance",
+          "text": "長期擔任地方民意代表特助，參與民眾陳情、地方會勘、公益活動及政策協調工作。",
+          "source": "https://www.cdns.com.tw/articles/1454975"
+        }
+      ]
     }
   ]
 });

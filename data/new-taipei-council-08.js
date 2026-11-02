@@ -12,8 +12,9 @@
  * 2026-10-14 第二輪補查：以新聞報導與候選人網站補充 2026 年政見；部分候選人（含多位現任者）仍查無具體的 2026 年政見，政見欄維持空白，待選舉公報發布後補齊。
  * 2026-10-14 第三輪補查：以 2026 年 5–7 月新聞報導（多為大型場館選址相關發言）補充 ntc8-2、ntc8-4、ntc8-7、ntc8-9、ntc8-11 的政見，並為 ntc8-2 補 2 則經歷（本人說法）；ntc8-1、ntc8-6、ntc8-8、ntc8-10、ntc8-12 仍查無具體 2026 年政見，維持空白。
  * 2026-10-14 依使用者決定補列司法事件：ntc8-9 經歷補列 2026 年 10 月涉嫌賄選交保一事（偵查中）。
- * 已知缺漏（2026-10-19）：仍查無 2026 年政見：高乃芸、林金結、陳膺涵。
+ * 已知缺漏（2026-11-02）：仍查無 2026 年政見：陳膺涵。
  * 2026-10-19 第四輪補查：新增 5 則政見、2 則經歷（政見多為現任者 2026 年議會質詢中的具體要求）。
+ * 2026-11-02 第五輪補查：新增 9 則政見、0 則經歷（高乃芸 6 則，取自 2026 年 5 月樹林座談；林金結 3 則，取自 2026 年 2 月地方座談與 8 月本人聲明）。
  * 號次：依新北市選委會「市議員選舉候選人姓名號次抽籤結果一覽表」（2026-10-27，https://web.cec.gov.tw/tpcec/article/65361 ；https://web.cec.gov.tw/api/file/efe116ff-946f-4772-b3d2-f7f97a9dde25.pdf ）核對無誤（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -31,7 +32,44 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "爭取 0 至 6 歲兒童就醫免門診及住院部分負擔",
+          "detail": "2026 年 5 月樹林座談會中提出",
+          "source": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%B7%A7%E6%85%A7%E5%81%95%E9%AB%98%E4%B9%83%E8%8A%B8%E6%A8%B9%E6%9E%97%E5%BA%A7%E8%AB%87%E6%B9%A7-600-%E4%BA%BA-%E5%BB%96%E7%AD%B1%E5%90%9B%E5%88%B0%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E9%AB%98%E6%95%8F%E6%85%A7%E9%97%A2%E8%AC%A0%E7%84%A1%E5%A9%A6%E5%A5%B3%E4%BF%9D%E9%9A%9C-104448203.html"
+        },
+        {
+          "topic": "education",
+          "title": "爭取兒童免費接種腸病毒與輪狀病毒疫苗",
+          "detail": "2026 年 5 月樹林座談會中提出",
+          "source": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%B7%A7%E6%85%A7%E5%81%95%E9%AB%98%E4%B9%83%E8%8A%B8%E6%A8%B9%E6%9E%97%E5%BA%A7%E8%AB%87%E6%B9%A7-600-%E4%BA%BA-%E5%BB%96%E7%AD%B1%E5%90%9B%E5%88%B0%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E9%AB%98%E6%95%8F%E6%85%A7%E9%97%A2%E8%AC%A0%E7%84%A1%E5%A9%A6%E5%A5%B3%E4%BF%9D%E9%9A%9C-104448203.html"
+        },
+        {
+          "topic": "education",
+          "title": "爭取青年就業津貼、成家補助，並搭配生育補助",
+          "detail": "2026 年 5 月樹林座談會中提出，目的為打造較友善的育兒環境",
+          "source": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%B7%A7%E6%85%A7%E5%81%95%E9%AB%98%E4%B9%83%E8%8A%B8%E6%A8%B9%E6%9E%97%E5%BA%A7%E8%AB%87%E6%B9%A7-600-%E4%BA%BA-%E5%BB%96%E7%AD%B1%E5%90%9B%E5%88%B0%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E9%AB%98%E6%95%8F%E6%85%A7%E9%97%A2%E8%AC%A0%E7%84%A1%E5%A9%A6%E5%A5%B3%E4%BF%9D%E9%9A%9C-104448203.html"
+        },
+        {
+          "topic": "welfare",
+          "title": "爭取 65 歲以上長者裝假牙補助",
+          "detail": "2026 年 5 月樹林座談會中提出",
+          "source": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%B7%A7%E6%85%A7%E5%81%95%E9%AB%98%E4%B9%83%E8%8A%B8%E6%A8%B9%E6%9E%97%E5%BA%A7%E8%AB%87%E6%B9%A7-600-%E4%BA%BA-%E5%BB%96%E7%AD%B1%E5%90%9B%E5%88%B0%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E9%AB%98%E6%95%8F%E6%85%A7%E9%97%A2%E8%AC%A0%E7%84%A1%E5%A9%A6%E5%A5%B3%E4%BF%9D%E9%9A%9C-104448203.html"
+        },
+        {
+          "topic": "welfare",
+          "title": "將敬老卡點數提高到 1,000 點",
+          "detail": "2026 年 5 月樹林座談會中提出",
+          "source": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%B7%A7%E6%85%A7%E5%81%95%E9%AB%98%E4%B9%83%E8%8A%B8%E6%A8%B9%E6%9E%97%E5%BA%A7%E8%AB%87%E6%B9%A7-600-%E4%BA%BA-%E5%BB%96%E7%AD%B1%E5%90%9B%E5%88%B0%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E9%AB%98%E6%95%8F%E6%85%A7%E9%97%A2%E8%AC%A0%E7%84%A1%E5%A9%A6%E5%A5%B3%E4%BF%9D%E9%9A%9C-104448203.html"
+        },
+        {
+          "topic": "governance",
+          "title": "爭取將鄰長補助提高到 2,500 元",
+          "detail": "2026 年 5 月樹林座談會中提出",
+          "source": "https://tw.stock.yahoo.com/news/%E8%98%87%E5%B7%A7%E6%85%A7%E5%81%95%E9%AB%98%E4%B9%83%E8%8A%B8%E6%A8%B9%E6%9E%97%E5%BA%A7%E8%AB%87%E6%B9%A7-600-%E4%BA%BA-%E5%BB%96%E7%AD%B1%E5%90%9B%E5%88%B0%E5%A0%B4%E5%8A%9B%E6%8C%BA-%E9%AB%98%E6%95%8F%E6%85%A7%E9%97%A2%E8%AC%A0%E7%84%A1%E5%A9%A6%E5%A5%B3%E4%BF%9D%E9%9A%9C-104448203.html"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -806,7 +844,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "爭取國中小註冊免學費",
+          "detail": "2026 年 8 月底新北國中小營養午餐免費上路時表示，下一步將爭取國中小註冊免學費；並要求市府從食材源頭、烹調、配送到用餐各環節稽查午餐品質",
+          "source": "https://cnews.com.tw/248260831a06/"
+        },
+        {
+          "topic": "environment",
+          "title": "要求三鶯線三峽沿線落實隔音牆與噪音改善方案",
+          "detail": "2026 年 2 月市府地方座談中反映捷運三鶯線試車噪音問題，表示將在議會監督捷運主管機關落實隔音牆與優化方案",
+          "source": "https://cnews.com.tw/248260225a01/"
+        },
+        {
+          "topic": "safety",
+          "title": "督促三峽中山路排水改善工程與長福橋周邊配套",
+          "detail": "2026 年 2 月市府地方座談中表示，將在議會持續監督長福橋周邊自行車路網串聯、停車場興建及中山路排水改善工程",
+          "source": "https://cnews.com.tw/248260225a01/"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

@@ -13,8 +13,9 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 已知缺漏：仍查無 2026 年具體政見者：羅俊傑、鍾心渝。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
+ * 已知缺漏：仍查無 2026 年具體政見者：鍾心渝。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
  * 2026-10-19 第四輪補查：新增 36 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 9 則政見、0 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -32,7 +33,62 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "竹東開設兒童夜間門診",
+          "detail": "與臺大新竹分院協商，以生醫醫院竹東院區為核心，評估開設兒童夜間聯合門診或固定夜間兒科診次；2026 年 9 月提出。",
+          "source": "https://www.nownews.com/news/6874416"
+        },
+        {
+          "topic": "welfare",
+          "title": "建立竹東、竹北、新竹之間的兒童急重症轉診後送機制",
+          "detail": "明定聯繫窗口、啟動條件與流程，讓夜間急症兒童能快速轉診；2026 年 9 月提出。",
+          "source": "https://www.nownews.com/news/6874416"
+        },
+        {
+          "topic": "welfare",
+          "title": "爭取中央計畫並編列預算補足夜間兒科人力",
+          "detail": "研議夜間診療費、兒科值班加成、護理人力津貼及偏遠地區交通補助，人力與經費同時到位；2026 年 9 月提出。",
+          "source": "https://www.nownews.com/news/6874416"
+        },
+        {
+          "topic": "welfare",
+          "title": "建立兒童夜間就醫資訊平台",
+          "detail": "整合夜間門診、急診、基層夜診與 119 救護資訊；2026 年 9 月提出。",
+          "source": "https://www.nownews.com/news/6874416"
+        },
+        {
+          "topic": "welfare",
+          "title": "將五峰納入夜間兒童醫療網",
+          "detail": "串接五峰鄉衛生所與消防救護體系，制定夜間聯繫與後送標準流程，並評估導入兒科遠距諮詢及交通支援；2026 年 9 月提出。",
+          "source": "https://www.nownews.com/news/6874416"
+        },
+        {
+          "topic": "education",
+          "title": "推動孕產婦營養補助、臨時托嬰與育兒卡",
+          "detail": "整合育兒、教育與生活支持資源，提出媽媽營養補助、臨時托嬰服務及育兒卡；2026 年 10 月競選總部成立時提出。",
+          "source": "https://cnews.com.tw/247261026a04/"
+        },
+        {
+          "topic": "welfare",
+          "title": "推動長者與兒童智慧照護",
+          "detail": "以智慧手環、緊急通報及健康照護資源整合，照顧長者與兒童安全；2026 年 10 月競選總部成立時提出。",
+          "source": "https://cnews.com.tw/247261026a04/"
+        },
+        {
+          "topic": "transport",
+          "title": "以數據分析改善壅塞路段與號誌",
+          "detail": "分析壅塞路段，調整號誌與道路動線，目標降低雨天交通壅塞；2026 年 10 月競選總部成立時提出。",
+          "source": "https://cnews.com.tw/247261026a04/"
+        },
+        {
+          "topic": "governance",
+          "title": "建立公園設施長期維護管理機制",
+          "detail": "改善兒童遊憩環境，避免公共設施完工後缺乏維護；2026 年 10 月競選總部成立時提出。",
+          "source": "https://cnews.com.tw/247261026a04/"
+        }
+      ],
       "record": [],
       "past": []
     },

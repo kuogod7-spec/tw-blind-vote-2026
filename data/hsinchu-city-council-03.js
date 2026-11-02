@@ -9,7 +9,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
- * 已知缺漏：仍查無 2026 年具體政見者：施淑婷、陳思妤（現任者的議會提案列於 record）。
+ * 已知缺漏：仍查無 2026 年具體政見者：陳思妤（現任者的議會提案列於 record）。
+ * 2026-11-02 第五輪補查：新增 3 則政見、0 則經歷。
  * 2026-10-19 第四輪補查：新增 1 則政見、2 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
@@ -28,7 +29,26 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": 3
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "營養午餐補助提高至國小每餐 70 元、國中 75 元",
+          "detail": "現行為國小 60 元、國中 65 元",
+          "source": "https://cnews.com.tw/174260826a02/"
+        },
+        {
+          "topic": "education",
+          "title": "升級親師生平台並以 AI 減輕教師與行政人員重複性工作",
+          "detail": "未公布細節",
+          "source": "https://news.pchome.com.tw/politics/cnews/20261028/index-79318224419528227001.html"
+        },
+        {
+          "topic": "economy",
+          "title": "結合西區傳統米粉產業規劃在地特色藝文活動",
+          "detail": "未公布經費",
+          "source": "https://leho.com.tw/archives/391050"
+        }
+      ],
       "record": [
         {
           "topic": "governance",

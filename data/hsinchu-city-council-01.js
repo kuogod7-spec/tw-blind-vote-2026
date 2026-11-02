@@ -9,7 +9,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。 黃文政、劉崇顯為現任議員，本次以無黨籍登記。
- * 已知缺漏：仍查無 2026 年具體政見者：黃文政、劉崇顯、劉詳樽、張文興、李國璋、宋品瑩、劉彥伶、張祖琰、樊一嶢、許登淇、曾翰揚、鄭美娟、蔡惠婷、陳清智、錢康明、陳珍裕、鍾淑英（現任者的議會提案列於 record）。
+ * 已知缺漏：仍查無 2026 年具體政見者：劉詳樽、許登淇、陳清智、錢康明、陳珍裕（現任者的議會提案列於 record）。
+ * 2026-11-02 第五輪補查：新增 33 則政見、2 則經歷。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
@@ -28,7 +29,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 19
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "十八尖山周邊興建立體停車場",
+          "detail": "2026 年議會質詢中建議，以解決停車與遊客如廁問題；未提出經費與期程",
+          "source": "https://www.thehubnews.net/archives/668632"
+        },
+        {
+          "topic": "welfare",
+          "title": "敬老卡點數開放用於復健",
+          "detail": "2026 年議會總質詢中建議；指出目前點數整體使用率約四成、月底歸零",
+          "source": "https://www.thehubnews.net/archives/670169"
+        }
+      ],
       "record": [
         {
           "topic": "economy",
@@ -101,7 +115,32 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 11
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動輕軌並擴大先導公車路網，改善科學園區通勤與行人安全",
+          "detail": "競選總部成立時提出；未公布期程與經費",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5618834"
+        },
+        {
+          "topic": "education",
+          "title": "增加就近入學量能、改善通學環境並爭取教師合理待遇",
+          "detail": "競選總部成立時提出；未公布細節",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5618834"
+        },
+        {
+          "topic": "environment",
+          "title": "改善頭前溪水質、推動垃圾處理改革與親子共融公園",
+          "detail": "競選總部成立時提出；未公布細節",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5618834"
+        },
+        {
+          "topic": "transport",
+          "title": "規劃串聯關埔與光復路、學府路沿線高中的通學專車",
+          "detail": "2026 年議會質詢中建議比照鄰近城市免費、免預約的通學路線模式，經過的有需求學生皆可搭乘；市府回應將擴大需求調查",
+          "source": "https://udn.com/news/story/7324/9787406"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -190,7 +229,56 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 14
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "要求市府對關埔二期與周邊學區做教育量能總體檢",
+          "detail": "將學校用地、校舍興建與交通配套一併納入規劃",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "education",
+          "title": "爭取興建新學校或加速 K-12 科技雙語示範學校規劃",
+          "detail": "透過議會質詢、預算審查與專案追蹤，推動以公有土地興建",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "education",
+          "title": "提高特教助理員待遇並增設校園專任心理諮商師與社工",
+          "detail": "同時建立特教助理員穩定培訓制度",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "education",
+          "title": "設置學童課後諮詢中心並提供平價或免費學習支持",
+          "detail": "以公私協力、線上課程與課後支持優先協助弱勢與學習資源不足家庭",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "education",
+          "title": "汰換添購可調式課桌椅並定期檢討營養午餐餐費與食材品質",
+          "detail": "未公布經費",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "transport",
+          "title": "科學園區周邊導入 AI 智慧號誌，推動停車場立體化並以空橋銜接",
+          "detail": "針對慈雲路與光復路周邊尖峰壅塞，並推動後續道路空間調整；另建議活化停車場以恢復夜市",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "welfare",
+          "title": "建請設置含托育、托嬰服務的地區樂齡活動中心",
+          "detail": "未公布期程與經費",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        },
+        {
+          "topic": "housing",
+          "title": "重劃區規劃大型親水公園、兒童運動遊樂設施與寵物活動公園",
+          "detail": "另建議新建山丘步道電梯直升觀景台；並要求盤點閒置空間轉型為公托、親子館或社區學習據點",
+          "source": "https://www.taiwanhot.net/news/focus/1145500/%E8%AE%93%E5%AD%A9%E5%AD%90%E5%AE%89%E5%BF%83%E9%95%B7%E5%A4%A7+%E5%BC%B5%E6%96%87%E8%88%88%E5%B0%87%E7%88%AD%E5%8F%96%E6%9B%B4%E6%9C%89%E5%B8%8C%E6%9C%9B%E7%9A%84%E5%9F%8E%E5%B8%82%E6%9C%AA%E4%BE%86/53/%E6%96%B0%E7%AB%B9"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -274,7 +362,38 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": 15
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "爭取在東區興辦幼兒園至高中的 K-12 學校，並加速高中擴校",
+          "detail": "因應關埔二期人口成長；另支持國中老舊校舍拆除重建",
+          "source": "https://cnews.com.tw/174260826a02/"
+        },
+        {
+          "topic": "governance",
+          "title": "爭取東區青少年館並督促加速日治時期燃料廠遺址修復活化",
+          "detail": "青少年館提供青年交流、創業培力及藝文展演空間",
+          "source": "https://cnews.com.tw/174261028a06/"
+        },
+        {
+          "topic": "welfare",
+          "title": "研議以敬老愛心卡點數折抵醫療院所掛號費",
+          "detail": "研議中；優先與市內公立醫療院所合作，再逐步擴及民間診所",
+          "source": "https://cnews.com.tw/174261028a06/"
+        },
+        {
+          "topic": "welfare",
+          "title": "補助認養 15 歲以上老犬醫療費並增列動物緊急醫療預算",
+          "detail": "2026 年議會質詢中建議；緊急醫療以每隻 3 萬元、每年約 60 隻估算，連同器材約 220 萬元；並建議擴大動保編制、建立警察與民間的受虐案件應變編組",
+          "source": "https://udn.com/news/story/7470/9802182"
+        },
+        {
+          "topic": "governance",
+          "title": "另覓地點新建 250 公尺國際標準自由車場",
+          "detail": "2026 年議會質詢中建議；現有場地使用約 50 年、維護不易",
+          "source": "https://www.thehubnews.net/archives/670704"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -354,7 +473,26 @@ window.ELECTION_DATA.races.push({
         "party": "台灣民眾黨",
         "number": 7
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "訂立選手外縣市移地訓練補助制度",
+          "detail": "協助缺乏本地專業場地的學生與選手跨縣市訓練；並督促加碼雙語教育資源",
+          "source": "https://cnews.com.tw/174260826a02/"
+        },
+        {
+          "topic": "education",
+          "title": "爭取兒童藝術節、地方藝術節每年在關埔地區辦理專場",
+          "detail": "未公布經費",
+          "source": "https://cnews.com.tw/174261028a06/"
+        },
+        {
+          "topic": "welfare",
+          "title": "評估敬老愛心卡與長照交通接送整合，以點數折抵車資",
+          "detail": "尚屬提案，須經市府評估及預算程序",
+          "source": "https://cnews.com.tw/174261028a06/"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -427,7 +565,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "學生上下學尖峰增加公車班次並開設關埔地區通學專車",
+          "detail": "已請交通處與客運業者評估特定路線尖峰加班；建議市府評估關埔一帶學生人數、時間與停靠點規劃專車",
+          "source": "https://news.ltn.com.tw/news/life/breakingnews/5563031"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -500,7 +645,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 18
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "要求市府為視障重點國小編列更適合的教材",
+          "detail": "2026 年議會質詢中提出",
+          "source": "https://www.thehubnews.net/archives/668636"
+        }
+      ],
       "record": [
         {
           "topic": "housing",
@@ -516,6 +668,11 @@ window.ELECTION_DATA.races.push({
           "topic": "environment",
           "text": "擔任地方民意代表期間提案建請全面重新規劃整建建功國小前方長條公園。",
           "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=11"
+        },
+        {
+          "topic": "welfare",
+          "text": "持續爭取並追蹤東區全齡綜合福利館（親子館、公共托嬰、長者體適能中心、市民活動中心）規劃；市府 2026 年 10 月說明投入約 5 億元，預計 2027 年開工、2029 年完工（推動角色為本人說法）。",
+          "source": "https://new-reporter.com/news/282780/"
         }
       ],
       "past": [
@@ -580,7 +737,26 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 9
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "結合志工協助長輩使用新軟體並防範詐騙",
+          "detail": "未公布細節",
+          "source": "https://udn.com/news/story/124652/9779789"
+        },
+        {
+          "topic": "economy",
+          "title": "舊城區設置共享辦公空間，並結合商圈設置托育空間",
+          "detail": "構想階段，未公布細節",
+          "source": "https://udn.com/news/story/124652/9779789"
+        },
+        {
+          "topic": "transport",
+          "title": "設置具遮風避雨、夜間照明與 Wi-Fi 的智慧候車亭及智慧垃圾設施",
+          "detail": "構想階段，參考國外候車亭設計；未公布經費",
+          "source": "https://udn.com/news/story/124652/9779789"
+        }
+      ],
       "record": [],
       "past": []
     },
@@ -647,7 +823,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "要求重新檢討民族路路平後停車格與標線劃設",
+          "detail": "以兼顧停車需求、行人與行車安全",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5571648"
+        }
+      ],
       "record": [
         {
           "topic": "governance",
@@ -674,7 +857,14 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 13
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "放寬敬老卡代領機制並加強公園遊民管理與環境清潔",
+          "detail": "2026 年議會總質詢中提出",
+          "source": "https://www.thehubnews.net/archives/674167"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -754,7 +944,20 @@ window.ELECTION_DATA.races.push({
         "party": "時代力量",
         "number": 16
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "推動人行道改善與公共運輸",
+          "detail": "登記參選時提出；未公布細節",
+          "source": "https://www.ntdtv.com.tw/b5/20260903/video/410965.html"
+        },
+        {
+          "topic": "education",
+          "title": "增加兒少休閒空間並推動校園心理健康服務",
+          "detail": "登記參選時提出；未公布細節",
+          "source": "https://www.ntdtv.com.tw/b5/20260903/video/410965.html"
+        }
+      ],
       "record": [
         {
           "topic": "transport",
@@ -770,6 +973,11 @@ window.ELECTION_DATA.races.push({
           "topic": "environment",
           "text": "擔任地方民意代表期間提案建請市府重新規劃建功公園各活動區連接動線，做到平整無障礙。",
           "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=10"
+        },
+        {
+          "topic": "education",
+          "text": "任內推動代理教師全聘期與提敘、增加校園修繕經費，以及改善施工基地轉角視線死角（本人說法）。",
+          "source": "https://www.ntdtv.com.tw/b5/20260903/video/410965.html"
         }
       ],
       "past": [
@@ -952,7 +1160,20 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "safety",
+          "title": "建議警察分局遷入新建派出所並改善消防災害應變中心空間",
+          "detail": "2026 年議會總質詢中提出；並要求審慎規劃舊派出所用途",
+          "source": "https://www.thehubnews.net/archives/670169"
+        },
+        {
+          "topic": "governance",
+          "title": "持續推動眷村文化廊帶建置並處理社區活動中心產權問題",
+          "detail": "2026 年議會總質詢中提出",
+          "source": "https://www.thehubnews.net/archives/670169"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",

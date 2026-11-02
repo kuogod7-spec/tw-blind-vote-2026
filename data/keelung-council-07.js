@@ -9,8 +9,9 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
- * 已知缺漏：仍查無 2026 政見者：蔡旺璉、陳安淇、張耿輝、戴璟安。
+ * 已知缺漏：仍查無 2026 政見者：陳安淇、張耿輝、戴璟安。
  * 2026-10-19 第四輪補查：新增 2 則政見、1 則經歷。
+ * 2026-11-02 第五輪補查：新增 1 則政見、1 則經歷。
  * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -28,7 +29,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "environment",
+          "title": "爭取串連七堵段基隆河兩岸堤防步道",
+          "detail": "2026 年 7 月邀集市府與中央河川管理單位會勘，要求中央與地方協調，串連六堵至百福一帶未貫通、民眾須原路折返的河堤步道；市府表示爭取明年度預算興建跨溪箱型橋。",
+          "source": "https://tw.news.yahoo.com/%E8%A6%8F%E5%8A%83%E4%BA%94%E7%A6%8F%E6%A9%8B%E6%95%B4%E9%AB%94%E6%94%B9%E5%96%84%E6%8E%AA%E6%96%BD-%E8%AD%B0%E5%93%A1%E8%94%A1%E6%97%BA%E7%92%89%E9%82%80%E7%9B%B8%E9%97%9C%E5%96%AE%E4%BD%8D%E6%9C%83%E5%8B%98-115535726.html"
+        }
+      ],
       "record": [],
       "past": [
         {
@@ -236,7 +244,13 @@ window.ELECTION_DATA.races.push({
         "number": 3
       },
       "platforms": [],
-      "record": [],
+      "record": [
+        {
+          "topic": "transport",
+          "text": "2024 年 1 月受理陳情後會同市府工務單位與學校會勘，爭取中央行人安全計畫經費改善長興國小旁人行道，2026 年 10 月完成路面刨鋪。",
+          "source": "https://www.cdns.com.tw/articles/1478815"
+        }
+      ],
       "past": [
         {
           "role": "地方民意代表",

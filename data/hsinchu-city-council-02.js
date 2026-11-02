@@ -9,7 +9,8 @@
  * 候選人在資料中的排列順序沒有意義，網站顯示時每位使用者都會隨機排列。
  * 現任者的「過去政見」與近期提案取自新竹市議會官網議員介紹頁。標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。
- * 已知缺漏：仍查無 2026 年具體政見者：施乃如、陳鶴文、徐美惠、許修睿、田雅芳（現任者的議會提案列於 record）。
+ * 已知缺漏：仍查無 2026 年具體政見者：許修睿、田雅芳（現任者的議會提案列於 record）。
+ * 2026-11-02 第五輪補查：新增 10 則政見、1 則經歷。
  * 2026-10-19 第四輪補查：新增 0 則政見、0 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
@@ -28,7 +29,20 @@ window.ELECTION_DATA.races.push({
         "party": "民主進步黨",
         "number": 4
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "governance",
+          "title": "青草湖停車場一樓閒置空間改作戶政作業站或親子休閒場館",
+          "detail": "2026 年議會質詢中建議",
+          "source": "https://www.thehubnews.net/archives/674182"
+        },
+        {
+          "topic": "governance",
+          "title": "在青草湖服務中心設置南區便民服務站",
+          "detail": "2026 年議會質詢中建議，供偏遠三里里民收件洽公",
+          "source": "https://www.thehubnews.net/archives/669756"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -180,7 +194,50 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 6
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "welfare",
+          "title": "布建長照 3.0、社區巡迴駐診與遠距智慧醫療",
+          "detail": "競選總部成立時公布；未公布經費",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        },
+        {
+          "topic": "welfare",
+          "title": "以愛心卡折抵掛號費並推動愛心卡搭車不拒載",
+          "detail": "未公布細節",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        },
+        {
+          "topic": "transport",
+          "title": "導入 AI 智慧號誌、增加公車班次並爭取輕軌延伸至南區",
+          "detail": "未公布期程",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        },
+        {
+          "topic": "housing",
+          "title": "打造三代共融公園，增設體健器材、遮陽與戲水設施及籃球場",
+          "detail": "未公布經費",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        },
+        {
+          "topic": "education",
+          "title": "設置社區共讀空間、青年活動據點與多語文化中心，開辦親職及隔代教養課程",
+          "detail": "未公布細節",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        },
+        {
+          "topic": "housing",
+          "title": "推動老屋修繕與無障礙住宅，爭取社會住宅與青年住宅",
+          "detail": "另改善巷弄照明及道路",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        },
+        {
+          "topic": "safety",
+          "title": "改善易淹水地點、升級排水系統並強化社區防災網絡",
+          "detail": "未公布細節",
+          "source": "https://udn.com/vote2026/story/124652/9849868"
+        }
+      ],
       "record": [
         {
           "topic": "education",
@@ -207,7 +264,14 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 1
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "economy",
+          "title": "要求市府加快南門市場後續硬體改善並提出營運計畫",
+          "detail": "2026 年議會質詢中提出",
+          "source": "https://www.thehubnews.net/archives/669756"
+        }
+      ],
       "record": [
         {
           "topic": "welfare",
@@ -296,6 +360,11 @@ window.ELECTION_DATA.races.push({
           "topic": "safety",
           "text": "擔任地方民意代表期間提案建請研訂私人山坡地維護管理自治法規，明確管理責任、降低坡地災害風險。",
           "source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?mid=39&c=3"
+        },
+        {
+          "topic": "education",
+          "text": "促成市府與國立大學合作，在該校校區設立市立圖書館分館（本人說法）。",
+          "source": "https://news.ltn.com.tw/news/politics/breakingnews/5593434"
         }
       ],
       "past": [

@@ -13,8 +13,9 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 已知缺漏：仍查無 2026 年具體政見者：陳秀玲、鄭美琴（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 已知缺漏：仍查無 2026 年具體政見者：陳秀玲（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
  * 2026-10-19 第四輪補查：新增 16 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 5 則政見、0 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -337,7 +338,38 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 5
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "學童乳品補助擴大到 2 至 15 歲、寒暑假不中斷，並推動數位牛奶卡",
+          "detail": "2026 年 10 月縣政總質詢提出：市區學童可憑數位卡到超商或特約商店兌換鮮乳、優酪乳或豆漿，偏鄉採指定配送或定點領取；縣府首長答詢將請教育主管機關評估所需經費與執行細節。",
+          "source": "https://n.yam.com/Article/20261023188291"
+        },
+        {
+          "topic": "housing",
+          "title": "盤點公有地，加速興建平價住宅與社會住宅",
+          "detail": "2026 年 10 月縣政總質詢提出：縣內約 24 萬戶，依中央規劃社宅需求約 1.2 萬戶，目前實際動工僅 132 戶，竹北多數仍在評估階段。",
+          "source": "https://udn.com/news/story/7324/9828504"
+        },
+        {
+          "topic": "education",
+          "title": "有身心障礙學生就讀的班級落實減收 1 至 3 人，無法減額則給導師減課補貼或代課鐘點費",
+          "detail": "2026 年 10 月縣政總質詢提出；教育主管機關答詢將研議調降入學後才鑑定出特教生班級的教師課務時數。",
+          "source": "https://n.yam.com/Article/20261023188291"
+        },
+        {
+          "topic": "education",
+          "title": "比照鄰近直轄市發放代理代課教師留任獎金",
+          "detail": "2026 年 10 月縣政總質詢提出，以因應代課教師短缺。",
+          "source": "https://n.yam.com/Article/20261023188291"
+        },
+        {
+          "topic": "safety",
+          "title": "推動救護車通過路口時感應切換紅綠燈號誌",
+          "detail": "2026 年 10 月縣政總質詢提出。",
+          "source": "https://n.yam.com/Article/20261023188291"
+        }
+      ],
       "record": [
         {
           "topic": "transport",

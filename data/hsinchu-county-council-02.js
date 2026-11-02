@@ -13,8 +13,9 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 已知缺漏：仍查無 2026 年具體政見者：游雅婷、戴佩如、范格菱、杜文中、范揚琪（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
+ * 已知缺漏：仍查無 2026 年具體政見者：游雅婷、戴佩如、范格菱（現任者的議會質詢要求列於 platforms，並註明質詢時間）。
  * 2026-10-19 第四輪補查：新增 40 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 7 則政見、1 則經歷。
  * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -764,8 +765,45 @@ window.ELECTION_DATA.races.push({
         "party": "中國國民黨",
         "number": 4
       },
-      "platforms": [],
-      "record": [],
+      "platforms": [
+        {
+          "topic": "transport",
+          "title": "竹北試辦電動滑板車等個人行動器具低速示範計畫",
+          "detail": "2026 年 10 月提出：先選定特定園區與封閉路線試辦，驗證後再串聯高鐵站、台鐵六家站、住宅區及經貿園區；搭配低速限速、定點停車、防護設施、足額保險，並以定位系統依路段自動降速。要求縣府研擬個人行動器具示範辦法。",
+          "source": "https://udn.com/vote2026/story/7324/9833274"
+        },
+        {
+          "topic": "housing",
+          "title": "將水塔清洗納入公寓大廈修繕補助",
+          "detail": "2026 年 10 月提出，比照臺北市、桃園市將蓄水池、水塔清洗納入公寓大廈共用部分維護修繕補助，表示當選後將提案。",
+          "source": "https://udn.com/news/story/7324/9805141"
+        },
+        {
+          "topic": "transport",
+          "title": "公共自行車前 30 分鐘免費，並與鄰近縣市跨區整合",
+          "detail": "2026 年 10 月提出：比照鄰近縣市實施，並與鄰近縣市政府及科學園區管理機關協調費率補貼、站點布局、跨區接駁與尖峰車輛調度。",
+          "source": "https://n.yam.com/Article/20261021807090"
+        },
+        {
+          "topic": "welfare",
+          "title": "以 AI 防跌倒與即時通報推動長者照護，整合醫療、日照與喘息服務",
+          "detail": "2026 年 9 月登記參選時公布的政見。",
+          "source": "https://www.atanews.net/?news=123030"
+        },
+        {
+          "topic": "economy",
+          "title": "推動約 22 公里的郊山連稜縱走路線",
+          "detail": "2026 年 9 月提出：由蓮華寺出發，串連文山步道、犁頭山稜線、文林古道至飛鳳山步道，發展郊山健走觀光。",
+          "source": "https://www.watchmedia01.com/archives/552932"
+        }
+      ],
+      "record": [
+        {
+          "topic": "education",
+          "text": "擔任地方民意代表期間，協調國小校舍改建工程管線送審卡關問題，保住約 8,000 萬元中央補助（本人說法）。",
+          "source": "https://www.watchmedia01.com/archives/552932"
+        }
+      ],
       "past": []
     },
     {
@@ -775,7 +813,20 @@ window.ELECTION_DATA.races.push({
         "party": "無黨籍",
         "number": 2
       },
-      "platforms": [],
+      "platforms": [
+        {
+          "topic": "education",
+          "title": "督促縣府啟動竹北高鐵特區周邊國際規格棒球場的先期可行性評估",
+          "detail": "2026 年 10 月提出：評估土地取得、興建經費、營運管理、民間參與（BOT／OT）與長期維護成本，並召開公聽會；場館兼作基層學生棒球訓練基地與大型藝文展演空間。",
+          "source": "https://news.pchome.com.tw/society/news586/20261101/index-79349803773237290002.html"
+        },
+        {
+          "topic": "governance",
+          "title": "追蹤竹北東海社區活動中心工程儘速決標開工",
+          "detail": "2026 年 9 月提出：工程經費約 8,163 萬元，2025 年底起多次招標仍未決標，開工後工期 380 個日曆天；要求說明預算或招標問題並公開進度。",
+          "source": "https://www.marketersgo.com/uncategorized/202609/%E3%80%8A%E6%9D%B1%E6%B5%B7%E9%87%8C8163%E8%90%AC%E5%85%83%E6%B4%BB%E5%8B%95%E4%B8%AD%E5%BF%83%EF%BC%8C%E7%82%BA%E4%BB%80%E9%BA%BC%E9%82%84%E6%B2%92%E5%8B%95%E5%B7%A5%EF%BC%9F%E3%80%8B/"
+        }
+      ],
       "record": [],
       "past": []
     },

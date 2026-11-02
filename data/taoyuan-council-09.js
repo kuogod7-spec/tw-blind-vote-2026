@@ -13,6 +13,7 @@
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
  * 已知缺漏：仍查無 2026 年具體政見：劉定唐、古振豐。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 14 則政見、0 則經歷。
+ * 2026-11-02 第五輪補查：新增 0 則政見、1 則經歷。
  * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
@@ -36,6 +37,11 @@ window.ELECTION_DATA.races.push({
           "topic": "governance",
           "text": "曾任中央民意代表服務團隊執行長。",
           "source": "https://udn.com/news/story/7324/9651174"
+        },
+        {
+          "topic": "education",
+          "text": "長期在社區開設免費日語教學。",
+          "source": "https://leho.com.tw/archives/359791"
         }
       ],
       "past": []
