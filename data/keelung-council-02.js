@@ -13,7 +13,7 @@
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 鄭素禎：唯一查到的報導（轉載）把參選地區寫為臺北市信義區，無法確認是本選區同一人，
  * 依「身分無法確認時不收錄」規則，該報導內容不收。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-02",
@@ -28,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李嘉濠",
         "party": "無黨籍",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": []
@@ -38,7 +38,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "何淑萍",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [],
@@ -95,7 +95,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "韓世昱",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -159,7 +159,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李程祥",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": []
@@ -169,7 +169,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃申棟",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -192,7 +192,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭素禎",
         "party": "親民黨",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": []
@@ -202,7 +202,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳軍佐",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -259,7 +259,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳宜",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -302,7 +302,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林廷奕",
         "party": "無黨籍",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": []

@@ -11,7 +11,7 @@
  * 已知缺漏：仍查無 2026 政見者：林孟泓、呂美玲、張文彬、黃紀仁、江清容。
  * 2026-10-19 第四輪補查：新增 5 則政見、1 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-01",
@@ -26,7 +26,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "藍敏煌",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -96,7 +96,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林孟泓",
         "party": "無黨籍",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": []
@@ -106,7 +106,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "呂美玲",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [],
@@ -163,7 +163,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林廷翰",
         "party": "台灣民眾黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -250,7 +250,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張文彬",
         "party": "無黨籍",
-        "number": null
+        "number": 8
       },
       "platforms": [],
       "record": [
@@ -266,7 +266,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃紀仁",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [
@@ -282,7 +282,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "王珍玨",
         "party": "無黨籍",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -311,7 +311,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "江清容",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": []

@@ -13,7 +13,7 @@
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
  * 已知缺漏（仍查無 2026 年具體政見）：吳平娥、張贊聞、林昭賢。
  * 2026-10-19 第四輪補查：新增 8 則政見、1 則經歷。現任者政見取自 2026 年市政總質詢中對特定建設或制度的具體要求（議會官網新聞稿），並非正式競選政見。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-10",
@@ -28,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉熒隆",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -147,7 +147,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳平娥",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": [],
@@ -158,7 +158,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張贊聞",
         "party": "民主進步黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -175,7 +175,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐玉樹",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -332,7 +332,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林昭賢",
         "party": "中國國民黨",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [

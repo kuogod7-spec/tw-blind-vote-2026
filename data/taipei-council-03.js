@@ -15,7 +15,7 @@
  * 2026-10-19 第四輪補查：新增 8 則政見、4 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
  *   已知缺漏（仍查無 2026 年政見）：洪健益、左曉明、許淑華、林柏勛、許原榮。
  *   林柏勛仍未找到來源確認與 2022 年同名參選人為同一人。
- * 號次：依 10/27 抽籤結果補上 10/13 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://news.nextapple.com/politics/20261027/9D97130C9738BF3BCBC6843CB4761AE7）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-03",
@@ -30,7 +30,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄧樂強",
         "party": "台灣基進",
-        "number": null
+        "number": 9
       },
       "platforms": [
         {
@@ -483,7 +483,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "戴錫欽",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -754,7 +754,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "許原榮",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [

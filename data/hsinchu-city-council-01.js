@@ -11,7 +11,7 @@
  * 查無資料的候選人照樣收錄，platforms / record 為空陣列。 黃文政、劉崇顯為現任議員，本次以無黨籍登記。
  * 已知缺漏：仍查無 2026 年具體政見者：黃文政、劉崇顯、劉詳樽、張文興、李國璋、宋品瑩、劉彥伶、張祖琰、樊一嶢、許登淇、曾翰揚、鄭美娟、蔡惠婷、陳清智、錢康明、陳珍裕、鍾淑英（現任者的議會提案列於 record）。
  * 2026-10-19 第四輪補查：新增 1 則政見、0 則經歷。
- * 號次：依 10/27 抽籤結果補上（https://news.ltn.com.tw/news/politics/breakingnews/5620059；2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10018.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-city-council-01",

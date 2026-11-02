@@ -10,7 +10,7 @@
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 /
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
- * 號次：依 10/27 抽籤結果補上（https://news.cts.com.tw/cna/local/202610/202610273094248.html；2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/C1/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-mayor",

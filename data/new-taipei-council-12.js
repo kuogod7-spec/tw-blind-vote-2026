@@ -24,7 +24,7 @@
  * 2026-10-14 依使用者決定補列司法事件：ntc12-4 經歷補列 2026 年 9 月涉嫌賄選交保一事（偵查中）。
  * 已知缺漏（2026-10-19）：仍查無 2026 年政見：忠仁‧達祿斯、吳國譽La‧Is‧Amid、蘇錦雄Paylang‧Caya、楊春妹、宋雨蓁Nikar‧Falong、吳建智、連祐崧（全部 7 人）。
  * 2026-10-19 第四輪補查：新增 0 則政見、2 則經歷（ntc12-1 2021 年賄選案判決確定與解職；同名且同為本市平地原住民選區議員，判斷為同一人）。
- * 號次：依 10/27 抽籤結果補上（https://www.chinatimes.com/realtimenews/20261027002281-260407；2026-10-27 註）。
+ * 號次：依新北市選委會「市議員選舉候選人姓名號次抽籤結果一覽表」（2026-10-27，https://web.cec.gov.tw/tpcec/article/65361 ；https://web.cec.gov.tw/api/file/efe116ff-946f-4772-b3d2-f7f97a9dde25.pdf ）核對無誤（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "new-taipei-council-12",

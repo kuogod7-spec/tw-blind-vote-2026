@@ -15,7 +15,7 @@
  *   其他現任者 2026 年政見仍未查得。
  * 2026-10-19 第四輪補查：新增 12 則政見、2 則經歷（政見附加於陣列尾端；現任者 2026 年議會質詢中的具體要求也收為政見）。
  *   已知缺漏（仍查無 2026 年政見）：吳世正、黃啟彬。
- * 號次：依 10/27 抽籤結果補上 12/13 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-02",
@@ -1286,7 +1286,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃啟彬",
         "party": "永久和平自然法",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [],

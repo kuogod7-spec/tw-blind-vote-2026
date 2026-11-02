@@ -15,7 +15,7 @@
  *         unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：仍查無 2026 年具體政見者：蔡澄均。現任者政見多取自 2026 年議會總質詢與提案，屬議會中的具體要求，非競選政見文件。
  * 2026-10-19 第四輪補查：新增 15 則政見、0 則經歷。
- * 號次：依 10/27 抽籤結果補上（https://www.hsinchu.gov.tw/News_Content.aspx?n=153&s=357801；2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/10004.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "hsinchu-county-council-05",

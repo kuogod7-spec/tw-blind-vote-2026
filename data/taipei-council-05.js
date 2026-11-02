@@ -13,7 +13,7 @@
  * 已知缺漏：第四輪補查後，吳志剛、鍾小平、張延廷、譚傳紹仍查無 2026 年具體政見。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
  * 2026-10-25 黨籍核對：王振庭 綠黨→台灣綠黨（中選會 115 年直轄市議員選舉候選人登記彙總表 https://web.cec.gov.tw/api/file/ccd7e51a-5fd0-4ea0-a81b-a120cd550c9c.pdf ）；其餘 13 人與登記表一致。
- * 號次：依 10/27 抽籤結果補上 12/14 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://yuanfengmedia.tw/detail.php?type=lastest&id=62444、https://news.ltn.com.tw/news/Taipei/breakingnews/5620043）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-05",
@@ -178,7 +178,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鍾小平",
         "party": "中國國民黨",
-        "number": null
+        "number": 7
       },
       "platforms": [],
       "record": [
@@ -981,7 +981,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "郭昭巖",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {

@@ -9,7 +9,7 @@
  * 過去政見 status：done 已達成 / partial 部分達成 / in_progress 進行中 / not_done 未達成 / unknown 無法查證 / not_applicable 未當選、無從兌現。
  * 已知缺漏：吳文凱查無可收錄資料；現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 6 則政見、0 則經歷。
- * 號次：依 10/27 抽籤結果補上（https://www.ettoday.net/news/20261027/3261542.htm；2026-10-27 註）。
+ * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-05",

@@ -5,14 +5,14 @@
  * 出處網址常會透露候選人身分，網站只在「開票揭曉」之後才顯示。
  * 新北市選委會原訂 10/23 的號次抽籤，因薔琵颱風當日停班，改於 2026-10-27 辦理（https://www.cna.com.tw/news/aloc/202610210317.aspx ；停班見 https://news.ltn.com.tw/news/life/breakingnews/5615160 ），抽籤後請補上 identity.number（2026-10-25 註）。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 號次：依 10/27 抽籤結果補上（https://www.cna.com.tw/news/aipl/202610270032.aspx；2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次核對（https://info.cec.gov.tw/vote2026/static/json/cand/C1/65000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA = {
   meta: {
     title: "2026 地方選舉 · 盲選政見比較",
     electionDate: "2026-11-28",
     isSample: false,
-    updated: "2026-10-27",
+    updated: "2026-11-02",
   },
 
   topics: [

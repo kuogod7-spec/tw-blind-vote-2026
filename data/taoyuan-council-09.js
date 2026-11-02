@@ -13,7 +13,7 @@
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
  * 已知缺漏：仍查無 2026 年具體政見：劉定唐、古振豐。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 14 則政見、0 則經歷。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-09",
@@ -28,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉定唐",
         "party": "無黨籍",
-        "number": null
+        "number": 5
       },
       "platforms": [],
       "record": [
@@ -45,7 +45,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "項柏翰",
         "party": "民主進步黨",
-        "number": null
+        "number": 6
       },
       "platforms": [
         {
@@ -105,7 +105,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭淑方",
         "party": "民主進步黨",
-        "number": null
+        "number": 2
       },
       "platforms": [
         {
@@ -229,7 +229,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李家興",
         "party": "無黨籍",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -348,7 +348,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃盈淇",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -372,7 +372,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "周玉琴",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -462,7 +462,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "古振豐",
         "party": "中國國民黨",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [],

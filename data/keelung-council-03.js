@@ -12,7 +12,7 @@
  * 2026-10-19 第四輪補查：新增 0 則政見、1 則經歷。
  * 過去政見（past）取自基隆市議會官網議員介紹頁所列政見（2022 年選舉公報原始連結已失效），兌現狀態未逐則查證，一律 unknown。
  * 2026-10-16 中選會審定：原 klc3-3 張芳麗因投票受賄罪定讞，經中選會認定不得登記，已移除（https://tw.news.yahoo.com/%E6%B8%B8%E6%99%BA%E5%BD%AC%E6%8E%B0%E4%BA%86-%E4%B8%AD%E9%81%B8%E6%9C%83%E5%85%AC%E5%91%8A%E7%99%BB%E8%A8%98%E5%90%88%E6%A0%BC%E4%BA%BA%E6%95%B8-%E5%96%AA%E5%A4%B1%E8%B3%87%E6%A0%BC%E5%8F%83%E9%81%B8%E4%BA%BA-%E6%AC%A1%E7%9C%8B-073041082.html）。審定後 4 人，應選 3 席。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依基隆市選委會「候選人姓名號次抽籤結果」（2026-10-28 公告，https://web.cec.gov.tw/klec/article/65421 ；議員一覽表 https://web.cec.gov.tw/api/file/efe74705-3231-4466-b9fb-44b78f8d78c2.pdf ）補上（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "keelung-council-03",
@@ -27,7 +27,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "林杏潔",
         "party": "無黨籍",
-        "number": null
+        "number": 1
       },
       "platforms": [],
       "record": []
@@ -37,7 +37,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "曾維祥",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [],
       "record": [
@@ -53,7 +53,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "鄭文婷",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [],
       "record": [
@@ -116,7 +116,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "莊傑宇",
         "party": "無黨籍",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": []

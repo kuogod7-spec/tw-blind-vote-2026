@@ -17,7 +17,7 @@
  *   已知缺漏（仍查無 2026 年政見）：李文、陳彥廷、鍾佩玲、紀建漢、陳重文、賴苡任、林聖峰。
  *   陳彥廷另有同名者列於新北市選區，未能確認身分。
  * 標註「本人說法」的項目只有候選人自述，沒有找到獨立查證。
- * 號次：依 10/27 抽籤結果補上 16/20 位（https://web.cec.gov.tw/api/file/64d442d4-6027-4d96-bf44-765a137baac0.pdf、https://news.nextapple.com/politics/20261027/9D97130C9738BF3BCBC6843CB4761AE7、https://yuanfengmedia.tw/detail.php?type=lastest&id=62444）；其餘尚未查得，number 暫為 null（2026-10-27 註）。
+ * 號次：依 10/27 抽籤結果補上，並與中選會選舉資料庫的候選人號次逐一核對（https://info.cec.gov.tw/vote2026/static/json/cand/T/63000.json ；2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taipei-council-01",
@@ -236,7 +236,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "紀建漢",
         "party": "無黨籍",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [],
@@ -837,7 +837,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳重文",
         "party": "無黨籍",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [
@@ -939,7 +939,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "陳怡潔",
         "party": "無黨籍",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -1317,7 +1317,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "汪志冰",
         "party": "中國國民黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {

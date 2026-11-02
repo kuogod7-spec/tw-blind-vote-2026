@@ -13,7 +13,7 @@
  * 現任者「本屆提案數」取自報導者觀測站；議長與部分議員在該站提案數為 0 或查無，未列。
  * 已知缺漏：仍查無 2026 年具體政見：彭康傑、毛嘉慶、張兆恩、劉安祺、吳睿霖、邱奕勝、張仲方、李欣、徐盛揚。現任議員的 2026 年政見取自本年度市政總質詢中的具體要求。
  * 2026-10-19 第四輪補查：新增 17 則政見、0 則經歷。
- * 號次：10/27 已抽籤，但整理時（2026-10-27）尚未查得本選區的抽籤結果，number 暫為 null。
+ * 號次：依桃園市選委會「候選人姓名號次抽籤結果」（2026-10-27，https://web.cec.gov.tw/tyec/article/65400 ；議員一覽表 https://web.cec.gov.tw/api/file/c48d03cc-887e-4355-abf3-0ff9a5548f65.pdf ）補上並核對（2026-11-02 註）。
  */
 window.ELECTION_DATA.races.push({
   "id": "taoyuan-council-07",
@@ -28,7 +28,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張曉昀",
         "party": "民主進步黨",
-        "number": null
+        "number": 5
       },
       "platforms": [
         {
@@ -153,7 +153,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "彭康傑",
         "party": "中國國民黨",
-        "number": null
+        "number": 15
       },
       "platforms": [],
       "record": [
@@ -170,7 +170,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "葉明月",
         "party": "中國國民黨",
-        "number": null
+        "number": 3
       },
       "platforms": [
         {
@@ -289,7 +289,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "毛嘉慶",
         "party": "無黨籍",
-        "number": null
+        "number": 17
       },
       "platforms": [],
       "record": [],
@@ -310,7 +310,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉曾玉春",
         "party": "無黨籍",
-        "number": null
+        "number": 7
       },
       "platforms": [
         {
@@ -436,7 +436,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "黃崇真",
         "party": "民主進步黨",
-        "number": null
+        "number": 16
       },
       "platforms": [
         {
@@ -562,7 +562,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "彭俊豪",
         "party": "民主進步黨",
-        "number": null
+        "number": 1
       },
       "platforms": [
         {
@@ -694,7 +694,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張兆恩",
         "party": "無黨籍",
-        "number": null
+        "number": 10
       },
       "platforms": [],
       "record": [],
@@ -705,7 +705,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "劉安祺",
         "party": "中國國民黨",
-        "number": null
+        "number": 2
       },
       "platforms": [],
       "record": [
@@ -732,7 +732,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "吳睿霖",
         "party": "中國國民黨",
-        "number": null
+        "number": 6
       },
       "platforms": [],
       "record": [],
@@ -743,7 +743,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "梁為超",
         "party": "中國國民黨",
-        "number": null
+        "number": 8
       },
       "platforms": [
         {
@@ -870,7 +870,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "邱奕勝",
         "party": "中國國民黨",
-        "number": null
+        "number": 12
       },
       "platforms": [],
       "record": [
@@ -973,7 +973,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "張仲方",
         "party": "無黨籍",
-        "number": null
+        "number": 14
       },
       "platforms": [],
       "record": [],
@@ -984,7 +984,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "魏筠",
         "party": "民主進步黨",
-        "number": null
+        "number": 4
       },
       "platforms": [
         {
@@ -1110,7 +1110,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "李欣",
         "party": "無黨籍",
-        "number": null
+        "number": 11
       },
       "platforms": [],
       "record": [],
@@ -1121,7 +1121,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "謝美英",
         "party": "無黨籍",
-        "number": null
+        "number": 13
       },
       "platforms": [
         {
@@ -1240,7 +1240,7 @@ window.ELECTION_DATA.races.push({
       "identity": {
         "name": "徐盛揚",
         "party": "無黨籍",
-        "number": null
+        "number": 9
       },
       "platforms": [],
       "record": [],
